@@ -6,7 +6,6 @@
   "system": {
     "class": "scout",
     "level": "2",
-    "bonus": "At 2nd level, you deal +1d6 additional damage with ranged attacks against any target within 5m.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 2nd level, you deal +1d6 additional damage with ranged attacks against any target within 5m.</p>"
     }
   },
   "effects": [],

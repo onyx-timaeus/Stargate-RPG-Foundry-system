@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "First Aid ability",
     "category": "Procedure",
-    "bonus": "You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "other"
+    },
+    "description": {
+      "value": "<p>You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round.</p>"
     }
   },
   "effects": [],

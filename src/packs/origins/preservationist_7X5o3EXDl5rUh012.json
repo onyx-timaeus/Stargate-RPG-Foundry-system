@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You feel at home in natural environments and wish to see them cared for, even those of other worlds. Perhaps you've witnessed the devastation that can be wrought on a planet by the Jaffa, or you might simply feel driven to protect the natural splendor on display in the Milky Way.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Nature.</p><p><strong>An Eye for Nature:</strong> You gain advantage on Intelligence and Wisdom Checks to identify the properties of plants.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Nature. An Eye for Nature: You gain advantage on Intelligence and Wisdom Checks to identify the properties of plants.",
+    "bonus": "Nature proficiency. Advantage on Intelligence and Wisdom checks to identify plant properties.",
     "proficiencies": {
       "skill": "Nature",
       "weapon": "none",

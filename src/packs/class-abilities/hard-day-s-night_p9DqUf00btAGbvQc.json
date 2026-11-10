@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "Inspired characters reduce any exhaustion damage they suffer from environmental effects or exertion by 1 level (minimum 1 level). This does not affect attacks that deal exhaustion (such as tranquilizers)."
+    "description": {
+      "value": "<p>Inspired characters reduce any exhaustion damage they suffer from environmental effects or exertion by 1 level (minimum 1 level). This does not affect attacks that deal exhaustion (such as tranquilizers).</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

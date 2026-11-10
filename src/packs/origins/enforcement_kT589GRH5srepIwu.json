@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You wielded authority that was not your own to maintain that power, be it in service to a concept like the law or a more concrete patron such as a boss.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Intimidation.</p><p><strong>Air of Authority:</strong> Characters suffer disadvantage on Intimidation Checks that target only you.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Intimidation. Air of Authority: Characters suffer disadvantage on Intimidation Checks that target only you.",
+    "bonus": "Intimidation proficiency. Disadvantage on Intimidation checks that target only you.",
     "proficiencies": {
       "skill": "Intimidation",
       "weapon": "none",

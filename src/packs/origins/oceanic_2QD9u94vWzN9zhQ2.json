@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Your homeworld's vast oceans gave rise to people who knew its tides, reefs, and currents. You grew up with the ocean as a constant companion to be thanked and feared in equal measure.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Wisdom +1.</p><p><strong>Gifted Swimmer:</strong> You gain a swim speed of 6m.</p>"
+    },
     "requirements": "",
     "attributeBonus": "wis",
-    "bonus": "Attribute: Wisdom +1. Gifted Swimmer: You gain a swim speed of 6m.",
+    "bonus": "Swim speed 6m.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

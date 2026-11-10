@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "Modification",
-    "bonus": "During an episode R&D encounter, reduce the number of successes required by half your Proficiency bonus, to a minimum of 1."
+    "description": {
+      "value": "<p>During an episode R&amp;D encounter, reduce the number of successes required by half your Proficiency bonus, to a minimum of 1.</p>"
+    }
   },
   "effects": [],
   "folder": "c8PKt9qYlMbTGZUX",

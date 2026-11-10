@@ -75,8 +75,8 @@
                     </div>
                     <div class="origin-stat-row" style="margin-top: 12px;">
                         <div class="origin-stat origin-stat-full">
-                            <label for="system.bonus">Additional Bonus</label>
-                            <textarea name="system.bonus" rows="4" placeholder="Additional bonuses, features, or special abilities...">{{data.bonus}}</textarea>
+                            <label for="system.bonus">Perk</label>
+                            <textarea name="system.bonus" rows="4" placeholder="Short summary of what this origin gives you...">{{data.bonus}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -125,8 +125,7 @@
                 <div class="section-title">DESCRIPTION</div>
                 <div class="section-content">
                     <div class="origin-stat origin-stat-full">
-                        <label for="system.description">Description</label>
-                        <textarea name="system.description" rows="6" placeholder="Describe this origin...">{{data.description}}</textarea>
+                        {{editor data.description.value target="system.description.value" button=true owner=owner editable=editable}}
                     </div>
                 </div>
             </div>

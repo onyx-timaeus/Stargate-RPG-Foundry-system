@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 2,
     "lore": {
       "origin": "",

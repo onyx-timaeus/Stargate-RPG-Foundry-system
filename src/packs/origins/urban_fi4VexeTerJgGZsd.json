@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Densely packed buildings and the press of people have created the most common artificial environment in the Milky Way. You're no stranger to the problem solving required when weaving through complex streets, underground transportation, or crowds.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Intelligence +1.</p><p><strong>Melting Pot:</strong> You may use your Charisma modifier instead of your Wisdom modifier when making Culture skill checks.</p>"
+    },
     "requirements": "",
     "attributeBonus": "int",
-    "bonus": "Attribute: Intelligence +1. Melting Pot: You may use your Charisma modifier instead of your Wisdom modifier when making Culture skill checks.",
+    "bonus": "Use Charisma instead of Wisdom for Culture checks.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

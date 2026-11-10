@@ -5,7 +5,9 @@
   "img": "systems/sgrpg/assets/compendium/races/galactic-seeds.webp",
   "system": {
     "originType": "racial",
-    "description": "Humans are so common in the galaxy, they gain advantage on all Persuasion and Deception Checks made during first contact with any group not having yet met visitors from another world.",
+    "description": {
+      "value": "<p>Humans gain advantage on all Persuasion and Deception Checks made during first contact with any group not having yet met visitors from another world.</p>"
+    },
     "requirements": "Human",
     "attributeBonus": "none",
     "bonus": "Gain advantage on all Persuasion and Deception Checks made during first contact with any group not having yet met visitors from another world.",

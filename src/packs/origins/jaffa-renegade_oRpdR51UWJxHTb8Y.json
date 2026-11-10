@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "You served a System Lord as an honored guard, revering the Goa'uld as gods. But your eyes have opened to their petty nature, so you joined the Phoenix Site for a chance to free the Jaffa people.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Wisdom +1.</p><p><strong>Rebel:</strong> You gain advantage on saves caused by Goa'uld and other Jaffa.</p>"
+    },
     "requirements": "Required Race: Jaffa (including Free Jaffa)",
     "attributeBonus": "wis",
-    "bonus": "Attribute: Wisdom +1. Rebel: You gain advantage on saves caused by Goa'uld and other Jaffa.",
+    "bonus": "Advantage on saves caused by Goa'uld and other Jaffa.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

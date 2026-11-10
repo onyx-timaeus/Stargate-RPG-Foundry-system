@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/blast-shield.webp",
   "system": {
-    "description": "A reinforced shield with a viewing window designed for riot suppression or explosive disposal.",
+    "description": {
+      "value": "<p>A reinforced shield with a viewing window designed for riot suppression or explosive disposal.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

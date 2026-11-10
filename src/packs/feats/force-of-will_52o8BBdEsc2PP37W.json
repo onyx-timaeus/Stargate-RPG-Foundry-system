@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Inspire ability",
     "category": "General",
-    "bonus": "You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.</p>"
     }
   },
   "effects": [],

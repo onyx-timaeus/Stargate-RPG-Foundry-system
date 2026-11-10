@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Intimidation",
     "category": "General",
-    "bonus": "When you take a Thwart action during a Diplomatic Function encounter you may choose two diplomatic actions to impede instead of one.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you take a Thwart action during a Diplomatic Function encounter you may choose two diplomatic actions to impede instead of one.</p>"
     }
   },
   "effects": [],

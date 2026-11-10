@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/tools/laboratory/vials-blue-pink.webp",
   "system": {
-    "description": "Field research tools (vials, beakers, burner, microscope). Grants advantage on Science checks in chosen field.",
+    "description": {
+      "value": "<p>Field research tools (vials, beakers, burner, microscope). Grants advantage on Science checks in chosen field.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

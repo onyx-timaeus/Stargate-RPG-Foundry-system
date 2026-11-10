@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/shotgun.webp",
   "system": {
-    "description": "A common hunting shotgun on Earth, the Mossberg 500 is designed for reliability in a variety of environments. The Phoenix Site standard issue Mossberg 500 comes with an underbarrel flashlight and a reinforced stock that can be used as a bludgeon if necessary.",
+    "description": {
+      "value": "<p>A common hunting shotgun on Earth, the Mossberg 500 is designed for reliability in a variety of environments. The Phoenix Site standard issue Mossberg 500 comes with an underbarrel flashlight and a reinforced stock that can be used as a bludgeon if necessary.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

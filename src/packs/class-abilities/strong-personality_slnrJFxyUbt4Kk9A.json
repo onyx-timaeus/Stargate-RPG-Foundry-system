@@ -6,7 +6,6 @@
   "system": {
     "class": "diplomat",
     "level": "5",
-    "bonus": "At 5th level, your Inspire die increases from 1d6 to 1d8. Class Features As a Diplomat, you gain the following class features:",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 5th level, your Inspire die increases from 1d6 to 1d8.</p>"
     }
   },
   "effects": [],

@@ -6,7 +6,6 @@
   "system": {
     "class": "diplomat",
     "level": "4",
-    "bonus": "At 4th level, choose Culture, Insight, or Persuasion. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 4th level, choose Culture, Insight, or Persuasion. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.</p>"
     }
   },
   "effects": [],

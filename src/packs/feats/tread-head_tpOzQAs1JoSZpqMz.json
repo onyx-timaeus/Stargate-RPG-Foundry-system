@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Jury Rig ability",
     "category": "Downtime",
-    "bonus": "You're no stranger to engine grease and can usually be found pouring over manuals in the motor pool. When you spend your downtime in the motor pool, you gain access to one Modification feat of your choice for the duration of the mission. This choice may be changed each mission.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend your downtime in the motor pool, you gain access to one Modification feat of your choice for the duration of the mission. This choice may be changed each mission.</p>"
     }
   },
   "effects": [],

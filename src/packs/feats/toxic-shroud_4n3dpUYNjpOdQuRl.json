@@ -7,7 +7,6 @@
     "mpCost": "",
     "requirement": "",
     "category": "",
-    "bonus": "by a 2-m-radius cloud of mist. A creature that starts its turn within the mist must succeed on a DC 12 Constitution saving throw or take 4 (1d8) poison damage and be poisoned until the start of its next turn. ",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>by a 2-m-radius cloud of mist. A creature that starts its turn within the mist must succeed on a DC 12 Constitution saving throw or take 4 (1d8) poison damage and be poisoned until the start of its next turn.</p>"
     }
   },
   "effects": [],

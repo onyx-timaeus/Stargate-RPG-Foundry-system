@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "None",
     "category": "Downtime",
-    "bonus": "If there's drinking, dancing, and general merry-making to be had, you'll be there with bells on. You're the life of the party and can always be counted on to share a good time. If you spend your downtime partying (which does not require a facility) you may choose to begin a mission with 1 level of exhaustion. If you do, you do not suffer disadvantage on any checks caused by exhaustion during the mission.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>If you spend your downtime partying (which does not require a facility) you may choose to begin a mission with 1 level of exhaustion. If you do, you do not suffer disadvantage on any checks caused by exhaustion during the mission.</p>"
     }
   },
   "effects": [],

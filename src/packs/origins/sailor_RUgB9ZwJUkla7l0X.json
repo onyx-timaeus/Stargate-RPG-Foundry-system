@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Many cultures throughout the Milky Way begin their exploration of the universe with what lies over the horizon of their oceans. Whether in military service or any number of trades, you have learned to keep your footing aboard a naval vessel.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Acrobatics.</p><p><strong>Sea Legs:</strong> You gain advantage on any Acrobatics check to maintain your balance or stay standing.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Acrobatics. Sea Legs: You gain advantage on any Acrobatics check to maintain your balance or stay standing.",
+    "bonus": "Acrobatics proficiency. Advantage on Acrobatics checks to keep your balance or stay standing.",
     "proficiencies": {
       "skill": "Acrobatics",
       "weapon": "none",

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/water-purifier-canteen.webp",
   "system": {
-    "description": "A canteen with an attached water purifier that makes water safer for humanoid consumption. It desalinates and purifies up to 3 liters of water per day. This process kills most naturally evolving bacteria (est. 99.8%) and removes most harmful compounds. Due to the reduced exposure rates, the water purifier provides advantage on Constitution saves against environmental diseases.",
+    "description": {
+      "value": "<p>A canteen with an attached water purifier that makes water safer for humanoid consumption. It desalinates and purifies up to 3 liters of water per day. This process kills most naturally evolving bacteria (est. 99.8%) and removes most harmful compounds. Due to the reduced exposure rates, the water purifier provides advantage on Constitution saves against environmental diseases.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

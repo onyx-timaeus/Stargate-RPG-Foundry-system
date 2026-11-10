@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/magazine-free.webp",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

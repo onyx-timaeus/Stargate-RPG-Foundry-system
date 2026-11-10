@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/polearm.webp",
   "system": {
-    "description": "From the earliest spear to the more advanced poleaxes of feudal societies, the polearm is a common weapon among early soldiers.",
+    "description": {
+      "value": "<p>From the earliest spear to the more advanced poleaxes of feudal societies, the polearm is a common weapon among early soldiers.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

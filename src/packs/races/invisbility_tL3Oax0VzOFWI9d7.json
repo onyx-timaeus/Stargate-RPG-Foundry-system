@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "While not as skilled as the Nox, you can use advanced mental techniques honed by years of pacifism to hide yourself from view. As an action you may gain the invisible condition for one minute (10 rounds of combat). You may use \nthis ability a number of times per long rest equal to your Proficiency bonus. If you take an action affecting a non-friendly target (such as an attack), your invisibility ends",
+    "description": {
+      "value": "<p>As an action you may gain the invisible condition for one minute (10 rounds of combat). You may use this ability a number of times per long rest equal to your Proficiency bonus. If you take an action affecting a non-friendly target (such as an attack), your invisibility ends.</p>"
+    },
     "requirements": "Aturen",
     "attributeBonus": "none",
-    "bonus": "Gain the invisible condition for one minute (10 rounds of combat). If you take an action affecting a non-friendly target (such as an attack), your invisibility ends",
+    "bonus": "Gain the invisible condition for one minute (10 rounds). Ends if you take an action affecting a non-friendly target. Proficiency bonus uses per long rest.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

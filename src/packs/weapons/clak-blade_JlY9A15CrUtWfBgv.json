@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/clak-blade.webp",
   "system": {
-    "description": "Unique to the Unas serving at the Phoenix Site, the Clak blade is inspired by the Tau’ri switchblade and designed by Phoenix Site engineers on site for Unas team members. This TL 3 shortblade is worn on a wrist bracer and can be “Clak’d” into a variety of positions with specific forearm flexes uniquely deployable by Unas musculature. This makes it a superb close quarters and grappling weapon that complements their natural claws. Unas proficient in Martial Arts are proficient with Clak Blades and deal 1d8 + Strength modifier damage to their target when they successfully grapple (this damage cannot score a critical hit). In addition, their claws deal 1d8 damage.",
+    "description": {
+      "value": "<p>Unique to the Unas serving at the Phoenix Site, the Clak blade is inspired by the Tau’ri switchblade and designed by Phoenix Site engineers on site for Unas team members. This TL 3 shortblade is worn on a wrist bracer and can be “Clak’d” into a variety of positions with specific forearm flexes uniquely deployable by Unas musculature. This makes it a superb close quarters and grappling weapon that complements their natural claws. Unas proficient in Martial Arts are proficient with Clak Blades and deal 1d8 + Strength modifier damage to their target when they successfully grapple (this damage cannot score a critical hit). In addition, their claws deal 1d8 damage.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Unas",

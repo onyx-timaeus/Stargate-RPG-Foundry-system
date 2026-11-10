@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "Once you have taken a short or long rest in an environment, choose a number of additional characters up to your Proficiency bonus to benefit from your Survivalist ability while in the environment until your next rest."
+    "description": {
+      "value": "<p>Once you have taken a short or long rest in an environment, choose a number of additional characters up to your Proficiency bonus to benefit from your Survivalist ability while in the environment until your next rest.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

@@ -6,7 +6,6 @@
   "system": {
     "class": "diplomat",
     "level": "2",
-    "bonus": "Starting at 2nd level, you can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Starting at 2nd level, you can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).</p>"
     }
   },
   "effects": [],

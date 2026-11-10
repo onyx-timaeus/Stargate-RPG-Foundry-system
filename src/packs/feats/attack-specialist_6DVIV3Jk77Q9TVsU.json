@@ -7,7 +7,6 @@
     "mpCost": "4",
     "requirement": "Level 5",
     "category": "Combat - General",
-    "bonus": "Choose one weapon proficiency with which you are proficient. When making attacks with that proficiency you roll twice as many weapon damage dice as normal. Bonus dice from other sources (such as Power Attack or Vanguard) and static modifiers (such as from Strength and Dexterity), are not doubled. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose one weapon proficiency with which you are proficient. When making attacks with that proficiency you roll twice as many weapon damage dice as normal. Bonus dice from other sources (such as Power Attack or Vanguard) and static modifiers (such as from Strength and Dexterity), are not doubled. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.</p>"
     }
   },
   "effects": [],

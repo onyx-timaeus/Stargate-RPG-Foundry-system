@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it."
+    "description": {
+      "value": "<p>When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

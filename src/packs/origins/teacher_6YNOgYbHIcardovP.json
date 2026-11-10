@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You've spent your life honing minds to pursue knowledge, only to have your limited view of the universe revealed by the Stargate. Now you've joined the Phoenix Site to learn so that you can help educate new recruits.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Insight.</p><p><strong>Patient Approach:</strong> Once per mission, you may make a Wisdom save instead of another save.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Insight. Patient Approach: Once per mission, you may make a Wisdom save instead of another save.",
+    "bonus": "Insight proficiency. Once per mission, make a Wisdom save instead of another save.",
     "proficiencies": {
       "skill": "Insight",
       "weapon": "none",

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/combat-tent.webp",
   "system": {
-    "description": "This triple-walled four-season tent sleeps 2 soldiers comfortably with room for storing their personal equipment. In addition, the tent has a thermoplastic covering that can render the tent air-tight.",
+    "description": {
+      "value": "<p>This triple-walled four-season tent sleeps 2 soldiers comfortably with room for storing their personal equipment. In addition, the tent has a thermoplastic covering that can render the tent air-tight.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

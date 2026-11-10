@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You dedicated your life to healing the afflictions people suffer in their bodies and minds.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Medicine.</p><p><strong>Soothe:</strong> During a short rest you and your team members heal additional HP equal to your Proficiency bonus.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Medicine. Soothe: During a short rest you and your team members heal additional HP equal to your Proficiency bonus.",
+    "bonus": "Medicine proficiency. You and your team heal additional HP equal to your Proficiency bonus during a short rest.",
     "proficiencies": {
       "skill": "Medicine",
       "weapon": "none",

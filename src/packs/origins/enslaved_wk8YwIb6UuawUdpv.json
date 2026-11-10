@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You were recently freed from slavery, either by the SGC or one of its allies. Your life until now has been one of subjugation and toil.",
+    "description": {
+      "value": "<p><strong>Tool Proficiency:</strong> Choose any one tool proficiency.</p><p><strong>Friend to Toil:</strong> When you would suffer exhaustion, you suffer 1 less level of exhaustion (minimum 1).</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Tool Proficiency: Choose any one tool proficiency. Friend to Toil: When you would suffer exhaustion, you suffer 1 less level of exhaustion (minimum 1).",
+    "bonus": "One tool proficiency of your choice. Suffer 1 less level of exhaustion (minimum 1).",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

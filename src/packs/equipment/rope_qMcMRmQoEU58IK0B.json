@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/rope.webp",
   "system": {
-    "description": "Rope exists in the vast majority of cultures, as a variable length of flexible cord can be considered one of the great basic tools of civilization. Rope is typically immune to bludgeoning damage and has 2 HP per tech level when being cut. The rope used by the Phoenix Site is made of nylon (tech level 2) and is marked in blue every 1m, red every 5m, white every 100m, and green every 1km. Rope comes in small personal lengths (up to 100m) or can be requisitioned in spools of any length up to 10km.",
+    "description": {
+      "value": "<p>Rope exists in the vast majority of cultures, as a variable length of flexible cord can be considered one of the great basic tools of civilization. Rope is typically immune to bludgeoning damage and has 2 HP per tech level when being cut. The rope used by the Phoenix Site is made of nylon (tech level 2) and is marked in blue every 1m, red every 5m, white every 100m, and green every 1km. Rope comes in small personal lengths (up to 100m) or can be requisitioned in spools of any length up to 10km.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

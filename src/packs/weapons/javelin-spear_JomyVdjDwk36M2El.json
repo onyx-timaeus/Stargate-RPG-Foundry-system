@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/weapons/polearms/javelin-hooked.webp",
   "system": {
-    "description": "A polearm suitable for throwing.",
+    "description": {
+      "value": "<p>A polearm suitable for throwing.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

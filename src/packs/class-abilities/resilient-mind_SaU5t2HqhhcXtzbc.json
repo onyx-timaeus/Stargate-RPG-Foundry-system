@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "4",
-    "bonus": "At 4th level, when you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1)."
+    "description": {
+      "value": "<p>At 4th level, when you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1).</p>"
+    }
   },
   "effects": [],
   "folder": "HWDwDrXYLdkJC9B5",

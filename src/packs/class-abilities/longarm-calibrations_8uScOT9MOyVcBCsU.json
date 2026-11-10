@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "Modification",
-    "bonus": "During a long rest you may choose one character's Longarm. It gains a +1d4 to attack rolls against targets at long range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon."
+    "description": {
+      "value": "<p>During a long rest you may choose one character's Longarm. It gains a +1d4 to attack rolls against targets at long range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon.</p>"
+    }
   },
   "effects": [],
   "folder": "c8PKt9qYlMbTGZUX",

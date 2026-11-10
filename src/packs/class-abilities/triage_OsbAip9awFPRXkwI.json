@@ -6,7 +6,6 @@
   "system": {
     "class": "medic",
     "level": "2",
-    "bonus": "Starting at 2nd level, you can observe a character’s current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character’s current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Starting at 2nd level, you can observe a character’s current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character’s current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.</p>"
     }
   },
   "effects": [],

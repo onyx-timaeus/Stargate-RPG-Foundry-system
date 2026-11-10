@@ -7,7 +7,6 @@
     "mpCost": "3, 6, 9",
     "requirement": "Athletics or Acrobatics",
     "category": "Combat - General",
-    "bonus": "You add +1m to your movement speed. You may take this feat up to 3 times, increasing its cost each time as noted above.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You add +1m to your movement speed. You may take this feat up to 3 times, increasing its cost each time as noted above.</p>"
     }
   },
   "effects": [],

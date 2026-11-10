@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/emergency-viral-response.webp",
   "system": {
-    "description": "Called “the heartstopper” by some, this syringe is filled with adrenaline and an immuno-response boosting cocktail formulated to work against a wide range of unknown contagions. A character who injects this chemical into their heart may heal ability damage caused by a disease until the end of their next long rest, after which the diseased condition prevents healing once again.",
+    "description": {
+      "value": "<p>Called “the heartstopper” by some, this syringe is filled with adrenaline and an immuno-response boosting cocktail formulated to work against a wide range of unknown contagions. A character who injects this chemical into their heart may heal ability damage caused by a disease until the end of their next long rest, after which the diseased condition prevents healing once again.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Tau'ri",

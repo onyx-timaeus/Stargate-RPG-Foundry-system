@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/filtration-radiation-mask.webp",
   "system": {
-    "description": "Designed specifically for the Stargate program, this mask purifies air, making it safer to breathe. It requires an action to don the mask and once on, it provides advantage on all saves against airborne substances, including disease, poison gas, and radiation (when combined with extended climate protection clothing).",
+    "description": {
+      "value": "<p>Designed specifically for the Stargate program, this mask purifies air, making it safer to breathe. It requires an action to don the mask and once on, it provides advantage on all saves against airborne substances, including disease, poison gas, and radiation (when combined with extended climate protection clothing).</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

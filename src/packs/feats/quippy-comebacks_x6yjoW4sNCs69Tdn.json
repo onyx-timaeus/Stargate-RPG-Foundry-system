@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Inspire ability",
     "category": "Inspiration",
-    "bonus": "Once per Diplomatic Function, inspired characters may halve the amount of DP lost (rounding down) as a result of a failed Diplomatic Action check.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "other"
+    },
+    "description": {
+      "value": "<p>Once per Diplomatic Function, inspired characters may halve the amount of DP lost (rounding down) as a result of a failed Diplomatic Action check.</p>"
     }
   },
   "effects": [],

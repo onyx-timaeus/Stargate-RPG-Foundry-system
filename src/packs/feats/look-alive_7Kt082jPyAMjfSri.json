@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Wisdom 13+",
     "category": "Combat - General",
-    "bonus": "If you succeed at a Surprise check (see page 148), you are not surprised and may choose one team member to not be surprised.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>If you succeed at a Surprise check (see page 148), you are not surprised and may choose one team member to not be surprised.</p>"
     }
   },
   "effects": [],

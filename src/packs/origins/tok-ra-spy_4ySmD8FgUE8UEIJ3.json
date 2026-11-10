@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "Working endlessly against the Goa'uld System Lords, the Tok'ra employ many spies whose experienced symbiotes can help them infiltrate deep within the Goa'uld ranks. Tok'ra spies are integral to the information gathering efforts of the Phoenix Site and frequently find themselves assigned to or leading teams during extraction missions.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Charisma +1.</p><p><strong>Passing:</strong> You gain advantage on any Deception Checks to trick targets into believing you are a Human, Goa'uld, or Jaffa.</p>"
+    },
     "requirements": "Required Race: Tok'ra (but not Pangaran)",
     "attributeBonus": "cha",
-    "bonus": "Attribute: Charisma +1. Passing: You gain advantage on any Deception Checks to trick targets into believing you are a Human, Goa'uld, or Jaffa.",
+    "bonus": "Advantage on Deception checks to pass as a Human, Goa'uld, or Jaffa.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

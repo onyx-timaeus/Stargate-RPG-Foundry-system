@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/personal-computer-tablet.webp",
   "system": {
-    "description": "Both the laptop and tablet form of personal computer are used by Stargate Phoenix. They are used throughout the facility in a multitude of duties. Research Kit Containing all the necessary tools for field research (such as vials, beakers, a burner, portable microscope, etc.), these kits are invaluable to the scientist’s mission. Each Research kit must be designed for one chosen scientific field. The kit provides the user with advantage on Science checks with the chosen field.",
+    "description": {
+      "value": "<p>Both the laptop and tablet form of personal computer are used by Stargate Phoenix. They are used throughout the facility in a multitude of duties. Research Kit Containing all the necessary tools for field research (such as vials, beakers, a burner, portable microscope, etc.), these kits are invaluable to the scientist’s mission. Each Research kit must be designed for one chosen scientific field. The kit provides the user with advantage on Science checks with the chosen field.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/grapple-gun.webp",
   "system": {
-    "description": "Here’s a long-time fantasy of engineers that grew up on comics. The techs at the Phoenix Site have recently manufactured a grapple gun that addresses many of the device’s practical issues. The gun can fire a grappling hook and line up to 200m (which may require an attack roll) or an anchor with enough force to lodge into stone at up to 100m.",
+    "description": {
+      "value": "<p>Here’s a long-time fantasy of engineers that grew up on comics. The techs at the Phoenix Site have recently manufactured a grapple gun that addresses many of the device’s practical issues. The gun can fire a grappling hook and line up to 200m (which may require an attack roll) or an anchor with enough force to lodge into stone at up to 100m.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Tau'ri",

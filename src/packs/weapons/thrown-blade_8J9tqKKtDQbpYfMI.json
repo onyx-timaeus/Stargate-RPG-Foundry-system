@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/thrown-blade.webp",
   "system": {
-    "description": "A variety of throwing weapons exist, including shuriken, spears, throwing knives, hurling axes, and good tossin' rocks.",
+    "description": {
+      "value": "<p>A variety of throwing weapons exist, including shuriken, spears, throwing knives, hurling axes, and good tossin' rocks.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

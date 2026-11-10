@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You were forced to flee your lands for an extended period of time, possibly traveling great distances to seek asylum from the enemies of your enemies.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Athletics.</p><p><strong>New Environments:</strong> You gain advantage on any Athletics Checks to navigate an unknown wilderness environment.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Athletics. New Environments: You gain advantage on any Athletics Checks to navigate an unknown wilderness environment.",
+    "bonus": "Athletics proficiency. Advantage on Athletics checks to navigate unknown wilderness.",
     "proficiencies": {
       "skill": "Athletics",
       "weapon": "none",

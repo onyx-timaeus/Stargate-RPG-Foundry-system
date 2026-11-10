@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Intelligence 13+, Wisdom 13+",
     "category": "General",
-    "bonus": "You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.</p>"
     }
   },
   "effects": [],

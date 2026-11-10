@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Culture",
     "category": "Downtime",
-    "bonus": "You relax by taking in mass media from a variety of worlds, including Earth, studying the art created by people from many societies. When you spend downtime in the Rec Hall you may choose a Wisdom skill instead of a Charisma skill to gain its Facility bonus.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend downtime in the Rec Hall you may choose a Wisdom skill instead of a Charisma skill to gain its Facility bonus.</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/unas-necklace.webp",
   "system": {
-    "description": "Technically designated an “Unas Necklace” by Stargate Phoenix, many team members have begun referring to this adornment as a “Wormless.” This armor and bone choker helps to prevent Goa’uld larvae from implanting in a subject. A character wearing a Wormless gains advantage on saves to resist a Goa’uld larvae implanting in them.",
+    "description": {
+      "value": "<p>Technically designated an “Unas Necklace” by Stargate Phoenix, many team members have begun referring to this adornment as a “Wormless.” This armor and bone choker helps to prevent Goa’uld larvae from implanting in a subject. A character wearing a Wormless gains advantage on saves to resist a Goa’uld larvae implanting in them.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Unas",

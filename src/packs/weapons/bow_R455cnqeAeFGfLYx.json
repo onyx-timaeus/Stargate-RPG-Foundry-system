@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/bow.webp",
   "system": {
-    "description": "An early ranged weapon, the bow uses tension to launch an arrow.",
+    "description": {
+      "value": "<p>An early ranged weapon, the bow uses tension to launch an arrow.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

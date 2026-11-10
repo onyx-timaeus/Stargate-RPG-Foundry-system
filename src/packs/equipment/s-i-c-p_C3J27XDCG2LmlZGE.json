@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "The Standard Issue Care Package was originally designed to boost morale among soldiers, but quickly became a useful peacemaking tool. The S.I.C.P. is stored in a tin container for freshness and contains the following; 2 bars of Tau’ri chocolate, a book of matches, 2 8oz boxes of juice, 1 instant coffee packet, 1 instant tea packet, 1 instant juice packet, and a tin of strong breath mints. Sharing the S.I.C.P. in an appropriate social setting grants advantage on a single Persuasion check before being expended.",
+    "description": {
+      "value": "<p>The Standard Issue Care Package was originally designed to boost morale among soldiers, but quickly became a useful peacemaking tool. The S.I.C.P. is stored in a tin container for freshness and contains the following; 2 bars of Tau’ri chocolate, a book of matches, 2 8oz boxes of juice, 1 instant coffee packet, 1 instant tea packet, 1 instant juice packet, and a tin of strong breath mints. Sharing the S.I.C.P. in an appropriate social setting grants advantage on a single Persuasion check before being expended.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Tau'ri",

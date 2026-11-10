@@ -7,7 +7,6 @@
     "mpCost": "6",
     "requirement": "Inspire ability",
     "category": "General",
-    "bonus": "Your Inspire die increases one die size (1d6 to 1d8, 1d8 to 1d10, 1d10 to 1d12). You may select this ability multiple times, to a maximum die size of 1d12. You may select this ability multiple times, its effects stack (up to 1d12).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Your Inspire die increases one die size (1d6 to 1d8, 1d8 to 1d10, 1d10 to 1d12). You may select this ability multiple times; its effects stack, to a maximum die size of 1d12.</p>"
     }
   },
   "effects": [],

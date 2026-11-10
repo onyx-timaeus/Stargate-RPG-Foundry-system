@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/fabrication-kit.webp",
   "system": {
-    "description": "This kit contains all the craftsman’s tools, welding gear, and basic carpentry/electric repair equipment to fabricate/modify gear and structures in the field.",
+    "description": {
+      "value": "<p>This kit contains all the craftsman’s tools, welding gear, and basic carpentry/electric repair equipment to fabricate/modify gear and structures in the field.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Intimidation",
     "category": "General",
-    "bonus": "Once per long rest you may spend a DP to increase the tension die by 1 step (d4 to d6, d6 to d8, etc). for the duration of a single encounter or scene (GM determines when a scene changes). After the encounter or scene the tension die returns to its previous value. Multiple characters can escalate the same encounter or scene, but the die may not be increased above d12.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "long"
+    },
+    "description": {
+      "value": "<p>Once per long rest you may spend a DP to increase the tension die by 1 step (d4 to d6, d6 to d8, etc.) for the duration of a single encounter or scene (GM determines when a scene changes). After the encounter or scene the tension die returns to its previous value. Multiple characters can escalate the same encounter or scene, but the die may not be increased above d12.</p>"
     }
   },
   "effects": [],

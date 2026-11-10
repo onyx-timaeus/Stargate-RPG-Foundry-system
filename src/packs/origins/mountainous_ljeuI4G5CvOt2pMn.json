@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Steep cliffs, fjords, and high altitudes were the predominant features of your home, and you adapted young to a more vertical life. You're no stranger to physical effort, and you've got the strong physical core to show for it.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Strength +1.</p><p><strong>Vertical Drop:</strong> Reduce the distance you fall by half for the purposes of calculating the damage suffered from falling.</p>"
+    },
     "requirements": "",
     "attributeBonus": "str",
-    "bonus": "Attribute: Strength +1. Vertical Drop: Reduce the distance you fall by half for the purposes of calculating the damage suffered from falling.",
+    "bonus": "Halve the distance fallen when calculating fall damage.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

@@ -7,7 +7,6 @@
     "mpCost": "6",
     "requirement": "Med Kit proficiency",
     "category": "General",
-    "bonus": "When you use a Med Kit to heal a target during a rest, they also heal 1 point of Strength, Dexterity, or Constitution damage in addition to the HP damage healed. A character may not benefit from this ability again until after a long rest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "long"
+    },
+    "description": {
+      "value": "<p>When you use a Med Kit to heal a target during a rest, they also heal 1 point of Strength, Dexterity, or Constitution damage in addition to the HP damage healed. A character may not benefit from this ability again until after a long rest.</p>"
     }
   },
   "effects": [],

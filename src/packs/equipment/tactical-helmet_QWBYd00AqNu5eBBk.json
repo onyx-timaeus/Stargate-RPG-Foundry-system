@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/tactical-helmet.webp",
   "system": {
-    "description": "A combat helmet issued to most soldiers with night vision modification as well as attachment points for additional lighting or other tools.",
+    "description": {
+      "value": "<p>A combat helmet issued to most soldiers with night vision modification as well as attachment points for additional lighting or other tools.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

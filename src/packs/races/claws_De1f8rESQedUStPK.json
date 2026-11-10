@@ -5,7 +5,9 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "Unas have claws that can be used as a melee weapon that deals 1d6 damage.",
+    "description": {
+      "value": "<p>Unas have claws that can be used as a melee weapon that deals 1d6 damage.</p>"
+    },
     "requirements": "Unas",
     "attributeBonus": "none",
     "bonus": "Claws: melee weapon dealing 1d6 damage.",

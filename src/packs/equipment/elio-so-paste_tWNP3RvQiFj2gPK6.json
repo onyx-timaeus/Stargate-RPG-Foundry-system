@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/tools/laboratory/mortar-powder-green.webp",
   "system": {
-    "description": "This watery purple substance is created from the juices of the rare Elio tree native to the Aturen homeworld. While the plant was nearly destroyed, it has recently been re-cultivated thanks to a planetary-scale preservation effort. Despite being very thin, the paste does not stain or soak into clothing. The Elio’so paste acts as emergency food (1 spoonful dose is 1 day’s rations) and it mimics certain cell types when applied directly to bones or organs. A character proficient in the Medicine skill can spend an hour applying 5 doses to a target to make a DC 20 Medicine check. If successful, the target heals 1 Strength, Dexterity, and Constitution damage. Whether the check is successful or not, the target heals a number of HP equal to the result of the check.",
+    "description": {
+      "value": "<p>This watery purple substance is created from the juices of the rare Elio tree native to the Aturen homeworld. While the plant was nearly destroyed, it has recently been re-cultivated thanks to a planetary-scale preservation effort. Despite being very thin, the paste does not stain or soak into clothing. The Elio’so paste acts as emergency food (1 spoonful dose is 1 day’s rations) and it mimics certain cell types when applied directly to bones or organs. A character proficient in the Medicine skill can spend an hour applying 5 doses to a target to make a DC 20 Medicine check. If successful, the target heals 1 Strength, Dexterity, and Constitution damage. Whether the check is successful or not, the target heals a number of HP equal to the result of the check.</p>"
+    },
     "techLevel": 4,
     "lore": {
       "origin": "Aturen",

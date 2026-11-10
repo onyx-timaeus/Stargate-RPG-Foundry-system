@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 2,
     "lore": {
       "origin": "",

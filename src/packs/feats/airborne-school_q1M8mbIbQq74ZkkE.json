@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Athletics",
     "category": "General",
-    "bonus": "You gain resistance to falling damage. In addition, you gain advantage on any check to open a parachute at altitudes below 1km.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain resistance to falling damage. In addition, you gain advantage on any check to open a parachute at altitudes below 1km.</p>"
     }
   },
   "effects": [],

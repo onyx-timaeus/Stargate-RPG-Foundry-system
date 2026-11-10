@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "1",
-    "bonus": "You don’t just fix and maintain your equipment – you’ve also made some special modifications that enhance the effectiveness of you and your team’s gear. Choose one modification feat (see page 99) at 1st level and another modification feat at 3rd and 5th level."
+    "description": {
+      "value": "<p>Choose one modification feat (see page 99) at 1st level and another modification feat at 3rd and 5th level.</p>"
+    }
   },
   "effects": [],
   "folder": "4qb5OhdH2hPpqm6Y",

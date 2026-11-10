@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "When you make an attack with a ranged weapon, you may spend a Eureka to increase the weapon's range by half (+50%)."
+    "description": {
+      "value": "<p>When you make an attack with a ranged weapon, you may spend a Eureka to increase the weapon's range by half (+50%).</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

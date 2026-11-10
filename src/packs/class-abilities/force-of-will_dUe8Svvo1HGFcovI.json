@@ -6,7 +6,6 @@
   "system": {
     "class": "diplomat",
     "level": "3",
-    "bonus": "At 3rd level, you may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 3rd level, you may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.</p>"
     }
   },
   "effects": [],

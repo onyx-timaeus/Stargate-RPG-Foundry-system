@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/ma-tok-plasma.webp",
   "system": {
-    "description": "Staff weapon capable of firing a bolt of plasma. Can destroy solid walls and kill instantly. Heavy and cumbersome.",
+    "description": {
+      "value": "<p>Staff weapon capable of firing a bolt of plasma. Can destroy solid walls and kill instantly. Heavy and cumbersome.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Goa'uld/Jaffa",

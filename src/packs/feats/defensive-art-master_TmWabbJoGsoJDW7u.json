@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Dodge, Martial Arts Proficiency",
     "category": "Combat - Melee",
-    "bonus": "You have trained in one or more Martial Arts that focus on defending yourself such as certain forms of Boxing, Kung Fu, or Tai Chi. You gain resistance against damage from unarmed strikes (including Martial Arts attacks) as long as that attack is not a critical hit (in which case you take full damage normally).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain resistance against damage from unarmed strikes (including Martial Arts attacks) as long as that attack is not a critical hit (in which case you take full damage normally).</p>"
     }
   },
   "effects": [],

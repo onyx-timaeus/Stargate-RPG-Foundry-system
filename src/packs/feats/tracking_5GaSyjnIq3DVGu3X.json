@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Survivalist ability, Perception",
     "category": "Field Hack",
-    "bonus": "You gain advantage on all Survival checks made to track.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain advantage on all Survival checks made to track.</p>"
     }
   },
   "effects": [],

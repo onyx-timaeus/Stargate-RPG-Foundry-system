@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Science",
     "category": "General",
-    "bonus": "You can employ an easy to understand analogy to help others work through complex or esoteric problems. Once per short rest you may grant a friendly character a +TD bonus on an Intelligence or Wisdom skill check.",
     "castTime": {
       "value": "1",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "short"
+    },
+    "description": {
+      "value": "<p>You can employ an easy to understand analogy to help others work through complex or esoteric problems. Once per short rest you may grant a friendly character a +TD bonus on an Intelligence or Wisdom skill check.</p>"
     }
   },
   "effects": [],

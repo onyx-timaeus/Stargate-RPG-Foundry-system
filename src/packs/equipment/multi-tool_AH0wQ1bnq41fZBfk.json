@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/multi-tool.webp",
   "system": {
-    "description": "A compact shovel with additional screw-on head attachments and tools stored in the shaft. It includes a hammer, prybar, saw, screwdriver, wirecutters, and wrench. While a multi-tool can’t replace a proper engineering or fabrication kit, it can be used to build a variety of simple structures (defensive firing points, latrines, etc.) or to facilitate basic maintenance when the proper tools aren’t available. At the GM’s discretion, a multi-tool can be used in place of an engineering kit to make repairs during a long rest, but repairing only 1d6 damage.",
+    "description": {
+      "value": "<p>A compact shovel with additional screw-on head attachments and tools stored in the shaft. It includes a hammer, prybar, saw, screwdriver, wirecutters, and wrench. While a multi-tool can’t replace a proper engineering or fabrication kit, it can be used to build a variety of simple structures (defensive firing points, latrines, etc.) or to facilitate basic maintenance when the proper tools aren’t available. At the GM’s discretion, a multi-tool can be used in place of an engineering kit to make repairs during a long rest, but repairing only 1d6 damage.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

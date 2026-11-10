@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "The rolling savannahs or tilled fields of your home were a bounty for the people in times of peace and a prize to be won in times of war. Clean air, abundant resources, and wide open spaces see many grassland youths grow healthy and tall.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Constitution +1.</p><p><strong>Natural Sprinter:</strong> Your movement speed increases by 1m.</p>"
+    },
     "requirements": "",
     "attributeBonus": "con",
-    "bonus": "Attribute: Constitution +1. Natural Sprinter: Your movement speed increases by 1m.",
+    "bonus": "+1m movement speed.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

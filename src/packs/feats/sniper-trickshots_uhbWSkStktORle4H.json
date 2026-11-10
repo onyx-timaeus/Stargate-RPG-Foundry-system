@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Sniper Techniques",
     "category": "Combat - Ranged",
-    "bonus": "You're so skilled with a longarm that you can perform certain special maneuvers. You may make a trip or disarm attempt (see page 158) instead of dealing damage, using an attack roll with your longarm in place of your Athletics check during the contest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may make a trip or disarm attempt (see page 158) instead of dealing damage, using an attack roll with your longarm in place of your Athletics check during the contest.</p>"
     }
   },
   "effects": [],

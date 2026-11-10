@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Improved Initiative or Improved Moxie",
     "category": "General",
-    "bonus": "When you roll Initiative or Moxie, you may exchange your result with a team member who has a lower value than you, if they wish.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you roll Initiative or Moxie, you may exchange your result with a team member who has a lower value than you, if they wish.</p>"
     }
   },
   "effects": [],

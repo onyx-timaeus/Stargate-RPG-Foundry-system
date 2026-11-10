@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "You travel in back of your team, hiding your tracks. Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC."
+    "description": {
+      "value": "<p>Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

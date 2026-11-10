@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/rpg.webp",
   "system": {
-    "description": "A rocket-propelled grenade (typically the AT4) that explodes at a designated range. Advanced RPGs have a laser or radio guidance system which grants the RPG the guided special ability.",
+    "description": {
+      "value": "<p>A rocket-propelled grenade (typically the AT4) that explodes at a designated range. Advanced RPGs have a laser or radio guidance system which grants the RPG the guided special ability.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

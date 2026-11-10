@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "First Aid ability",
     "category": "Downtime",
-    "bonus": "You're often called to the medical bay to assist with triage, emergency surgery, or just plain weird cases. When you spend your downtime in the medical bay, you gain access to one Procedure feat of your choice for the duration of the mission. This choice may be changed each mission.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend your downtime in the medical bay, you gain access to one Procedure feat of your choice for the duration of the mission. This choice may be changed each mission.</p>"
     }
   },
   "effects": [],

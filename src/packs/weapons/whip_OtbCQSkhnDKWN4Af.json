@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/whip.webp",
   "system": {
-    "description": "Braided whips, lengths of chains, or any number of flexible weapons fall into this category.",
+    "description": {
+      "value": "<p>Braided whips, lengths of chains, or any number of flexible weapons fall into this category.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

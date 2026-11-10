@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "This radio receiver is designed to be pressed into C4 clay so that it can be detonated at range using a tactical radio or other radio frequency broadcaster. Each contiguous application of C4 requires a detonator.",
+    "description": {
+      "value": "<p>This radio receiver is designed to be pressed into C4 clay so that it can be detonated at range using a tactical radio or other radio frequency broadcaster. Each contiguous application of C4 requires a detonator.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "You and your team members gain advantage on your first melee attack after any short or long rest."
+    "description": {
+      "value": "<p>You and your team members gain advantage on your first melee attack after any short or long rest.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

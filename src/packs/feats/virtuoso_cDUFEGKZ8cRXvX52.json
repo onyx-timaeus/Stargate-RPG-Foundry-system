@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Proficient in at least two of Culture, Performance or Persuasion",
     "category": "Downtime",
-    "bonus": "Whether it's hosting open mic night or just belting out a few tunes in the evening, your performances are well attended. When you spend your downtime in the Rec Hall, you may apply the Rec Hall bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend your downtime in the Rec Hall, you may apply the Rec Hall bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.</p>"
     }
   },
   "effects": [],

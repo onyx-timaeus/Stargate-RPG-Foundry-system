@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Intelligence 13+, Science",
     "category": "General",
-    "bonus": "You gain the Scientist's Eureka ability (see page 51).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain the Scientist's Eureka ability (see page 51).</p>"
     }
   },
   "effects": [],

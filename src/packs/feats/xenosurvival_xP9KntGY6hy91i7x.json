@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Constitution 13+, Survivalist ability",
     "category": "Field Hack",
-    "bonus": "Once you have taken a short or long rest in an environment, choose a number of additional characters up to your Proficiency bonus to benefit from your Survivalist ability while in the environment until your next rest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Once you have taken a short or long rest in an environment, choose a number of additional characters up to your Proficiency bonus to benefit from your Survivalist ability while in the environment until your next rest.</p>"
     }
   },
   "effects": [],

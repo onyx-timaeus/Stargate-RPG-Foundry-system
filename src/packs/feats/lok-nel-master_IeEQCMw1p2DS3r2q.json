@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Ma'tok proficiency",
     "category": "Combat - Melee",
-    "bonus": "When you make a melee attack with a Ma'tok staff, you increase the damage dealt by the weapon to 1d12.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you make a melee attack with a Ma'tok staff, you increase the damage dealt by the weapon to 1d12.</p>"
     }
   },
   "effects": [],

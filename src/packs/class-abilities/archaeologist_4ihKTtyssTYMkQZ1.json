@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "As an action you can spend a Eureka point to automatically locate any secret chambers or otherwise hidden rooms within a structure no larger than 20m square per Proficiency bonus. This does not indicate how the secret area may be accessed, only that one must exist (or doesn't exist) within the area. In addition, you gain advantage on any Perception checks to find hidden elements of architecture such as secret levers, trap triggers, or hidden doors."
+    "description": {
+      "value": "<p>As an action you can spend a Eureka point to automatically locate any secret chambers or otherwise hidden rooms within a structure no larger than 20m square per Proficiency bonus. This does not indicate how the secret area may be accessed, only that one must exist (or doesn't exist) within the area. In addition, you gain advantage on any Perception checks to find hidden elements of architecture such as secret levers, trap triggers, or hidden doors.</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

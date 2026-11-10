@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Jury Rig ability",
     "category": "Modification",
-    "bonus": "When a vehicle you are embarked within has the damaged condition, you can take an action to ignore the damaged condition for a number of rounds equal to a roll of the tension die.",
     "castTime": {
       "value": "1",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When a vehicle you are embarked within has the damaged condition, you can take an action to ignore the damaged condition for a number of rounds equal to a roll of the tension die.</p>"
     }
   },
   "effects": [],

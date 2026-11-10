@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "First Aid ability",
     "category": "Procedure",
-    "bonus": "When you critically hit, add your Wisdom modifier to the damage dealt.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you critically hit, add your Wisdom modifier to the damage dealt.</p>"
     }
   },
   "effects": [],

@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "None",
     "category": "General",
-    "bonus": "An ability score of your choice is increased by +1. No ability score can be raised above 20 in this way.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>An ability score of your choice is increased by +1. No ability score can be raised above 20 in this way.</p>"
     }
   },
   "effects": [],

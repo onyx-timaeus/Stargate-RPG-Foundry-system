@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "When a friendly character within 5m makes an attack against a target in cover from a natural source (stones, trees, a hill), you may make a reaction and spend a Eureka point to negate the effects of that cover for the duration of the attack."
+    "description": {
+      "value": "<p>When a friendly character within 5m makes an attack against a target in cover from a natural source (stones, trees, a hill), you may make a reaction and spend a Eureka point to negate the effects of that cover for the duration of the attack.</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

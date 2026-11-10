@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "Combining Kevlar and ceramic plates, this armor is designed for heavy frontline warfare.",
+    "description": {
+      "value": "<p>Combining Kevlar and ceramic plates, this armor is designed for heavy frontline warfare.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

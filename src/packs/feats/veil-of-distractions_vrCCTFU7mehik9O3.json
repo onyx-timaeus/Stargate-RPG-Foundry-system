@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Stealth",
     "category": "General",
-    "bonus": "You're an expert at making the few tracks you leave easily explainable. Once per Infiltration encounter, when the Alertness track increases, you may reduce the current tension level by one step.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "encounter"
+    },
+    "description": {
+      "value": "<p>Once per Infiltration encounter, when the Alertness track increases, you may reduce the current tension level by one step.</p>"
     }
   },
   "effects": [],

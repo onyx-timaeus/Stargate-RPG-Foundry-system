@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Athletics",
     "category": "General",
-    "bonus": "You can hold your breath for twice as long as normal (see page 130) and you gain a swim speed of 3m. This speed increases to 6m when you are equipped with swimming and diving equipment (such as a Scuba).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can hold your breath for twice as long as normal (see page 130) and you gain a swim speed of 3m. This speed increases to 6m when you are equipped with swimming and diving equipment (such as a Scuba).</p>"
     }
   },
   "effects": [],

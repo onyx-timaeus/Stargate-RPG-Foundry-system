@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "You were once the alpha of a clan, but either left to join the Phoenix Site or failed to protect them. Among the Unas you are considered a natural leader and many Unas look to you for guidance.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Charisma +1.</p><p><strong>Clan Leader:</strong> Once per mission, other friendly Unas may call upon your presence to gain advantage on a save or attack roll.</p>"
+    },
     "requirements": "Required Race: Unas (including Unchained Unas)",
     "attributeBonus": "cha",
-    "bonus": "Attribute: Charisma +1. Clan Leader: Once per mission, other friendly Unas may call upon your presence to gain advantage on a save or attack roll.",
+    "bonus": "Once per mission, a friendly Unas gains advantage on a save or attack roll.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

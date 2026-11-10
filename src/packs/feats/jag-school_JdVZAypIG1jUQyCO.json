@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Persuasion",
     "category": "General",
-    "bonus": "During a Convince encounter, you score a critical success on a roll of 19 or 20.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>During a Convince encounter, you score a critical success on a roll of 19 or 20.</p>"
     }
   },
   "effects": [],

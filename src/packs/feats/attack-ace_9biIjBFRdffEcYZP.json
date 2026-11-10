@@ -7,7 +7,6 @@
     "mpCost": "4",
     "requirement": "Level 17, Attack Veteran with chosen Weapon Proficiency",
     "category": "Combat - General",
-    "bonus": "Choose one weapon proficiency with which you have selected with the Attack Veteran feat. When making attacks with that proficiency you roll quadruple as many weapon damage dice for damage instead of triple. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose one weapon proficiency with which you have selected with the Attack Veteran feat. When making attacks with that proficiency you roll quadruple as many weapon damage dice for damage instead of triple. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.</p>"
     }
   },
   "effects": [],

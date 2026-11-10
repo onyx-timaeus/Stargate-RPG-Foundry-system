@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Animal Handling",
     "category": "Combat - General",
-    "bonus": "You may mount a living creature by spending 1m of movement rather than half your movement. In addition, you may treat an untrained mount as trained for an encounter by taking an action and succeeding at an Animal Handling check contested by a Wisdom save from the beast.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may mount a living creature by spending 1m of movement rather than half your movement. In addition, you may treat an untrained mount as trained for an encounter by taking an action and succeeding at an Animal Handling check contested by a Wisdom save from the beast.</p>"
     }
   },
   "effects": [],

@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Medicine",
     "category": "Combat - General",
-    "bonus": "You deal an additional 1d6 damage on attacks that have advantage or against a wounded target.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You deal an additional 1d6 damage on attacks that have advantage or against a wounded target.</p>"
     }
   },
   "effects": [],

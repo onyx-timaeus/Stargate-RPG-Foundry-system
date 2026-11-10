@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "Your adept site preparation provides advantage on any Perception checks to notice approaching creatures while taking a short or long rest."
+    "description": {
+      "value": "<p>Your adept site preparation provides advantage on any Perception checks to notice approaching creatures while taking a short or long rest.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

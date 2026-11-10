@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Martial Arts Proficiency",
     "category": "Combat - Melee",
-    "bonus": "When you attempt to Disarm or Trip a target, you may use Dexterity instead of Strength when making the Athletics check.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you attempt to Disarm or Trip a target, you may use Dexterity instead of Strength when making the Athletics check.</p>"
     }
   },
   "effects": [],

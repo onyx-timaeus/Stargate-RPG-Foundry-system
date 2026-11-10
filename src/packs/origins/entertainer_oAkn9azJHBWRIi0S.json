@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You're no stranger to the spotlight. Whether it's playing an instrument in a local pub, gracing the stage in a theatrical production, or any number of potential performances, you're accustomed to putting on a show.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Performance.</p><p><strong>Zeitgeist:</strong> When making a Culture or Insight check to understand the importance or meaning of a piece of art or performance, you may use Charisma instead of Wisdom.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Performance. Zeitgeist: When making a Culture or Insight check to understand the importance or meaning of a piece of art or performance, you may use Charisma instead of Wisdom.",
+    "bonus": "Performance proficiency. Use Charisma instead of Wisdom for Culture or Insight checks about art or performances.",
     "proficiencies": {
       "skill": "Performance",
       "weapon": "none",

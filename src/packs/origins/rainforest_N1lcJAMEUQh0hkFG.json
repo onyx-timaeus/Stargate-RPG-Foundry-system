@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "The forest canopy blocked out the skies of your world. Your youth was spent among the trees, their trunks and limbs providing for a staggering variety of wildlife and a tightly knit local community.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Charisma +1.</p><p><strong>Tropics Adept:</strong> You do not suffer disadvantage on Ability Checks caused by rain or fog.</p>"
+    },
     "requirements": "",
     "attributeBonus": "cha",
-    "bonus": "Attribute: Charisma +1. Tropics Adept: You do not suffer disadvantage on Ability Checks caused by rain or fog.",
+    "bonus": "No disadvantage on ability checks caused by rain or fog.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/monitoring-implant.webp",
   "system": {
-    "description": "Common on the Tollan homeworld, this implant can be injected into team members to monitor their medical condition. Originally used to alert medical services, the version employed by the Phoenix Site instead feeds information to all team members. From a gameplay perspective, the players are aware of each other’s current HP total (although the character is aware of various vital statistics) and anyone with this information may add the tension die to healing they provide to a wounded target with the implant.",
+    "description": {
+      "value": "<p>Common on the Tollan homeworld, this implant can be injected into team members to monitor their medical condition. Originally used to alert medical services, the version employed by the Phoenix Site instead feeds information to all team members. From a gameplay perspective, the players are aware of each other’s current HP total (although the character is aware of various vital statistics) and anyone with this information may add the tension die to healing they provide to a wounded target with the implant.</p>"
+    },
     "techLevel": 4,
     "lore": {
       "origin": "Tollan",

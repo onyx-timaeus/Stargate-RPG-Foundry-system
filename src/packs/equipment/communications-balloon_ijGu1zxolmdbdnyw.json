@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "This self-inflating, controlled ascent, weather balloon can be launched into the high atmosphere to extend the range of the tactical radio to 500km for the next 10d6 hours. Once deployed the balloon requires 1 hour to achieve an effective altitude. Local weather may reduce the effective time the balloon is viable by 1d6 (small planet or consistent wind) to 5d6 (solar flares, or a nearby erupting volcano).",
+    "description": {
+      "value": "<p>This self-inflating, controlled ascent, weather balloon can be launched into the high atmosphere to extend the range of the tactical radio to 500km for the next 10d6 hours. Once deployed the balloon requires 1 hour to achieve an effective altitude. Local weather may reduce the effective time the balloon is viable by 1d6 (small planet or consistent wind) to 5d6 (solar flares, or a nearby erupting volcano).</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

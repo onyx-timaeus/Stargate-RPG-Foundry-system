@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Inspire ability",
     "category": "General",
-    "bonus": "You can inspire a single team member within 1m as an action. Roll your Inspire HP die and grant the target Inspire HP as normal. Characters who currently have Inspire HP are immune to this ability. A character may only be targeted by your Word In An Ear once per long rest (although other characters may still inspire them).",
     "castTime": {
       "value": "1",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "long"
+    },
+    "description": {
+      "value": "<p>You can inspire a single team member within 1m as an action. Roll your Inspire HP die and grant the target Inspire HP as normal. Characters who currently have Inspire HP are immune to this ability. A character may only be targeted by your Word In An Ear once per long rest (although other characters may still inspire them).</p>"
     }
   },
   "effects": [],

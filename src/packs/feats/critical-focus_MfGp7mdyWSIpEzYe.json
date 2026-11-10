@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Proficient with the chosen weapon",
     "category": "Combat - General",
-    "bonus": "Choose a weapon proficiency. When you score a critical hit with that type of weapon, add your Proficiency bonus to the damage dealt.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose a weapon proficiency. When you score a critical hit with that type of weapon, add your Proficiency bonus to the damage dealt.</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/combat-knife.webp",
   "system": {
-    "description": "Most commonly presenting as a personal combat knife, shortblades are designed to be light survival tools and are often concealable.",
+    "description": {
+      "value": "<p>Most commonly presenting as a personal combat knife, shortblades are designed to be light survival tools and are often concealable.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

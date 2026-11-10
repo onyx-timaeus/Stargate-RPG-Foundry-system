@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Dexterity 13+, Athletics",
     "category": "Combat - General",
-    "bonus": "Your quick thinking and agility allows you to act efficiently. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>"
     }
   },
   "effects": [],

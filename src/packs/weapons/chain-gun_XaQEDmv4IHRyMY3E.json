@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
   "system": {
-    "description": "This minigun spins several barrels so that it can fire a steady stream of bullets at an insane rate of fire. It requires a harness and an 18 strength to fire unmounted without suffering disadvantage. Note: The chaingun cannot fire a single shot, it must fire in automatic mode and must spend at least 5 capacity when fired.",
+    "description": {
+      "value": "<p>This minigun spins several barrels so that it can fire a steady stream of bullets at an insane rate of fire. It requires a harness and an 18 strength to fire unmounted without suffering disadvantage. Note: The chaingun cannot fire a single shot, it must fire in automatic mode and must spend at least 5 capacity when fired.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

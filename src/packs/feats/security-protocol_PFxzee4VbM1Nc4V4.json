@@ -7,7 +7,6 @@
     "mpCost": "",
     "requirement": "",
     "category": "",
-    "bonus": "Once you reach under 50HP, you become immune to all damage for 1 turn and shoot a lighting bolt with the full damage back",
     "castTime": {
       "value": "",
       "type": "reaction"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Once you reach under 50HP, you become immune to all damage for 1 turn and shoot a lighting bolt with the full damage back</p>"
     }
   },
   "effects": [],

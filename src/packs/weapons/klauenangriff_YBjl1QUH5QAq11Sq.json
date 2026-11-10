@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 1,
     "lore": {
       "origin": "",

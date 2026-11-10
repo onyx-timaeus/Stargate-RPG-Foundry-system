@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Proficient in 3 weapon types, except Common weapons",
     "category": "Combat - Melee",
-    "bonus": "You've become a master at striking where it will hurt most. When making melee attacks with melee weapons or Martial Arts, increase the damage die or dice one step (d4s becomes d6s, d6s becomes d8s, d8s becomes d10s, and d10s become d12s). This feat may be chosen multiple times, but may not increase an attack's die size above 1d12.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When making melee attacks with melee weapons or Martial Arts, increase the damage die or dice one step (d4s becomes d6s, d6s becomes d8s, d8s becomes d10s, and d10s become d12s). This feat may be chosen multiple times, but may not increase an attack's die size above 1d12.</p>"
     }
   },
   "effects": [],

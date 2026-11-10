@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "You may use your Med Kit to heal a character of 1d4 Intelligence, Wisdom, or Charisma damage during a short rest. A character may not benefit from this ability again until they have taken a long rest."
+    "description": {
+      "value": "<p>You may use your Med Kit to heal a character of 1d4 Intelligence, Wisdom, or Charisma damage during a short rest. A character may not benefit from this ability again until they have taken a long rest.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

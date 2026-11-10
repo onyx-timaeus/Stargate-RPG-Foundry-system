@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "Hides that have been treated with a variety of possible techniques to harden the material against physical attacks.",
+    "description": {
+      "value": "<p>Hides that have been treated with a variety of possible techniques to harden the material against physical attacks.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

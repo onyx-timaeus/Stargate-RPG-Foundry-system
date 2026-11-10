@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "None",
     "category": "Combat - Melee",
-    "bonus": "When you make a melee attack you increase your melee range by +1m.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you make a melee attack you increase your melee range by +1m.</p>"
     }
   },
   "effects": [],

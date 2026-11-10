@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/fn-p90.webp",
   "system": {
-    "description": "The standard issue longarm of the Phoenix Site is the FN P90, which is a Longarm with the automatic, burst, extended capacity, and reflex sight upgrades.",
+    "description": {
+      "value": "<p>The standard issue longarm of the Phoenix Site is the FN P90, which is a Longarm with the automatic, burst, extended capacity, and reflex sight upgrades.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

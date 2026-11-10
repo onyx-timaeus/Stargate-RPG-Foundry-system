@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "You may spend one Eureka point to add the tension die to an Intelligence or Wisdom check. You may declare this use of Eureka after learning the results of the roll."
+    "description": {
+      "value": "<p>You may spend one Eureka point to add the tension die to an Intelligence or Wisdom check. You may declare this use of Eureka after learning the results of the roll.</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

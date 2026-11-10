@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Investigation",
     "category": "General",
-    "bonus": "At the beginning of an Interrogation encounter you may choose to increase (good cop) or decrease (bad cop) the target's threshold by a roll of the TD. Two characters can use this ability on the same target, but one must increase the threshold and the other decrease the threshold. If they do so, the DC to resist breaking is increased to 20. More than two characters cannot good cop / bad cop the same target.",
     "castTime": {
       "value": "",
       "type": "",
@@ -16,6 +15,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At the beginning of an Interrogation encounter you may choose to increase (good cop) or decrease (bad cop) the target's threshold by a roll of the TD. Two characters can use this ability on the same target, but one must increase the threshold and the other decrease the threshold. If they do so, the DC to resist breaking is increased to 20. More than two characters cannot good cop / bad cop the same target.</p>"
     }
   },
   "effects": [],

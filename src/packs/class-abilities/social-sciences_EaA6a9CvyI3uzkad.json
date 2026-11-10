@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "Whenever you lose any number of wagered Determination Points, you gain one Eureka point."
+    "description": {
+      "value": "<p>Whenever you lose any number of wagered Determination Points, you gain one Eureka point.</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

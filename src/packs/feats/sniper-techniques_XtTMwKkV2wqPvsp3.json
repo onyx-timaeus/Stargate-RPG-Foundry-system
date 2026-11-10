@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Attack Veteran with Longarms",
     "category": "Combat - Ranged",
-    "bonus": "You've learned a myriad of small skills, such as breathing techniques and motion control. Your longarm attacks deal +TD if you do not move on your turn (either before or after attacking).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Your longarm attacks deal +TD if you do not move on your turn (either before or after attacking).</p>"
     }
   },
   "effects": [],

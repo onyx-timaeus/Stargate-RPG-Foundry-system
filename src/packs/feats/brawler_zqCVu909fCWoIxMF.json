@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Attack Specialist with Common weapons or Martial Arts",
     "category": "Combat - Melee",
-    "bonus": "When you hit with a melee weapon or Martial Arts attack you may choose to not multiply the damage dice using Attack Specialist (or Veteran or Ace). If you do, you may make another Martial Arts attack if you don't move this turn (either before or after the attack). Each time you successfully hit a target, you may make another such attack.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you hit with a melee weapon or Martial Arts attack you may choose to not multiply the damage dice using Attack Specialist (or Veteran or Ace). If you do, you may make another Martial Arts attack if you don't move this turn (either before or after the attack). Each time you successfully hit a target, you may make another such attack.</p>"
     }
   },
   "effects": [],

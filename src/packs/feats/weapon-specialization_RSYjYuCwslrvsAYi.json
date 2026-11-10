@@ -7,7 +7,6 @@
     "mpCost": "4",
     "requirement": "None",
     "category": "Combat - General",
-    "bonus": "Choose a type of weapon (such as Common, Sidearm, Longarm, etc).. You gain +1 to hit and damage with the chosen weapon type. You may select this feat multiple times, selecting a different weapon type each time. You may select this feat a second time for the same weapon type at 8th level, a third time at 11th level, a fourth time at 14th level, and a fifth time at 17th level.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose a type of weapon (such as Common, Sidearm, Longarm, etc.). You gain +1 to hit and damage with the chosen weapon type. You may select this feat multiple times, selecting a different weapon type each time. You may select this feat a second time for the same weapon type at 8th level, a third time at 11th level, a fourth time at 14th level, and a fifth time at 17th level.</p>"
     }
   },
   "effects": [],

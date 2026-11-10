@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage."
+    "description": {
+      "value": "<p>You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

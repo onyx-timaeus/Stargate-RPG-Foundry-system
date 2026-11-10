@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "General",
-    "bonus": "You increase your base Determination Points by +1. This feat may be purchased a number of times equal to your Proficiency bonus.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You increase your base Determination Points by +1. This feat may be purchased a number of times equal to your Proficiency bonus.</p>"
     }
   },
   "effects": [],

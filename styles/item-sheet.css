@@ -610,3 +610,8 @@ a.item[data-tab]:hover {
     color: #a8c8d8 !important;
     text-shadow: none !important;
 }
+
+/* Rich-text description in the feat / class ability / origin sheets */
+.itemsheet .origin-config-wrapper .editor {
+  min-height: 160px;
+}

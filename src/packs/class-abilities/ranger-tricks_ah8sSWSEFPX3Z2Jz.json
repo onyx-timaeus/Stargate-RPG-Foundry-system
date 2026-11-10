@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "During a Traversal encounter, if you succeed at a Terrain card's Navigation check, you navigate an additional 1d3 cards from the Journey deck instead of 1."
+    "description": {
+      "value": "<p>During a Traversal encounter, if you succeed at a Terrain card's Navigation check, you navigate an additional 1d3 cards from the Journey deck instead of 1.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

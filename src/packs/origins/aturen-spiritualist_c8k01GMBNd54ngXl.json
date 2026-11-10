@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "You have been chosen, as a student, by the Nox. During your time there, you've been indoctrinated into some of their ancient practices.",
+    "description": {
+      "value": "<p><strong>Ritual of Life:</strong> You can lead a ritual during a short rest to restore the dead to life. This requires a natural environment and two other characters. You must succeed at a DC 20 Culture Check, and if successful, a character that has been dead less than a day is brought back to life with 1 HP. If you fail, the character cannot be saved. You cannot use the ability while suffering from negative emotions, such as rage, sorrow, or guilt.</p>"
+    },
     "requirements": "Required Race: Aturen (Noxian Pacifist)",
     "attributeBonus": "none",
-    "bonus": "Ritual of Life: You can lead a ritual during a short rest to restore the dead to life. This requires a natural environment and two other characters. You must succeed at a DC 20 Culture Check, and if successful, a character that has been dead less than a day is brought back to life with 1 HP. If you fail, the character cannot be saved. You cannot use the ability while suffering from negative emotions, such as rage, sorrow, or guilt.",
+    "bonus": "Lead a short-rest ritual (DC 20 Culture) to revive a character dead less than a day, at 1 HP.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

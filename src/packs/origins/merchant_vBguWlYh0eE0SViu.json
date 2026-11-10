@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Any civilization that develops money finds itself with professional money makers. It should come as no surprise that an organization like the Phoenix Site has use for such logistical minds, whether they developed their skills as a purveyor of goods directly to the public, or as a middle man procuring goods from other sources.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Insight.</p><p><strong>Efficient Logistics:</strong> You gain a +1 bonus to the total bulk of equipment you can carry.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Insight. Efficient Logistics: You gain a +1 bonus to the total bulk of equipment you can carry.",
+    "bonus": "Insight proficiency. +1 to the total bulk of equipment you can carry.",
     "proficiencies": {
       "skill": "Insight",
       "weapon": "none",

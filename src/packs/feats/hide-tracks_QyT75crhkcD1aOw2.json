@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Survivalist ability, Stealth",
     "category": "Field Hack",
-    "bonus": "You travel in back of your team, hiding your tracks. Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC.</p>"
     }
   },
   "effects": [],

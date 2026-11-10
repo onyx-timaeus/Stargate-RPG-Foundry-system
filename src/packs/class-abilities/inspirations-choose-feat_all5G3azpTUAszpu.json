@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "1",
-    "bonus": "You are adept at inspiring allies in specific ways, granting abilities to yourself and your team while they have temporary HP granted by your Inspire. Choose one Inspiration feat (see page 98) at 1st level, and then another at 3rd level and 5th level. An Inspired character gains all of the benefits of your Inspiration feats while they have temporary HP from your Inspire ability."
+    "description": {
+      "value": "<p>Choose one Inspiration feat (see page 98) at 1st level, and then another at 3rd level and 5th level. An Inspired character gains all of the benefits of your Inspiration feats while they have temporary HP from your Inspire ability.</p>"
+    }
   },
   "effects": [],
   "folder": "mUmJYqg5KkrWIOv9",

@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/svg/sword.svg",
   "system": {
-    "description": "The standard issue “sniper rifle” of the Phoenix Site, the SR9TC is a longarm with a reduced capacity but improved accuracy and stopping power. The SR9TC is a longarm with the high caliber and scope upgrade.",
+    "description": {
+      "value": "<p>The standard issue “sniper rifle” of the Phoenix Site, the SR9TC is a longarm with a reduced capacity but improved accuracy and stopping power. The SR9TC is a longarm with the high caliber and scope upgrade.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

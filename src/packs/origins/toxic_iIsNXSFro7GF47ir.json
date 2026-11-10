@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Your world's environment contains a substance deadly, or at least highly dangerous, to other people of your species. Either through engineering or genetic luck, the members of your culture are immune or at least highly resistant to the toxin.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Constitution +1.</p><p><strong>Toxic Resistance:</strong> You gain resistance to either poison or necrotic damage (choose one).</p>"
+    },
     "requirements": "",
     "attributeBonus": "con",
-    "bonus": "Attribute: Constitution +1. Toxic Resistance: You gain resistance to either poison or necrotic damage (choose one).",
+    "bonus": "Resistance to poison or necrotic damage (choose one).",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

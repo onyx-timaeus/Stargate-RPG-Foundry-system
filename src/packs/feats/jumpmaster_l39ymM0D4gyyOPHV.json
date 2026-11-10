@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Airborne School",
     "category": "General",
-    "bonus": "You can spend a DP and one hour to extend the benefits of Airborne School to a number of additional characters equal to your Proficiency bonus until your next long rest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can spend a DP and one hour to extend the benefits of Airborne School to a number of additional characters equal to your Proficiency bonus until your next long rest.</p>"
     }
   },
   "effects": [],

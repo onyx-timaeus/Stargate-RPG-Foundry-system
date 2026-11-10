@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/races/synergistic-symbiote.webp",
   "system": {
     "originType": "racial",
-    "description": "As long as a Tok’ra has a symbiote they may choose to gain advantage on any mental (Intelligence, Willpower, Charisma) save. A Tok’ra may use this ability once per Wisdom modifier (minimum 1), replenishing the uses during a long rest. If a Tok’ra is deprived of their symbiote they lose this ability as their Regeneration ability.",
+    "description": {
+      "value": "<p>As long as a Tok’ra has a symbiote they may choose to gain advantage on any mental (Intelligence, Willpower, Charisma) save. A Tok’ra may use this ability once per Wisdom modifier (minimum 1), replenishing the uses during a long rest. If a Tok’ra is deprived of their symbiote they lose this ability as their Regeneration ability.</p>"
+    },
     "requirements": "Tok'ra",
     "attributeBonus": "none",
-    "bonus": "Gain advantage on any mental (Intelligence, Willpower, Charisma) save.",
+    "bonus": "Advantage on a mental save, Wisdom modifier uses per long rest (minimum 1). Lost without your symbiote.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

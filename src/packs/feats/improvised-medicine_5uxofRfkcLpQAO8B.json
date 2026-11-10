@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "First Aid ability",
     "category": "Procedure",
-    "bonus": "When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it.</p>"
     }
   },
   "effects": [],

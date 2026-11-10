@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Dexterity or Wisdom 13+",
     "category": "Combat - General",
-    "bonus": "You may draw or holster weapons as a bonus action or a reaction. In addition, when Initiative is rolled, you may draw a weapon.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may draw or holster weapons as a bonus action or a reaction. In addition, when Initiative is rolled, you may draw a weapon.</p>"
     }
   },
   "effects": [],

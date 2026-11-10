@@ -5,10 +5,12 @@
   "img": "icons/svg/item-bag.svg",
   "system": {
     "originType": "racial",
-    "description": "",
+    "description": {
+      "value": "<p>You gain +1 to attack rolls for each level of exhaustion you have.</p>"
+    },
     "requirements": "Human",
     "attributeBonus": "con",
-    "bonus": "You gain +1 to attack rolls for each level of exhaustion you have.",
+    "bonus": "+1 to attack rolls per level of exhaustion.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

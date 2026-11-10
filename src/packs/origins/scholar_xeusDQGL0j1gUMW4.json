@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Regardless of how your society stored knowledge, you dedicated yourself to some aspect of its collection, dissemination, or preservation.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Science.</p><p><strong>Preserve Knowledge:</strong> You gain advantage on Persuasion checks with other Scholars, learned people, or those who wish to preserve knowledge in some way.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Science. Preserve Knowledge: You gain advantage on Persuasion checks with other Scholars, learned people, or those who wish to preserve knowledge in some way.",
+    "bonus": "Science proficiency. Advantage on Persuasion checks with Scholars, learned people, or those who preserve knowledge.",
     "proficiencies": {
       "skill": "Science",
       "weapon": "none",

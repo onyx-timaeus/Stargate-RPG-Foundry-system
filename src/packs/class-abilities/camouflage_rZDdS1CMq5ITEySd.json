@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "Using elements of the natural environment, you grant your team advantage on Stealth checks after a short or long rest in an environment."
+    "description": {
+      "value": "<p>Using elements of the natural environment, you grant your team advantage on Stealth checks after a short or long rest in an environment.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

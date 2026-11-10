@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "5",
-    "bonus": "At 5th level, you may spend a Eureka point to gain advantage on Charisma checks in addition to Intelligence and Wisdom checks."
+    "description": {
+      "value": "<p>At 5th level, you may spend a Eureka point to gain advantage on Charisma checks in addition to Intelligence and Wisdom checks.</p>"
+    }
   },
   "effects": [],
   "folder": "blPcXI31In7MgEK5",

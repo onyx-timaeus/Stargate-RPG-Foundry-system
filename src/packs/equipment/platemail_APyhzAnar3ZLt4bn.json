@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "Worked steel or other durable and light alloy layered to provide rigid protection to the wearer.",
+    "description": {
+      "value": "<p>Worked steel or other durable and light alloy layered to provide rigid protection to the wearer.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

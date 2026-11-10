@@ -7,7 +7,6 @@
     "mpCost": "9, 3",
     "requirement": "Proficient with chosen weapon",
     "category": "Combat - General",
-    "bonus": "Choose a weapon type that can be wielded in one hand (such as Sidearms or Blades). When you make an attack with two of the chosen weapon (one in each hand) you may re-roll 1s on the damage dice. You do not roll to attack twice or deal damage from both weapons (roll only once, but spend capacity from both weapons if necessary).\n\nYou may purchase this ability multiple times, choosing a different weapon type each time. After the first time you purchase this ability, its cost is reduced to 3MP.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose a weapon type that can be wielded in one hand (such as Sidearms or Blades). When you make an attack with two of the chosen weapon (one in each hand) you may re-roll 1s on the damage dice. You do not roll to attack twice or deal damage from both weapons (roll only once, but spend capacity from both weapons if necessary).</p><p>You may purchase this ability multiple times, choosing a different weapon type each time. After the first time you purchase this ability, its cost is reduced to 3MP.</p>"
     }
   },
   "effects": [],

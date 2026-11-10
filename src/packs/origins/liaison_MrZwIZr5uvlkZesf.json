@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Go-betweens and trusted functionaries rise up in nearly every civilization where multiple groups attempt to cohabitate and work together. You're one such individual, be it an assistant to a leader, an emissary to a foreign people, or simply a courier who must pass through neighboring lands.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Culture.</p><p><strong>Stranger to the Land:</strong> You gain advantage on any Charisma Checks to hide your foreign nature.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Culture. Stranger to the Land: You gain advantage on any Charisma Checks to hide your foreign nature.",
+    "bonus": "Culture proficiency. Advantage on Charisma checks to hide your foreign nature.",
     "proficiencies": {
       "skill": "Culture",
       "weapon": "none",

@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Survival",
     "category": "General",
-    "bonus": "When your team becomes lost during a Traversal encounter, your team returns one fewer cards to the Journey deck (minimum 1). Multiple characters can reduce the number of cards returned in this way (but the minimum remains 1).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When your team becomes lost during a Traversal encounter, your team returns one fewer cards to the Journey deck (minimum 1). Multiple characters can reduce the number of cards returned in this way (but the minimum remains 1).</p>"
     }
   },
   "effects": [],

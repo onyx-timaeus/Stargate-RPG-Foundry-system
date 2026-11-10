@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "When you critically hit, add your Wisdom modifier to the damage dealt."
+    "description": {
+      "value": "<p>When you critically hit, add your Wisdom modifier to the damage dealt.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

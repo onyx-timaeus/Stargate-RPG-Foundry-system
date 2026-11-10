@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Perception",
     "category": "Combat - Ranged",
-    "bonus": "When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/galactic-positioning-system.webp",
   "system": {
-    "description": "Rarely issued to teams, the GPS is a special tablet comptuer designed at the Phoenix Site to help pinpoint a team’s location within the Milky Way Galaxy. Since the destination of a team is usually known, these devices aren’t part of the standard mission loadout. In fact, their access is restricted to protect the security of the base’s location. The computer’s digital star charts, electronic astronomical telescope, and broad spectrum of wave sensors provides advantage on any Science check to determine your location within the Milky Way Galaxy.",
+    "description": {
+      "value": "<p>Rarely issued to teams, the GPS is a special tablet comptuer designed at the Phoenix Site to help pinpoint a team’s location within the Milky Way Galaxy. Since the destination of a team is usually known, these devices aren’t part of the standard mission loadout. In fact, their access is restricted to protect the security of the base’s location. The computer’s digital star charts, electronic astronomical telescope, and broad spectrum of wave sensors provides advantage on any Science check to determine your location within the Milky Way Galaxy.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Tau'ri",

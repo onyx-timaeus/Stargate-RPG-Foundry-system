@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Tactical Flexibility ability",
     "category": "Tactic",
-    "bonus": "When rolling for initiative, your team members may choose (before the rolls are made) to use your initiative result instead of their own.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When rolling for initiative, your team members may choose (before the rolls are made) to use your initiative result instead of their own.</p>"
     }
   },
   "effects": [],

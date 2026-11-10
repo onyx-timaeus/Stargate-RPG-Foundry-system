@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "First Aid ability",
     "category": "General",
-    "bonus": "You can observe a character's current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character's current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can observe a character's current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character's current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.</p>"
     }
   },
   "effects": [],

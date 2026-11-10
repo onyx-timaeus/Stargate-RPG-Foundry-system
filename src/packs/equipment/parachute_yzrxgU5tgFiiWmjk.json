@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/parachute.webp",
   "system": {
-    "description": "This backpack device contains a canopy that can be deployed to rapidly slow the fall of a character from great heights. When deployed at an altitude of 1km or higher, a character can safely descend to the ground. Characters who make a successful Pilot check may open the parachute lower to the ground (DC 10 for 750m, DC 15 for 500m, and DC 20 for 200m). Failing this check results in the character taking half damage for the fall (instead of normal fall damage).",
+    "description": {
+      "value": "<p>This backpack device contains a canopy that can be deployed to rapidly slow the fall of a character from great heights. When deployed at an altitude of 1km or higher, a character can safely descend to the ground. Characters who make a successful Pilot check may open the parachute lower to the ground (DC 10 for 750m, DC 15 for 500m, and DC 20 for 200m). Failing this check results in the character taking half damage for the fall (instead of normal fall damage).</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Tau'ri",

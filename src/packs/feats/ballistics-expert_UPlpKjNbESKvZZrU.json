@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Science",
     "category": "Combat - Ranged",
-    "bonus": "You may use your Intelligence modifier in place of your Dexterity modifier when making attack rolls with ranged weapons. You still add your Dexterity modifier to the damage roll.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may use your Intelligence modifier in place of your Dexterity modifier when making attack rolls with ranged weapons. You still add your Dexterity modifier to the damage roll.</p>"
     }
   },
   "effects": [],

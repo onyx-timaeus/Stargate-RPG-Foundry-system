@@ -7,7 +7,6 @@
     "mpCost": "",
     "requirement": "",
     "category": "",
-    "bonus": "The Living Armor of Thor can unleash a bolt of lightning in a 20-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much on a successful one.",
     "castTime": {
       "value": "",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>The Living Armor of Thor can unleash a bolt of lightning in a 20-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much on a successful one.</p>"
     }
   },
   "effects": [],

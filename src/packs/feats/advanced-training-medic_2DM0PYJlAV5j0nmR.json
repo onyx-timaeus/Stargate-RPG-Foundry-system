@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Wisdom 13+, Medicine",
     "category": "General",
-    "bonus": "You gain the Medic's First Aid ability (see page 49).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain the Medic's First Aid ability (see page 49).</p>"
     }
   },
   "effects": [],

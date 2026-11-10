@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/greathammer.webp",
   "system": {
-    "description": "A simple shaft with a heavy weight at the end, greathammers can knock a foe off their feet.",
+    "description": {
+      "value": "<p>A simple shaft with a heavy weight at the end, greathammers can knock a foe off their feet.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

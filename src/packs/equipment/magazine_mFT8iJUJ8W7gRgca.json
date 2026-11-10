@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/magazine.webp",
   "system": {
-    "description": "Loaded magazines for firearms. Each magazine contains ammunition for the specified weapon type.",
+    "description": {
+      "value": "<p>Loaded magazines for firearms. Each magazine contains ammunition for the specified weapon type.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

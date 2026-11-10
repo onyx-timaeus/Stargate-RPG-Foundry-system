@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "3",
-    "bonus": "At 3rd level, choose a weapon type you are proficient with (such as longarm, side arm, or common). When using this weapon type you score a critical hit on a 19 or 20 on the die.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 3rd level, choose a weapon type you are proficient with (such as longarm, side arm, or common). When using this weapon type you score a critical hit on a 19 or 20 on the die.</p>"
     }
   },
   "effects": [],

@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "When an inspired character loses their last Inspire HP, they gain resistance to bludgeoning, piercing, and slashing damage until their next turn."
+    "description": {
+      "value": "<p>When an inspired character loses their last Inspire HP, they gain resistance to bludgeoning, piercing, and slashing damage until their next turn.</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "As a bonus action on your turn you may allow a team member to take a Disengage action."
+    "description": {
+      "value": "<p>As a bonus action on your turn you may allow a team member to take a Disengage action.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

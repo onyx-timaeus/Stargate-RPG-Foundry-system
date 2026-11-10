@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/med-kit-personal.webp",
   "system": {
-    "description": "This personal version of the Med Kit is smaller and contains fewer supplies. It may be used once as a Med Kit but it is then expended.",
+    "description": {
+      "value": "<p>This personal version of the Med Kit is smaller and contains fewer supplies. It may be used once as a Med Kit but it is then expended.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Intimidate",
     "category": "Combat - General",
-    "bonus": "You're able to keep a target's attention where you want it, even when they're on to you. You may spend a Determination point to take a Taunt action against a target who has resisted your taunt during the encounter.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may spend a Determination point to take a Taunt action against a target who has resisted your taunt during the encounter.</p>"
     }
   },
   "effects": [],

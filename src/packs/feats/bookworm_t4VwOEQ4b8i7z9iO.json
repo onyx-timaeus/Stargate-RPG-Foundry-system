@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Eureka ability",
     "category": "Downtime",
-    "bonus": "You're not just a frequent user of the technical library, you're in charge of a portion of the archive. When you spend your downtime in the ASH Archive, you begin each mission with additional Eureka points equal to half the Facility bonus (up to your max, minimum 1).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend your downtime in the ASH Archive, you begin each mission with additional Eureka points equal to half the Facility bonus (up to your max, minimum 1).</p>"
     }
   },
   "effects": [],

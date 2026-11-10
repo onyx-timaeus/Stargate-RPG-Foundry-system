@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/commodities/tech/tube-chamber-lightning.webp",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 2,
     "lore": {
       "origin": "",

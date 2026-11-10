@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Longarms Proficiency",
     "category": "Combat - Ranged",
-    "bonus": "When using a weapon with the automatic upgrade, you may choose to not deal +TD damage and instead treat the weapon as having the Scatter quality if you fire at least 10 bullets.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When using a weapon with the automatic upgrade, you may choose to not deal +TD damage and instead treat the weapon as having the Scatter quality if you fire at least 10 bullets.</p>"
     }
   },
   "effects": [],

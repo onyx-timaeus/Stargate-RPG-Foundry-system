@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Charisma 13+",
     "category": "General",
-    "bonus": "You can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).",
     "castTime": {
       "value": "1",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "mission"
+    },
+    "description": {
+      "value": "<p>You can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).</p>"
     }
   },
   "effects": [],

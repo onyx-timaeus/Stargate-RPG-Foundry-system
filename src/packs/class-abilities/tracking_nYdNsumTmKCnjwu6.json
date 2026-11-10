@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "You gain advantage on all Survival checks made to track."
+    "description": {
+      "value": "<p>You gain advantage on all Survival checks made to track.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

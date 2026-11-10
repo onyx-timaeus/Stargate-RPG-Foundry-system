@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round."
+    "description": {
+      "value": "<p>You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

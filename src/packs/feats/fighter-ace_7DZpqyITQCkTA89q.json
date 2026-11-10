@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Pilot",
     "category": "General",
-    "bonus": "When aerial combat begins (see page 160), you add an additional d6 to your position pool. You may purchase this ability up to three times and its effects stack.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When aerial combat begins (see page 160), you add an additional d6 to your position pool. You may purchase this ability up to three times and its effects stack.</p>"
     }
   },
   "effects": [],

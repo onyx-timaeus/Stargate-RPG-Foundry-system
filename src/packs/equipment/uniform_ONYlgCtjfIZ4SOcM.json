@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "The standard issue Phoenix Site uniform is a double-stitched gray or khaki green jacket and trousers with black undergarments. It also includes a visored baseball cap and black boots.",
+    "description": {
+      "value": "<p>The standard issue Phoenix Site uniform is a double-stitched gray or khaki green jacket and trousers with black undergarments. It also includes a visored baseball cap and black boots.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Tau'ri",

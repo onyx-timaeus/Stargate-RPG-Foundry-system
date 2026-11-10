@@ -176,8 +176,8 @@
             </div>
           {{/if}}
           <div class="ability-card-body">
-            {{#if item.system.bonus}}
-              <p class="ability-bonus">{{{item.system.bonus}}}</p>
+            {{#if item.system.description.value}}
+              <div class="ability-bonus">{{{item.system.description.value}}}</div>
             {{/if}}
           </div>
           {{#if item.system.limitations.value}}
@@ -217,8 +217,8 @@
             </div>
           {{/if}}
           <div class="ability-card-body">
-            {{#if item.system.bonus}}
-              <p class="ability-bonus">{{{item.system.bonus}}}</p>
+            {{#if item.system.description.value}}
+              <div class="ability-bonus">{{{item.system.description.value}}}</div>
             {{/if}}
           </div>
           {{#if item.system.limitations.value}}

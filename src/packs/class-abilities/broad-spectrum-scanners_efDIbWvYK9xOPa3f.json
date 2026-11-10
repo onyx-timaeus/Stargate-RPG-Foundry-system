@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "4",
-    "bonus": "At 4th level, you can use Intelligence instead of Wisdom when making Perception Checks."
+    "description": {
+      "value": "<p>At 4th level, you can use Intelligence instead of Wisdom when making Perception Checks.</p>"
+    }
   },
   "effects": [],
   "folder": "yamDJ7OtAMP33h3A",

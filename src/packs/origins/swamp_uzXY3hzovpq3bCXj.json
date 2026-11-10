@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "High water lines and dense foliage combine to create slow moving rivers that teem with life. You've learned long ago the value of being unseen, especially when so many of the dangers of your homeland lurked in the shadows of trees or beneath the surface of water.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Wisdom +1.</p><p><strong>Patient Hunter:</strong> You may use your Wisdom modifier instead of your Dexterity modifier when making Stealth skill checks.</p>"
+    },
     "requirements": "",
     "attributeBonus": "wis",
-    "bonus": "Attribute: Wisdom +1. Patient Hunter: You may use your Wisdom modifier instead of your Dexterity modifier when making Stealth skill checks.",
+    "bonus": "Use Wisdom instead of Dexterity for Stealth checks.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

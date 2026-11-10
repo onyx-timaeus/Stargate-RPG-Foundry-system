@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "Downtime",
-    "bonus": "You've found that creating something aesthetically pleasing helps you cope with the rigors of duty. You can spend your downtime making art and improving the livability (and therefore effectiveness) of your surroundings. Choose one facility and improve its effective Facility bonus by +1 (to a maximum of +5) during this mission.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can spend your downtime making art. Choose one facility and improve its effective Facility bonus by +1 (to a maximum of +5) during this mission.</p>"
     }
   },
   "effects": [],

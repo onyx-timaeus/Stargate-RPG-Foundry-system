@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/med-kit.webp",
   "system": {
-    "description": "A character can use this Med Kit to heal 1d8 damage to a wounded character, or 1d4 damage to a scuffed character during a short rest. A proficient character heals 2d8 to a wounded character and 2d4 damage to a scuffed character. A character can only benefit from Med Kits once per short rest. Note: A fully-stocked med kit is designed to have more supplies than is typically required on a single mission; for longer missions, additional med kits may be issued. Unless otherwise noted by the GM, a Med Kit does not need to track a limited number of uses. On protracted deployments, the GM may rule that a Med Kit has reduced healing effect once its resources have been taxed by dire circumstances.",
+    "description": {
+      "value": "<p>A character can use this Med Kit to heal 1d8 damage to a wounded character, or 1d4 damage to a scuffed character during a short rest. A proficient character heals 2d8 to a wounded character and 2d4 damage to a scuffed character. A character can only benefit from Med Kits once per short rest. Note: A fully-stocked med kit is designed to have more supplies than is typically required on a single mission; for longer missions, additional med kits may be issued. Unless otherwise noted by the GM, a Med Kit does not need to track a limited number of uses. On protracted deployments, the GM may rule that a Med Kit has reduced healing effect once its resources have been taxed by dire circumstances.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -6,7 +6,6 @@
   "system": {
     "class": "medic",
     "level": "2",
-    "bonus": "At 2nd level, when you heal a team member using first aid, attacks against you suffer disadvantage until your next turn.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 2nd level, when you heal a team member using first aid, attacks against you suffer disadvantage until your next turn.</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/blade.webp",
   "system": {
-    "description": "Many blades have been designed for wielding in one hand over the centuries and can be found in countless cultures, including the arming sword, battle axe, and sickle.",
+    "description": {
+      "value": "<p>Many blades have been designed for wielding in one hand over the centuries and can be found in countless cultures, including the arming sword, battle axe, and sickle.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

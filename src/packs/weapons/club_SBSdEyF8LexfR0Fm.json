@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/club.webp",
   "system": {
-    "description": "Clubs are simple weapons that smash enemies with all the force a wielder can muster. More advanced bludgeons include maces and warhammers.",
+    "description": {
+      "value": "<p>Clubs are simple weapons that smash enemies with all the force a wielder can muster. More advanced bludgeons include maces and warhammers.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

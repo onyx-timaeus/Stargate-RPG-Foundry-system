@@ -263,7 +263,7 @@ export default class ItemSg extends Item {
     async getChatData(htmlOptions={}) {
         const data = foundry.utils.deepClone(this.system);
 
-        data.description = await TextEditor.enrichHTML(data.description, htmlOptions);
+        data.description = await TextEditor.enrichHTML(this.system.description?.value ?? "", htmlOptions);
         data.labels = this._getItemLabels(this);
         return data;
     }

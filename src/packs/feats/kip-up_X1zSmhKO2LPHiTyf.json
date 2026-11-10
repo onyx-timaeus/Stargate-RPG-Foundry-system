@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Acrobatics or Athletics",
     "category": "Combat - General",
-    "bonus": "You may stand from prone by spending 1m of movement instead of half your movement.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may stand from prone by spending 1m of movement instead of half your movement.</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/binocular-monocular.webp",
   "system": {
-    "description": "A staple of forward forces, this device magnifies vision, negating any disadvantage gained from distance that a character might suffer on Investigation or Perception checks when surveying a target.",
+    "description": {
+      "value": "<p>A staple of forward forces, this device magnifies vision, negating any disadvantage gained from distance that a character might suffer on Investigation or Perception checks when surveying a target.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Tau'ri",

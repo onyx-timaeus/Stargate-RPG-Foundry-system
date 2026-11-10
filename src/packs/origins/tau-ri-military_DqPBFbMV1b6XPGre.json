@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/origins/tau-ri-military.webp",
   "system": {
     "originType": "racial",
-    "description": "",
+    "description": {
+      "value": "<p><strong>Never Surrender:</strong> You gain +1 to attack rolls for each level of exhaustion you have</p>"
+    },
     "requirements": "Tau'ri",
     "attributeBonus": "none",
-    "bonus": "Never Surrender: You gain +1 to attack rolls for each level of exhaustion you have",
+    "bonus": "+1 to attack rolls per level of exhaustion.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

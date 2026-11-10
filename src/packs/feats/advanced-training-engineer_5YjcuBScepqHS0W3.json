@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Intelligence 13+, Engineering",
     "category": "General",
-    "bonus": "You gain the Engineer's Jury Rig ability (see page 47).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain the Engineer's Jury Rig ability (see page 47).</p>"
     }
   },
   "effects": [],

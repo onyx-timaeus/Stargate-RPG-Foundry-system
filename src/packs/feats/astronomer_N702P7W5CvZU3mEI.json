@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Eureka ability, Science",
     "category": "Discovery",
-    "bonus": "As a bonus action you may reduce the time it takes to activate an astronomical device (including a Stargate) by 1 round per Eureka point spent.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>As a bonus action you may reduce the time it takes to activate an astronomical device (including a Stargate) by 1 round per Eureka point spent.</p>"
     }
   },
   "effects": [],

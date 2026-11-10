@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Your homeland was on a moon. You grew up in slightly lighter gravity, but few sights compare to a sunset eclipsed by the world above. Your three-dimensional awareness developed at an early age, thanks in no small part to the realities of lunar living.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Dexterity +1.</p><p><strong>Eager Astronomer:</strong> You gain advantage on any Science Checks that pertain to astronomy.</p>"
+    },
     "requirements": "",
     "attributeBonus": "dex",
-    "bonus": "Attribute: Dexterity +1. Eager Astronomer: You gain advantage on any Science Checks that pertain to astronomy.",
+    "bonus": "Advantage on Science checks about astronomy.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/flamethrower.webp",
   "system": {
-    "description": "Created for assaulting entrenched positions like bunkers, the flamethrower is not approved for use in combat (per the Geneva Convention) but has uses when clearing terrain. It fires in either a 15m line or 10m cone, chosen each time it is fired. There is no roll to hit with a flamethrower, but a DC 15 Dexterity save halves the Flamethrower’s damage.",
+    "description": {
+      "value": "<p>Created for assaulting entrenched positions like bunkers, the flamethrower is not approved for use in combat (per the Geneva Convention) but has uses when clearing terrain. It fires in either a 15m line or 10m cone, chosen each time it is fired. There is no roll to hit with a flamethrower, but a DC 15 Dexterity save halves the Flamethrower’s damage.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

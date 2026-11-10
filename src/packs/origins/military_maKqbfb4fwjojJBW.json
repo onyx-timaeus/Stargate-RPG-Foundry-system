@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/origins/military.webp",
   "system": {
     "originType": "background",
-    "description": "You served in an organized military or militia, receiving training and maybe even direct combat experience. Note: Human characters who served in the Tau'ri military may want to select the Tau'ri military racial origin instead (they do not stack).",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Choose any one armor or weapon proficiency.</p><p><strong>Drills:</strong> You gain +1 HP per level.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Choose any one armor or weapon proficiency. Drills: You gain +1 HP per level.",
+    "bonus": "One armor or weapon proficiency of your choice. +1 HP per level.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

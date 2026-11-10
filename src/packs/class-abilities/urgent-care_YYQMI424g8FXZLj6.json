@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "When you heal with a Med Kit, you may choose to replace all the healing dice rolled with the same number of Tension Dice."
+    "description": {
+      "value": "<p>When you heal with a Med Kit, you may choose to replace all the healing dice rolled with the same number of Tension Dice.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

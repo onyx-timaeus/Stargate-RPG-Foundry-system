@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "While often the task of soldiers, a trained and skilled sentry is a boon to many alien cultures. You're trained to keep vigilant and never let your watch falter, a skill that comes in handy in a Phoenix team.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Perception.</p><p><strong>Long Night:</strong> You ignore the first night without rest, only suffering ill effects starting on the second night as if it were the first.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Perception. Long Night: You ignore the first night without rest, only suffering ill effects starting on the second night as if it were the first.",
+    "bonus": "Perception proficiency. The first night without rest has no ill effects.",
     "proficiencies": {
       "skill": "Perception",
       "weapon": "none",

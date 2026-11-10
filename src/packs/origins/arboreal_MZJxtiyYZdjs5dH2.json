@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "A forest or densely wooded area. You might have been branch or floor dwelling, but your life was shaped by the trees. You're an expert climber and years of forest living have given you an iron grip.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Strength +1.</p><p><strong>Natural Climber:</strong> You have a climb speed of 6m.</p>"
+    },
     "requirements": "",
     "attributeBonus": "str",
-    "bonus": "Attribute: Strength +1. Natural Climber: You have a climb speed of 6m.",
+    "bonus": "Climb speed 6m.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

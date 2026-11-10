@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "By managing your team's rations and preparing meals with clever use of ingredients, you can keep spirits high. Your team members heal 1 DP during a short rest."
+    "description": {
+      "value": "<p>Your team members heal 1 DP during a short rest.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

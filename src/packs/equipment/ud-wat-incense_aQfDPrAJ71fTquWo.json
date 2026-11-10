@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "The flowers of Ud’Wat trees bloom every three years for only a week. During this time, caretakers scurry to press the leaves between coarse stones grinding it into a powder that can be laced into incense. The final product of this labor is used in several Aturen rituals that sedate the participants and join their lucid dreaming minds into a shared experience. The dreamscape can be quite vivid and is often violent when dealing with an injured non-Aturen mind (non-Aturens are frequently brought along into the dream state for aid). There are many uses for the Ud’Wat incense, including the following (but not limited to): Aiding a subject to heal mental distress (such as rescuing them from a coma). Sharing a memory in vivid details that the waking mind cannot recall. Determining whether or not a person is trustworthy. Breaking mental conditioning.",
+    "description": {
+      "value": "<p>The flowers of Ud’Wat trees bloom every three years for only a week. During this time, caretakers scurry to press the leaves between coarse stones grinding it into a powder that can be laced into incense. The final product of this labor is used in several Aturen rituals that sedate the participants and join their lucid dreaming minds into a shared experience. The dreamscape can be quite vivid and is often violent when dealing with an injured non-Aturen mind (non-Aturens are frequently brought along into the dream state for aid). There are many uses for the Ud’Wat incense, including the following (but not limited to): Aiding a subject to heal mental distress (such as rescuing them from a coma). Sharing a memory in vivid details that the waking mind cannot recall. Determining whether or not a person is trustworthy. Breaking mental conditioning.</p>"
+    },
     "techLevel": 4,
     "lore": {
       "origin": "Aturen",

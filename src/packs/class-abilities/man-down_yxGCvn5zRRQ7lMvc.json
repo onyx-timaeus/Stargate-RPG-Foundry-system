@@ -6,7 +6,6 @@
   "system": {
     "class": "medic",
     "level": "3",
-    "bonus": "At 3rd level, while you are conscious and within 1m of a dying team member, they require one fewer death saves to stabilize.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 3rd level, while you are conscious and within 1m of a dying team member, they require one fewer death saves to stabilize.</p>"
     }
   },
   "effects": [],

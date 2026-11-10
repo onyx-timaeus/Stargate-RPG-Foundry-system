@@ -6,7 +6,6 @@
   "system": {
     "class": "medic",
     "level": "4",
-    "bonus": "At 4th level, you may use a med kit on yourself as a bonus action.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 4th level, you may use a med kit on yourself as a bonus action.</p>"
     }
   },
   "effects": [],

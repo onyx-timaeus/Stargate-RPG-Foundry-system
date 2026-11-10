@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "2",
-    "bonus": "At 2nd level, you’ve learned the time-honored technique of a well placed thump. As a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine’s HP to above half its normal HP, it begins to function immediately. You may only maintain these temporary HP on one machine at a time."
+    "description": {
+      "value": "<p>At 2nd level, as a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine’s HP to above half its normal HP, it begins to function immediately. You may only maintain these temporary HP on one machine at a time.</p>"
+    }
   },
   "effects": [],
   "folder": "3Et0UADOq8hw2scN",

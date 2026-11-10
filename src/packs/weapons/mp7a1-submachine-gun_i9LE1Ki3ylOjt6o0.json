@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/svg/sword.svg",
   "system": {
-    "description": "Not as common as the FN P90, the MP7A1 is another standard issue firearm widely available at the Phoenix Site. It is a longarm with the automatic upgrade. In addition, it can be worn on the hip and has a bulk of 1. Due to the abundance of supplies, the MP7 is often issued with additional weapon upgrades specific to mission needs.",
+    "description": {
+      "value": "<p>Not as common as the FN P90, the MP7A1 is another standard issue firearm widely available at the Phoenix Site. It is a longarm with the automatic upgrade. In addition, it can be worn on the hip and has a bulk of 1. Due to the abundance of supplies, the MP7 is often issued with additional weapon upgrades specific to mission needs.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

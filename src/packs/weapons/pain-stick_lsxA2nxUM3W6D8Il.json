@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/pain-stick.webp",
   "system": {
-    "description": "",
+    "description": {
+      "value": ""
+    },
     "techLevel": 2,
     "lore": {
       "origin": "",

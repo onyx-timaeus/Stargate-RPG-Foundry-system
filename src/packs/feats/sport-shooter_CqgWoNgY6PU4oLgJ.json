@@ -7,7 +7,6 @@
     "mpCost": "7",
     "requirement": "Proficient in Longarms, Shotguns, and Sidearms",
     "category": "Downtime",
-    "bonus": "Everyone knows that they can usually find you at the firing range testing equipment. When you spend your downtime at the firing range, you may apply the Firing Range bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend your downtime at the firing range, you may apply the Firing Range bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.</p>"
     }
   },
   "effects": [],

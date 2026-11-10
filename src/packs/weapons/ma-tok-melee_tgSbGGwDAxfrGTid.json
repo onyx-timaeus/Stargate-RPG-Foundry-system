@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/ma-tok-melee.webp",
   "system": {
-    "description": "The Ma'tok staff can also be used as a melee weapon in close combat.",
+    "description": {
+      "value": "<p>The Ma'tok staff can also be used as a melee weapon in close combat.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Goa'uld/Jaffa",

@@ -7,7 +7,6 @@
     "mpCost": "6",
     "requirement": "Eureka ability",
     "category": "General",
-    "bonus": "You begin each mission with a number of Eureka points equal to half your Proficiency Bonus (rounding down).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You begin each mission with a number of Eureka points equal to half your Proficiency Bonus (rounding down).</p>"
     }
   },
   "effects": [],

@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/crossbow.webp",
   "system": {
-    "description": "A more advanced bow design that lays the string horizontal to the user.",
+    "description": {
+      "value": "<p>A more advanced bow design that lays the string horizontal to the user.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

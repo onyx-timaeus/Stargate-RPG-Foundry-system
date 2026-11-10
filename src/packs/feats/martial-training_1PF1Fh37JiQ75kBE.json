@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Proficient in 3 weapon types, except Common weapons",
     "category": "Combat - Melee",
-    "bonus": "You've trained to deal maximum damage with whatever melee weapon you wield, even improvised weapons. Your minimum damage die for melee weapons and Martial Arts is 1d8.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Your minimum damage die for melee weapons (including improvised weapons) and Martial Arts is 1d8.</p>"
     }
   },
   "effects": [],

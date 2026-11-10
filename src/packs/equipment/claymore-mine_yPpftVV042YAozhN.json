@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/claymore-mine.webp",
   "system": {
-    "description": "The standard issue M18A1 Claymore fires steel balls in a 10m cone when remote activated, dealing 8d6 damage (DC 15 reflex for half). Alternatively, a character who is proficient with explosives can set a trip-wire. The wire can typically span a 10m line and requires a DC 15 Perception check to spot before triggering. Other Claymore mines exist, produced by other Tau’ri military as well as alien cultures who produce similar devices.",
+    "description": {
+      "value": "<p>The standard issue M18A1 Claymore fires steel balls in a 10m cone when remote activated, dealing 8d6 damage (DC 15 reflex for half). Alternatively, a character who is proficient with explosives can set a trip-wire. The wire can typically span a 10m line and requires a DC 15 Perception check to spot before triggering. Other Claymore mines exist, produced by other Tau’ri military as well as alien cultures who produce similar devices.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

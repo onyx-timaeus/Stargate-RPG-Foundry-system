@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "3",
-    "bonus": "At 3rd level, you’ve trained to deal maximum damage with whatever melee weapon you wield, even improvised weapons. Your minimum damage die for melee weapons or martial arts is 1d8.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 3rd level, your minimum damage die for melee weapons (including improvised weapons) or martial arts is 1d8.</p>"
     }
   },
   "effects": [],

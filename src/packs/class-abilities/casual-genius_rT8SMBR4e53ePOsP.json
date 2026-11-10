@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "5",
-    "bonus": "At 5th level, you begin each mission with a number of Eureka points equal to half your Proficiency bonus (rounding down)."
+    "description": {
+      "value": "<p>At 5th level, you begin each mission with a number of Eureka points equal to half your Proficiency bonus (rounding down).</p>"
+    }
   },
   "effects": [],
   "folder": "blPcXI31In7MgEK5",

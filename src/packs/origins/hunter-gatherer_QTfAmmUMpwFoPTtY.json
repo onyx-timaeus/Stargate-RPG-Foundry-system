@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You come from a pre-agricultural society, or at least one who makes use of a commodity that must be hunted or found in the wild. You are thus, an expert at living off the land.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Survival.</p><p><strong>Irongut:</strong> You gain advantage on all saves against poison or other ingested substances.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Survival. Irongut: You gain advantage on all saves against poison or other ingested substances.",
+    "bonus": "Survival proficiency. Advantage on saves against poison and ingested substances.",
     "proficiencies": {
       "skill": "Survival",
       "weapon": "none",

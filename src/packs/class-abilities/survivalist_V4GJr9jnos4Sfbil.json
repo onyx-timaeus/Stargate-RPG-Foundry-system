@@ -6,7 +6,6 @@
   "system": {
     "class": "scout",
     "level": "1",
-    "bonus": "You’ve trained to survive on any world and in any biome. You gain resistance to damage from your environment, including non-natural environmental dangers like traps.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain resistance to damage from your environment, including non-natural environmental dangers like traps.</p>"
     }
   },
   "effects": [],

@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Constitution 13+",
     "category": "Combat - General",
-    "bonus": "You can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "1",
       "type": "short"
+    },
+    "description": {
+      "value": "<p>You can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.</p>"
     }
   },
   "effects": [],

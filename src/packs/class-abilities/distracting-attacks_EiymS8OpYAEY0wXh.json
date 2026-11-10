@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "When you deal damage to a single target with an attack, you may choose one friendly character not within 2m of you. The target of your attack suffers disadvantage on all attacks against the chosen character until the start of your next turn."
+    "description": {
+      "value": "<p>When you deal damage to a single target with an attack, you may choose one friendly character not within 2m of you. The target of your attack suffers disadvantage on all attacks against the chosen character until the start of your next turn.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

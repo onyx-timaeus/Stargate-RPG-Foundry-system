@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "None",
     "category": "Combat - Ranged",
-    "bonus": "When you make ranged attacks while an enemy is within 1m, you do not suffer disadvantage on the attack.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you make ranged attacks while an enemy is within 1m, you do not suffer disadvantage on the attack.</p>"
     }
   },
   "effects": [],

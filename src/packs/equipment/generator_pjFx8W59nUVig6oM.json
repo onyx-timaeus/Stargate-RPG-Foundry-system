@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/generator.webp",
   "system": {
-    "description": "A generator produces electricity in environments where solar power is insufficient or the team needs additional power. A generator produces enough power to keep a small hospital running, but not enough to operate a Stargate.",
+    "description": {
+      "value": "<p>A generator produces electricity in environments where solar power is insufficient or the team needs additional power. A generator produces enough power to keep a small hospital running, but not enough to operate a Stargate.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

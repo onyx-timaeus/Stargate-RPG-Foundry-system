@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You once served as a host for a Goa'uld symbiote (whether hostile or friendly), and your body has forever been altered as a result.",
+    "description": {
+      "value": "<p><strong>Naquadah Blooded:</strong> Your blood contains trace amounts of Naquadah which allows you to activate and use some technology (such as many Goa'uld devices).</p><p><strong>Symbiote Familiarity:</strong> Your close familiarity with a symbiote mind and its psychology grants you advantage on Insight Checks against characters with symbiotes.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Naquadah Blooded: Your blood contains trace amounts of Naquadah which allows you to activate and use some technology (such as many Goa'uld devices). Symbiote Familiarity: Your close familiarity with a symbiote mind and its psychology grants you advantage on Insight Checks against characters with symbiotes.",
+    "bonus": "Can activate Goa'uld technology. Advantage on Insight checks against characters with symbiotes.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

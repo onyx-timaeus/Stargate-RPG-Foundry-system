@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "1",
-    "bonus": "You’velearnedafewadvancedmedicalandscientific procedures you can employ in the field. Choose one procedure feat (see page 100) at 1st level and an additional procedure feat at 3rd level and 5th level."
+    "description": {
+      "value": "<p>Choose one procedure feat (see page 100) at 1st level and an additional procedure feat at 3rd level and 5th level.</p>"
+    }
   },
   "effects": [],
   "folder": "m2WftcawB7KznrSe",

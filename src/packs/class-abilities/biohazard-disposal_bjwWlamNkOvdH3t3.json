@@ -6,7 +6,9 @@
   "system": {
     "class": "medic",
     "level": "Procedure",
-    "bonus": "You and your team are considered proficient in Constitution saves against diseases, toxins, and viruses. If a character is already proficient in Constitution saves, they gain no benefit from this procedure."
+    "description": {
+      "value": "<p>You and your team are considered proficient in Constitution saves against diseases, toxins, and viruses. If a character is already proficient in Constitution saves, they gain no benefit from this procedure.</p>"
+    }
   },
   "effects": [],
   "folder": "ZqlChUJLCCEMkUhB",

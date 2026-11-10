@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "1",
-    "bonus": "You’ve become especially adept at a trick that improves a team’s efficiency in the field. Choose one field hack feat (see page 102) at 1st level and an additional field hack feat at 4th."
+    "description": {
+      "value": "<p>Choose one field hack feat (see page 102) at 1st level and an additional field hack feat at 4th.</p>"
+    }
   },
   "effects": [],
   "folder": "kgXBeuxmfiVfo3Df",

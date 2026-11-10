@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "You grew up deep underground in caves or another natural complex, rarely if ever seeing the sky. Due to the real dangers of cave-ins and other dangers of the underworld, your people are quick on their feet with sharp eyes.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Dexterity +1.</p><p><strong>Improved Vision:</strong> You treat areas of dim light as brightly lit (including the ability to discern color).</p>"
+    },
     "requirements": "",
     "attributeBonus": "dex",
-    "bonus": "Attribute: Dexterity +1. Improved Vision: You treat areas of dim light as brightly lit (including the ability to discern color).",
+    "bonus": "Dim light counts as bright light, including colour.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

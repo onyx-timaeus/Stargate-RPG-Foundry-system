@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "You've joined the Phoenix program under false pretenses, having developed a skilled liar's tongue and a desire to make your life better. However benign your true motives may be or how close to the truth your lie is, you've at least managed to get attached to a Stargate team, which you qualify as a success.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Deception.</p><p><strong>Low Profile:</strong> You may use Deception in place of Stealth when attempting to pass unnoticed through a populated area (such as a town or enemy base).</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Deception. Low Profile: You may use Deception in place of Stealth when attempting to pass unnoticed through a populated area (such as a town or enemy base).",
+    "bonus": "Deception proficiency. Use Deception instead of Stealth to pass unnoticed through a populated area.",
     "proficiencies": {
       "skill": "Deception",
       "weapon": "none",

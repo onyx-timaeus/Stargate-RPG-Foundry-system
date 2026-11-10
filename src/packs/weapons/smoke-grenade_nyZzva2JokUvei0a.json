@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/smoke-grenade.webp",
   "system": {
-    "description": "This thrown weapon explodes with shrapnel, concussive force, gas, or bright chemical light, and sounds. There are three types of grenades used by Stargate Phoenix: Smoke grenades deal no damage but fill a 5m x 5m area with thermal smoke that obscures most forms of vision and many types of sensors. Characters proficient in common weapons or explosives are considered proficient with grenades. A grenade is thrown at a point (see page 157) rather than at a target and goes off at the start of the throwing character’s next turn (or 6 seconds after release).",
+    "description": {
+      "value": "<p>This thrown weapon explodes with shrapnel, concussive force, gas, or bright chemical light, and sounds. There are three types of grenades used by Stargate Phoenix: Smoke grenades deal no damage but fill a 5m x 5m area with thermal smoke that obscures most forms of vision and many types of sensors. Characters proficient in common weapons or explosives are considered proficient with grenades. A grenade is thrown at a point (see page 157) rather than at a target and goes off at the start of the throwing character’s next turn (or 6 seconds after release).</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "",

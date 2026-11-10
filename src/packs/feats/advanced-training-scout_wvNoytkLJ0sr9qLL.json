@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Constitution 13+, Survival",
     "category": "General",
-    "bonus": "You gain the Scout's Survivalist ability (see page 53).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You gain the Scout's Survivalist ability (see page 53).</p>"
     }
   },
   "effects": [],

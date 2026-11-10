@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage."
+    "description": {
+      "value": "<p>When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

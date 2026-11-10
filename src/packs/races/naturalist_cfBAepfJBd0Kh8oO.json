@@ -5,7 +5,9 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "Whenever you make a Science Check that involves an ecosystem and the creatures within, you add +TD to the check.",
+    "description": {
+      "value": "<p>Whenever you make a Science Check that involves an ecosystem and the creatures within, you add +TD to the check.</p>"
+    },
     "requirements": "Aturen",
     "attributeBonus": "none",
     "bonus": "Add +TD to Science Checks involving an ecosystem and its creatures.",

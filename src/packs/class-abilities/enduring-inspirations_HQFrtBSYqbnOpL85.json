@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "At the beginning of combat (when Initiative is rolled) each inspired character gains a number of Inspire HP equal to a roll of the tension die. A character cannot have more Inspire HP than the maximum possible result of your Inspire die."
+    "description": {
+      "value": "<p>At the beginning of combat (when Initiative is rolled) each inspired character gains a number of Inspire HP equal to a roll of the tension die. A character cannot have more Inspire HP than the maximum possible result of your Inspire die.</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

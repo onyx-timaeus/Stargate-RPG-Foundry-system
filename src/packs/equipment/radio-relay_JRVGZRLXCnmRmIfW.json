@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/radio-relay.webp",
   "system": {
-    "description": "A hardened transmitter/receiver, this device relays tactical radio signal to units within a 20km radius. Its battery and solar power can run for years (and in some cases decades). Multiple relays may be linked to spread or chain coverage over an area.",
+    "description": {
+      "value": "<p>A hardened transmitter/receiver, this device relays tactical radio signal to units within a 20km radius. Its battery and solar power can run for years (and in some cases decades). Multiple relays may be linked to spread or chain coverage over an area.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

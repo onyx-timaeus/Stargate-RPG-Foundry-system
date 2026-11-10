@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Tactical Flexibility ability",
     "category": "Tactic",
-    "bonus": "Add +2 AC to other team members within 2m of you.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Add +2 AC to other team members within 2m of you.</p>"
     }
   },
   "effects": [],

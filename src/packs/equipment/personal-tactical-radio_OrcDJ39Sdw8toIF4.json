@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/personal-tactical-radio.webp",
   "system": {
-    "description": "A small box with a speaker and microphone in one has a single button that when press allows the operator to speak to others on the same channel. It is attached via a coiled cord to a personal transmiter. The transmiter has a range of 5km in most life-supported planetary environments.",
+    "description": {
+      "value": "<p>A small box with a speaker and microphone in one has a single button that when press allows the operator to speak to others on the same channel. It is attached via a coiled cord to a personal transmiter. The transmiter has a range of 5km in most life-supported planetary environments.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

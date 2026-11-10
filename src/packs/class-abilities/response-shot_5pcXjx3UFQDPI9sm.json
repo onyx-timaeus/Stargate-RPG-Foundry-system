@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "Once per encounter, you may use your reaction to make a ranged attack against an enemy who makes an attack against a team member other than yourself."
+    "description": {
+      "value": "<p>Once per encounter, you may use your reaction to make a ranged attack against an enemy who makes an attack against a team member other than yourself.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

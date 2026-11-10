@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Your civilization formed where your world's tectonic plates pressed upon one another, making it prone to eruptions of lava and noxious clouds. Volcanic worlds tend to have higher than standard gravity or are extremely mountainous, leading to denizens with steady arms and solid muscle.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Strength +1.</p><p><strong>Heat Acclimated:</strong> You have resistance against fire damage.</p>"
+    },
     "requirements": "",
     "attributeBonus": "str",
-    "bonus": "Attribute: Strength +1. Heat Acclimated: You have resistance against fire damage.",
+    "bonus": "Resistance to fire damage.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

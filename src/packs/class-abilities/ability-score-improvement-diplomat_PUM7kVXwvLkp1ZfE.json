@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "4",
-    "bonus": "At 4th level, you can increase your Wisdom or Charisma by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+    "description": {
+      "value": "<p>At 4th level, you can increase your Wisdom or Charisma by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature.</p>"
+    }
   },
   "effects": [],
   "folder": "lGY8A531PP1EO9db",

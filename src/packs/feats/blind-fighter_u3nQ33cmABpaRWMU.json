@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Perception",
     "category": "Combat - Melee",
-    "bonus": "You do not suffer disadvantage when making melee attacks while unable to see.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You do not suffer disadvantage when making melee attacks while unable to see.</p>"
     }
   },
   "effects": [],

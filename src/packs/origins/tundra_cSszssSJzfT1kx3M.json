@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "The frozen flatlands of your homeland hid much of their bounty beneath the ground. The temperature so rarely rose above freezing that your enduring people could use snow and ice in daily construction.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Constitution +1.</p><p><strong>Cold Acclimated:</strong> You have resistance against cold damage.</p>"
+    },
     "requirements": "",
     "attributeBonus": "con",
-    "bonus": "Attribute: Constitution +1. Cold Acclimated: You have resistance against cold damage.",
+    "bonus": "Resistance to cold damage.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

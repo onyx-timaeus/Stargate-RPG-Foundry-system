@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/races/regeneration.webp",
   "system": {
     "originType": "racial",
-    "description": "",
+    "description": {
+      "value": "<p>The Goa'uld causes its host to heal 1 TD of HP at the beginning of its turn.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "The Goa'uld causes its host to heal 1TD of HP at the beginning of its turn.",
+    "bonus": "Heal 1 TD HP at the start of your turn.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

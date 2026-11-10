@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Your entire life was within a created environment, such as a space station, underground facility, or bio-dome. You are practical and careful, because you understand artificial environments intuitively.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Wisdom +1.</p><p><strong>Life or Death Repairs:</strong> You gain advantage on engineering checks made when failure would deal damage or endanger your life (such as repairing an airlock before it fails or diffusing a bomb).</p>"
+    },
     "requirements": "",
     "attributeBonus": "wis",
-    "bonus": "Attribute: Wisdom +1. Life or Death Repairs: You gain advantage on engineering checks made when failure would deal damage or endanger your life (such as repairing an airlock before it fails or diffusing a bomb).",
+    "bonus": "Advantage on engineering checks when failure would deal damage or endanger your life.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

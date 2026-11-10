@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "The Jaffa takes regular doses of Tretonin. You gain advantage on any save against disease. If the character is ever deprived of Tretonin for a week or more, they suffer 1d4 Constitution damage each day.",
+    "description": {
+      "value": "<p>You gain advantage on any save against disease. If you are ever deprived of Tretonin for a week or more, you suffer 1d4 Constitution damage each day.</p>"
+    },
     "requirements": "Jaffa (Free Jaffa)",
     "attributeBonus": "none",
-    "bonus": "Advantage on saves against disease. 1d4 Constitution damage per day without Tretonin for a week or more.",
+    "bonus": "Advantage on saves against disease. 1d4 Constitution damage per day after a week without Tretonin.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

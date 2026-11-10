@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "2",
-    "bonus": "At 2nd level, when you benefit from cover, you gain resistance to the damage of attacks hindered by that cover."
+    "description": {
+      "value": "<p>At 2nd level, when you benefit from cover, you gain resistance to the damage of attacks hindered by that cover.</p>"
+    }
   },
   "effects": [],
   "folder": "3Et0UADOq8hw2scN",

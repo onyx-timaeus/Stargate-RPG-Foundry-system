@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/concealed-holster.webp",
   "system": {
-    "description": "This slim holster is designed to hide the presence of a weapon from visual searches and cursory physical searches. It can hold a small weapon, typically a bludgeon, shortblade, sidearm, or thrown blade. The holster must be custom built for the type of weapon. The DC to spot a weapon in a concealed holster is equal to 10 + twice the holster’s tech level (DC 14 for most Tau’ri tech). This DC is increased by the user’s Proficiency bonus if the user is proficient in Sleight of Hand.",
+    "description": {
+      "value": "<p>This slim holster is designed to hide the presence of a weapon from visual searches and cursory physical searches. It can hold a small weapon, typically a bludgeon, shortblade, sidearm, or thrown blade. The holster must be custom built for the type of weapon. The DC to spot a weapon in a concealed holster is equal to 10 + twice the holster’s tech level (DC 14 for most Tau’ri tech). This DC is increased by the user’s Proficiency bonus if the user is proficient in Sleight of Hand.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

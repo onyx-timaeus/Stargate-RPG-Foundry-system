@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Strength 13+, Iron Grip",
     "category": "Combat - Ranged",
-    "bonus": "When you use an automatic weapon, you don't suffer disadvantage if you add a number of +TD to damage equal to your Proficiency bonus or less.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you use an automatic weapon, you don't suffer disadvantage if you add a number of +TD to damage equal to your Proficiency bonus or less.</p>"
     }
   },
   "effects": [],

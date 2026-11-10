@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Charisma 13+, Culture",
     "category": "General",
-    "bonus": "You can decipher the basics of an unknown language with a DC 20 Culture check and one week with a friendly speaker of the language. A translator provides advantage on this check and reduces the time to one day.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You can decipher the basics of an unknown language with a DC 20 Culture check and one week with a friendly speaker of the language. A translator provides advantage on this check and reduces the time to one day.</p>"
     }
   },
   "effects": [],

@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "5",
-    "bonus": "At 5th level, you may have two tactics in effect at the same time. If you use tactical flexibility, you must choose which of your currently active tactics is over-written by the new tactic for the duration of the effect.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 5th level, you may have two tactics in effect at the same time. If you use tactical flexibility, you must choose which of your currently active tactics is over-written by the new tactic for the duration of the effect.</p>"
     }
   },
   "effects": [],

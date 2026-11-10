@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "The most common pilots assigned to the Phoenix Site are unsurprisingly drafted from the US Air Force. However, others pilots of more esoteric vessels have been recruited, such as Death Glider pilots and even a blimp/zeppelin operator or two.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Pilot.</p><p><strong>Crash Landing:</strong> You gain resistance against all damage suffered when you are a pilot or a passenger of a vehicle when it crashes or is destroyed.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Pilot. Crash Landing: You gain resistance against all damage suffered when you are a pilot or a passenger of a vehicle when it crashes or is destroyed.",
+    "bonus": "Pilot proficiency. Resistance to all damage when a vehicle you are in crashes or is destroyed.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

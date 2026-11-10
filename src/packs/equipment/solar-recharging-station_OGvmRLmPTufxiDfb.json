@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/solar-recharging-station.webp",
   "system": {
-    "description": "This 25 square-meter folding solar panel has multiple hookups for recharging electrical equipment. In an environment with Earth-like sunlight, it can recharge most common devices during a long rest.",
+    "description": {
+      "value": "<p>This 25 square-meter folding solar panel has multiple hookups for recharging electrical equipment. In an environment with Earth-like sunlight, it can recharge most common devices during a long rest.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

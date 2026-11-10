@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/weapons/slings/slingshot-wood.webp",
   "system": {
-    "description": "A strap of leather, often with a pocket, used for hurling small stones at surprisingly high speed.",
+    "description": {
+      "value": "<p>A strap of leather, often with a pocket, used for hurling small stones at surprisingly high speed.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

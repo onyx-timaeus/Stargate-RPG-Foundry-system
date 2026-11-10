@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "General",
-    "bonus": "You've learned to stay alert for long periods of time, seeing past your own exhaustion. When you go without rest you may make an Intelligence or Wisdom save in place of a Constitution save to resist exhaustion. In addition, you gain advantage on the first of these saves between long rests.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you go without rest you may make an Intelligence or Wisdom save in place of a Constitution save to resist exhaustion. In addition, you gain advantage on the first of these saves between long rests.</p>"
     }
   },
   "effects": [],

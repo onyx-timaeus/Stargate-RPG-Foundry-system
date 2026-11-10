@@ -94,7 +94,7 @@ export default class InventorySelector extends Application {
         bulk: itemData.system?.bulk || 1,
         quantity: 1,
         techLevel: itemData.system?.techLevel || 0,
-        description: itemData.system?.description || '',
+        description: itemData.system?.description || { value: '' },
         lore: itemData.system?.lore || {
           origin: '',
           type: 'Weapon',

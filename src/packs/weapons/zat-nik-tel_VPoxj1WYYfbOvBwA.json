@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/zat-nik-tel.webp",
   "system": {
-    "description": "Favored by some members of the SG-1, the “Zat” is a weapon that escalates very quickly from non-lethal suppression tactics to lethal attacks. Phoenix Site has access to a few Zat’nik’tel weapons upon request from Earth, but General Loyer prefers to not employ them regularly due to their intimidating reputation among those abused by the Goa’uld. Targets struck by a Zat’nik’tel attack suffer 3 levels of Exhaustion (see page 123) instead of hit point damage. Note that whenever a creature reaches 3 levels of exhaustion (and every time it takes e x h a u s t i o n d a m a g e after that), it must save versus falling unconscious. A corpse struck by a Zat’nik’tel is disintegrated. Electronic systems targeted by a Zat’nik’tel suffer 1d12 Electric damage.",
+    "description": {
+      "value": "<p>Favored by some members of the SG-1, the “Zat” is a weapon that escalates very quickly from non-lethal suppression tactics to lethal attacks. Phoenix Site has access to a few Zat’nik’tel weapons upon request from Earth, but General Loyer prefers to not employ them regularly due to their intimidating reputation among those abused by the Goa’uld. Targets struck by a Zat’nik’tel attack suffer 3 levels of Exhaustion (see page 123) instead of hit point damage. Note that whenever a creature reaches 3 levels of exhaustion (and every time it takes e x h a u s t i o n d a m a g e after that), it must save versus falling unconscious. A corpse struck by a Zat’nik’tel is disintegrated. Electronic systems targeted by a Zat’nik’tel suffer 1d12 Electric damage.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Goa'uld/Jaffa",

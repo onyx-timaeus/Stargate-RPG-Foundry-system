@@ -5,7 +5,9 @@
   "img": "systems/sgrpg/assets/compendium/races/kelno-reem.webp",
   "system": {
     "originType": "racial",
-    "description": "When the Jaffa takes a long rest, he heals damage as if his Hit Die had rolled its maximum value. The character does not heal naturally during a short rest. ",
+    "description": {
+      "value": "<p>When the Jaffa takes a long rest, he heals damage as if his Hit Die had rolled its maximum value. The character does not heal naturally during a short rest.</p>"
+    },
     "requirements": "Jaffa",
     "attributeBonus": "none",
     "bonus": "When long resting, heal damage as if your HD had rolled its maximum value. You can't heal while a short rest.",

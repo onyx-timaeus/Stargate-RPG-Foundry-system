@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "Combat - Ranged",
-    "bonus": "You may treat Sidearms and Longarms you wield as if they had the burst quality. You may treat fireams with the burst quality as if they had the automatic quality.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may treat Sidearms and Longarms you wield as if they had the burst quality. You may treat firearms with the burst quality as if they had the automatic quality.</p>"
     }
   },
   "effects": [],

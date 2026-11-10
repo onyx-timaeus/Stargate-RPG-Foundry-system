@@ -282,7 +282,9 @@
         "types": ["weapon", "equip", "origin", "classAbility", "feat"],
         "templates": {
             "itemDescription": {
-                "description": "",
+                "description": {
+                    "value": ""
+                },
                 "techLevel": 2,
                 "lore": {
                     "origin": "",
@@ -337,7 +339,9 @@
         "origin": {
             "templates": [],
             "originType": "racial",
-            "description": "",
+            "description": {
+                "value": ""
+            },
             "requirements": "",
             "attributeBonus": "none",
             "bonus": "",
@@ -361,7 +365,9 @@
             "templates": [],
             "class": "none",
             "level": "",
-            "bonus": "",
+            "description": {
+                "value": ""
+            },
             "castTime": {
                 "value": "",
                 "type": ""
@@ -377,7 +383,9 @@
             "mpCost": "",
             "requirement": "",
             "category": "",
-            "bonus": "",
+            "description": {
+                "value": ""
+            },
             "castTime": {
                 "value": "",
                 "type": ""

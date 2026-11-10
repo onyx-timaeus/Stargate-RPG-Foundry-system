@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Most organized governments have decision makers either appointed by a ruler, elected by the people, or chosen in other more unique ways. You've learned to maintain a delicate balance between commander and public servant while telling people what they want to hear.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Persuasion.</p><p><strong>Two Faces:</strong> When making Deception Checks you may use Intelligence instead of Charisma.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Persuasion. Two Faces: When making Deception Checks you may use Intelligence instead of Charisma.",
+    "bonus": "Persuasion proficiency. Use Intelligence instead of Charisma for Deception checks.",
     "proficiencies": {
       "skill": "Persuasion",
       "weapon": "none",

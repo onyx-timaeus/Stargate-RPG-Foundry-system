@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "Discovery",
-    "bonus": "As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent."
+    "description": {
+      "value": "<p>As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent.</p>"
+    }
   },
   "effects": [],
   "folder": "K7lGRqNkPRJ7ttJK",

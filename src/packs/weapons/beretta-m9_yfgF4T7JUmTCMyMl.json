@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/beretta-m9.webp",
   "system": {
-    "description": "The staple side-arm of the Tau’ri military is the Beretta M9. It can be upgraded, but is typically issued as a stock sidearm.",
+    "description": {
+      "value": "<p>The staple side-arm of the Tau’ri military is the Beretta M9. It can be upgraded, but is typically issued as a stock sidearm.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

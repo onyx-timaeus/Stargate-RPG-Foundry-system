@@ -7,7 +7,6 @@
     "mpCost": "3, 6, 9",
     "requirement": "None",
     "category": "General",
-    "bonus": "Gain proficiency in a skill of your choice. You may select this ability up to three times, and each time its MP cost increases by 3MP.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Gain proficiency in a skill of your choice. You may select this ability up to three times, and each time its MP cost increases by 3MP.</p>"
     }
   },
   "effects": [],

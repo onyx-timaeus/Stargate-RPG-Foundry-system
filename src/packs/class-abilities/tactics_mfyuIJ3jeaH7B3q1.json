@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "1",
-    "bonus": "You’ve trained extensively with a specific tactic, providing advantages to your team. Your team may benefit from one tactic at a time, and you may change your current tactic to another tactic you know with an action on your turn. Choose one tactic feat (see page 103) at 1st level and an additional tactic feat at 4th level.",
     "castTime": {
       "value": "",
       "type": "action"
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Your team may benefit from one tactic at a time, and you may change your current tactic to another tactic you know with an action on your turn. Choose one tactic feat (see page 103) at 1st level and an additional tactic feat at 4th level.</p>"
     }
   },
   "effects": [],

@@ -20,6 +20,7 @@ import * as chat from "./module/chat.js"
 import * as macros from "./module/macros.js"
 import { _getInitiativeFormula } from "./module/combat.js";
 import { preloadHandlebarsTemplates } from "./module/templates.js";
+import { migrateDescriptions, registerMigrationSetting } from "./module/migrate.js";
 
 Hooks.once("init", function(){
     game.settings.register("sgrpg", "autoApplyDamage", {
@@ -106,11 +107,14 @@ Hooks.once("init", function(){
         return !isNaN(parseFloat(value)) && isFinite(value);
     });
 
+    registerMigrationSetting();
+
     preloadHandlebarsTemplates()
 });
 
 Hooks.once("ready", function() {
     console.log("Registering StarGate systems");
+    migrateDescriptions();
 
     // Register hotbar drop hook after modules initialize
     Hooks.on("hotbarDrop", (bar, data, slot) => macros.createSgMacro(data, slot));

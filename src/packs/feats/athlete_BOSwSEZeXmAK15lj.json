@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Acrobatics or Athletics",
     "category": "Downtime",
-    "bonus": "You're always in the gym, pushing yourself to ever greater limits. When you spend time in the gym, you also add its Facility bonus to your melee attack rolls.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you spend time in the gym, you also add its Facility bonus to your melee attack rolls.</p>"
     }
   },
   "effects": [],

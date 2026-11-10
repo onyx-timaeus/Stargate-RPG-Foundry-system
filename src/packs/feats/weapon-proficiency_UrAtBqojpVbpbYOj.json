@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "General",
-    "bonus": "Choose one type of weapon (Common, Sidearm, Gunnery, etc). and gain proficiency in that weapon. You may select this ability multiple times, choosing a different weapon type each time. This feat cannot be used to choose Martial Arts proficiency.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose one type of weapon (Common, Sidearm, Gunnery, etc.) and gain proficiency in that weapon. You may select this ability multiple times, choosing a different weapon type each time. This feat cannot be used to choose Martial Arts proficiency.</p>"
     }
   },
   "effects": [],

@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Many cultures make use of animals both as a food source and as a means of labor. Your people made use of flocks and beasts of burdens regularly, and you've learned to care for and train beasts.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Animal Handling.</p><p><strong>Beastfriend:</strong> When making Animal Handling Checks, you may use Charisma instead of Wisdom.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Animal Handling. Beastfriend: When making Animal Handling Checks, you may use Charisma instead of Wisdom.",
+    "bonus": "Animal Handling proficiency. Use Charisma instead of Wisdom for Animal Handling checks.",
     "proficiencies": {
       "skill": "Animal Handling",
       "weapon": "none",

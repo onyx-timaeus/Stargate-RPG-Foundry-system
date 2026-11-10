@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/mre.webp",
   "system": {
-    "description": "“Meals Ready To Eat” come in a variety of meal options with the tools to prepare a hot meal without fire. A single MRE is enough to provide a soldier with a day’s calories. Each MRE includes an entree and dessert with chemical heating bags, protein drink powder (banana, chocolate, or vanilla), plastic utensils, a hot beverage (cocoa, coffee, or tea) and a condiment package (ketchup, mustard, salt, sugar, pepper, and hot sauce). An MRE can be prepared during a short rest.",
+    "description": {
+      "value": "<p>“Meals Ready To Eat” come in a variety of meal options with the tools to prepare a hot meal without fire. A single MRE is enough to provide a soldier with a day’s calories. Each MRE includes an entree and dessert with chemical heating bags, protein drink powder (banana, chocolate, or vanilla), plastic utensils, a hot beverage (cocoa, coffee, or tea) and a condiment package (ketchup, mustard, salt, sugar, pepper, and hot sauce). An MRE can be prepared during a short rest.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -65,15 +65,12 @@
                 </div>
             </div>
 
-            {{!-- BONUS --}}
+            {{!-- DESCRIPTION --}}
             <div class="origin-section">
-                <div class="section-title">BONUS</div>
+                <div class="section-title">DESCRIPTION</div>
                 <div class="section-content">
-                    <div class="origin-stat-row">
-                        <div class="origin-stat origin-stat-full">
-                            <label for="system.bonus">Bonus</label>
-                            <textarea name="system.bonus" rows="6" placeholder="Feat bonuses, features, or special abilities...">{{data.bonus}}</textarea>
-                        </div>
+                    <div class="origin-stat origin-stat-full">
+                        {{editor data.description.value target="system.description.value" button=true owner=owner editable=editable}}
                     </div>
                 </div>
             </div>

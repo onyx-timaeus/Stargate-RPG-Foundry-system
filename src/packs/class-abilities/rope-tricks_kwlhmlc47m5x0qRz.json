@@ -6,7 +6,9 @@
   "system": {
     "class": "scout",
     "level": "Field Hack",
-    "bonus": "Your expert knots and efficient use of rope allow your entire team to benefit from your Climbing Kit."
+    "description": {
+      "value": "<p>Your expert knots and efficient use of rope allow your entire team to benefit from your Climbing Kit.</p>"
+    }
   },
   "effects": [],
   "folder": "qgqMjODrvffjwUSa",

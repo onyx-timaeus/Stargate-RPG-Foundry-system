@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Inspire ability",
     "category": "Inspiration",
-    "bonus": "After you hit a target with an attack, you may take a bonus action to grant an inspired character advantage to their next attack roll made before your next turn against the same target.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>After you hit a target with an attack, you may take a bonus action to grant an inspired character advantage to their next attack roll made before your next turn against the same target.</p>"
     }
   },
   "effects": [],

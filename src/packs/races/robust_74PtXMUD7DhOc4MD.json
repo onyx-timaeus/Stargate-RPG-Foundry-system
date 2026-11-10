@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "Unas add +4 to their Strength to determine how much they can lift or carry. In addition, they gain advantage on Strength checks made to lift, carry, or push (such as battering open a door).",
+    "description": {
+      "value": "<p>Unas add +4 to their Strength to determine how much they can lift or carry. In addition, they gain advantage on Strength checks made to lift, carry, or push (such as battering open a door).</p>"
+    },
     "requirements": "Unas",
     "attributeBonus": "none",
-    "bonus": "Gain Advantage to any STR checks",
+    "bonus": "+4 Strength for lifting and carrying. Advantage on Strength checks to lift, carry, or push.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

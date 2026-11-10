@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/camo-kit.webp",
   "system": {
-    "description": "A combination of makeup and various camouflage ponchos, this kit grants proficient characters advantage on Stealth checks made while in natural cover. It takes a few minutes to apply a Camo kit to a person for a specific environment and can be done during a short rest.",
+    "description": {
+      "value": "<p>A combination of makeup and various camouflage ponchos, this kit grants proficient characters advantage on Stealth checks made while in natural cover. It takes a few minutes to apply a Camo kit to a person for a specific environment and can be done during a short rest.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Tau'ri",

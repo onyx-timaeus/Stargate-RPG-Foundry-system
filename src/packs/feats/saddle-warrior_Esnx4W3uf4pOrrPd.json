@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "None",
     "category": "Combat - General",
-    "bonus": "When mounted on a personal transport (such as a horse or motorcycle) you gain advantage on melee attack rolls if you moved at least 3m before the attack.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When mounted on a personal transport (such as a horse or motorcycle) you gain advantage on melee attack rolls if you moved at least 3m before the attack.</p>"
     }
   },
   "effects": [],

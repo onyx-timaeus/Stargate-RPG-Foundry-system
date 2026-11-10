@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "2",
-    "bonus": "At 2nd level, you are difficult to deceive or confuse. You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies."
+    "description": {
+      "value": "<p>At 2nd level, you are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.</p>"
+    }
   },
   "effects": [],
   "folder": "JAANGH36GgEtF0tk",

@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Proficiency with chosen skill",
     "category": "General",
-    "bonus": "Choose a skill in which you are proficient. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. You may select this ability multiple times, applying its effect to a different skill each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>Choose a skill in which you are proficient. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. You may select this ability multiple times, applying its effect to a different skill each time.</p>"
     }
   },
   "effects": [],

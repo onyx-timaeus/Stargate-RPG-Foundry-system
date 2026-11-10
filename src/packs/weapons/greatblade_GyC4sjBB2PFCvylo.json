@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "systems/sgrpg/assets/compendium/weapons/greatblade.webp",
   "system": {
-    "description": "For those who believe bigger is always better, a variety of greatblades (from swords to axes) are designed to be swung with two hands and to fell a foe as quickly as possible.",
+    "description": {
+      "value": "<p>For those who believe bigger is always better, a variety of greatblades (from swords to axes) are designed to be swung with two hands and to fell a foe as quickly as possible.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

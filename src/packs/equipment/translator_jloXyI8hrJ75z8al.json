@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/translator.webp",
   "system": {
-    "description": "This handheld device contains a library of every catalogued language available to the Phoenix Site. Proficient characters may make Charisma checks without sharing a language with anyone speaking a language on file.",
+    "description": {
+      "value": "<p>This handheld device contains a library of every catalogued language available to the Phoenix Site. Proficient characters may make Charisma checks without sharing a language with anyone speaking a language on file.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

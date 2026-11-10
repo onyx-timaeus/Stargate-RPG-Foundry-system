@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/races/impressive-resilience.webp",
   "system": {
     "originType": "racial",
-    "description": "When you are the target of an attack, you may use your reaction to gain Resistance to damage for a number of rounds equal to a roll of the TD. You may use this ability once per long rest. While this ability is active, you cannot be reduced below 1 HP (regardless of how much damage you take).",
+    "description": {
+      "value": "<p>When you are the target of an attack, you may use your reaction to gain Resistance to damage for a number of rounds equal to a roll of the TD. You may use this ability once per long rest. While this ability is active, you cannot be reduced below 1 HP (regardless of how much damage you take).</p>"
+    },
     "requirements": "Unas",
     "attributeBonus": "none",
-    "bonus": "Your HP can't be reduced under 1 HP. \nGain resistance to the damage type for TD rounds. ",
+    "bonus": "Reaction when targeted by an attack: resistance to damage for TD rounds and your HP can't drop below 1. Once per long rest.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

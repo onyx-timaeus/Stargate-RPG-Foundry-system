@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "3",
-    "bonus": "At 3rd level, you add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP."
+    "description": {
+      "value": "<p>At 3rd level, you add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP.</p>"
+    }
   },
   "effects": [],
   "folder": "Pp4n22kyUBD2fjZw",

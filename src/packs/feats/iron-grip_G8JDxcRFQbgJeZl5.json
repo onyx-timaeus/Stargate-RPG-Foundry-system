@@ -7,7 +7,6 @@
     "mpCost": "9",
     "requirement": "Strength 13+",
     "category": "Combat - Ranged",
-    "bonus": "When using a weapon with the automatic upgrade you add +2 to your effective Strength modifier for determining how many +TD are added to damage.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When using a weapon with the automatic upgrade you add +2 to your effective Strength modifier for determining how many +TD are added to damage.</p>"
     }
   },
   "effects": [],

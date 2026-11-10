@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Whether controlling a team of horses pulling a stagecoach or delivering illicit goods across borders on a dirt bike, the driver has developed skills at steering a vehicle rapidly in a variety of conditions.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Animal Handling.</p><p><strong>Speedster:</strong> Vehicles you are piloting and animals you are riding or driving gain +1 AC.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Animal Handling. Speedster: Vehicles you are piloting and animals you are riding or driving gain +1 AC.",
+    "bonus": "Animal Handling proficiency. Vehicles you pilot and animals you ride or drive gain +1 AC.",
     "proficiencies": {
       "skill": "Animal Handling",
       "weapon": "none",

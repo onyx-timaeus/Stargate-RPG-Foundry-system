@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "This collection of hides offer warmth and a moderate degree of protection.",
+    "description": {
+      "value": "<p>This collection of hides offer warmth and a moderate degree of protection.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

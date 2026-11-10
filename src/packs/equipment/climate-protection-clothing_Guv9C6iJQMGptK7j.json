@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
   "system": {
-    "description": "Heavy clothing that provides protection from the cold, high winds, and even radiation when combined with a filtration mask. This clothing can be worn with armor and provides advantage on saves against cold. When combined with a Filtration/Radiation mask it also provides advantages on saves against radiation effects.",
+    "description": {
+      "value": "<p>Heavy clothing that provides protection from the cold, high winds, and even radiation when combined with a filtration mask. This clothing can be worn with armor and provides advantage on saves against cold. When combined with a Filtration/Radiation mask it also provides advantages on saves against radiation effects.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

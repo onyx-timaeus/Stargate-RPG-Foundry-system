@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "1",
-    "bonus": "Your careful study of scientific principles and your chosen field of study allow you to make insights few others would consider. Choose one Discovery feat (see page 101) at 1st level and an additional discovery feat at 3rd level and 5th level."
+    "description": {
+      "value": "<p>Choose one Discovery feat (see page 101) at 1st level and an additional discovery feat at 3rd level and 5th level.</p>"
+    }
   },
   "effects": [],
   "folder": "WDVeZLDKA3oKYeSW",

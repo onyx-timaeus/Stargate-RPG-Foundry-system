@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "Typical shields may vary from small bucklers, designed for fencers, to larger kite shields.",
+    "description": {
+      "value": "<p>Typical shields may vary from small bucklers, designed for fencers, to larger kite shields.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

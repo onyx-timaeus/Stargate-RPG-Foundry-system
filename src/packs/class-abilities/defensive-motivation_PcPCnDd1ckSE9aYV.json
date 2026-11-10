@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "Inspired characters gains +1 AC."
+    "description": {
+      "value": "<p>Inspired characters gains +1 AC.</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

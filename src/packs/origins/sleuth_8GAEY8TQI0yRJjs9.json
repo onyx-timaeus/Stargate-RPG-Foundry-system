@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "With a keen intellect, you've spent time professionally seeking troublesome truths in service of your society's laws. A sleuth uncovers those secrets either for themselves, a client, a policing force, or a clandestine organization.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Investigation.</p><p><strong>The Reveal:</strong> You gain advantage on any Persuasion checks to accuse someone of a crime or wrongdoing.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Investigation. The Reveal: You gain advantage on any Persuasion checks to accuse someone of a crime or wrongdoing.",
+    "bonus": "Investigation proficiency. Advantage on Persuasion checks to accuse someone of a crime or wrongdoing.",
     "proficiencies": {
       "skill": "Investigation",
       "weapon": "none",

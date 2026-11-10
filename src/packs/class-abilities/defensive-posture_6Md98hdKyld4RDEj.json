@@ -6,7 +6,9 @@
   "system": {
     "class": "soldier",
     "level": "Tactic",
-    "bonus": "Add +2 AC to other team members within 2m of you."
+    "description": {
+      "value": "<p>Add +2 AC to other team members within 2m of you.</p>"
+    }
   },
   "effects": [],
   "folder": "MELo3UoS4m90z3Ib",

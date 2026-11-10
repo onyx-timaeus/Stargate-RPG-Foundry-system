@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "Modification",
-    "bonus": "Grenades from your kit deal +1d6 damage when used by you. You may choose this modification multiple times; each time you do your kit's grenades deal an additional +1d6 damage when used by you."
+    "description": {
+      "value": "<p>Grenades from your kit deal +1d6 damage when used by you. You may choose this modification multiple times; each time you do your kit's grenades deal an additional +1d6 damage when used by you.</p>"
+    }
   },
   "effects": [],
   "folder": "c8PKt9qYlMbTGZUX",

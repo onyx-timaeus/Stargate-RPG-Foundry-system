@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/generator-naquadah.webp",
   "system": {
-    "description": "Much like a standard combustion generator or solar collector, the Naquadah generator’s primary function is to provide power to a facility or location. The Phoenix Site itself runs on several redundant Naquadah generators and field deployment is not unheard of. The Naquadah generator is extremely portable, depending on the design iteration of this new technology, typically measuring less than a meter long. The Naquadah generator is a TechLevel 3 device and produces enough power to keep a military base fully functioning or operate a Stargate.",
+    "description": {
+      "value": "<p>Much like a standard combustion generator or solar collector, the Naquadah generator’s primary function is to provide power to a facility or location. The Phoenix Site itself runs on several redundant Naquadah generators and field deployment is not unheard of. The Naquadah generator is extremely portable, depending on the design iteration of this new technology, typically measuring less than a meter long. The Naquadah generator is a TechLevel 3 device and produces enough power to keep a military base fully functioning or operate a Stargate.</p>"
+    },
     "techLevel": 3,
     "lore": {
       "origin": "Tau'ri/Ancient",

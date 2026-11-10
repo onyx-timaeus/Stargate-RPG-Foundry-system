@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "racial",
-    "description": "As an operation of the USAF, the Phoenix Site is technically part of the human military. In recent years, General Loyer recruited from other branches of the military. The majority of personnel assigned to the Phoenix Site are from this background.",
+    "description": {
+      "value": "<p><strong>Basic Training:</strong> You are proficient in martial arts, longarms, or heavy armor (pick one).</p>"
+    },
     "requirements": "Required Race: Human (must be from Earth)",
     "attributeBonus": "none",
-    "bonus": "Basic Training: You are proficient in martial arts, longarms, or heavy armor (pick one).",
+    "bonus": "Proficiency in martial arts, longarms, or heavy armor (pick one).",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

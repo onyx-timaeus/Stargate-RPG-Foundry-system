@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Hold Together",
     "category": "Combat - General",
-    "bonus": "As an action you may extend the benefit of your Hold Together ability to all friendly characters within 1m.",
     "castTime": {
       "value": "1",
       "type": "action"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>As an action you may extend the benefit of your Hold Together ability to all friendly characters within 1m.</p>"
     }
   },
   "effects": [],

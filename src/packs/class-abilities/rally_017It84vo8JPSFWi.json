@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "2",
-    "bonus": "At 2nd level, if you are wounded when initiative is rolled (at the start of an action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "1",
       "type": "long"
+    },
+    "description": {
+      "value": "<p>At 2nd level, if you are wounded when initiative is rolled (at the start of an action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest.</p>"
     }
   },
   "effects": [],

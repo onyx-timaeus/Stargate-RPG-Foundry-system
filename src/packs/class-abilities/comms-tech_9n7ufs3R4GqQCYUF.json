@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "Modification",
-    "bonus": "Your team's tactical radio equipment has a range of 20km (instead of 5km). In addition, when you launch a communications balloon, its duration increases to 15d6 hours."
+    "description": {
+      "value": "<p>Your team's tactical radio equipment has a range of 20km (instead of 5km). In addition, when you launch a communications balloon, its duration increases to 15d6 hours.</p>"
+    }
   },
   "effects": [],
   "folder": "c8PKt9qYlMbTGZUX",

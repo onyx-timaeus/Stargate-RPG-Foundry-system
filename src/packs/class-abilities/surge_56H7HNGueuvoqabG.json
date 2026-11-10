@@ -6,7 +6,6 @@
   "system": {
     "class": "soldier",
     "level": "2",
-    "bonus": "At 2nd level, you can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.",
     "castTime": {
       "value": "",
       "type": "bonus"
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "1",
       "type": "shortlong"
+    },
+    "description": {
+      "value": "<p>At 2nd level, you can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.</p>"
     }
   },
   "effects": [],

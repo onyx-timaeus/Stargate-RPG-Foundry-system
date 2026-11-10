@@ -6,7 +6,9 @@
   "system": {
     "class": "engineer",
     "level": "5",
-    "bonus": "Starting at 5th level, you have gained a broad understanding of various technologies alien to your home world. When performing an episode R&D encounter, you may use this out-of-the-box thinking to reduce the time required by one stage (minutes requires rounds, hours requires minutes, and so on). In addition, you gain advantage on any ability check to understand the function and design of a technology with which you are not already familiar."
+    "description": {
+      "value": "<p>Starting at 5th level, when performing an episode R&amp;D encounter, you may use this out-of-the-box thinking to reduce the time required by one stage (minutes requires rounds, hours requires minutes, and so on). In addition, you gain advantage on any ability check to understand the function and design of a technology with which you are not already familiar.</p>"
+    }
   },
   "effects": [],
   "folder": "XvSMtfsYppRy62q5",

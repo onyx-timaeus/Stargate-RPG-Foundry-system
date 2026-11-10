@@ -7,7 +7,6 @@
     "mpCost": "6",
     "requirement": "None",
     "category": "General",
-    "bonus": "You may add your Proficiency bonus to Initiative checks.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may add your Proficiency bonus to Initiative checks.</p>"
     }
   },
   "effects": [],

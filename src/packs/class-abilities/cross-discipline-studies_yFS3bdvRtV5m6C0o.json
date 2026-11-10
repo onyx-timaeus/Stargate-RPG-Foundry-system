@@ -6,7 +6,9 @@
   "system": {
     "class": "scientist",
     "level": "3",
-    "bonus": "At 3rd level, you add half your Proficiency bonus, rounded down, to any Intelligence, Wisdom, or Charisma skill check that doesn’t already include your Proficiency bonus."
+    "description": {
+      "value": "<p>At 3rd level, you add half your Proficiency bonus, rounded down, to any Intelligence, Wisdom, or Charisma skill check that doesn’t already include your Proficiency bonus.</p>"
+    }
   },
   "effects": [],
   "folder": "48MGo6bIsc45GSql",

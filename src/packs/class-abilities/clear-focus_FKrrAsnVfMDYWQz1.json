@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "During a long rest, choose a skill in which you are proficient. Inspired characters gain advantage on the chosen skill until your next long rest."
+    "description": {
+      "value": "<p>During a long rest, choose a skill in which you are proficient. Inspired characters gain advantage on the chosen skill until your next long rest.</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

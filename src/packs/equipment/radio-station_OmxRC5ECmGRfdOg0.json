@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/radio-station.webp",
   "system": {
-    "description": "The radio station is deployed at a base of operations to grant the local command structure enhanced communication range. This stationary radio has several broadcasting antenna as well as a central logistics computer, recording capability, and dedicated solar array. Its base range is 100km to broadcast, but personal tactical radios require a relay if they wish to reply from outside their limited range. The radio station also serves as a relay for other tactical radios.",
+    "description": {
+      "value": "<p>The radio station is deployed at a base of operations to grant the local command structure enhanced communication range. This stationary radio has several broadcasting antenna as well as a central logistics computer, recording capability, and dedicated solar array. Its base range is 100km to broadcast, but personal tactical radios require a relay if they wish to reply from outside their limited range. The radio station also serves as a relay for other tactical radios.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

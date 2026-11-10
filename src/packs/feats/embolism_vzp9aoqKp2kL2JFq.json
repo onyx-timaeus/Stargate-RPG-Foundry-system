@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "First Aid ability",
     "category": "Procedure",
-    "bonus": "You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage.</p>"
     }
   },
   "effects": [],

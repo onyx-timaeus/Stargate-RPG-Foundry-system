@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "The oppression of a Goa'uld System Lord or another powerful force kept your people in bondage, but you fought back where others were cowed.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Stealth.</p><p><strong>Last Resorts:</strong> You suffer disadvantage on all Moxie checks, but gain advantage on all Initiative Checks.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Stealth. Last Resorts: You suffer disadvantage on all Moxie checks, but gain advantage on all Initiative Checks.",
+    "bonus": "Stealth proficiency. Disadvantage on Moxie checks, advantage on Initiative checks.",
     "proficiencies": {
       "skill": "Stealth",
       "weapon": "none",

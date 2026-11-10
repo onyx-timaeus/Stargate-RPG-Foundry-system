@@ -7,7 +7,6 @@
     "mpCost": "3",
     "requirement": "Deception",
     "category": "General",
-    "bonus": "When you take an Ingratiate action during a Diplomatic Function encounter you may choose another character to also gain a Determination point. In addition, that character gains advantage on their action if they have not yet attempted it this round.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you take an Ingratiate action during a Diplomatic Function encounter you may choose another character to also gain a Determination point. In addition, that character gains advantage on their action if they have not yet attempted it this round.</p>"
     }
   },
   "effects": [],

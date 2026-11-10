@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Tactical Flexibility ability",
     "category": "Tactic",
-    "bonus": "You and your team members gain advantage on your first melee attack after any short or long rest.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>You and your team members gain advantage on your first melee attack after any short or long rest.</p>"
     }
   },
   "effects": [],

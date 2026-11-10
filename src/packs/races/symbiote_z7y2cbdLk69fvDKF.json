@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/races/symbiote.webp",
   "system": {
     "originType": "racial",
-    "description": "As long as a Jaffa has a symbiote, they may choose to gain advantage on any physical save (Strength, Dexterity, Constitution). A Jaffa may use this \nability once per Proficiency Bonus (minimum 1), replenishing the uses during a long rest. If a Jaffa is deprived of their symbiote, they must make a DC 10 Constitution save each hour or suffer 1d4 Constitution damage.",
+    "description": {
+      "value": "<p>As long as a Jaffa has a symbiote, they may choose to gain advantage on any physical save (Strength, Dexterity, Constitution). A Jaffa may use this ability once per Proficiency Bonus (minimum 1), replenishing the uses during a long rest. If a Jaffa is deprived of their symbiote, they must make a DC 10 Constitution save each hour or suffer 1d4 Constitution damage.</p>"
+    },
     "requirements": "Jaffa",
     "attributeBonus": "none",
-    "bonus": "Gain advantage on any physical save (Strength, Dexterity, Constitution). If you lose your symbiote, make a DC 10 Constitution save each hour or suffer 1d4 Constitution damage.",
+    "bonus": "Advantage on a physical save, Proficiency bonus uses per long rest. If you lose your symbiote, make a DC 10 Constitution save each hour or suffer 1d4 Constitution damage.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

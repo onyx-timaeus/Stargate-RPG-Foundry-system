@@ -4,7 +4,9 @@
   "type": "weapon",
   "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
   "system": {
-    "description": "A character proficient in any of the myriad types of Martial Arts has access to the Martial Arts attack in place of their normal Unarmed Strike.",
+    "description": {
+      "value": "<p>A character proficient in any of the myriad types of Martial Arts has access to the Martial Arts attack in place of their normal Unarmed Strike.</p>"
+    },
     "techLevel": 0,
     "lore": {
       "origin": "Unarmed",

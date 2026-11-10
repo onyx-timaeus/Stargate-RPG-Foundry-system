@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "biome",
-    "description": "Whether from sandy dunes or rocky badlands, your homeland was known for its water scarcity and high temperatures. Many worlds see civilizations built on the backs of desert communities that are forced to work together, developing commerce, trade, and the culture's first governments.",
+    "description": {
+      "value": "<p><strong>Attribute:</strong> Charisma +1.</p><p><strong>Heat Acclimated:</strong> You have resistance against fire damage.</p>"
+    },
     "requirements": "",
     "attributeBonus": "cha",
-    "bonus": "Attribute: Charisma +1. Heat Acclimated: You have resistance against fire damage.",
+    "bonus": "Resistance to fire damage.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

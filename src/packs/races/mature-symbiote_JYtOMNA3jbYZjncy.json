@@ -5,10 +5,12 @@
   "img": "systems/sgrpg/assets/compendium/races/mature-symbiote.webp",
   "system": {
     "originType": "racial",
-    "description": "",
+    "description": {
+      "value": "<p>The Goa'uld has advantage on all Strength, Dexterity, and Constitution saves.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "The Goa'uld has advantage on all Strength, Dexterity, and Constitution saves.",
+    "bonus": "Advantage on Strength, Dexterity, and Constitution saves.",
     "proficiencies": {
       "skill": "none",
       "weapon": "none",

@@ -6,7 +6,9 @@
   "system": {
     "class": "diplomat",
     "level": "Inspiration",
-    "bonus": "Once per short rest, when an inspired character fails a skill check that you are proficient in, you may allow the character to re-roll the result."
+    "description": {
+      "value": "<p>Once per short rest, when an inspired character fails a skill check that you are proficient in, you may allow the character to re-roll the result.</p>"
+    }
   },
   "effects": [],
   "folder": "sKGnZId420zD8gjY",

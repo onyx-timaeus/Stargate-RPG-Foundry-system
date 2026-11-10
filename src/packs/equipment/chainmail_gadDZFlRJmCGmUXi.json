@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": "Links of metal chain offer greater defense at the expense of weight and bulk.",
+    "description": {
+      "value": "<p>Links of metal chain offer greater defense at the expense of weight and bulk.</p>"
+    },
     "techLevel": 1,
     "lore": {
       "origin": "Common",

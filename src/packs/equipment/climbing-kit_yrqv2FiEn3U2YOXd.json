@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/climbing-kit.webp",
   "system": {
-    "description": "This collection of 1000m of cord, carabiners, climbing hooks, pitons, pulleys, and a rope grab provide advantage on climbing checks.",
+    "description": {
+      "value": "<p>This collection of 1000m of cord, carabiners, climbing hooks, pitons, pulleys, and a rope grab provide advantage on climbing checks.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

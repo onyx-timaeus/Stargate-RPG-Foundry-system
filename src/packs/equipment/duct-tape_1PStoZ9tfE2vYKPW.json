@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/duct-tape.webp",
   "system": {
-    "description": "Often joked about for its sheer utility among mechanics, engineers, and soldiers alike, this non-conductive military-grade adhesive tape can withstand extreme temperatures and weather. Its uses are frequently limited only by the technician’s imagination.",
+    "description": {
+      "value": "<p>Often joked about for its sheer utility among mechanics, engineers, and soldiers alike, this non-conductive military-grade adhesive tape can withstand extreme temperatures and weather. Its uses are frequently limited only by the technician’s imagination.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",

@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Level 5, Word In An Ear ability",
     "category": "General",
-    "bonus": "When you inspire a friendly character using Word In An Ear, you roll an additional Inspire die to determine how many Inspire HP the character gains. This feat may be purchased a second time at level 11 and a third time at level 17, adding an additional Inspire die each time.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you inspire a friendly character using Word In An Ear, you roll an additional Inspire die to determine how many Inspire HP the character gains. This feat may be purchased a second time at level 11 and a third time at level 17, adding an additional Inspire die each time.</p>"
     }
   },
   "effects": [],

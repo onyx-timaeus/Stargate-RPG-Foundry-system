@@ -7,7 +7,6 @@
     "mpCost": "",
     "requirement": "",
     "category": "",
-    "bonus": "The Living Armor can channel thunderous energy to emanate a shockwave in a 3-foot radius. Creatures within this radius must succeed on a DC 13 Constitution saving throw or take 10 (3d6) thunder damage and be knocked prone. On a successful save, creatures take half damage and are not knocked prone.",
     "castTime": {
       "value": "1",
       "type": "bonus"
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>The Living Armor can channel thunderous energy to emanate a shockwave in a 3-foot radius. Creatures within this radius must succeed on a DC 13 Constitution saving throw or take 10 (3d6) thunder damage and be knocked prone. On a successful save, creatures take half damage and are not knocked prone.</p>"
     }
   },
   "effects": [],

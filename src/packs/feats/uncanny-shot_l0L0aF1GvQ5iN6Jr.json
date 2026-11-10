@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "Sniper Techniques",
     "category": "Combat - Ranged",
-    "bonus": "When you apply Sniper Techniques to an attack you also double the long range of the attack.",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you apply Sniper Techniques to an attack you also double the long range of the attack.</p>"
     }
   },
   "effects": [],

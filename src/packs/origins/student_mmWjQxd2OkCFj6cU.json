@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "As with many youth, you were still deciding where life wanted to take you when the lure of the Stargate called. Now your eagerness to learn is directed into the unknown cosmos.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Perception.</p><p><strong>Quick Study:</strong> Once per mission, you may make an Intelligence save instead of another save.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Perception. Quick Study: Once per mission, you may make an Intelligence save instead of another save.",
+    "bonus": "Perception proficiency. Once per mission, make an Intelligence save instead of another save.",
     "proficiencies": {
       "skill": "Perception",
       "weapon": "none",

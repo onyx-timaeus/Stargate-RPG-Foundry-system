@@ -6,7 +6,6 @@
   "system": {
     "class": "medic",
     "level": "5",
-    "bonus": "At 5th level, you may add your Wisdom modifier to the damage you heal with a med kit. In addition, you may use a med kit to heal a scuffed team member as an action (rather than during a short rest).",
     "castTime": {
       "value": "",
       "type": ""
@@ -14,6 +13,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>At 5th level, you may add your Wisdom modifier to the damage you heal with a med kit. In addition, you may use a med kit to heal a scuffed team member as an action (rather than during a short rest).</p>"
     }
   },
   "effects": [],

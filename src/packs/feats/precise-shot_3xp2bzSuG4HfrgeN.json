@@ -7,7 +7,6 @@
     "mpCost": "5",
     "requirement": "None",
     "category": "Combat - Ranged",
-    "bonus": "When you make ranged attacks, the target does not gain the benefits of cover granted by creatures (but terrain or equipment based cover is unaffected).",
     "castTime": {
       "value": "",
       "type": ""
@@ -15,6 +14,9 @@
     "limitations": {
       "value": "",
       "type": ""
+    },
+    "description": {
+      "value": "<p>When you make ranged attacks, the target does not gain the benefits of cover granted by creatures (but terrain or equipment based cover is unaffected).</p>"
     }
   },
   "effects": [],

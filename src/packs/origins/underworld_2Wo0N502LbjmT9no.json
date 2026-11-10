@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "Any culture with laws has people who break those laws. You operated in the shadows of your society, and those skills can be useful to Stargate teams looking to procure contraband or lay low in an alien society.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Sleight of Hand.</p><p><strong>Black Market:</strong> You gain advantage on any ability check to make peaceful contact with members of the underworld.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Sleight of Hand. Black Market: You gain advantage on any ability check to make peaceful contact with members of the underworld.",
+    "bonus": "Sleight of Hand proficiency. Advantage on ability checks to make peaceful contact with the underworld.",
     "proficiencies": {
       "skill": "Sleight of Hand",
       "weapon": "none",

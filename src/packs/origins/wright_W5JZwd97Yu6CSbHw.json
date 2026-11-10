@@ -5,10 +5,12 @@
   "img": "icons/svg/book.svg",
   "system": {
     "originType": "background",
-    "description": "From the first wheelmaker to expert repair technicians, the wright fills a vital role in any civilization. Regardless of your people's level of technological advancement, you've learned to approach problems in a pragmatic matter and are quick to learn new mechanical concepts.",
+    "description": {
+      "value": "<p><strong>Bonus Proficiency:</strong> Engineering.</p><p><strong>Measure Twice:</strong> You gain half your Proficiency bonus on ability checks with tools you are not proficient in.</p>"
+    },
     "requirements": "",
     "attributeBonus": "none",
-    "bonus": "Bonus Proficiency: Engineering. Measure Twice: You gain half your Proficiency bonus on ability checks with tools you are not proficient in.",
+    "bonus": "Engineering proficiency. Add half your Proficiency bonus to checks with tools you are not proficient in.",
     "proficiencies": {
       "skill": "Engineering",
       "weapon": "none",

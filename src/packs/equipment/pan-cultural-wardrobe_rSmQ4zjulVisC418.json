@@ -4,7 +4,9 @@
   "type": "equip",
   "img": "systems/sgrpg/assets/compendium/equipment/pan-cultural-wardrobe.webp",
   "system": {
-    "description": "This collection of well made, but simple clothing items pack tightly into a backpack and is designed to go unnoticed in as many galactic cultures as possible with a small amount of alteration. A character proficient in its use can provide one character per Wisdom modifier with advantage on Deception checks to pass unnoticed through a society. This process takes a few minutes and can be done during a short rest.",
+    "description": {
+      "value": "<p>This collection of well made, but simple clothing items pack tightly into a backpack and is designed to go unnoticed in as many galactic cultures as possible with a small amount of alteration. A character proficient in its use can provide one character per Wisdom modifier with advantage on Deception checks to pass unnoticed through a society. This process takes a few minutes and can be done during a short rest.</p>"
+    },
     "techLevel": 2,
     "lore": {
       "origin": "Tau'ri",
