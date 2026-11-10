@@ -1,0 +1,30 @@
+{
+  "_id": "sUuMKAklJf4tOYuR",
+  "name": "Tune-Up",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "3",
+    "bonus": "At 3rd level, you add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP."
+  },
+  "effects": [],
+  "folder": "Pp4n22kyUBD2fjZw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410251,
+    "modifiedTime": 1767232410251,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!sUuMKAklJf4tOYuR"
+}

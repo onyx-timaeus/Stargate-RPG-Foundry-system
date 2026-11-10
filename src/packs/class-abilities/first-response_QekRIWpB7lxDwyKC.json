@@ -1,0 +1,38 @@
+{
+  "_id": "QekRIWpB7lxDwyKC",
+  "name": "First Response",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "5",
+    "bonus": "At 5th level, you may add your Wisdom modifier to the damage you heal with a med kit. In addition, you may use a med kit to heal a scuffed team member as an action (rather than during a short rest).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "RETbjZCBA38veho3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410283,
+    "modifiedTime": 1767885811361,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!QekRIWpB7lxDwyKC"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "WFwe0f2HoZMja9vg",
+  "name": "Coordinated Response",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "When rolling for initiative, your team members may choose (before the rolls are made) to use your initiative result instead of their own."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410436,
+    "modifiedTime": 1767232410436,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WFwe0f2HoZMja9vg"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "AJLKGhSts5UFZljM",
+  "name": "Improvised Medicine",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410384,
+    "modifiedTime": 1767232410384,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!AJLKGhSts5UFZljM"
+}

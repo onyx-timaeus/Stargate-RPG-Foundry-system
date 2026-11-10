@@ -1,0 +1,37 @@
+{
+  "_id": "OGvmRLmPTufxiDfb",
+  "name": "Solar Recharging Station",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/solar-recharging-station.webp",
+  "system": {
+    "description": "This 25 square-meter folding solar panel has multiple hookups for recharging electrical equipment. In an environment with Earth-like sunlight, it can recharge most common devices during a long rest.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Solar power system"
+    },
+    "bulk": 2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409965,
+    "modifiedTime": 1767815038150,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OGvmRLmPTufxiDfb"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "w2eeL4TM5DEsPtGK",
+  "name": "Evasion",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "Dexterity 13+",
+    "category": "Combat - General",
+    "bonus": "You can nimbly dodge out of the way of certain area effects. When you are subjected to an effect that allows a Dexterity saving throw to take only half damage, you instead take no damage if you succeed and only half damage if you fail.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!w2eeL4TM5DEsPtGK"
+}

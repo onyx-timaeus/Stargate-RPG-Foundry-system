@@ -1,0 +1,26 @@
+{
+  "_id": "GsbeKXgzg2sye9b2",
+  "name": "Za'tarc Detector",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "By scanning the subtle aspects of a subject’s physiological response, including an eye scan, the Za’Tarc detector can compare the conscious and subconscious minds to determine if the subject has been the victim of Goa’uld mind manipulation. It has not been tested in the field against other forms of mental manipulation, but some theorize the device may have other applications. Resisting a Za’tarc Detector is very hard (DC 25 Intelligence save). As most subjects do not believe themselves a Za’tarc, they relent to testing and there is usually no saving throw required. However, if the subject is highly agitated, the subconscious will attempt to resist on behalf of the character.",
+    "techLevel": 4,
+    "lore": {
+      "origin": "Tok'ra",
+      "type": "Technology",
+      "restriction": "",
+      "description": "Detects Goa'uld mind manipulation"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!GsbeKXgzg2sye9b2"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "ek9bwFXazKW3zDJE",
+  "name": "Assault Coordination",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410434,
+    "modifiedTime": 1767232410434,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ek9bwFXazKW3zDJE"
+}

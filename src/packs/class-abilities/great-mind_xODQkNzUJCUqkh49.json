@@ -1,0 +1,30 @@
+{
+  "_id": "xODQkNzUJCUqkh49",
+  "name": "Great Mind",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "2",
+    "bonus": "At 2nd level, you are difficult to deceive or confuse. You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies."
+  },
+  "effects": [],
+  "folder": "JAANGH36GgEtF0tk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410291,
+    "modifiedTime": 1767232410291,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!xODQkNzUJCUqkh49"
+}

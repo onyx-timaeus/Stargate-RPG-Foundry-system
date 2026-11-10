@@ -1,0 +1,37 @@
+{
+  "_id": "pjFx8W59nUVig6oM",
+  "name": "Generator",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/generator.webp",
+  "system": {
+    "description": "A generator produces electricity in environments where solar power is insufficient or the team needs additional power. A generator produces enough power to keep a small hospital running, but not enough to operate a Stargate.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Portable power generator"
+    },
+    "bulk": 3,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409927,
+    "modifiedTime": 1767785535584,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!pjFx8W59nUVig6oM"
+}

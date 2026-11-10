@@ -1,0 +1,37 @@
+{
+  "_id": "FyTA5xsN9b8CksVs",
+  "name": "Magazine (free)",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/magazine-free.webp",
+  "system": {
+    "description": "",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Ammunition",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 0,
+    "quantity": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767782787821,
+    "modifiedTime": 1767782849126,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FyTA5xsN9b8CksVs"
+}

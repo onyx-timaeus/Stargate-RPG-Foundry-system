@@ -1,0 +1,39 @@
+{
+  "_id": "p5dHKWYGwv2gFUzZ",
+  "name": "Assault Coordination",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Tactical Flexibility ability",
+    "category": "Tactic",
+    "bonus": "When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "oOZCNrDZC7mr1InM",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311952,
+    "modifiedTime": 1767879396970,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!p5dHKWYGwv2gFUzZ"
+}

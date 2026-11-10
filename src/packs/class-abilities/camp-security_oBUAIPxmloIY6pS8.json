@@ -1,0 +1,30 @@
+{
+  "_id": "oBUAIPxmloIY6pS8",
+  "name": "Camp Security",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "Your adept site preparation provides advantage on any Perception checks to notice approaching creatures while taking a short or long rest."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410412,
+    "modifiedTime": 1767232410412,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!oBUAIPxmloIY6pS8"
+}

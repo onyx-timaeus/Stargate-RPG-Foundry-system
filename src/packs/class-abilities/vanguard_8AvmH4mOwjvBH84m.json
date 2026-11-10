@@ -1,0 +1,38 @@
+{
+  "_id": "8AvmH4mOwjvBH84m",
+  "name": "Vanguard",
+  "type": "classAbility",
+  "img": "systems/sgrpg/assets/compendium/feats/vanguard.webp",
+  "system": {
+    "class": "scout",
+    "level": "2",
+    "bonus": "At 2nd level, you deal +1d6 additional damage with ranged attacks against any target within 5m.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "5U3bWtnExGnEZ23U",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410308,
+    "modifiedTime": 1767796974600,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8AvmH4mOwjvBH84m"
+}

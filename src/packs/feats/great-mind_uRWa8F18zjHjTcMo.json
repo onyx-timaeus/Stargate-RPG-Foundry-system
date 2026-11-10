@@ -1,0 +1,39 @@
+{
+  "_id": "uRWa8F18zjHjTcMo",
+  "name": "Great Mind",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "Intelligence 13+, Wisdom 13+",
+    "category": "General",
+    "bonus": "You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!uRWa8F18zjHjTcMo"
+}

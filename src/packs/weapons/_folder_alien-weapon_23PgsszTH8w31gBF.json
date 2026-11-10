@@ -1,0 +1,23 @@
+{
+  "_id": "23PgsszTH8w31gBF",
+  "name": "Alien-Weapon",
+  "type": "Item",
+  "folder": null,
+  "description": "",
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": null,
+    "modifiedTime": 1773766518457,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!23PgsszTH8w31gBF"
+}

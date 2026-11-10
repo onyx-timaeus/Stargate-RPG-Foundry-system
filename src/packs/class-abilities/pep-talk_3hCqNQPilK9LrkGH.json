@@ -1,0 +1,38 @@
+{
+  "_id": "3hCqNQPilK9LrkGH",
+  "name": "Pep Talk",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "2",
+    "bonus": "Starting at 2nd level, you can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "fupfmat6NMryg4Ms",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410231,
+    "modifiedTime": 1767884701860,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3hCqNQPilK9LrkGH"
+}

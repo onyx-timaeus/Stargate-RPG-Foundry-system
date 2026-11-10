@@ -1,0 +1,39 @@
+{
+  "_id": "u3nQ33cmABpaRWMU",
+  "name": "Blind-Fighter",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3",
+    "requirement": "Perception",
+    "category": "Combat - Melee",
+    "bonus": "You do not suffer disadvantage when making melee attacks while unable to see.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1FaSsqrJRvSEV8ai",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1767373311896,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!u3nQ33cmABpaRWMU"
+}

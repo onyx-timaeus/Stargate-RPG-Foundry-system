@@ -1,0 +1,37 @@
+{
+  "_id": "ijGu1zxolmdbdnyw",
+  "name": "Communications Balloon",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "This self-inflating, controlled ascent, weather balloon can be launched into the high atmosphere to extend the range of the tactical radio to 500km for the next 10d6 hours. Once deployed the balloon requires 1 hour to achieve an effective altitude. Local weather may reduce the effective time the balloon is viable by 1d6 (small planet or consistent wind) to 5d6 (solar flares, or a nearby erupting volcano).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Communications",
+      "restriction": "",
+      "description": "High-altitude radio relay"
+    },
+    "bulk": 2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409910,
+    "modifiedTime": 1767880802830,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ijGu1zxolmdbdnyw"
+}

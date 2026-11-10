@@ -1,0 +1,37 @@
+{
+  "_id": "oNiseOxRVK2oO2sh",
+  "name": "Guidance Flares",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/guidance-flares.webp",
+  "system": {
+    "description": "Available in a rainbow of colors, guidance flares emit a vibrantly colored smoke that lingers for up to 10 minutes in low-wind conditions. Used by some Tau’ri militaries to allow infantry to guide aircraft strikes, these flares have found a secondary duty in scouting unknown worlds and communicating over distance when tactical radio signals are unreliable. A guidance flare can be held in hand, emitting smoke for up to 30 seconds and then remaining visible at the user’s location. It can also be fired from a flare gun (contained with the flares) up to a height of 300m for increased visibility.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Signal flares"
+    },
+    "bulk": 0.33,
+    "quantity": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409931,
+    "modifiedTime": 1767785549988,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!oNiseOxRVK2oO2sh"
+}

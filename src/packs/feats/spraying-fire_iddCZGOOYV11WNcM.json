@@ -1,0 +1,39 @@
+{
+  "_id": "iddCZGOOYV11WNcM",
+  "name": "Spraying Fire",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "Longarms Proficiency",
+    "category": "Combat - Ranged",
+    "bonus": "When using a weapon with the automatic upgrade, you may choose to not deal +TD damage and instead treat the weapon as having the Scatter quality if you fire at least 10 bullets.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "bWv1rmeiFMt4mRQ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!iddCZGOOYV11WNcM"
+}

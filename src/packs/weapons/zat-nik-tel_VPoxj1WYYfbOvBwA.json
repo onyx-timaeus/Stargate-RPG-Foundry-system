@@ -1,0 +1,64 @@
+{
+  "_id": "VPoxj1WYYfbOvBwA",
+  "name": "Zat'nik'tel",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/zat-nik-tel.webp",
+  "system": {
+    "description": "Favored by some members of the SG-1, the “Zat” is a weapon that escalates very quickly from non-lethal suppression tactics to lethal attacks. Phoenix Site has access to a few Zat’nik’tel weapons upon request from Earth, but General Loyer prefers to not employ them regularly due to their intimidating reputation among those abused by the Goa’uld. Targets struck by a Zat’nik’tel attack suffer 3 levels of Exhaustion (see page 123) instead of hit point damage. Note that whenever a creature reaches 3 levels of exhaustion (and every time it takes e x h a u s t i o n d a m a g e after that), it must save versus falling unconscious. A corpse struck by a Zat’nik’tel is disintegrated. Electronic systems targeted by a Zat’nik’tel suffer 1d12 Electric damage.",
+    "techLevel": 3,
+    "lore": {
+      "origin": "Goa'uld/Jaffa",
+      "type": "Energy Weapon",
+      "restriction": "",
+      "description": "Non-lethal/lethal energy weapon"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "Special",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 10,
+        "max": 30
+      },
+      "special": "Recharge 1, inflicts 3 levels of exhaustion instead of HP damage, disintegrates corpses, 1d12 damage to electronics"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "23PgsszTH8w31gBF",
+  "sort": 112500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409830,
+    "modifiedTime": 1773766632819,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!VPoxj1WYYfbOvBwA"
+}

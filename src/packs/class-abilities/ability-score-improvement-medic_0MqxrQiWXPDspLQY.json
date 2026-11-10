@@ -1,0 +1,30 @@
+{
+  "_id": "0MqxrQiWXPDspLQY",
+  "name": "Ability Score Improvement (Medic)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "4",
+    "bonus": "At 4th level, you can increase your Intelligence or Wisdom by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+  },
+  "effects": [],
+  "folder": "TcM1nIk1UXrbG4nw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410281,
+    "modifiedTime": 1767232410281,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0MqxrQiWXPDspLQY"
+}

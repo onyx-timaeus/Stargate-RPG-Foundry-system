@@ -1,0 +1,30 @@
+{
+  "_id": "MK4cVttsYJOQK2Ki",
+  "name": "Percussive Maintenance",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "Modification",
+    "bonus": "When a vehicle you are embarked within has the damaged condition, you can take an action to ignore the damaged condition for a number of rounds equal to a roll of the tension die."
+  },
+  "effects": [],
+  "folder": "c8PKt9qYlMbTGZUX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410371,
+    "modifiedTime": 1767232410371,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!MK4cVttsYJOQK2Ki"
+}

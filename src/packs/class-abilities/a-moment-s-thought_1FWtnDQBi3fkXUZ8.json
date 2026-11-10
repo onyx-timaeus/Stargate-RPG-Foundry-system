@@ -1,0 +1,30 @@
+{
+  "_id": "1FWtnDQBi3fkXUZ8",
+  "name": "A Moment's Thought",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "Discovery",
+    "bonus": "Whenever you take a short or long rest you may spend a Eureka point to re-roll an Intelligence or Wisdom skill check to learn information that you failed since your last rest."
+  },
+  "effects": [],
+  "folder": "K7lGRqNkPRJ7ttJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410394,
+    "modifiedTime": 1767232410394,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1FWtnDQBi3fkXUZ8"
+}

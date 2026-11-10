@@ -1,0 +1,30 @@
+{
+  "_id": "LN7SVxUcwanZWvxN",
+  "name": "Hit & Run",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "As a bonus action on your turn you may allow a team member to take a Disengage action."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410442,
+    "modifiedTime": 1767232410442,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!LN7SVxUcwanZWvxN"
+}

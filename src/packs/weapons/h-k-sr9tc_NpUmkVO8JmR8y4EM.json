@@ -1,0 +1,53 @@
+{
+  "_id": "NpUmkVO8JmR8y4EM",
+  "name": "H&K SR9TC",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "The standard issue “sniper rifle” of the Phoenix Site, the SR9TC is a longarm with a reduced capacity but improved accuracy and stopping power. The SR9TC is a longarm with the high caliber and scope upgrade.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Firearm",
+      "restriction": "",
+      "description": "Standard issue sniper rifle"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "2d8",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 15,
+      "max": 15,
+      "target": null,
+      "reload": "1 action"
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 200,
+        "max": 1800
+      },
+      "special": "High Caliber, Scope"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "longarms"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 260000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!NpUmkVO8JmR8y4EM"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "iOJOp2IRd6K6bW9y",
+  "name": "First Response",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "First Aid ability",
+    "category": "General",
+    "bonus": "You may add your Wisdom modifier to the damage you heal with a Med Kit. In addition, you may use a Med Kit to heal a scuffed team member as an action (rather than during a short rest).",
+    "castTime": {
+      "value": "1",
+      "type": "action"
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!iOJOp2IRd6K6bW9y"
+}

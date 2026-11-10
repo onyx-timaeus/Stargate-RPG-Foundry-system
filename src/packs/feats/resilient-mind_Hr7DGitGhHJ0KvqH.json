@@ -1,0 +1,39 @@
+{
+  "_id": "Hr7DGitGhHJ0KvqH",
+  "name": "Resilient Mind",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Intelligence 13+",
+    "category": "General",
+    "bonus": "When you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311856,
+    "modifiedTime": 1767373311856,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Hr7DGitGhHJ0KvqH"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "NmCQyZwR23fcpUb2",
+  "name": "Rally",
+  "type": "feat",
+  "img": "systems/sgrpg/assets/compendium/feats/rally.webp",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Athletics",
+    "category": "Combat - General",
+    "bonus": "If you are wounded when Initiative is rolled (at the start of an Action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest. You may purchase this feat multiple times, increasing the amount healed by +1 TD each time.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "1",
+      "type": "long"
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1773766884169,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!NmCQyZwR23fcpUb2"
+}

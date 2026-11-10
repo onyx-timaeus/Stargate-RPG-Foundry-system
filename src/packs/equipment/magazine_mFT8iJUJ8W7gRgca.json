@@ -1,0 +1,37 @@
+{
+  "_id": "mFT8iJUJ8W7gRgca",
+  "name": "Magazine",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/magazine.webp",
+  "system": {
+    "description": "Loaded magazines for firearms. Each magazine contains ammunition for the specified weapon type.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Ammunition",
+      "restriction": "",
+      "description": "Loaded ammunition magazines"
+    },
+    "bulk": 0.5,
+    "quantity": 2
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409996,
+    "modifiedTime": 1767885224026,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mFT8iJUJ8W7gRgca"
+}

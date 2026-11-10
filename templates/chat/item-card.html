@@ -1,0 +1,25 @@
+<div class="sgrpg chat-card item-card" data-actor-id="{{actor._id}}" data-item-id="{{item._id}}" {{#if tokenId}}data-token-id="{{tokenId}}"{{/if}}>
+    <header class="card-header flexrow">
+        <img src="{{item.img}}" title="{{item.name}}" width="64" height="64"/>
+        <div class="sg-weapon"><h3 class="item-name">{{item.name}}</h3><div class="sg-weapon-meta">{{kind}}</div></div>
+    </header>
+
+    <div class="card-content">
+        {{{data.description}}}
+    </div>
+
+    <div class="card-buttons">
+        {{#if hasAttack}}
+            <button data-action="attack">Attack</button>
+            <button data-action="damage">Damage</button>
+        {{else}}
+            {{#if hasConsume}}<button data-action="consume">Consume</button>{{/if}}
+        {{/if}}
+    </div>
+
+    <footer class="card-footer">
+        {{#each data.labels}}
+            <span>{{this}}</span>
+        {{/each}}
+    </footer>
+</div>

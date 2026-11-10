@@ -1,0 +1,46 @@
+{
+  "_id": "7vGAHqPkDvkiNFcU",
+  "name": "Aviator",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "background",
+    "description": "The most common pilots assigned to the Phoenix Site are unsurprisingly drafted from the US Air Force. However, others pilots of more esoteric vessels have been recruited, such as Death Glider pilots and even a blimp/zeppelin operator or two.",
+    "requirements": "",
+    "attributeBonus": "none",
+    "bonus": "Bonus Proficiency: Pilot. Crash Landing: You gain resistance against all damage suffered when you are a pilot or a passenger of a vehicle when it crashes or is destroyed.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "unsp0lyZJ9hhSYGW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410070,
+    "modifiedTime": 1767447301336,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7vGAHqPkDvkiNFcU"
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "i9LE1Ki3ylOjt6o0",
+  "name": "MP7A1 Submachine Gun",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "Not as common as the FN P90, the MP7A1 is another standard issue firearm widely available at the Phoenix Site. It is a longarm with the automatic upgrade. In addition, it can be worn on the hip and has a bulk of 1. Due to the abundance of supplies, the MP7 is often issued with additional weapon upgrades specific to mission needs.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Firearm",
+      "restriction": "",
+      "description": "Standard issue submachine gun"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "2d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 30,
+      "max": 30,
+      "target": null,
+      "reload": "1 action"
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 200,
+        "max": 1800
+      },
+      "special": "Automatic"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "longarms"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 250000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!i9LE1Ki3ylOjt6o0"
+}

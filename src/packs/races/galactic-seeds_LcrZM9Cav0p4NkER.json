@@ -1,0 +1,46 @@
+{
+  "_id": "LcrZM9Cav0p4NkER",
+  "name": "Galactic Seeds",
+  "type": "origin",
+  "img": "systems/sgrpg/assets/compendium/races/galactic-seeds.webp",
+  "system": {
+    "originType": "racial",
+    "description": "Humans are so common in the galaxy, they gain advantage on all Persuasion and Deception Checks made during first contact with any group not having yet met visitors from another world.",
+    "requirements": "Human",
+    "attributeBonus": "none",
+    "bonus": "Gain advantage on all Persuasion and Deception Checks made during first contact with any group not having yet met visitors from another world.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "OneGNxWCQTkqTbnR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233301241,
+    "modifiedTime": 1767794206256,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!LcrZM9Cav0p4NkER"
+}

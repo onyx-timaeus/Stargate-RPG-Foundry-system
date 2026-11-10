@@ -1,0 +1,39 @@
+{
+  "_id": "TmWabbJoGsoJDW7u",
+  "name": "Defensive Art Master",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Dodge, Martial Arts Proficiency",
+    "category": "Combat - Melee",
+    "bonus": "You have trained in one or more Martial Arts that focus on defending yourself such as certain forms of Boxing, Kung Fu, or Tai Chi. You gain resistance against damage from unarmed strikes (including Martial Arts attacks) as long as that attack is not a critical hit (in which case you take full damage normally).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1FaSsqrJRvSEV8ai",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1767373311896,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!TmWabbJoGsoJDW7u"
+}

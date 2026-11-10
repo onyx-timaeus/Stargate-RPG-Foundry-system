@@ -1,0 +1,37 @@
+{
+  "_id": "kjRz4uZm26yCYWVQ",
+  "name": "SCUBA",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/scuba.webp",
+  "system": {
+    "description": "This face mask with attached air tank can sustain a wearer underwater or in another environment in which breathing is impossible or harmful. A military scuba system is capable of operating for an hour per tech level (2 hours for most Tau’ri devices). A scuba system can be refilled with an air compressor during a long rest by characters proficient in Scuba or Engineering. Scuba proficient characters also gain a 3m swim speed.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Underwater breathing apparatus"
+    },
+    "bulk": 2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409957,
+    "modifiedTime": 1767880679211,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!kjRz4uZm26yCYWVQ"
+}

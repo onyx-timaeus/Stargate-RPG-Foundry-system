@@ -1,0 +1,30 @@
+{
+  "_id": "EjQBZ64KG7o26xpy",
+  "name": "Foraging",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "When in a natural environment you can feed a number of people up to your Proficiency bonus with a single hard (DC 20) Survival check and 1d4 hours of work."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410416,
+    "modifiedTime": 1767232410416,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!EjQBZ64KG7o26xpy"
+}

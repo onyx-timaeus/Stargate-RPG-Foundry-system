@@ -1,0 +1,26 @@
+{
+  "_id": "APyhzAnar3ZLt4bn",
+  "name": "Platemail",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Worked steel or other durable and light alloy layered to provide rigid protection to the wearer.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Heavy armor. AC 18; Strength 15; Stealth Disadvantage; Bulk 3+Str; Special: —."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!APyhzAnar3ZLt4bn"
+}

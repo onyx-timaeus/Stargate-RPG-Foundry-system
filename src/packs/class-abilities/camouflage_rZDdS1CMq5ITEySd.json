@@ -1,0 +1,30 @@
+{
+  "_id": "rZDdS1CMq5ITEySd",
+  "name": "Camouflage",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "Using elements of the natural environment, you grant your team advantage on Stealth checks after a short or long rest in an environment."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410414,
+    "modifiedTime": 1767232410414,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rZDdS1CMq5ITEySd"
+}

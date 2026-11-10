@@ -1,0 +1,64 @@
+{
+  "_id": "1mMvNZFDQIUl2OQj",
+  "name": "Kara'kesh",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/kara-kesh.webp",
+  "system": {
+    "description": "",
+    "techLevel": 4,
+    "lore": {
+      "origin": "Goa'uld",
+      "type": "",
+      "restriction": "",
+      "description": "<p>Scan: The device can scan a humanoid&nbsp;<br>target within 1m to determine its&nbsp;<br>suitability for Goa&rsquo;uld implantation, or&nbsp;<br>the presence of an implanted Goa&rsquo;uld,&nbsp;<br>as an action. This process also paralyzes&nbsp;<br>the target (Wisdom save to resist paralysis).&nbsp;</p>\n<hr>\n<p>Read Mind: You can sift through a target&rsquo;s&nbsp;<br>mind for memories or give them impressions&nbsp;<br>of your own memories. If the target wishes to&nbsp;<br>resist this effect for a round they may suffer 1d6&nbsp;<br>psychic damage to gain a Charisma save against the effect.</p>\n<hr>\n<p>Blast: Emit a kinetic wave as an action, pushing&nbsp;<br>all targets within a 5m cone back a number of&nbsp;<br>meters equal to the users Charisma modifier and&nbsp;<br>knocking the targets prone (Dexterity Save to&nbsp;<br>halve the distance and remain standing).&nbsp;</p>\n<hr>\n<p>Telepathic Message: You can send a silent&nbsp;<br>message to a single target within sight as a free&nbsp;<br>action, limited by normal speaking speed.&nbsp;</p>\n<hr>\n<p>Call Rings: If the user is near a ring teleporter&nbsp;<br>platform (about 5m) the user can activate the&nbsp;<br>teleporter as an action.&nbsp;</p>"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "wis",
+    "attackBonus": "",
+    "dmg": "3d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "psychic",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": "DC 15 WIS Save or be paralyzed, otherwise take half damage"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "23PgsszTH8w31gBF",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1774031077463,
+    "modifiedTime": 1774031448790,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1mMvNZFDQIUl2OQj"
+}

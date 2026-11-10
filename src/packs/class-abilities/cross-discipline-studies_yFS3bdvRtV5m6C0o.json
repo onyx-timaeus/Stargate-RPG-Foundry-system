@@ -1,0 +1,30 @@
+{
+  "_id": "yFS3bdvRtV5m6C0o",
+  "name": "Cross-Discipline Studies",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "3",
+    "bonus": "At 3rd level, you add half your Proficiency bonus, rounded down, to any Intelligence, Wisdom, or Charisma skill check that doesn’t already include your Proficiency bonus."
+  },
+  "effects": [],
+  "folder": "48MGo6bIsc45GSql",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410293,
+    "modifiedTime": 1767232410293,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yFS3bdvRtV5m6C0o"
+}

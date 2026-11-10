@@ -1,0 +1,46 @@
+{
+  "_id": "u8jzPde0IgxLd6Gn",
+  "name": "Natural Resilience",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "racial",
+    "description": "An Aturen gains advantage on any saves against disease or poison.",
+    "requirements": "Aturen",
+    "attributeBonus": "none",
+    "bonus": "Advantage on saves against disease or poison.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "M1x4uMd3eXOxg3xn",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1762700000000,
+    "modifiedTime": 1762700000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!u8jzPde0IgxLd6Gn"
+}

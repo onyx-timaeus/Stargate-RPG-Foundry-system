@@ -1,0 +1,39 @@
+{
+  "_id": "52o8BBdEsc2PP37W",
+  "name": "Force of Will",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Inspire ability",
+    "category": "General",
+    "bonus": "You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!52o8BBdEsc2PP37W"
+}

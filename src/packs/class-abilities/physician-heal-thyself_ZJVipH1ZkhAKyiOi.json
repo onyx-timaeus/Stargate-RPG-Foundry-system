@@ -1,0 +1,38 @@
+{
+  "_id": "ZJVipH1ZkhAKyiOi",
+  "name": "Physician Heal Thyself",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "4",
+    "bonus": "At 4th level, you may use a med kit on yourself as a bonus action.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "TcM1nIk1UXrbG4nw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410278,
+    "modifiedTime": 1767885791767,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ZJVipH1ZkhAKyiOi"
+}

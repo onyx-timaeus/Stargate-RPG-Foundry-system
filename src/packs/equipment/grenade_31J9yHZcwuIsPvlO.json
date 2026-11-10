@@ -1,0 +1,37 @@
+{
+  "_id": "31J9yHZcwuIsPvlO",
+  "name": "Grenade",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/grenade.webp",
+  "system": {
+    "description": "This thrown weapon explodes with shrapnel, concussive force, gas, or bright chemical light, and sounds. There are three types of grenades used by Stargate Phoenix: Fragmentation grenades are the “standard” Grenade and use the attributes noted for grenades. Characters proficient in common weapons or explosives are considered proficient with grenades. A grenade is thrown at a point (see page 157) rather than at a target and goes off at the start of the throwing character’s next turn (or 6 seconds after release).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Explosives",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767782915928,
+    "modifiedTime": 1767885099980,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!31J9yHZcwuIsPvlO"
+}

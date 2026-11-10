@@ -1,0 +1,26 @@
+{
+  "_id": "1syeefnLOpaMxxND",
+  "name": "Tactical Armor",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Combining Kevlar and ceramic plates, this armor is designed for heavy frontline warfare.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Heavy armor. AC 20; Strength 13; Stealth Disadvantage; Bulk 6+Str; Special: Kevlar."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!1syeefnLOpaMxxND"
+}

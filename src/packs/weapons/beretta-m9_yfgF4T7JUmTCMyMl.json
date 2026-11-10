@@ -1,0 +1,64 @@
+{
+  "_id": "yfgF4T7JUmTCMyMl",
+  "name": "Beretta M9",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/beretta-m9.webp",
+  "system": {
+    "description": "The staple side-arm of the Tau’ri military is the Beretta M9. It can be upgraded, but is typically issued as a stock sidearm.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Firearm",
+      "restriction": "",
+      "description": "Standard issue sidearm of the Phoenix Site"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d8",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 15,
+      "max": 15,
+      "target": null,
+      "reload": "1 action"
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 50,
+        "max": 100
+      },
+      "special": "Pistol"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "sidearms"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409800,
+    "modifiedTime": 1773766419603,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yfgF4T7JUmTCMyMl"
+}

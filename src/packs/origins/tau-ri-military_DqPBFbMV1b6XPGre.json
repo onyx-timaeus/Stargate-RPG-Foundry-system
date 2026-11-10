@@ -1,0 +1,46 @@
+{
+  "_id": "DqPBFbMV1b6XPGre",
+  "name": "Tau'ri Military",
+  "type": "origin",
+  "img": "systems/sgrpg/assets/compendium/origins/tau-ri-military.webp",
+  "system": {
+    "originType": "racial",
+    "description": "",
+    "requirements": "Tau'ri",
+    "attributeBonus": "none",
+    "bonus": "Never Surrender: You gain +1 to attack rolls for each level of exhaustion you have",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "DqBlJj3qpHz5CRYR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767886591378,
+    "modifiedTime": 1767886614930,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DqPBFbMV1b6XPGre"
+}

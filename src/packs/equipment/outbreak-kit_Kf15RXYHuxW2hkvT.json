@@ -1,0 +1,37 @@
+{
+  "_id": "Kf15RXYHuxW2hkvT",
+  "name": "Outbreak Kit",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/outbreak-kit.webp",
+  "system": {
+    "description": "A character can use an outbreak kit to manage and control the spread of sickness and disease. The bearer of an Outbreak kit gains advantage on all saves against the ongoing effects of poison or disease. A proficient character can provide this advantage to up to 10 people per Wisdom modifier during a long rest or 1 person per Wisdom modifier during a short rest.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Medical",
+      "restriction": "",
+      "description": "Disease control supplies"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409943,
+    "modifiedTime": 1767790077210,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Kf15RXYHuxW2hkvT"
+}

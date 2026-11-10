@@ -1,0 +1,46 @@
+{
+  "_id": "iVLDNapuZyFrOonG",
+  "name": "Regeneration",
+  "type": "origin",
+  "img": "systems/sgrpg/assets/compendium/races/regeneration.webp",
+  "system": {
+    "originType": "racial",
+    "description": "The Tok’ra is healed to full HP during a long rest. If a Tok’ra is deprived of their symbiote they lose this ability.",
+    "requirements": "Tok'ra",
+    "attributeBonus": "none",
+    "bonus": "When long resting, heal to your full HP. ",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "84hherO1drbwdUV9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767234504919,
+    "modifiedTime": 1767794463101,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!iVLDNapuZyFrOonG"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "G4uartPYh2mj6xw1",
+  "name": "Die Hard",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3, 6, 9",
+    "requirement": "Constitution 13+",
+    "category": "Combat - General",
+    "bonus": "You require 1 fewer successful saves to avoid dying (see page 122). If you reduce the number of required saves to 0 you automatically stabilize. You may take this feat up to 3 times, increasing its cost each time as noted above.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!G4uartPYh2mj6xw1"
+}

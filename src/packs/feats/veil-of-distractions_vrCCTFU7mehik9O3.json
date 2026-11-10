@@ -1,0 +1,39 @@
+{
+  "_id": "vrCCTFU7mehik9O3",
+  "name": "Veil of Distractions",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Stealth",
+    "category": "General",
+    "bonus": "You're an expert at making the few tracks you leave easily explainable. Once per Infiltration encounter, when the Alertness track increases, you may reduce the current tension level by one step.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "1",
+      "type": "encounter"
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!vrCCTFU7mehik9O3"
+}

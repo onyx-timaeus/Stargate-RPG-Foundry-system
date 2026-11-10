@@ -1,0 +1,12 @@
+{
+  "name": "sgrpg-system",
+  "private": true,
+  "type": "module",
+  "description": "Build tooling for the Stargate RPG Foundry system compendiums",
+  "scripts": {
+    "packs:build": "node tools/build-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
+  }
+}

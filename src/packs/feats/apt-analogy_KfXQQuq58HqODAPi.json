@@ -1,0 +1,39 @@
+{
+  "_id": "KfXQQuq58HqODAPi",
+  "name": "Apt Analogy",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Science",
+    "category": "General",
+    "bonus": "You can employ an easy to understand analogy to help others work through complex or esoteric problems. Once per short rest you may grant a friendly character a +TD bonus on an Intelligence or Wisdom skill check.",
+    "castTime": {
+      "value": "1",
+      "type": "action"
+    },
+    "limitations": {
+      "value": "1",
+      "type": "short"
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KfXQQuq58HqODAPi"
+}

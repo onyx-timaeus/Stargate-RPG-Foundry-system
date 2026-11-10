@@ -1,0 +1,26 @@
+{
+  "_id": "XRrvftva9AW7hipT",
+  "name": "Leather",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Hides that have been treated with a variety of possible techniques to harden the material against physical attacks.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Light armor. AC 13+Dex; Strength —; Stealth —; Bulk 6+Str; Special: —."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XRrvftva9AW7hipT"
+}

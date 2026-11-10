@@ -1,0 +1,30 @@
+{
+  "_id": "rT8SMBR4e53ePOsP",
+  "name": "Casual Genius",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "5",
+    "bonus": "At 5th level, you begin each mission with a number of Eureka points equal to half your Proficiency bonus (rounding down)."
+  },
+  "effects": [],
+  "folder": "blPcXI31In7MgEK5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410299,
+    "modifiedTime": 1767232410299,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rT8SMBR4e53ePOsP"
+}

@@ -1,0 +1,64 @@
+{
+  "_id": "8J9tqKKtDQbpYfMI",
+  "name": "Thrown Blade",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/thrown-blade.webp",
+  "system": {
+    "description": "A variety of throwing weapons exist, including shuriken, spears, throwing knives, hurling axes, and good tossin' rocks.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Thrown Weapon",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 0.2,
+    "quantity": 5,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 5,
+        "max": 30
+      },
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "V8wg6oPwvU79ioG8",
+  "sort": 101563,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409865,
+    "modifiedTime": 1773766624932,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8J9tqKKtDQbpYfMI"
+}

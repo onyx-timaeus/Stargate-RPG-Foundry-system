@@ -1,0 +1,39 @@
+{
+  "_id": "sSnFWUj4vnFyo4kS",
+  "name": "Pep Talk",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Charisma 13+",
+    "category": "General",
+    "bonus": "You can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).",
+    "castTime": {
+      "value": "1",
+      "type": "action"
+    },
+    "limitations": {
+      "value": "1",
+      "type": "mission"
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311856,
+    "modifiedTime": 1767373311856,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!sSnFWUj4vnFyo4kS"
+}

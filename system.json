@@ -1,0 +1,139 @@
+{
+  "id": "sgrpg",
+  "title": "Stargate RPG",
+  "description": "System for Stargate RPG created by Wyvern Gaming, https://stargatetherpg.com/",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "onyx-timaeus",
+      "url": "https://github.com/onyx-timaeus"
+    },
+    {
+      "name": "Filip Sádovský (original system)",
+      "url": "https://github.com/sadovsf"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "esmodules": [
+    "sgrpg.js"
+  ],
+  "styles": [
+    "styles/sgrpg.css",
+    "styles/player-sheet.css",
+    "styles/item-sheet.css"
+  ],
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "type": "Item",
+      "path": "packs/feats",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/feats.webp"
+    },
+    {
+      "name": "class-abilities",
+      "label": "Class Abilities",
+      "type": "Item",
+      "path": "packs/class-abilities",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/class-abilities.webp"
+    },
+    {
+      "name": "origins",
+      "label": "Origins",
+      "type": "Item",
+      "path": "packs/origins",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/origins.webp"
+    },
+    {
+      "name": "races",
+      "label": "Races",
+      "type": "Item",
+      "path": "packs/races",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/races.webp"
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "type": "Item",
+      "path": "packs/weapons",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/weapons.webp"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "type": "Item",
+      "path": "packs/equipment",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/equipment.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "socket": false,
+  "initiative": "1d20 + @initiative",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system",
+  "manifest": "https://raw.githubusercontent.com/onyx-timaeus/Stargate-RPG-Foundry-system/master/system.json",
+  "download": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/archive/refs/heads/master.zip",
+  "packFolders": [
+    {
+      "name": "Stargate RPG",
+      "sorting": "m",
+      "color": "#3a5a6f",
+      "packs": [
+        "feats",
+        "class-abilities",
+        "origins",
+        "races",
+        "weapons",
+        "equipment"
+      ]
+    }
+  ]
+}

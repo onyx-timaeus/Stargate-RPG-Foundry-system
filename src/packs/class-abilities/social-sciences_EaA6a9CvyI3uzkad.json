@@ -1,0 +1,30 @@
+{
+  "_id": "EaA6a9CvyI3uzkad",
+  "name": "Social Sciences",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "Discovery",
+    "bonus": "Whenever you lose any number of wagered Determination Points, you gain one Eureka point."
+  },
+  "effects": [],
+  "folder": "K7lGRqNkPRJ7ttJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410410,
+    "modifiedTime": 1767232410410,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!EaA6a9CvyI3uzkad"
+}

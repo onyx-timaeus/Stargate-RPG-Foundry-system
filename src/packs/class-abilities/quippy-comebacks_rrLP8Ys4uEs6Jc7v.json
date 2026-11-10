@@ -1,0 +1,30 @@
+{
+  "_id": "rrLP8Ys4uEs6Jc7v",
+  "name": "Quippy Comebacks",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "Once per Diplomatic Function, inspired characters may halve the amount of DP lost (rounding down) as a result of a failed Diplomatic Action check."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410352,
+    "modifiedTime": 1767232410352,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rrLP8Ys4uEs6Jc7v"
+}

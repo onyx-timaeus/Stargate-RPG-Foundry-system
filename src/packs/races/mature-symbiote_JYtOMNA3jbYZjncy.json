@@ -1,0 +1,46 @@
+{
+  "_id": "JYtOMNA3jbYZjncy",
+  "name": "Mature Symbiote",
+  "type": "origin",
+  "img": "systems/sgrpg/assets/compendium/races/mature-symbiote.webp",
+  "system": {
+    "originType": "racial",
+    "description": "",
+    "requirements": "",
+    "attributeBonus": "none",
+    "bonus": "The Goa'uld has advantage on all Strength, Dexterity, and Constitution saves.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "9kVGmnV3lztK7Vbq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767463819262,
+    "modifiedTime": 1767794629128,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!JYtOMNA3jbYZjncy"
+}

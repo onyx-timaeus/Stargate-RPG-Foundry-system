@@ -1,0 +1,26 @@
+{
+  "_id": "Rann76dEyTzAeKOm",
+  "name": "Furs",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "This collection of hides offer warmth and a moderate degree of protection.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Light armor. AC 11+Dex; Strength —; Stealth —; Bulk 6+Str; Special: —."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Rann76dEyTzAeKOm"
+}

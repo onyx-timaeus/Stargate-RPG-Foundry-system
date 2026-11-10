@@ -1,0 +1,39 @@
+{
+  "_id": "uG3r4ZOKtyHM0u7q",
+  "name": "De-escalate",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Persuasion",
+    "category": "General",
+    "bonus": "Once per long rest you may spend a DP to reduce the tension die by 1 step (d12 to d10, d10 to d8, etc). for the duration of a single encounter or scene (GM determines when a scene changes). After the encounter or scene the tension die returns to its previous value. Multiple characters can de-escalate the same encounter or scene, but the die may not be reduced below 1d4.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "1",
+      "type": "long"
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!uG3r4ZOKtyHM0u7q"
+}

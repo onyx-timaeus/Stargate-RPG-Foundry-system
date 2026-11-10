@@ -1,0 +1,18 @@
+node_modules/
+.DS_Store
+packs/**/LOCK
+
+# private / not part of the system code
+Foundy_WorldData/
+*.pdf
+.claude/
+*.code-workspace
+
+# working notes and generation helpers (not system code)
+tools/icon-prompts*.md
+tools/icon-round2.json
+tools/image-checklist.csv
+tools/rulebook-gap-report.md
+tools/_qa/
+
+Claude outputs/

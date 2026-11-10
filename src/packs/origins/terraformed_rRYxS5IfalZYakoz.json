@@ -1,0 +1,38 @@
+{
+  "_id": "rRYxS5IfalZYakoz",
+  "name": "Terraformed",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "biome",
+    "description": "Your world, or part of it, was drastically altered by artificial means to better support your people. Despite careful planning, life is unpredictable, so you've grown accustomed to planning ahead while being ready for the inevitable unexpected.",
+    "requirements": "",
+    "attributeBonus": "int",
+    "bonus": "Attribute: Intelligence +1. Strange World: Once per day you may use your reaction to gain advantage on a saving throw.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    }
+  },
+  "effects": [],
+  "folder": "uUK6KpnGHkN9W2yz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410044,
+    "modifiedTime": 1767232410044,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rRYxS5IfalZYakoz"
+}

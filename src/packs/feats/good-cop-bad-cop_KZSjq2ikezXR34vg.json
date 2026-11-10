@@ -1,0 +1,40 @@
+{
+  "_id": "KZSjq2ikezXR34vg",
+  "name": "Good Cop / Bad Cop",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Investigation",
+    "category": "General",
+    "bonus": "At the beginning of an Interrogation encounter you may choose to increase (good cop) or decrease (bad cop) the target's threshold by a roll of the TD. Two characters can use this ability on the same target, but one must increase the threshold and the other decrease the threshold. If they do so, the DC to resist breaking is increased to 20. More than two characters cannot good cop / bad cop the same target.",
+    "castTime": {
+      "value": "",
+      "type": "",
+      " value": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KZSjq2ikezXR34vg"
+}

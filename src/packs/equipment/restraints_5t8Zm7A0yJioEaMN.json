@@ -1,0 +1,37 @@
+{
+  "_id": "5t8Zm7A0yJioEaMN",
+  "name": "Restraints",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/restraints.webp",
+  "system": {
+    "description": "Restraints take many different forms, from handcuffs to well-tied ropes, but they all restrict the movements of a prisoner. A character may place restraints on a target with the grappled condition by succeeding at another grapple action against the target and choosing to bind the wrists or ankles (on a humanoid target). Restraints are built tough; add 5 times their TL to their HP. A character in wrist restraints (DC 15 Acrobatics to escape) suffers disadvantage on all arm and hand based actions (including escaping restraints). A character in ankle restraints (DC 20 Acrobatics to escape) has its speed reduced to 1m. A character shackled by both its wrists and legs (DC 24 acrobatics to escape) gains the restrained condition.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Prisoner restraints"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409953,
+    "modifiedTime": 1767882949868,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5t8Zm7A0yJioEaMN"
+}

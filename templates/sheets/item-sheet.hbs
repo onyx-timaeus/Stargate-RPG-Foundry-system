@@ -1,0 +1,38 @@
+<form class="{{cssClass}} sgrpg flexcol itemsheet" autocomplete="off">
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        {{!-- Header stuff goes here --}}
+        <div class="header-fields">
+            <h1 class="charname flexrow">
+                <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="70" width="70"/>
+                <div class="tech-level-box">
+                    <div class="tech-level-label">Tech Level</div>
+                    <input name="system.techLevel" type="text" value="{{data.techLevel}}" data-dtype="Number" class="tech-level-input"/>
+                </div>
+                <input name="name" type="text" value="{{item.name}}" placeholder="Name"/>
+            </h1>
+        </div>
+    </header>
+
+    {{#if isWeapon}}
+    {{!-- Sheet Tab Navigation (Weapons only) --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item active" data-tab="stats">Stats</a>
+        <a class="item" data-tab="lore">Lore</a>
+    </nav>
+    {{/if}}
+
+    <section class="sheet-body flexcol">
+        {{#if isWeapon}}
+        <div class="tab" data-tab="stats" data-group="primary">
+            {{> "systems/sgrpg/templates/sheets/parts/weapon-header.hbs"}}
+        </div>
+        <div class="tab" data-tab="lore" data-group="primary">
+            {{> "systems/sgrpg/templates/sheets/parts/weapon-lore.hbs"}}
+        </div>
+        {{else}}
+        {{!-- Equipment: No tabs, single view --}}
+        {{> "systems/sgrpg/templates/sheets/parts/equip-stats.hbs"}}
+        {{/if}}
+    </section>
+</form>

@@ -1,0 +1,38 @@
+{
+  "_id": "cBTC3vAXogtH9ubS",
+  "name": "Martial Training",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "3",
+    "bonus": "At 3rd level, you’ve trained to deal maximum damage with whatever melee weapon you wield, even improvised weapons. Your minimum damage die for melee weapons or martial arts is 1d8.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "fnYY9okT5FMxSlBR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410328,
+    "modifiedTime": 1767878845968,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!cBTC3vAXogtH9ubS"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "OrcDJ39Sdw8toIF4",
+  "name": "Personal Tactical Radio",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/personal-tactical-radio.webp",
+  "system": {
+    "description": "A small box with a speaker and microphone in one has a single button that when press allows the operator to speak to others on the same channel. It is attached via a coiled cord to a personal transmiter. The transmiter has a range of 5km in most life-supported planetary environments.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Communications",
+      "restriction": "",
+      "description": "Team radio"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409959,
+    "modifiedTime": 1767785354181,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OrcDJ39Sdw8toIF4"
+}

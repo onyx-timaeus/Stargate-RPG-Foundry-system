@@ -1,0 +1,5836 @@
+/* ----------------------------------------- */
+/*  Override Foundry default red/warm accent colors globally.
+/*  Foundry declares these inside body.game .app {} so we
+/*  must match that specificity to actually override them.
+/* ----------------------------------------- */
+body.game .app {
+    --color-warm-1: #6a8a9f;
+    --color-warm-2: #5a7a8f;
+    --color-warm-3: #3a5a6f;
+    --color-border-highlight: #6a8a9f;
+    --color-border-highlight-alt: #5a7a8f;
+    --color-shadow-primary: #5a7a8f;
+    --color-shadow-highlight: #6a8a9f;
+    --color-text-hyperlink: #8ab0c5;
+    --color-underline-header: #3a5a6f;
+}
+
+/* ----------------------------------------- */
+/*  Chat Cards
+/* ----------------------------------------- */
+
+.sgrpg .form-fields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.sgrpg.chat-card {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.sgrpg.chat-card .card-header {
+    padding: 3px 0;
+    border-top: 2px groove #FFF;
+    border-bottom: 2px groove #FFF;
+}
+
+.sgrpg.chat-card .card-header img {
+    flex: 0 0 36px;
+    margin-right: 5px;
+}
+
+.sgrpg.chat-card .card-header h3 {
+    flex: 1;
+    margin: 0;
+    line-height: 36px;
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4b4a44;
+}
+
+.sgrpg.chat-card .card-header h3:hover {
+    color: #111;
+    text-shadow: 0 0 10px #6a8a9f;
+}
+
+/* Override for attack cards - use blue hover */
+.sgrpg.chat-card.attack-card .card-header h3:hover {
+    color: #6a8a9f;
+    text-shadow: 0 0 10px rgba(90, 120, 140, 0.6);
+}
+
+.sgrpg.chat-card .card-content {
+    margin: 5px 0;
+}
+
+.sgrpg.chat-card .card-content h3 {
+    font-size: 12px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.sgrpg.chat-card .card-content>* {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.sgrpg.chat-card .card-buttons {
+    margin: 5px 0;
+}
+
+.sgrpg.chat-card .card-buttons span {
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #CCC;
+}
+
+.sgrpg.chat-card .card-buttons button {
+    font-size: 12px;
+    height: 24px;
+    line-height: 20px;
+    margin: 2px 0;
+}
+
+.sgrpg.chat-card .card-footer {
+    padding: 3px 0 0;
+    border-top: 2px groove #FFF;
+}
+
+.sgrpg.chat-card .card-footer span {
+    border-right: 2px groove #FFF;
+    padding: 0 3px 0 0;
+    font-size: 10px;
+}
+
+.sgrpg.chat-card .card-footer span:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.dice-roll .dice-total.success {
+    color: inherit;
+    background: #c7d0c0;
+    border: 1px solid #006c00;
+}
+
+.dice-roll .dice-total.failure {
+    color: inherit;
+    background: #ffdddd;
+    border: 1px solid #6e0000;
+}
+
+.dice-roll .dice-total.critical {
+    color: green;
+}
+
+.dice-roll .dice-total.fumble {
+    color: red;
+}
+
+
+.sgrpg .item-image {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+.sgrpg table.inventory thead {
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
+.sgrpg table.inventory th {
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 2px solid #333;
+}
+
+.sgrpg table.inventory td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #333;
+}
+
+.sgrpg table.inventory {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.sgrpg .bulk-status {
+    flex: 0 0 12px;
+    background: #7a7971;
+    margin: 1px 0 0 1px;
+    border: 1px solid #191813;
+    border-radius: 3px;
+    position: relative;
+}
+
+.sgrpg .bulk-status .bulk-bar {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: #6c8aa5;
+    height: 8px;
+    border: 1px solid #cde4ff;
+    border-radius: 2px;
+}
+
+.sgrpg .bulk-status .bulk-label {
+    height: 10px;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 11px;
+    line-height: 10px;
+    text-align: right;
+    color: #EEE;
+    text-shadow: 0 0 5px #000;
+}
+
+/* Weapon Selector Dialog */
+.weapon-selector {
+    font-family: "Roboto", sans-serif;
+}
+
+.weapon-selector-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.weapon-selector .search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.weapon-selector #weapon-search {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.weapon-selector .weapons-grid {
+    display: grid;
+    /* Always show exactly 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 5px;
+}
+
+.weapon-selector .weapon-card {
+    border: 2px solid #999;
+    border-radius: 8px;
+    padding: 12px;
+    background: #f5f5f5;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    gap: 12px;
+}
+
+.weapon-selector .weapon-card:hover {
+    border-color: #6a8a9f;
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(106, 138, 159, 0.2);
+}
+
+.weapon-selector .weapon-image {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.weapon-selector .weapon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.weapon-selector .weapon-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.weapon-selector .weapon-name {
+    font-weight: bold;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.weapon-selector .weapon-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 12px;
+}
+
+.weapon-selector .weapon-stat {
+    display: flex;
+    gap: 5px;
+}
+
+.weapon-selector .weapon-stat .stat-label {
+    font-weight: 600;
+    color: #666;
+    min-width: 45px;
+}
+
+.weapon-selector .weapon-stat .stat-value {
+    color: #c8c8c8;
+}
+
+.weapon-selector .no-weapons {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+/* Add Weapon Button */
+.add-weapon-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.add-weapon-btn {
+    padding: 8px 16px;
+    background: #6a8a9f !important;
+    color: white !important;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-weapon-btn:hover {
+    background: #5a7a8f !important;
+}
+
+.add-weapon-btn i {
+    font-size: 14px;
+}
+
+
+/* ========================================= */
+/* Weapon Sheet - Sci-Fi/Stargate Theme     */
+/* ========================================= */
+
+/* Main wrapper */
+.weapon-config-wrapper {
+    padding: 0;
+    margin-top: 0;
+}
+
+/* Section containers */
+.weapon-section {
+    margin-bottom: 8px;
+    margin-top: 0;
+    border: 1px solid #2a2a2e;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba(35, 35, 40, 0.4);
+}
+
+.weapon-section:first-child {
+    margin-top: 0 !important;
+}
+
+.weapon-section:last-child {
+    margin-bottom: 0;
+}
+
+/* Section titles - cyan headers */
+.section-title {
+    background: linear-gradient(90deg, #2a2a2e 0%, #3a3a3e 100%);
+    color: #6a6a6f;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    border-bottom: 1px solid #6a6a6f;
+    text-shadow: 0 0 5px rgba(90, 120, 140, 0.5);
+}
+
+/* Section content */
+.section-content {
+    padding: 10px;
+}
+
+/* Stat rows - horizontal layout */
+.weapon-stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.weapon-stat-row-compact {
+    grid-template-columns: minmax(150px, 1fr) 80px minmax(150px, 1fr) 120px;
+}
+
+.weapon-damage-row {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(26, 77, 109, 0.5);
+}
+
+/* Individual stat field */
+.weapon-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.weapon-stat label {
+    color: #a8a8a8;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Dark themed inputs */
+.weapon-stat input[type="text"],
+.weapon-stat input[type="number"],
+.weapon-stat select {
+    background: rgba(25, 25, 30, 0.8);
+    border: 1px solid #4a4a4f;
+    border-radius: 3px;
+    color: #e0e0e0;
+    padding: 5px 8px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.weapon-stat input[type="text"]:focus,
+.weapon-stat input[type="number"]:focus,
+.weapon-stat select:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3);
+    outline: none;
+}
+
+.weapon-stat input::placeholder,
+.weapon-stat select option:disabled {
+    color: #5a6c7d;
+    font-style: italic;
+}
+
+/* Select dropdown styling */
+.weapon-stat select {
+    cursor: pointer;
+}
+
+.weapon-stat select option {
+    background: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* Small stat fields (bulk, etc.) */
+.weapon-stat-small input[type="text"],
+.weapon-stat-small input[type="number"] {
+    max-width: 60px;
+}
+
+/* Split inputs (range, magazine, target) */
+.weapon-stat-split .split-inputs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.split-inputs input,
+.split-inputs select {
+    flex: 1;
+}
+
+.split-inputs .separator {
+    color: #6a6a6f;
+    font-weight: bold;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+/* Checkbox styling */
+.weapon-stat-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e0e0e0;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.weapon-stat-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #6a6a6f;
+}
+
+.weapon-stat-checkbox span {
+    text-transform: none;
+    font-weight: normal;
+}
+
+/* File input styling */
+.weapon-stat-file .file-input {
+    display: flex;
+    gap: 6px;
+}
+
+.file-input button.file-picker {
+    background: #3a3a3e;
+    border: 1px solid #6a6a6f;
+    color: #6a6a6f;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.file-input button.file-picker:hover {
+    background: #6a6a6f;
+    color: #1a1a1a;
+    box-shadow: 0 0 8px rgba(90, 120, 140, 0.4);
+}
+
+.file-input input {
+    flex: 1;
+}
+
+/* Special properties textarea */
+.section-content textarea {
+    width: 100%;
+    background: rgba(25, 25, 30, 0.8);
+    border: 1px solid #4a4a4f;
+    border-radius: 3px;
+    color: #e0e0e0;
+    padding: 8px;
+    font-size: 12px;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 60px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.section-content textarea:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3);
+    outline: none;
+}
+
+.section-content textarea::placeholder {
+    color: #5a6c7d;
+    font-style: italic;
+}
+
+/* Weapon Description Section */
+.weapon-description-section {
+    padding: 12px;
+    background: rgba(35, 35, 40, 0.3);
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    border: 1px solid #2a2a2e;
+}
+
+.weapon-description-section > label {
+    color: #6a6a6f;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 8px;
+    text-shadow: 0 0 5px rgba(90, 120, 140, 0.5);
+}
+
+/* Tech Level Box */
+.tech-level-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+    box-sizing: border-box;
+    background: rgba(25, 25, 30, 0.9);
+    border: 3px solid #6a6a6f;
+    border-radius: 6px;
+    margin-right: 10px;
+    box-shadow: 0 0 12px rgba(90, 120, 140, 0.4);
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 6px;
+    overflow: hidden;
+}
+
+.tech-level-label {
+    color: #6a6a6f;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.tech-level-input {
+    background: transparent;
+    border: none;
+    color: #6a6a6f;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.5);
+    line-height: 1;
+}
+
+.tech-level-input:focus {
+    outline: none;
+    text-shadow: 0 0 12px rgba(90, 120, 140, 0.8);
+}
+
+/* Adjust name input when tech level is present */
+.charname.flexrow {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    height: 70px;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0;
+}
+
+.charname.flexrow input[name="name"] {
+    flex: 1;
+    height: 70px;
+    min-height: 70px;
+}
+
+/* Profile image in flexrow */
+.charname.flexrow .profile-img {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    flex-shrink: 0;
+    border: 2px solid #6a6a6f;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.3);
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.charname.flexrow .profile-img:hover {
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6);
+    border-color: #c0c0c0;
+}
+
+/* Item sheet header adjustments for weapons */
+.sgrpg.itemsheet.flexcol .sheet-header {
+    flex: 0 0 auto !important;
+    min-height: auto;
+    max-height: none !important;
+    overflow: visible !important;
+    background: linear-gradient(135deg, #3a3a3e 0%, #2a2a2e 100%);
+    border-bottom: 2px solid #6a6a6f;
+    box-shadow: 0 2px 10px rgba(90, 120, 140, 0.2);
+    padding: 15px 15px 8px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+}
+
+.sgrpg.itemsheet .sheet-header .image-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.sgrpg.itemsheet .sheet-header .profile-img {
+    border: 2px solid #6a6a6f;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.3);
+    transition: all 0.2s ease;
+}
+
+.sgrpg.itemsheet .sheet-header .profile-img:hover {
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6);
+    border-color: #c0c0c0;
+}
+
+.sgrpg.itemsheet .sheet-header .header-fields {
+    flex: 0 0 auto !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    row-gap: 0 !important;
+    align-items: stretch;
+    justify-content: flex-start !important;
+}
+
+.sgrpg.itemsheet .sheet-header .charname,
+.sgrpg.itemsheet .sheet-header h1.charname {
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 0 0 70px !important;
+    height: 70px !important;
+    min-height: 70px !important;
+    max-height: 70px !important;
+    line-height: 1 !important;
+}
+
+.sgrpg.itemsheet .weapon-config-wrapper {
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;
+    flex: 0 0 auto !important;
+}
+
+.sgrpg.itemsheet .weapon-config-wrapper .weapon-section:first-child {
+    margin-top: 0 !important;
+}
+
+.sgrpg.itemsheet.flexcol .sheet-header .charname input[name="name"] {
+    background: rgba(25, 25, 30, 0.8);
+    border: 1px solid #4a4a4f;
+    color: #6a6a6f;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.3);
+    padding: 0 15px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.sgrpg.itemsheet.flexcol .sheet-header .charname input[name="name"]:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3);
+    outline: none;
+}
+
+/* Ensure weapon item sheet can scroll if needed */
+.sgrpg.itemsheet .sheet-body {
+    overflow-y: auto;
+    flex: 1 1 auto;
+    padding: 0 15px 15px 15px !important;
+    margin: 0 !important;
+}
+
+/* Make sure item sheet has proper height */
+.sgrpg.itemsheet.flexcol {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Remove outer window border */
+.app.window-app.sheet.item-sheet.sgrpg.itemsheet,
+.window-app.sgrpg.itemsheet,
+.app.sgrpg.itemsheet {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) !important;
+    background: transparent !important;
+    outline: none !important;
+}
+
+.sgrpg.itemsheet {
+    border: none !important;
+    background: transparent !important;
+}
+
+.sgrpg.itemsheet .window-content,
+.sgrpg.itemsheet section.window-content,
+section.window-content.sgrpg {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.sgrpg.itemsheet.flexcol form {
+    border: none !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
+.sgrpg.itemsheet form.sgrpg {
+    border: none !important;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2e 100%) !important;
+    box-shadow: none !important;
+}
+
+/* Remove any possible frame/border colors */
+.sgrpg.itemsheet form.sgrpg.flexcol.itemsheet {
+    border: none !important;
+    outline: none !important;
+}
+
+.window-app.sgrpg {
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Remove ALL padding from window elements */
+.window-app.sgrpg.sheet.actor,
+.window-app.sheet.actor,
+body .app.window-app.sheet.actor {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.window-app.sgrpg.sheet.actor .window-content {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Remove light colored borders completely */
+.sgrpg.itemsheet *,
+.sgrpg.itemsheet *::before,
+.sgrpg.itemsheet *::after {
+    border-color: transparent !important;
+}
+
+/* Re-add only the borders we want (cyan) */
+.sgrpg.itemsheet .sheet-header {
+    border-bottom: 2px solid #6a6a6f !important;
+}
+
+.sgrpg.itemsheet .tech-level-box,
+.sgrpg.itemsheet .profile-img,
+.sgrpg.itemsheet .weapon-section,
+.sgrpg.itemsheet .weapon-description-section {
+    border-color: #6a6a6f !important;
+}
+
+.sgrpg.itemsheet .weapon-section {
+    border-color: #2a2a2e !important;
+}
+
+.sgrpg.itemsheet input,
+.sgrpg.itemsheet select,
+.sgrpg.itemsheet textarea {
+    border-color: #4a4a4f !important;
+}
+
+/* Override any Foundry default borders */
+.sgrpg.itemsheet.window-app .window-header,
+.sgrpg.itemsheet .window-resizable-handle {
+    border: none !important;
+}
+
+/* Item sheet window header: the window itself is transparent (see above),
+   so the title bar needs its own solid background to stay readable. */
+.sgrpg.itemsheet.window-app .window-header {
+    background: linear-gradient(180deg, #2e2e33 0%, #1f1f23 100%) !important;
+    border-bottom: 1px solid #4a4a4f !important;
+    color: #e6e6ec !important;
+}
+.sgrpg.itemsheet.window-app .window-header .window-title {
+    color: #e6e6ec !important;
+    text-shadow: none !important;
+}
+.sgrpg.itemsheet.window-app .window-header a.header-button,
+.sgrpg.itemsheet.window-app .window-header .document-id-link {
+    color: #c8c8d0 !important;
+    text-shadow: none !important;
+}
+.sgrpg.itemsheet.window-app .window-header a.header-button:hover,
+.sgrpg.itemsheet.window-app .window-header .document-id-link:hover {
+    color: #a8c8d8 !important;
+}
+
+/* Ensure resize handle is always accessible above scrollbars and sheet content */
+.sgrpg.window-app .window-resizable-handle {
+    z-index: 100 !important;
+    position: absolute !important;
+}
+
+/* Global: replace Foundry's parchment with dark background for ALL module windows.
+   sgrpg sheets use transparent below so their own sheet background shows through. */
+body.game .app.window-app .window-content {
+    background: #1e1e24 !important;
+    background-image: none !important;
+    color: #d0d0d8 !important;
+}
+body.game .app.window-app.sgrpg .window-content {
+    background: transparent !important;
+    background-image: none !important;
+}
+
+/* ---- Moulinette asset browser — dark theme ---- */
+#mou-browser {
+    background: #1a1a20 !important;
+    background-image: none !important;
+}
+#mou-browser .window-content {
+    background: #23232a !important;
+    background-image: none !important;
+}
+#mou-browser .browser,
+#mou-browser .container,
+#mou-browser .content {
+    background: #23232a !important;
+    background-image: none !important;
+}
+#mou-browser .filters {
+    background: #1c1c22 !important;
+    border-right: 1px solid #3a3a42 !important;
+}
+/* Set ALL divs in mou-browser to the base dark color so any footer/settings
+   panel gets the right background regardless of class name.
+   Exclude divs with inline background-image (e.g. image preview popups). */
+#mou-browser .window-content div:not([style*="background-image"]) {
+    background-color: #23232a !important;
+    background-image: none !important;
+}
+/* Restore backgrounds that need to be non-transparent */
+#mou-browser .filters {
+    background-color: #1c1c22 !important;
+}
+#mou-browser input,
+#mou-browser select,
+#mou-browser textarea {
+    background-color: #2c2c35 !important;
+    border: 1px solid #4a4a56 !important;
+    color: #d0d0d8 !important;
+}
+#mou-browser input::placeholder { color: #60606c !important; }
+#mou-browser,
+#mou-browser * {
+    color: #d0d0d8 !important;
+    --color-text-hyperlink: #9ab8cc !important;
+}
+#mou-browser a { color: #9ab8cc !important; text-decoration: none !important; }
+#mou-browser a:hover { color: #c0d8e8 !important; }
+#mou-browser button,
+#mou-browser input[type="button"],
+#mou-browser input[type="submit"] {
+    background-color: #2c2c38 !important;
+    background-image: none !important;
+    border: 1px solid #4a4a58 !important;
+    color: #d0d0d8 !important;
+}
+#mou-browser button:hover { background-color: #38384a !important; }
+#mou-browser hr { border-color: #3a3a42 !important; }
+#mou-browser ::-webkit-scrollbar { width: 6px; background: #1c1c22; }
+#mou-browser ::-webkit-scrollbar-thumb { background: #4a4a58; border-radius: 3px; }
+
+/* Ensure actor sheet window content fills properly */
+.window-app.sgrpg.sheet.actor section.window-content,
+.sgrpg.sheet.actor .window-content,
+.window-app.sheet.actor.sgrpg .window-content,
+section.window-content.sgrpg {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Override Foundry VTT's default window-content padding */
+.app.window-app.sheet.actor.sgrpg .window-content,
+.window-app.sgrpg .window-content,
+.sgrpg .window-content,
+.window-app .window-content.sgrpg,
+body .window-app.sheet.actor .window-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Override all Foundry padding for actor sheets */
+.app.sheet.actor .window-content {
+    padding: 0 !important;
+}
+
+/* Dark theme for editor/description areas */
+.sgrpg.itemsheet .sheet-body {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2e 100%) !important;
+}
+
+.sgrpg.itemsheet .tox,
+.sgrpg.itemsheet .tox-tinymce,
+.sgrpg.itemsheet .editor {
+    background: transparent !important;
+    border: none !important;
+}
+
+.sgrpg.itemsheet .tox .tox-edit-area__iframe,
+.sgrpg.itemsheet iframe {
+    background: rgba(25, 25, 30, 0.9) !important;
+}
+
+/* ======================================== */
+/* Sci-Fi Styled Tabs for Weapon Sheet */
+/* ======================================== */
+
+.sgrpg.itemsheet .sheet-tabs {
+    flex: 0 0 40px;
+    border-top: none;
+    border-bottom: 2px solid #6a6a6f;
+    background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3e 100%);
+    box-shadow: 0 2px 8px rgba(90, 120, 140, 0.2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.sgrpg.itemsheet .sheet-tabs .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5a9cc7;
+    border: none;
+    border-right: 1px solid #2a2a2e;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    text-shadow: 0 0 3px rgba(90, 120, 140, 0.3);
+}
+
+.sgrpg.itemsheet .sheet-tabs .item:last-child {
+    border-right: none;
+}
+
+.sgrpg.itemsheet .sheet-tabs .item:hover {
+    color: #6a6a6f;
+    background: rgba(90, 120, 140, 0.1);
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.6);
+}
+
+.sgrpg.itemsheet .sheet-tabs .item.active {
+    color: #c0c0c0;
+    background: linear-gradient(180deg, rgba(90, 120, 140, 0.2) 0%, rgba(90, 120, 140, 0.05) 100%);
+    text-shadow: 0 0 10px rgba(90, 120, 140, 0.8);
+    border-bottom: 3px solid #6a6a6f;
+    box-shadow: inset 0 -3px 10px rgba(90, 120, 140, 0.3);
+}
+
+.sgrpg.itemsheet .sheet-tabs .item.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #6a6a6f, transparent);
+    box-shadow: 0 0 8px #6a6a6f;
+}
+
+/* ======================================== */
+/* Weapon Lore Section Styling */
+/* ======================================== */
+
+.weapon-lore-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lore-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lore-label {
+    color: #6a6a6f;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgba(90, 120, 140, 0.5);
+}
+
+.lore-section input[type="text"] {
+    background: rgba(25, 25, 30, 0.8);
+    border: 1px solid #4a4a4f;
+    color: #e0e0e0;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.lore-section input[type="text"]:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 8px rgba(90, 120, 140, 0.3);
+    outline: none;
+}
+
+.lore-section input[type="text"]::placeholder {
+    color: #5a6c7d;
+    font-style: italic;
+}
+
+.lore-description {
+    flex: 1;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lore-description .editor,
+.lore-description .editor-content {
+    min-height: 400px;
+    height: 400px;
+    flex: 1;
+}
+
+.lore-description .tox-tinymce {
+    min-height: 400px !important;
+    height: 400px !important;
+}
+
+.lore-description .tox-edit-area {
+    min-height: 350px !important;
+}
+
+.lore-description .tox .tox-edit-area__iframe {
+    min-height: 350px !important;
+}
+
+/* Make editor text visible on dark background */
+.sgrpg.itemsheet .editor-content,
+.sgrpg.itemsheet .tox-edit-area,
+.sgrpg.itemsheet .ProseMirror {
+    color: #e0e0e0 !important;
+    background: transparent !important;
+}
+
+/* Set light text color in TinyMCE editor content */
+.lore-description .tox-tinymce,
+.lore-description .mce-content-body,
+.lore-description .tox-edit-area__iframe,
+.lore-description iframe {
+    background: rgba(25, 25, 30, 0.9) !important;
+}
+
+/* Target the body inside the iframe */
+.sgrpg.itemsheet .mce-content-body {
+    color: #e0e0e0 !important;
+    background-color: rgba(25, 25, 30, 0.9) !important;
+}
+
+.sgrpg.itemsheet .mce-content-body * {
+    color: #e0e0e0 !important;
+}
+
+.sgrpg.itemsheet .mce-content-body p {
+    color: #e0e0e0 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .weapon-stat-row {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .weapon-stat-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======================================== */
+/* Equipment Sheet Styling */
+/* ======================================== */
+
+.equip-config-wrapper {
+    margin: 8px 0 0 0 !important;
+    padding: 0 !important;
+    flex: 0 0 auto !important;
+}
+
+.equip-config-wrapper .equip-section:first-child {
+    margin-top: 0 !important;
+}
+
+.equip-section {
+    margin-bottom: 8px;
+    margin-top: 0;
+    border: 1px solid #2a2a2e;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba(35, 35, 40, 0.4);
+}
+
+.equip-section:first-child {
+    margin-top: 0 !important;
+}
+
+.equip-section:last-child {
+    margin-bottom: 0;
+}
+
+.equip-stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.equip-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.equip-stat-full {
+    grid-column: 1 / -1;
+}
+
+.equip-stat label {
+    color: #a8a8a8;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.equip-stat input[type="text"],
+.equip-stat input[type="number"],
+.equip-stat select {
+    background: rgba(25, 25, 30, 0.8);
+    border: 1px solid #4a4a4f;
+    border-radius: 3px;
+    color: #e0e0e0;
+    padding: 5px 8px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+.equip-stat input[type="text"]:focus,
+.equip-stat input[type="number"]:focus,
+.equip-stat select:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3);
+    outline: none;
+}
+
+.equip-stat input[type="text"]::placeholder {
+    color: #5a6c7d;
+    font-style: italic;
+}
+
+.equip-description-section {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equip-description-section .editor,
+.equip-description-section .editor-content {
+    min-height: 200px;
+    flex: 1;
+}
+
+.equip-description-section .tox-tinymce {
+    min-height: 200px !important;
+}
+
+.equip-lore-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ========================================= */
+/* Character Sheet Weapon Table Styling    */
+/* ========================================= */
+
+/* Weapon table header - Dark sci-fi theme */
+.charsheet .weapon-table thead tr.weapon-table-header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3e 100%);
+    border-bottom: 2px solid #6a6a6f;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th {
+    color: #6a6a6f;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 8px;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.6);
+    border-right: 1px solid #333;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th:last-child {
+    border-right: none;
+}
+
+/* Add button in header */
+.charsheet .add-btn-cell {
+    width: 45px;
+    padding: 5px !important;
+    text-align: center;
+}
+
+.charsheet .add-weapon-btn-header {
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, rgba(90, 120, 140, 0.2) 0%, rgba(90, 120, 140, 0.1) 100%);
+    border: 2px solid #6a6a6f;
+    border-radius: 6px;
+    color: #6a6a6f;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.charsheet .add-weapon-btn-header:hover {
+    background: linear-gradient(135deg, rgba(90, 120, 140, 0.4) 0%, rgba(90, 120, 140, 0.2) 100%);
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6);
+    transform: scale(1.05);
+}
+
+.charsheet .add-weapon-btn-header:active {
+    transform: scale(0.95);
+}
+
+/* Weapon drag cell */
+.charsheet .weapon-drag-cell {
+    width: 45px;
+    text-align: center;
+    color: #666;
+    cursor: grab;
+}
+
+.charsheet .weapon-drag-cell:active {
+    cursor: grabbing;
+}
+
+.charsheet .weapon-drag-cell .drag-handle {
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+}
+
+.charsheet .weapon-drag-cell:hover .drag-handle {
+    opacity: 1;
+}
+
+/* Weapon table row styling */
+.charsheet .weapon-table tbody tr {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #333;
+    transition: background 0.2s ease;
+}
+
+.charsheet .weapon-table tbody tr:hover {
+    background: rgba(240, 248, 255, 0.95);
+}
+
+.charsheet .weapon-table tbody td {
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* ========================================= */
+/* Skills and Saves Box Rounder Edges       */
+/* ========================================= */
+
+.charsheet section.skills,
+.charsheet section.saves {
+    border-radius: 12px !important;
+}
+
+.charsheet section.skills h3,
+.charsheet section.saves h3 {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Equipment table header - matching weapon style */
+.charsheet .equip-table thead tr.equip-table-header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3e 100%);
+    border-bottom: 2px solid #6a6a6f;
+}
+
+.charsheet .equip-table thead tr.equip-table-header th {
+    color: #6a6a6f;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 8px;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.6);
+    border-right: 1px solid #333;
+}
+
+.charsheet .equip-table thead tr.equip-table-header th:last-child {
+    border-right: none;
+}
+
+.charsheet .equip-table tbody tr {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #333;
+    transition: background 0.2s ease;
+}
+
+.charsheet .equip-table tbody tr:hover {
+    background: rgba(240, 248, 255, 0.95);
+}
+
+.charsheet .equip-table tbody td {
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* ========================================= */
+/* Weapon Selector - Sci-Fi Dark Theme      */
+/* ========================================= */
+
+.weapon-selector.app {
+    background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3e 100%);
+    border: 2px solid #6a6a6f;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(90, 120, 140, 0.5);
+}
+
+.weapon-selector .window-header {
+    background: linear-gradient(90deg, #2a2a2e 0%, #3a3a3e 100%);
+    border-bottom: 2px solid #6a6a6f;
+    color: #6a6a6f;
+    text-shadow: 0 0 10px rgba(90, 120, 140, 0.8);
+}
+
+.weapon-selector .window-title {
+    color: #6a6a6f;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.weapon-selector .window-content {
+    background: rgba(30, 30, 35, 0.95);
+}
+
+.weapon-selector-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.weapon-selector .search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.weapon-selector #weapon-search {
+    flex: 1;
+    padding: 10px 15px;
+    background: rgba(25, 25, 30, 0.9);
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+    color: #e0e0e0;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.weapon-selector #weapon-search:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.4);
+    outline: none;
+}
+
+.weapon-selector #weapon-search::placeholder {
+    color: rgba(200, 200, 205, 0.5);
+}
+
+.weapon-selector .weapons-grid {
+    display: grid;
+    /* Always show exactly 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 5px;
+}
+
+/* Custom scrollbar for weapon grid */
+.weapon-selector .weapons-grid::-webkit-scrollbar {
+    width: 10px;
+}
+
+.weapon-selector .weapons-grid::-webkit-scrollbar-track {
+    background: rgba(25, 25, 30, 0.5);
+    border-radius: 5px;
+}
+
+.weapon-selector .weapons-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6a8a9f 0%, #5a7a8f 100%);
+    border-radius: 5px;
+    border: 2px solid rgba(25, 25, 30, 0.5);
+}
+
+.weapon-selector .weapons-grid::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #8ab0c5 0%, #6a8a9f 100%);
+}
+
+.weapon-selector .weapon-card {
+    background: linear-gradient(135deg, rgba(35, 35, 40, 0.8) 0%, rgba(25, 25, 30, 0.9) 100%);
+    border: 2px solid #4a4a4f;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.weapon-selector .weapon-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent 0%, rgba(90, 120, 140, 0.05) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.weapon-selector .weapon-card:hover {
+    border-color: #6a6a6f;
+    background: linear-gradient(135deg, rgba(35, 35, 40, 0.95) 0%, rgba(25, 25, 30, 1) 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(90, 120, 140, 0.5);
+}
+
+.weapon-selector .weapon-card:hover::before {
+    opacity: 1;
+}
+
+.weapon-selector .card-header {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.weapon-selector .weapon-image {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(25, 25, 30, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease;
+}
+
+.weapon-selector .weapon-card:hover .weapon-image {
+    border-color: #6a6a6f;
+}
+
+.weapon-selector .weapon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(90, 120, 140, 0.3));
+}
+
+.weapon-selector .weapon-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
+}
+
+.weapon-selector .weapon-name {
+    font-weight: 700;
+    font-size: 13px;
+    color: #c0c0c0;
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+
+.weapon-selector .weapon-prof-type {
+    font-size: 11px;
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+.weapon-selector .weapon-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.weapon-selector .weapon-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: rgba(50, 50, 55, 0.8);
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(26, 77, 109, 0.4);
+    text-align: center;
+}
+
+.weapon-selector .weapon-stat .stat-label {
+    font-weight: 600;
+    color: #9a9a9a;
+    font-size: 9px;
+}
+
+.weapon-selector .weapon-stat .stat-value {
+    color: #5a9fd4;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.weapon-selector .no-weapons {
+    text-align: center;
+    padding: 60px 20px;
+    color: rgba(200, 200, 205, 0.6);
+    font-size: 14px;
+}
+
+.weapon-selector .no-weapons::before {
+    content: '⚠';
+    display: block;
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #6a6a6f;
+    text-shadow: 0 0 15px rgba(90, 120, 140, 0.8);
+}
+
+/* ========================================= */
+/* Inventory Selector - Unified with Tabs   */
+/* ========================================= */
+
+.inventory-selector.app {
+    background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3e 100%);
+    border: 2px solid #4a4a4f;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.inventory-selector .window-header {
+    background: linear-gradient(90deg, #2a2a2e 0%, #3a3a3e 100%);
+    border-bottom: 2px solid #4a4a4f;
+    color: #a8a8a8;
+    text-shadow: none;
+}
+
+.inventory-selector .window-title {
+    color: #a8a8a8;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inventory-selector .window-content {
+    background: rgba(30, 30, 35, 0.95);
+    padding: 0;
+    /* Removed overflow-y and max-height to prevent double scrollbars */
+    /* Window scrollbar will handle scrolling */
+}
+
+.inventory-selector-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Tab Navigation - matches character sheet tabs exactly */
+.inventory-tabs {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #4a4a4f !important;
+    padding: 8px 16px 0 16px !important;
+    display: flex !important;
+    gap: 24px !important;
+}
+
+.inventory-tab {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 6px 6px 0 0 !important;
+    color: #7a7a7a !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    font-size: 13px !important;
+    letter-spacing: 0.3px !important;
+    padding: 10px 16px !important;
+    transition: all 0.2s ease !important;
+    position: relative !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    outline: none !important;
+}
+
+.inventory-tab:focus {
+    outline: none !important;
+}
+
+.inventory-tab:hover {
+    background: rgba(70, 100, 120, 0.25) !important;
+    color: #a8c8d8 !important;
+    box-shadow: 0 -2px 8px rgba(90, 120, 140, 0.2) !important;
+}
+
+.inventory-tab.active {
+    background: linear-gradient(180deg, rgba(90, 120, 140, 0.3) 0%, rgba(70, 100, 120, 0.4) 100%) !important;
+    color: #e0e0e0 !important;
+    font-weight: 600 !important;
+    box-shadow: 0 -2px 8px rgba(90, 120, 140, 0.4) !important;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.6) !important;
+}
+
+.inventory-tab i {
+    font-size: 15px;
+}
+
+/* Search Bar */
+.inventory-selector .search-bar {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.inventory-selector .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(160, 160, 165, 0.5);
+    pointer-events: none;
+}
+
+.inventory-selector #inventory-search {
+    flex: 1;
+    padding: 10px 40px 10px 15px;
+    background: rgba(30, 30, 35, 0.9);
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.inventory-selector #inventory-search:focus {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+.inventory-selector #inventory-search:focus + .search-icon {
+    color: #6a6a6f;
+}
+
+.inventory-selector #inventory-search::placeholder {
+    color: rgba(200, 200, 205, 0.5);
+}
+
+/* Tab Content */
+.inventory-selector .tab-content {
+    display: none;
+    background: rgba(30, 30, 35, 0.5);
+    border: 2px solid #4a4a4f;
+    border-top: 2px solid #4a4a4f;
+    /* Round all corners to match bottom corners */
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+    /* Removed min-height to prevent forcing extra scrollbars */
+    margin-top: 0;
+}
+
+.inventory-selector .tab-content.active {
+    display: block;
+}
+
+/* Items Grid */
+.inventory-selector .items-grid {
+    display: grid;
+    /* Always show exactly 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 5px;
+}
+
+/* Custom scrollbar for items grid */
+.inventory-selector .items-grid::-webkit-scrollbar {
+    width: 10px;
+}
+
+.inventory-selector .items-grid::-webkit-scrollbar-track {
+    background: rgba(25, 25, 30, 0.5);
+    border-radius: 5px;
+}
+
+.inventory-selector .items-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6a8a9f 0%, #5a7a8f 100%);
+    border-radius: 5px;
+    border: 2px solid rgba(25, 25, 30, 0.5);
+}
+
+.inventory-selector .items-grid::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #8ab0c5 0%, #6a8a9f 100%);
+}
+
+/* Item Cards */
+.inventory-selector .item-card {
+    background: linear-gradient(135deg, rgba(40, 40, 45, 0.85) 0%, rgba(30, 30, 35, 0.9) 100%);
+    border: 2px solid #4a4a4f;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inventory-selector .card-top-row {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.inventory-selector .right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.inventory-selector .item-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent 0%, rgba(60, 60, 65, 0.05) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.inventory-selector .item-card:hover {
+    border-color: #6a6a6f;
+    background: linear-gradient(135deg, rgba(35, 35, 40, 0.95) 0%, rgba(25, 25, 30, 1) 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.inventory-selector .item-card:hover::before {
+    opacity: 1;
+}
+
+.inventory-selector .item-image {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(25, 25, 30, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease;
+}
+
+.inventory-selector .item-card:hover .item-image {
+    border-color: #6a6a6f;
+}
+
+.inventory-selector .item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
+.inventory-selector .item-name {
+    font-weight: 700;
+    font-size: 13px;
+    color: #c0c0c0;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-shadow: none;
+    line-height: 1.2;
+    padding: 0;
+}
+
+.inventory-selector .item-description {
+    font-size: 11px;
+    color: #b0b0b0;
+    text-align: left;
+    line-height: 1.5;
+    padding: 10px;
+    background: rgba(20, 20, 25, 0.6);
+    border-radius: 6px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.inventory-selector .item-description p {
+    margin: 0 0 6px 0;
+}
+
+.inventory-selector .item-description p:last-child {
+    margin-bottom: 0;
+}
+
+.inventory-selector .item-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    font-size: 11px;
+    flex-wrap: nowrap;
+}
+
+.inventory-selector .item-stat {
+    display: flex;
+    gap: 6px;
+    background: rgba(50, 50, 55, 0.8);
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(70, 70, 75, 0.6);
+    align-items: center;
+    white-space: nowrap;
+}
+
+.inventory-selector .item-stat .stat-label {
+    font-weight: 600;
+    color: #9a9a9a;
+    font-size: 10px;
+}
+
+.inventory-selector .item-stat .stat-value {
+    color: #5a9fd4;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.inventory-selector .no-items {
+    text-align: center;
+    padding: 60px 20px;
+    color: #a8a8a8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.inventory-selector .no-items::before {
+    content: '⚠';
+    display: block;
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #6a6a6f;
+    text-shadow: none;
+}
+
+/* Add Equipment Button */
+.inventory-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-equipment-btn {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    background: linear-gradient(135deg, rgba(90, 120, 140, 0.2) 0%, rgba(90, 120, 140, 0.1) 100%);
+    border: 2px solid #6a6a6f;
+    border-radius: 6px;
+    color: #6a6a6f;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-equipment-btn:hover {
+    background: linear-gradient(135deg, rgba(90, 120, 140, 0.4) 0%, rgba(90, 120, 140, 0.2) 100%);
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6);
+    transform: scale(1.05);
+}
+
+.add-equipment-btn:active {
+    transform: scale(0.95);
+}
+
+.add-equipment-btn i {
+    font-size: 10px;
+}
+
+/* ========================================= */
+/* Character Sheet Table Override           */
+/* Replace sci-fi styling with normal design */
+/* ========================================= */
+
+/* Remove sci-fi styling from character sheet tables */
+.charsheet .weapon-table thead tr.weapon-table-header,
+.charsheet .equip-table thead tr.equip-table-header {
+    background: transparent !important;
+    border-bottom: 2px solid black !important;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th,
+.charsheet .equip-table thead tr.equip-table-header th {
+    color: inherit !important;
+    font-size: 10px !important;
+    font-weight: 800 !important;
+    text-transform: capitalize !important;
+    letter-spacing: normal !important;
+    padding: 0px 6px !important;
+    text-shadow: none !important;
+    border-right: none !important;
+    line-height: 1.1 !important;
+}
+
+/* Add button cell on the right */
+.charsheet .add-btn-cell-right {
+    width: 18px;
+    padding: 0px !important;
+    text-align: center;
+    border-left: none !important;
+}
+
+/* Remove border between last regular column and button cell */
+.charsheet .weapon-table thead tr.weapon-table-header th:nth-last-child(2),
+.charsheet .equip-table thead tr.equip-table-header th:nth-last-child(2) {
+    border-right: none !important;
+}
+
+/* Style add buttons to match character sheet */
+.charsheet .add-weapon-btn-header,
+.charsheet .add-equipment-btn {
+    width: 16px;
+    height: 16px;
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    border-radius: 3px;
+    color: black !important;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: none !important;
+}
+
+.charsheet .add-weapon-btn-header:hover,
+.charsheet .add-equipment-btn:hover {
+    background-color: #87afc7 !important;
+    transform: scale(1.05);
+    box-shadow: none !important;
+}
+
+.charsheet .add-weapon-btn-header:active,
+.charsheet .add-equipment-btn:active {
+    transform: scale(0.95);
+}
+
+/* Remove sci-fi table row styling */
+.charsheet .weapon-table tbody tr,
+.charsheet .equip-table tbody tr {
+    background: transparent !important;
+    border-bottom: 1px solid #333 !important;
+    transition: background 0.2s ease;
+}
+
+.charsheet .weapon-table tbody tr:hover,
+.charsheet .equip-table tbody tr:hover {
+    background: rgba(135, 175, 199, 0.2) !important;
+}
+
+.charsheet .weapon-table tbody td,
+.charsheet .equip-table tbody td {
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* Bulk summary below table */
+.charsheet .bulk-summary {
+    margin-top: 2px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #b8b8b8;
+    text-align: right;
+}
+
+/* Overloaded warning styling */
+.charsheet .bulk-summary.bulk-overloaded {
+    color: #cc0000;
+}
+
+.charsheet .bulk-summary.bulk-overloaded i {
+    color: #ff3333;
+    animation: bulkWarning 1.5s ease-in-out infinite;
+}
+
+@keyframes bulkWarning {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Remove rounder edges from skills and saves (keep original design) */
+.charsheet section.skills,
+.charsheet section.saves {
+    border-radius: 0 !important;
+}
+
+.charsheet section.skills h3,
+.charsheet section.saves h3 {
+    border-radius: 0 !important;
+}
+
+/* ========================================= */
+/* Final Character Sheet Table Fixes        */
+/* Rounded corners, visible headers, proper spacing */
+/* ========================================= */
+
+/* Add rounded corners to table headers */
+.charsheet .weapon-table thead,
+.charsheet .equip-table thead {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.charsheet .weapon-table,
+.charsheet .equip-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Make header text visible and bold */
+.charsheet .weapon-table thead tr.weapon-table-header th,
+.charsheet .equip-table thead tr.equip-table-header th {
+    color: #000 !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    background: #e8e8e8 !important;
+}
+
+/* Round corners on first and last header cells */
+.charsheet .weapon-table thead tr.weapon-table-header th:first-child,
+.charsheet .equip-table thead tr.equip-table-header th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th:last-child,
+.charsheet .equip-table thead tr.equip-table-header th:last-child {
+    border-top-right-radius: 8px;
+}
+
+/* Proper column widths - let Special and Name expand */
+.charsheet .weapon-table .weapon-special-col {
+    width: auto;
+    min-width: 120px;
+}
+
+.charsheet .weapon-table .weapon-actions-col {
+    width: 100px;
+    min-width: 100px;
+    text-align: right;
+    padding-right: 8px !important;
+}
+
+.charsheet .equip-table .equip-name-col {
+    width: auto;
+    min-width: 100px;
+    max-width: none;
+}
+
+/* Display item icon above name vertically */
+.charsheet .equip-table .item-name-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 4px !important;
+    padding: 4px 0 !important;
+}
+
+/* NPC stats container — single row of 5 boxes (no Moxie) */
+.npc-actor .stats-container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 5px !important;
+    grid-template-columns: unset !important;
+}
+.npc-actor .stats-container .stat-box {
+    flex: 1 !important;
+}
+/* HP gets more space to handle 3-digit values */
+.npc-actor .stats-container .hp-box {
+    flex: 2 !important;
+}
+.npc-actor .stats-container .hp-box .stat-row input {
+    width: 52px !important;
+}
+
+/* NPC sheet: Display item icon beside name horizontally */
+.npc-actor .equip-table .item-name-container {
+    flex-direction: row !important;
+    gap: 8px !important;
+}
+
+.charsheet .equip-table .item-name-container .item-image {
+    width: 40px !important;
+    height: 40px !important;
+    display: block !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 4px !important;
+    flex-shrink: 0 !important;
+}
+
+.charsheet .equip-table .item-name {
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+}
+
+/* NPC sheet: Left align item names when beside image */
+.npc-actor .equip-table .item-name {
+    text-align: left !important;
+}
+
+.charsheet .equip-table .equip-actions-col {
+    width: 85px !important;
+    min-width: 85px !important;
+    max-width: 85px !important;
+    text-align: right;
+    padding: 5px 4px !important;
+    white-space: nowrap !important;
+}
+
+/* Remove old cell styling */
+.charsheet .add-btn-cell-right {
+    width: auto !important;
+    padding: 5px 8px !important;
+    text-align: right !important;
+}
+
+/* Adjust button positioning */
+.charsheet .add-weapon-btn-header,
+.charsheet .add-equipment-btn {
+    float: right;
+    margin-left: 8px;
+}
+
+/* Better action button spacing */
+.charsheet .weapon-actions-col .item-control,
+.charsheet .equip-actions-col .item-control {
+    margin-left: 4px;
+}
+
+/* Add rounded corners to inventory and weapons box sections */
+.charsheet section.inventory,
+.charsheet .weapons-box {
+    border-radius: 8px !important;
+}
+
+.charsheet section.inventory {
+    overflow: visible !important;
+}
+
+.charsheet .weapons-box {
+    border-radius: 8px !important;
+}
+
+/* ========================================= */
+/* Character Sheet Polish & Consistency      */
+/* ========================================= */
+
+/* Center plus icons in add buttons */
+.charsheet .add-weapon-btn-header i,
+.charsheet .add-equipment-btn i {
+    display: block;
+    line-height: 1;
+}
+
+.charsheet .add-weapon-btn-header,
+.charsheet .add-equipment-btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-left: 8px;
+}
+
+/* Fix inventory header overflow */
+.charsheet section.inventory {
+    padding: 5px;
+    overflow: visible !important;
+}
+
+.charsheet .inventory-content {
+    overflow: visible;
+}
+
+/* Rounded corners for all stat boxes */
+.charsheet section.skills,
+.charsheet section.saves,
+.charsheet .deathsave-box {
+    border-radius: 8px !important;
+}
+
+.charsheet .deathsave-box .section.death {
+    border-radius: 8px !important;
+}
+
+/* Consistent header styling */
+.charsheet section.skills h3,
+.charsheet section.saves h3,
+.charsheet section.condition h3,
+.charsheet section.inventory h4 {
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+}
+
+.charsheet section.inventory h4 {
+    font-size: 1em !important;
+    margin: 5px 0 10px 0;
+}
+
+/* Ensure all section boxes have rounded corners */
+.charsheet .section {
+    border-radius: 8px !important;
+}
+
+/* ========================================= */
+/* Character Sheet Final Polish Fixes        */
+/* ========================================= */
+
+/* Fix inventory section overflow - allow table to be visible */
+.charsheet .saves-inventory-container .inventory {
+    margin: 0 !important;
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    padding: 8px !important;
+    overflow: visible !important;
+}
+
+.charsheet .saves-inventory-container .inventory h4 {
+    margin: 5px 0 10px 0 !important;
+    text-align: center !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.charsheet .saves-inventory-container .inventory .inventory-content {
+    flex: 1 !important;
+    overflow: visible !important;
+}
+
+/* Rounded corners for all boxes */
+.charsheet .main-content-area .skills {
+    border-radius: 8px !important;
+}
+
+.charsheet .saves-inventory-container .saves {
+    border-radius: 8px !important;
+}
+
+.charsheet .saves-inventory-container .condition {
+    border-radius: 8px !important;
+}
+
+.charsheet .saves-inventory-container .inventory {
+    border-radius: 8px !important;
+}
+
+.charsheet .deathsave-box {
+    border-radius: 8px !important;
+}
+
+.charsheet .deathsave-box .section.death {
+    border-radius: 8px !important;
+}
+
+/* Consistent header styling */
+.charsheet .main-content-area .skills h3 {
+    text-align: center !important;
+    margin: 0 0 10px 0 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.charsheet .saves-inventory-container .saves h3 {
+    text-align: center !important;
+    margin: 0 0 10px 0 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+.charsheet .saves-inventory-container .condition h3 {
+    text-align: center !important;
+    margin: 5px 0 10px 0 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+/* Better button centering */
+.charsheet .weapon-actions-col .add-weapon-btn-header,
+.charsheet .equip-actions-col .add-equipment-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    vertical-align: middle !important;
+}
+
+.charsheet .weapon-actions-col .add-weapon-btn-header i,
+.charsheet .equip-actions-col .add-equipment-btn i {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+}
+
+/* Fix table overflow in inventory section */
+.charsheet .equip-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.charsheet .equip-table thead {
+    width: 100%;
+}
+
+.charsheet .equip-table thead tr {
+    width: 100%;
+}
+
+.charsheet .equip-table th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Similarly for weapon table */
+.charsheet .weapon-table {
+    width: 100%;
+    table-layout: auto;
+}
+
+.charsheet .weapon-table thead {
+    width: 100%;
+}
+
+/* ========================================= */
+/* Character Sheet Width and Inner Rounding  */
+/* ========================================= */
+
+/* Adjust saves-inventory-container column distribution */
+.charsheet .saves-inventory-container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5px !important;
+    flex: 1 !important;
+    min-height: 200px !important;
+}
+
+/* Fix inventory table to fit properly */
+.charsheet .equip-table {
+    width: 100% !important;
+    table-layout: fixed !important;
+}
+
+/* Inventory columns: Name, Amount, Bulk, Actions */
+.charsheet .equip-table th:nth-child(1) {
+    width: auto;
+}
+
+.charsheet .equip-table th:nth-child(2) {
+    width: 80px;
+}
+
+.charsheet .equip-table th:nth-child(3) {
+    width: 60px;
+}
+
+.charsheet .equip-table th:nth-child(4) {
+    width: 110px;
+}
+
+/* Round corners on INNER elements */
+
+/* Individual skill rows */
+.charsheet .skills .rowflex {
+    border-radius: 6px !important;
+    padding: 3px 5px;
+    margin: 2px 0;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+}
+
+/* Individual save rows */
+.charsheet .saves .rowflex {
+    border-radius: 6px !important;
+    padding: 3px 5px;
+    margin: 2px 0;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+}
+
+/* Death save inner section */
+.charsheet .deathsave-box .section.death {
+    border-radius: 6px !important;
+}
+
+.charsheet .death-save-checks {
+    border-radius: 6px;
+    padding: 0px;
+    background: transparent;
+}
+
+.charsheet .death-save-checks .rowflex {
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin: 2px 0;
+}
+
+/* Roll buttons inside stat boxes */
+.charsheet .stats-container .stat-box .txt-btn {
+    border-radius: 4px !important;
+}
+
+/* Condition radio buttons container */
+.charsheet .condition .radioBoxes,
+.charsheet .condition > div {
+    border-radius: 6px;
+}
+
+/* Fix saves section to not overflow */
+.charsheet .saves-condition-column .saves {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.charsheet .saves-condition-column .condition {
+    overflow: hidden;
+    padding: 8px;
+}
+
+/* ========================================= */
+/* Fix: Round corners on existing elements  */
+/* Remove duplicate boxes, style originals  */
+/* ========================================= */
+
+/* Remove the extra boxes I added */
+.charsheet .skills .rowflex {
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.charsheet .saves .rowflex {
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Add rounded corners to the EXISTING skill/save buttons */
+.charsheet .skills a.txt-btn,
+.charsheet .saves a.txt-btn {
+    border-radius: 6px !important;
+}
+
+/* Add rounded corners to the EXISTING stat box buttons */
+.charsheet .stats-container a.txt-btn {
+    border-radius: 6px !important;
+    text-align: center !important;
+}
+
+/* Death save button */
+.charsheet .deathsave-box a.txt-btn {
+    border-radius: 6px !important;
+    text-align: center !important;
+}
+
+/* Remove extra styling from death-save-checks */
+.charsheet .death-save-checks {
+    border-radius: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.charsheet .death-save-checks .rowflex {
+    border-radius: 0 !important;
+    padding: 4px 0 !important;
+    margin: 0 !important;
+}
+
+/* Condition radio buttons - round the container if it exists */
+.charsheet .condition .radioBoxes,
+.charsheet .condition > div {
+    border-radius: 0 !important;
+}
+
+/* ========================================= */
+/* Table Column Dividers & Remove Skill Divider */
+/* ========================================= */
+
+/* Add vertical dividers between columns in weapon table */
+.charsheet .weapon-table thead th,
+.charsheet .weapon-table tbody td {
+    border-right: 1px solid #333 !important;
+}
+
+.charsheet .weapon-table thead th:last-child,
+.charsheet .weapon-table tbody td:last-child {
+    border-right: none !important;
+}
+
+/* Add vertical dividers between columns in equipment table */
+.charsheet .equip-table thead th,
+.charsheet .equip-table tbody td {
+    border-right: 1px solid #333 !important;
+}
+
+.charsheet .equip-table thead th:last-child,
+.charsheet .equip-table tbody td:last-child {
+    border-right: none !important;
+}
+
+/* Remove the divider after skills section */
+.charsheet .right-side {
+    border-left: none !important;
+    padding-left: 0 !important;
+}
+
+/* ========================================= */
+/* Fix Table Header Alignment and Dividers  */
+/* ========================================= */
+
+/* Ensure header dividers are visible */
+.charsheet .weapon-table thead th {
+    border-right: 2px solid #333 !important;
+    background: #e8e8e8 !important;
+}
+
+.charsheet .weapon-table thead th:last-child {
+    border-right: none !important;
+}
+
+.charsheet .equip-table thead th {
+    border-right: 2px solid #333 !important;
+    background: #e8e8e8 !important;
+}
+
+.charsheet .equip-table thead th:last-child {
+    border-right: none !important;
+}
+
+/* Fix header box styling to align with table and remove borders */
+.charsheet .weapon-table thead,
+.charsheet .equip-table thead {
+    background: #e8e8e8 !important;
+    border-radius: 8px 8px 0 0 !important;
+    border: none !important;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header,
+.charsheet .equip-table thead tr.equip-table-header {
+    background: #e8e8e8 !important;
+    border: none !important;
+}
+
+/* Remove borders from tables themselves */
+.charsheet .weapon-table,
+.charsheet .equip-table {
+    border: none !important;
+}
+
+/* Remove borders from section boxes */
+.charsheet .saves-inventory-container .saves,
+.charsheet .saves-inventory-container .condition,
+.charsheet .saves-inventory-container .inventory {
+    border: none !important;
+}
+
+.charsheet .main-content-area .skills {
+    border: none !important;
+}
+
+/* Deathsave-box border styling moved to Stargate theme section below */
+
+/* Remove borders from all character sheet sections */
+.charsheet section.saves,
+.charsheet section.inventory,
+.charsheet section.skills,
+.charsheet section.condition {
+    border: none !important;
+}
+
+.charsheet .section {
+    border: none !important;
+}
+
+/* Remove conflicting rounded corners that break alignment */
+.charsheet .weapon-table thead tr.weapon-table-header th:first-child,
+.charsheet .equip-table thead tr.equip-table-header th:first-child {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th:last-child,
+.charsheet .equip-table thead tr.equip-table-header th:last-child {
+    border-top-right-radius: 8px !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+/* Ensure proper box model */
+.charsheet .weapon-table,
+.charsheet .equip-table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+.charsheet .weapon-table thead th,
+.charsheet .weapon-table tbody td,
+.charsheet .equip-table thead th,
+.charsheet .equip-table tbody td {
+    box-sizing: border-box !important;
+}
+
+/* Fix column widths to match between header and body */
+.charsheet .equip-table {
+    table-layout: auto !important;
+    width: 100% !important;
+}
+
+/* Inventory table columns: Name, Amount, Bulk, Actions - very compact widths */
+.charsheet .equip-table th:nth-child(1),
+.charsheet .equip-table td:nth-child(1) {
+    width: auto !important;
+    padding-right: 5px !important;
+}
+
+.charsheet .equip-table th:nth-child(2),
+.charsheet .equip-table td:nth-child(2) {
+    width: 45px !important;
+    max-width: 45px !important;
+    text-align: center !important;
+    padding: 5px 2px !important;
+}
+
+.charsheet .equip-table th:nth-child(3),
+.charsheet .equip-table td:nth-child(3) {
+    width: 40px !important;
+    max-width: 40px !important;
+    text-align: center !important;
+    padding: 5px 2px !important;
+}
+
+.charsheet .equip-table th:nth-child(4),
+.charsheet .equip-table td:nth-child(4) {
+    width: 85px !important;
+    max-width: 85px !important;
+    text-align: right !important;
+    white-space: nowrap !important;
+    padding: 5px 4px !important;
+}
+
+/* Weapon table column alignment */
+.charsheet .weapon-table {
+    table-layout: auto !important;
+}
+
+.charsheet .weapon-table .weapon-special-col {
+    width: auto !important;
+    min-width: 120px !important;
+}
+
+.charsheet .weapon-table .weapon-actions-col {
+    width: 110px !important;
+    min-width: 110px !important;
+}
+
+/* Remove extra spacing in header cells */
+.charsheet .weapon-table thead th,
+.charsheet .equip-table thead th {
+    padding: 5px 8px !important;
+    vertical-align: middle !important;
+}
+
+.charsheet .weapon-table tbody td,
+.charsheet .equip-table tbody td {
+    padding: 5px 8px !important;
+    vertical-align: middle !important;
+}
+
+/* Weapon table column width specifications for proper alignment */
+.charsheet .weapon-table th:nth-child(1),
+.charsheet .weapon-table td:nth-child(1) {
+    width: auto !important;
+    min-width: 120px !important;
+}
+
+.charsheet .weapon-table th:nth-child(2),
+.charsheet .weapon-table td:nth-child(2) {
+    width: 60px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(3),
+.charsheet .weapon-table td:nth-child(3) {
+    width: 70px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(4),
+.charsheet .weapon-table td:nth-child(4) {
+    width: 70px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(5),
+.charsheet .weapon-table td:nth-child(5) {
+    width: 90px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(6),
+.charsheet .weapon-table td:nth-child(6) {
+    width: 60px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(7),
+.charsheet .weapon-table td:nth-child(7) {
+    width: 60px !important;
+    text-align: center !important;
+}
+
+.charsheet .weapon-table th:nth-child(8),
+.charsheet .weapon-table td:nth-child(8) {
+    width: auto !important;
+    min-width: 100px !important;
+}
+
+.charsheet .weapon-table th:nth-child(9),
+.charsheet .weapon-table td:nth-child(9) {
+    width: 110px !important;
+    text-align: right !important;
+}
+
+/* ========================================= */
+/* STARGATE MILITARY METALLIC THEME         */
+/* Complete character sheet redesign        */
+/* Gray/gunmetal military aesthetic         */
+/* ========================================= */
+
+/* Main character sheet background */
+.charsheet.sheet.actor,
+.npc-actor.sheet.actor {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2e 100%) !important;
+    color: #e0e0e0 !important;
+}
+
+/* Override all section backgrounds - metallic gray (exclude proficiencies to use charsheet base styles) */
+.charsheet .section:not(.attr .stat):not(.skills):not(.saves):not(.name):not(.death),
+.charsheet section:not(.attr .stat):not(.skills):not(.saves):not(.name):not(.death),
+.npc-actor .section:not(.attr .stat):not(.proficiencies-section):not(.skills):not(.saves):not(.name),
+.npc-actor section:not(.attr .stat):not(.proficiencies-section):not(.skills):not(.saves):not(.name) {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+}
+
+/* Gold left accent on name-content — must come after the high-specificity section rule above */
+.charsheet .section.name-content:not(.skills):not(.saves):not(.name):not(.death),
+.npc-actor .section.name-content:not(.skills):not(.saves):not(.name) {
+    border: 2px solid #5a5a5f !important;
+    border-left: 4px solid #c8a030 !important;
+}
+
+/* Headers - metallic gray style */
+.charsheet h2,
+.charsheet h3,
+.charsheet h4,
+.npc-actor h2,
+.npc-actor h3,
+.npc-actor h4 {
+    color: #b8b8b8 !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 1.5px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+    border-bottom: 2px solid #4a4a4f !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 10px !important;
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Labels - steel gray */
+.charsheet label,
+.npc-actor label {
+    color: #a8a8a8 !important;
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+
+/* Text inputs - metallic display style */
+.charsheet input[type="text"],
+.charsheet input[type="number"],
+.npc-actor input[type="text"],
+.npc-actor input[type="number"] {
+    background: rgba(30, 30, 35, 0.9) !important;
+    border: 1px solid #4a4a4f !important;
+    border-bottom: 2px solid #6a6a6f !important;
+    color: #e0e0e0 !important;
+    border-radius: 0 !important;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet input[type="text"]:focus,
+.charsheet input[type="number"]:focus,
+.npc-actor input[type="text"]:focus,
+.npc-actor input[type="number"]:focus {
+    background: rgba(25, 25, 30, 1) !important;
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 6px rgba(90, 120, 140, 0.4),
+                inset 0 0 10px rgba(70, 70, 75, 0.1) !important;
+    outline: none !important;
+}
+
+.charsheet input[type="text"]:placeholder-shown,
+.charsheet input[type="number"]:placeholder-shown,
+.npc-actor input[type="text"]:placeholder-shown,
+.npc-actor input[type="number"]:placeholder-shown {
+    background-color: rgba(35, 35, 40, 0.5) !important;
+}
+
+/* Textareas */
+.charsheet textarea,
+.npc-actor textarea {
+    background: rgba(30, 30, 35, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    color: #e0e0e0 !important;
+    border-radius: 3px !important;
+}
+
+.charsheet textarea:focus,
+.npc-actor textarea:focus {
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 6px rgba(90, 120, 140, 0.4) !important;
+    outline: none !important;
+}
+
+/* Buttons - military style */
+.charsheet a[type^="roll"].txt-btn,
+.charsheet button,
+.npc-actor a[type^="roll"].txt-btn,
+.npc-actor button {
+    background: linear-gradient(135deg, rgba(50, 50, 55, 0.9) 0%, rgba(40, 40, 45, 0.95) 100%) !important;
+    border: 2px solid #5a5a5f !important;
+    color: #b8b8b8 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet a[type^="roll"].txt-btn:hover,
+.charsheet button:hover,
+.npc-actor a[type^="roll"].txt-btn:hover,
+.npc-actor button:hover {
+    background: linear-gradient(135deg, rgba(90, 120, 140, 0.3) 0%, rgba(90, 120, 140, 0.1) 100%) !important;
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6),
+                inset 0 0 10px rgba(90, 120, 140, 0.2) !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.8) !important;
+}
+
+/* Skill and save buttons - brighter text */
+.charsheet .skills a.txt-btn,
+.charsheet .saves a.txt-btn,
+.npc-actor a.txt-btn {
+    background: rgba(40, 40, 45, 0.8) !important;
+    border: 1px solid #4a4a4f !important;
+    color: #b8b8b8 !important;
+    font-weight: 600 !important;
+    text-shadow: none !important;
+}
+
+.charsheet .skills a.txt-btn:hover,
+.charsheet .saves a.txt-btn:hover,
+.npc-actor a.txt-btn:hover {
+    background: rgba(90, 120, 140, 0.25) !important;
+    border-color: #6a6a6f !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 6px rgba(90, 120, 140, 0.6) !important;
+}
+
+/* Checkboxes - cyber style */
+.charsheet input[type="checkbox"],
+.npc-actor input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: rgba(30, 30, 35, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet input[type="checkbox"]:checked,
+.npc-actor input[type="checkbox"]:checked {
+    background: rgba(90, 120, 140, 0.3) !important;
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.5),
+                inset 0 0 8px rgba(90, 120, 140, 0.3) !important;
+}
+
+.charsheet input[type="checkbox"]:checked::after,
+.npc-actor input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #6a6a6f;
+    box-shadow: 0 0 8px #6a6a6f;
+}
+
+/* Select dropdowns */
+.charsheet select,
+.npc-actor select {
+    background: rgba(30, 30, 35, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    padding: 4px 8px !important;
+    font-weight: 500 !important;
+    height: auto !important;
+    line-height: normal !important;
+}
+
+.charsheet select:focus,
+.npc-actor select:focus {
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 8px rgba(90, 120, 140, 0.4) !important;
+    outline: none !important;
+}
+
+/* Navigation tabs - Stargate style */
+.charsheet .tabs,
+.npc-actor .tabs {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #4a4a4f !important;
+    padding: 8px 16px 0 16px !important;
+    display: flex !important;
+    gap: 24px !important;
+}
+
+.charsheet .tabs .item,
+.npc-actor .tabs .item {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 6px 6px 0 0 !important;
+    color: #7a7a7a !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    font-size: 13px !important;
+    letter-spacing: 0.3px !important;
+    padding: 10px 16px !important;
+    transition: all 0.2s ease !important;
+    position: relative !important;
+}
+
+.charsheet .tabs .item:hover,
+.npc-actor .tabs .item:hover {
+    background: rgba(70, 100, 120, 0.25) !important;
+    color: #a8c8d8 !important;
+    box-shadow: 0 -2px 8px rgba(90, 120, 140, 0.2) !important;
+}
+
+.charsheet .tabs .item.active,
+.npc-actor .tabs .item.active {
+    background: linear-gradient(180deg, rgba(90, 120, 140, 0.3) 0%, rgba(70, 100, 120, 0.4) 100%) !important;
+    color: #e0e0e0 !important;
+    font-weight: 600 !important;
+    box-shadow: 0 -2px 8px rgba(90, 120, 140, 0.4) !important;
+    text-shadow: 0 0 8px rgba(90, 120, 140, 0.6) !important;
+}
+
+/* Header section with character name */
+.charsheet .sheet-header,
+.npc-actor .sheet-header {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+.charsheet .sheet-header input[type="text"],
+.npc-actor .sheet-header input[type="text"] {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #6a6a6f !important;
+    text-shadow: 0 0 10px rgba(90, 120, 140, 0.6) !important;
+    border-bottom-color: #6a6a6f !important;
+}
+
+/* Ability scores - large displays (but NOT for .attr .stat which has chevron image) */
+.charsheet .stats-container input[type="text"].stat,
+.charsheet .stats-container input[type="number"].stat {
+    background: rgba(25, 25, 30, 0.9) !important;
+    border: 2px solid #6a6a6f !important;
+    color: #c8c8c8 !important;
+    text-shadow: 0 1px 2px rgba(80, 80, 85, 0.4) !important;
+    font-size: 1.75em !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    box-shadow: 0 0 10px rgba(80, 80, 85, 0.2),
+                inset 0 0 15px rgba(70, 70, 75, 0.1) !important;
+}
+
+/* HP and resource bars - steel gray */
+.charsheet input[type="range"].progress-bar::-moz-range-progress {
+    background: linear-gradient(90deg, #7a7a7f 0%, #5a5a5f 100%) !important;
+    box-shadow: 0 0 8px rgba(80, 80, 85, 0.4) !important;
+}
+
+.charsheet input[type="range"].progress-bar::-moz-range-track {
+    background: linear-gradient(180deg, #6a8a9f 0%, #5a7a8f 100%) !important;
+}
+
+/* Dice roll buttons - military display style */
+.charsheet .td-roll-btn,
+.charsheet .hd-roll-btn {
+    background: linear-gradient(135deg, rgba(35, 35, 40, 0.9) 0%, rgba(25, 25, 30, 1) 100%) !important;
+    border: 1px solid #6a6a6f !important;
+    color: #b8b8b8 !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-shadow: 0 1px 3px rgba(80, 80, 85, 0.6) !important;
+    box-shadow: 0 0 6px rgba(80, 80, 85, 0.2),
+                inset 0 0 10px rgba(70, 70, 75, 0.05) !important;
+    padding: 6px 12px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet .td-roll-btn:hover,
+.charsheet .hd-roll-btn:hover {
+    background: rgba(70, 90, 105, 0.3) !important;
+    box-shadow: 0 0 12px rgba(90, 120, 140, 0.5),
+                inset 0 0 15px rgba(90, 120, 140, 0.15) !important;
+    transform: scale(1.03) !important;
+}
+
+/* Death saves - matching gray theme */
+.charsheet .deathsave-box {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    margin: 0 !important;
+    min-height: auto !important;
+}
+
+.charsheet .deathsave-box .section.death {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Character info box - match death save style */
+/* Name section container - transparent wrapper for profile and info boxes */
+.charsheet main.character > section.name {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Ensure NPC name section also has no visible wrapper */
+.npc-actor.charsheet main.character > section.name {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* NPC Notes section styling */
+.npc-actor.charsheet section.npc-notes {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+}
+
+.npc-actor.charsheet section.npc-notes h3 {
+    margin: 0 0 10px 0 !important;
+    color: #d0d0d5 !important;
+}
+
+.npc-actor.charsheet section.npc-notes textarea {
+    width: 100% !important;
+    min-height: 120px !important;
+    background: rgba(25, 25, 30, 0.6) !important;
+    border: 1px solid #4a4a4f !important;
+    border-radius: 4px !important;
+    color: #d0d0d5 !important;
+    padding: 8px !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    resize: vertical !important;
+    box-sizing: border-box !important;
+}
+
+.npc-actor.charsheet section.npc-notes textarea:focus {
+    outline: none !important;
+    border-color: #7a7a7f !important;
+    background: rgba(30, 30, 35, 0.8) !important;
+}
+
+.charsheet .death-save-checks {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    margin-top: 10px !important;
+}
+
+/* Table styling overrides for Stargate theme */
+.charsheet table {
+    background: rgba(35, 35, 40, 0.4) !important;
+}
+
+.charsheet table thead th {
+    background: rgba(35, 35, 40, 0.8) !important;
+    color: #6a6a6f !important;
+    border-color: #4a4a4f !important;
+}
+
+.charsheet table tbody tr {
+    border-bottom: 1px solid #4a4a4f !important;
+}
+
+.charsheet table tbody tr:hover {
+    background: rgba(90, 120, 140, 0.1) !important;
+}
+
+.charsheet table tbody td {
+    color: #ffffff !important;
+}
+
+/* Condition radio buttons - status indicators */
+.charsheet input[type="radio"],
+.npc-actor input[type="radio"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: rgba(30, 30, 35, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.charsheet input[type="radio"]:checked,
+.npc-actor input[type="radio"]:checked {
+    background: rgba(90, 120, 140, 0.3) !important;
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.6) !important;
+}
+
+.charsheet input[type="radio"]:checked::after,
+.npc-actor input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background: #6a6a6f;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #6a6a6f;
+}
+
+/* Configuration tab styling */
+.charsheet .configuration section {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #4a4a4f !important;
+    margin-bottom: 0 !important;
+}
+
+.charsheet .dice-config,
+.charsheet .prep-rating-config {
+    padding: 20px;
+}
+
+.charsheet .configuration .config-button {
+    background: rgba(40, 40, 45, 0.9) !important;
+    border: 2px solid #6a6a6f !important;
+    color: #a8a8a8 !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet .configuration .config-button:hover {
+    background: rgba(90, 120, 140, 0.2) !important;
+    box-shadow: 0 0 15px rgba(90, 120, 140, 0.6) !important;
+}
+
+/* Dice config section styling */
+.charsheet .dice-config h3 {
+    color: #c0c0c0;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.charsheet .dice-config h4 {
+    color: #c0c0c0;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.charsheet .dice-config p {
+    color: #a8a8a8;
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Skill config grid */
+.charsheet .skill-config-grid {
+    display: grid !important;
+    gap: 5px !important;
+    margin-top: 10px;
+}
+
+.charsheet .skill-config-row {
+    background: rgba(40, 40, 45, 0.7) !important;
+    border: 1px solid #4a4a4f !important;
+    padding: 5px 8px !important;
+}
+
+/* Section description styling */
+.charsheet .section-description {
+    color: #a8a8a8;
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Prep Rating Configuration */
+.charsheet .prep-rating-config h3 {
+    color: #c0c0c0;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.charsheet .prep-rating-config .config-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.charsheet .prep-rating-config .config-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.charsheet .prep-rating-config .config-item label {
+    font-weight: 600;
+    color: #c0c0c0;
+    font-size: 14px;
+}
+
+.charsheet .prep-rating-config select.prep-rating-select {
+    padding: 8px 12px;
+    background: rgba(30, 30, 35, 0.9);
+    border: 2px solid #4a4a4f;
+    border-radius: 4px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.charsheet .prep-rating-config select.prep-rating-select:focus {
+    border-color: #5a9fd4;
+    outline: none;
+}
+
+/* Kit Display */
+.charsheet .kit-display {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(25, 25, 30, 0.8);
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+}
+
+.charsheet .kit-display h4 {
+    color: #5a9fd4;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #4a4a4f;
+    padding-bottom: 8px;
+}
+
+.charsheet .kit-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(35, 35, 40, 0.7);
+    border: 1px solid #4a4a4f;
+    border-radius: 4px;
+}
+
+.charsheet .kit-section:last-child {
+    margin-bottom: 0;
+}
+
+.charsheet .kit-section h5 {
+    color: #e0e0e0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.charsheet .kit-section h6 {
+    color: #b0b0b0;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.charsheet .kit-section p {
+    color: #a8a8a8;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.charsheet .kit-section p:last-child {
+    margin-bottom: 0;
+}
+
+.charsheet .kit-items ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+.charsheet .kit-items ul li {
+    color: #c0c0c0;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 2px 0 2px 20px;
+    position: relative;
+}
+
+.charsheet .kit-items ul li::before {
+    content: '▸';
+    position: absolute;
+    left: 5px;
+    color: #5a9fd4;
+    font-size: 10px;
+}
+
+/* Base kit toggle (collapsible) */
+.charsheet .base-kit-toggle {
+    margin: 10px 0 15px 0;
+}
+
+.charsheet .base-kit-toggle summary {
+    cursor: pointer;
+    color: #a8a8a8;
+    font-size: 13px;
+    padding: 8px 10px;
+    background: rgba(40, 40, 45, 0.5);
+    border: 1px solid #4a4a4f;
+    border-radius: 4px;
+    list-style: none;
+    user-select: none;
+}
+
+.charsheet .base-kit-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.charsheet .base-kit-toggle summary::before {
+    content: '▸ ';
+    color: #5a9fd4;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.charsheet .base-kit-toggle[open] summary::before {
+    content: '▾ ';
+}
+
+.charsheet .base-kit-toggle summary:hover {
+    background: rgba(50, 50, 55, 0.6);
+    border-color: #5a5a5f;
+}
+
+.charsheet .base-kit-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10px 0 0 0;
+    background: rgba(30, 30, 35, 0.5);
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.charsheet .base-kit-list li {
+    color: #b0b0b0;
+    font-size: 11px;
+    line-height: 1.4;
+    padding: 2px 0 2px 18px;
+    position: relative;
+}
+
+.charsheet .base-kit-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 3px;
+    color: #5a9fd4;
+    font-size: 9px;
+}
+
+.charsheet .kit-section.class-kit {
+    background: rgba(90, 159, 212, 0.1);
+    border: 2px solid #5a9fd4;
+}
+
+.charsheet .kit-section.class-kit h5 {
+    color: #5a9fd4;
+}
+
+/* Angular corner accents - military tech style */
+.charsheet .section:not(.attr .stat):not(.death)::before,
+.charsheet section:not(.attr .stat):not(.death)::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid #7a7a7f;
+    border-left: 2px solid #7a7a7f;
+    box-shadow: 0 0 4px rgba(90, 90, 95, 0.3);
+}
+
+.charsheet .section:not(.attr .stat):not(.death)::after,
+.charsheet section:not(.attr .stat):not(.death)::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 12px;
+    height: 12px;
+    border-bottom: 2px solid #7a7a7f;
+    border-right: 2px solid #7a7a7f;
+    box-shadow: 0 0 4px rgba(90, 90, 95, 0.3);
+}
+
+.charsheet .section,
+.charsheet section {
+    position: relative;
+}
+
+/* Very subtle scan line effect */
+.charsheet::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(80, 80, 85, 0.02) 0px,
+        transparent 1px,
+        transparent 2px,
+        rgba(80, 80, 85, 0.02) 3px
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+.charsheet > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* ========================================= */
+/* PRESERVE CHEVRON BACKGROUND FOR ATTRIBUTES */
+/* ========================================= */
+
+/* Ensure attribute stat badges show the chevron background image */
+/* Match .attr container to gray theme */
+.charsheet main.character > .attr {
+    background: rgba(40, 40, 45, 0.85) !important;
+    opacity: 1 !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: row !important;
+    grid-column: 1 / -1 !important;
+    justify-self: stretch !important;
+    align-self: stretch !important;
+    justify-content: space-between !important;
+}
+
+.charsheet .attr .stat {
+    background-color: transparent !important;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/attr.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 124px 113px !important;
+    background-position: center !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.charsheet .attr input[type="number"],
+.charsheet .attr input[type="text"] {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    color: #1a1a1a !important;
+    font-weight: 900 !important;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) !important;
+}
+
+.charsheet .attr span.mod {
+    background: transparent !important;
+    color: #1a1a1a !important;
+    font-weight: 900 !important;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) !important;
+}
+
+.charsheet .attr a[type="roll"].txt-btn {
+    background: transparent !important;
+    border: 1px solid black !important;
+    color: black !important;
+    font-weight: 800 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* ========================================= */
+/* WEAPON & INVENTORY TABLES - MILITARY THEME */
+/* ========================================= */
+
+/* Table headers - military gray */
+.charsheet .weapon-table thead tr.weapon-table-header,
+.charsheet .equip-table thead tr.equip-table-header {
+    background: linear-gradient(135deg, #4a4a4f 0%, #3a3a3e 100%) !important;
+    border-bottom: 2px solid #5a5a5f !important;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th,
+.charsheet .equip-table thead tr.equip-table-header th {
+    color: #c0c0c0 !important;
+    background: transparent !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    padding: 10px 8px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+    border-right: 1px solid #333 !important;
+}
+
+.charsheet .weapon-table thead tr.weapon-table-header th:last-child,
+.charsheet .equip-table thead tr.equip-table-header th:last-child {
+    border-right: none !important;
+}
+
+/* Table body rows - dark gray with metallic sheen */
+.charsheet .weapon-table tbody tr,
+.charsheet .equip-table tbody tr {
+    background: rgba(30, 30, 35, 0.7) !important;
+    border-bottom: 1px solid #4a4a4f !important;
+    transition: background 0.2s ease;
+}
+
+.charsheet .weapon-table tbody tr:hover,
+.charsheet .equip-table tbody tr:hover {
+    background: rgba(50, 50, 55, 0.8) !important;
+}
+
+/* Inactive items (quantity = 0) */
+.charsheet .equip-table tbody tr.item-inactive,
+.charsheet .weapon-table tbody tr.item-inactive {
+    opacity: 0.4 !important;
+    background: rgba(20, 20, 25, 0.5) !important;
+}
+
+.charsheet .equip-table tbody tr.item-inactive:hover,
+.charsheet .weapon-table tbody tr.item-inactive:hover {
+    background: rgba(20, 20, 25, 0.5) !important;
+    opacity: 0.4 !important;
+}
+
+.charsheet .equip-table tbody tr.item-inactive td,
+.charsheet .weapon-table tbody tr.item-inactive td {
+    color: #666 !important;
+}
+
+.charsheet .weapon-table tbody td,
+.charsheet .equip-table tbody td {
+    padding: 8px !important;
+    font-size: 12px !important;
+    color: #e0e0e0 !important;
+    border-right: 1px solid #4a4a4f !important;
+}
+
+.charsheet .weapon-table tbody td:last-child,
+.charsheet .equip-table tbody td:last-child {
+    border-right: none !important;
+}
+
+/* Weapon name column - constrain width and allow wrapping */
+.charsheet .weapon-table tbody td:first-child {
+    max-width: 200px !important;
+    width: 200px !important;
+    overflow: hidden !important;
+    white-space: normal !important;
+}
+
+/* Table wrappers - metallic boxes */
+.charsheet .weapons-box,
+.charsheet section.inventory {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+}
+
+/* Weapons section header */
+.charsheet .weapons h4 {
+    position: relative;
+    z-index: 10 !important;
+    margin-top: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+/* Table borders */
+.charsheet .weapon-table,
+.charsheet .equip-table {
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+/* Add weapon/equipment buttons - military style */
+.charsheet .add-weapon-btn-header,
+.charsheet .add-equipment-btn {
+    background: linear-gradient(135deg, rgba(50, 50, 55, 0.9) 0%, rgba(40, 40, 45, 0.95) 100%) !important;
+    border: 2px solid #5a5a5f !important;
+    color: #b8b8b8 !important;
+}
+
+.charsheet .add-weapon-btn-header:hover,
+.charsheet .add-equipment-btn:hover {
+    background: rgba(70, 70, 75, 0.9) !important;
+    border-color: #6a6a6f !important;
+    color: #d4d4d4 !important;
+}
+
+/* Weapon table layout: roll button + image/name stacked */
+.charsheet .weapon-table .weapon-name-container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+.charsheet .weapon-table .weapon-name-container .item-roll {
+    flex-shrink: 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 4px !important;
+    font-size: 20px !important;
+}
+
+.charsheet .weapon-table .weapon-image-name {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+}
+
+.charsheet .weapon-table .weapon-image-name .item-image {
+    width: 40px !important;
+    height: 40px !important;
+    display: block !important;
+    border: 1px solid #5a5a5f !important;
+    background-color: rgba(20, 20, 25, 0.8) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+.charsheet .weapon-table .weapon-name {
+    text-align: center !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+}
+
+/* Equipment table images are handled by .item-name-container rules above */
+.charsheet .equip-table .item-image {
+    border: 1px solid #5a5a5f !important;
+    background-color: rgba(20, 20, 25, 0.8) !important;
+}
+
+/* Weapon/equipment actions (edit/delete buttons) */
+.charsheet .weapon-table .item-control,
+.charsheet .equip-table .item-control {
+    color: #b8b8b8 !important;
+    border: 1px solid #5a5a5f !important;
+    background: rgba(40, 40, 45, 0.6) !important;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet .weapon-table .item-control:hover,
+.charsheet .equip-table .item-control:hover {
+    color: #d4d4d4 !important;
+    border-color: #6a6a6f !important;
+    background: rgba(60, 60, 65, 0.8) !important;
+}
+
+/* Weapon table clickable names */
+.charsheet .weapon-table .item-name,
+.charsheet .equip-table .item-name {
+    color: #a8b8c8 !important;
+    cursor: pointer;
+}
+
+.charsheet .weapon-table .item-name:hover,
+.charsheet .equip-table .item-name:hover {
+    color: #c0d0e0 !important;
+    text-shadow: 0 1px 3px rgba(90, 120, 140, 0.4) !important;
+}
+
+/* Inputs within weapon/equipment tables */
+.charsheet .weapon-table input[type="number"],
+.charsheet .weapon-table input[type="text"],
+.charsheet .equip-table input[type="number"],
+.charsheet .equip-table input[type="text"] {
+    background: rgba(25, 25, 30, 0.8) !important;
+    border: 1px solid #4a4a4f !important;
+    color: #e0e0e0 !important;
+    border-radius: 3px !important;
+}
+
+.charsheet .weapon-table input:focus,
+.charsheet .equip-table input:focus {
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3) !important;
+}
+
+/* ========================================= */
+/* MISC FIXES - SLASH, DEATH SAVES, CENTERING */
+/* ========================================= */
+
+/* Slash separators - visible color */
+.charsheet span.slash,
+.charsheet .stat-row span {
+    color: #b8b8b8 !important;
+    font-weight: 600 !important;
+}
+
+/* Death Save button - match initiative/moxie style */
+.charsheet .deathsave-box a.txt-btn {
+    background: linear-gradient(135deg, rgba(50, 50, 55, 0.9) 0%, rgba(40, 40, 45, 0.95) 100%) !important;
+    border: 2px solid #5a5a5f !important;
+    color: #b8b8b8 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    display: block !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+
+.charsheet .deathsave-box a.txt-btn:hover {
+    background: rgba(70, 70, 75, 0.9) !important;
+    border-color: #7a7a7f !important;
+    box-shadow: 0 0 8px rgba(100, 100, 105, 0.4) !important;
+    color: #d4d4d4 !important;
+}
+
+/* Death Save labels - color coded */
+.charsheet .death-save-checks div:first-child span {
+    color: #00ff6a !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 3px rgba(0, 255, 106, 0.5) !important;
+    font-size: 11px !important;
+}
+
+.charsheet .death-save-checks div:last-child span {
+    color: #ff0055 !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 3px rgba(255, 0, 85, 0.5) !important;
+    font-size: 11px !important;
+}
+
+/* Success checkboxes - green */
+.charsheet input[name^="system.death_success"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: rgba(10, 25, 45, 0.9) !important;
+    border: 2px solid #4a6a4f !important;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet input[name^="system.death_success"]:checked {
+    background: rgba(0, 180, 60, 0.3) !important;
+    border-color: #00b43c !important;
+    box-shadow: 0 0 10px rgba(0, 180, 60, 0.5) !important;
+}
+
+.charsheet input[name^="system.death_success"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #00ff6a;
+    box-shadow: 0 0 8px #00ff6a;
+}
+
+/* Failure checkboxes - red */
+.charsheet input[name^="system.death_failure"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: rgba(25, 10, 15, 0.9) !important;
+    border: 2px solid #6a4a4f !important;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease !important;
+}
+
+.charsheet input[name^="system.death_failure"]:checked {
+    background: rgba(212, 0, 0, 0.3) !important;
+    border-color: #ff0055 !important;
+    box-shadow: 0 0 10px rgba(255, 0, 85, 0.5) !important;
+}
+
+.charsheet input[name^="system.death_failure"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #ff0055;
+    box-shadow: 0 0 8px #ff0055;
+}
+
+/* Perfect button text centering */
+.charsheet a[type^="roll"].txt-btn,
+.charsheet button,
+.charsheet .td-roll-btn,
+.charsheet .hd-roll-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+    padding: 8px 12px !important;
+}
+
+/* ========================================= */
+/* IMPROVED READABILITY FOR STAT BOXES      */
+/* ========================================= */
+
+/* All stat box inputs - brighter and more readable */
+.charsheet .stats-container input[type="number"],
+.charsheet .stats-container input[type="text"] {
+    color: #c8c8c8 !important;
+    font-weight: 400 !important;
+}
+
+/* Stat box labels - brighter */
+.charsheet .stats-container label,
+.charsheet .stat-box label {
+    color: #b8b8b8 !important;
+    font-weight: 700 !important;
+    font-size: 11px !important;
+}
+
+/* Initiative, Moxie button text - more visible */
+.charsheet .stats-container a.txt-btn {
+    color: #b8b8b8 !important;
+    font-weight: 700 !important;
+}
+
+/* Determination, HP, Temp HP inputs - better readability */
+.charsheet .name input,
+.charsheet .stat-row input {
+    color: #c8c8c8 !important;
+    font-weight: 400 !important;
+}
+
+/* ========================================= */
+/* Death State Styling                      */
+/* ========================================= */
+
+/* Gray out and darken the death save box when character is dead */
+.charsheet .deathsave-box.is-dead {
+    background: rgba(20, 20, 25, 0.95) !important;
+    border-color: #2a2a2a !important;
+    filter: brightness(0.6) grayscale(0.8);
+    position: relative;
+}
+
+.charsheet .deathsave-box.is-dead .section.death {
+    position: relative;
+}
+
+/* Death overlay with skull image */
+.charsheet .death-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.charsheet .death-skull {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.8));
+    animation: skull-pulse 2s ease-in-out infinite;
+    border: none !important;
+    outline: none !important;
+}
+
+@keyframes skull-pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.9;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+/* ========================================= */
+/* Roll Dialog Styling                      */
+/* ========================================= */
+
+/* Style the roll dialog to match character sheet theme */
+.dialog.window-app {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2e 100%) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 20px rgba(90, 120, 140, 0.3) !important;
+}
+
+.dialog .window-header {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border-bottom: 2px solid #5a5a5f !important;
+    color: #b8b8b8 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dialog .window-content {
+    background: transparent !important;
+    color: #c8c8c8 !important;
+    padding: 15px !important;
+}
+
+/* Roll form content */
+.dialog .dialog-content,
+.dialog form {
+    background: transparent !important;
+    color: #c8c8c8 !important;
+    padding: 5px 8px !important;
+}
+
+/* Form groups */
+.dialog .form-group {
+    margin-bottom: 15px !important;
+    padding: 0 4px !important;
+}
+
+.dialog .form-group label {
+    color: #a0a0a5 !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 6px !important;
+    display: block !important;
+}
+
+/* Input fields */
+.dialog input[type="text"],
+.dialog input[type="number"],
+.dialog select,
+.dialog textarea {
+    background: rgba(25, 25, 30, 0.8) !important;
+    border: 1px solid #4a4a4f !important;
+    border-radius: 3px !important;
+    color: #e0e0e0 !important;
+    padding: 8px 12px !important;
+    font-family: "Roboto", sans-serif !important;
+    transition: all 0.2s ease !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Dropdowns need extra height for text */
+.dialog select {
+    min-height: 38px !important;
+    line-height: 1.4 !important;
+}
+
+.dialog input[type="text"]:focus,
+.dialog input[type="number"]:focus,
+.dialog select:focus,
+.dialog textarea:focus {
+    outline: none !important;
+    border-color: #6a6a6f !important;
+    background: rgba(25, 25, 30, 1) !important;
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3) !important;
+}
+
+/* Checkboxes and radio buttons */
+.dialog input[type="checkbox"],
+.dialog input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: rgba(25, 25, 30, 0.8) !important;
+    border: 2px solid #4a4a4f !important;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease !important;
+}
+
+.dialog input[type="checkbox"]:checked,
+.dialog input[type="radio"]:checked {
+    background: rgba(90, 120, 140, 0.3) !important;
+    border-color: #6a6a6f !important;
+    box-shadow: 0 0 8px rgba(90, 120, 140, 0.5) !important;
+}
+
+.dialog input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #6a6a6f;
+    box-shadow: 0 0 8px #6a6a6f;
+}
+
+/* Buttons */
+.dialog button,
+.dialog .dialog-button {
+    background: linear-gradient(135deg, rgba(50, 50, 55, 0.9) 0%, rgba(40, 40, 45, 0.95) 100%) !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 4px !important;
+    color: #b8b8b8 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+}
+
+.dialog button:hover,
+.dialog .dialog-button:hover {
+    background: rgba(70, 70, 75, 0.9) !important;
+    border-color: #7a7a7f !important;
+    box-shadow: 0 0 8px rgba(100, 100, 105, 0.4) !important;
+    color: #d4d4d4 !important;
+}
+
+.dialog button:active,
+.dialog .dialog-button:active {
+    transform: translateY(1px);
+}
+
+/* Dialog footer */
+.dialog .dialog-buttons {
+    background: rgba(30, 30, 35, 0.8) !important;
+    border-top: 1px solid #4a4a4f !important;
+    padding: 10px 15px !important;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+/* Roll formula display */
+.dialog .dice-formula,
+.dialog .roll-formula {
+    background: rgba(25, 25, 30, 0.9) !important;
+    border: 1px solid #4a4a4f !important;
+    border-radius: 3px !important;
+    padding: 8px 12px !important;
+    color: #6a6a6f !important;
+    font-family: monospace !important;
+    font-size: 14px !important;
+}
+
+/* Select dropdowns */
+.dialog select option {
+    background: #1a1a1a !important;
+    color: #e0e0e0 !important;
+    padding: 4px 8px !important;
+}
+
+/* ========================================= */
+/* Advantage/Normal/Disadvantage Buttons    */
+/* ========================================= */
+
+/* Advantage button - green aura */
+.dialog button.advantage,
+.dialog .dialog-button.advantage {
+    box-shadow: 0 0 12px rgba(0, 255, 106, 0.4) !important;
+    border-color: #4a8a4f !important;
+}
+
+.dialog button.advantage:hover,
+.dialog .dialog-button.advantage:hover {
+    box-shadow: 0 0 16px rgba(0, 255, 106, 0.6) !important;
+    border-color: #5aaa5f !important;
+    color: #d4ffd4 !important;
+}
+
+/* Normal button - lighter gray aura */
+.dialog button.normal,
+.dialog .dialog-button.normal {
+    box-shadow: 0 0 12px rgba(160, 160, 165, 0.4) !important;
+    border-color: #7a7a7f !important;
+}
+
+.dialog button.normal:hover,
+.dialog .dialog-button.normal:hover {
+    box-shadow: 0 0 16px rgba(180, 180, 185, 0.6) !important;
+    border-color: #9a9a9f !important;
+    color: #e4e4e4 !important;
+}
+
+/* Disadvantage button - red aura */
+.dialog button.disadvantage,
+.dialog .dialog-button.disadvantage {
+    box-shadow: 0 0 12px rgba(255, 0, 85, 0.4) !important;
+    border-color: #8a4a4f !important;
+}
+
+.dialog button.disadvantage:hover,
+.dialog .dialog-button.disadvantage:hover {
+    box-shadow: 0 0 16px rgba(255, 0, 85, 0.6) !important;
+    border-color: #aa5a5f !important;
+    color: #ffd4d4 !important;
+}
+
+/* ========================================= */
+/* Attack Card in Chat                      */
+/* ========================================= */
+
+.attack-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.attack-card .card-header {
+    background: transparent;
+    border-bottom: 1px solid rgba(181, 179, 164, 0.3);
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.attack-card .card-header img {
+    border-radius: 3px;
+    border: 1px solid #b5b3a4;
+}
+
+.attack-card .card-header h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #191813;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.attack-card .card-header h3:hover {
+    color: #6a8a9f;
+    text-shadow: 0 0 10px rgba(90, 120, 140, 0.6);
+    cursor: pointer;
+}
+
+.attack-card .attack-roll-result {
+    padding: 8px;
+    background: transparent;
+}
+
+.attack-card .weapon-special {
+    padding: 6px 8px;
+    color: #4b4a44;
+    font-size: 12px;
+    font-style: italic;
+    border-top: 1px solid rgba(181, 179, 164, 0.3);
+    background: transparent;
+}
+
+.attack-card .card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px;
+    border-top: 1px solid rgba(181, 179, 164, 0.3);
+    background: transparent;
+}
+
+.attack-card button {
+    background: linear-gradient(180deg, #e8e8e8 0%, #d0d0d0 100%);
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+    color: #191813;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.attack-card button:hover {
+    background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+    border-color: #6a8a9f;
+    box-shadow: 0 0 8px rgba(90, 120, 140, 0.4);
+    transform: translateY(-1px);
+}
+
+.attack-card button:active {
+    transform: translateY(0);
+    box-shadow: 0 0 4px rgba(90, 120, 140, 0.2);
+}
+
+.attack-card button i {
+    color: #6a8a9f;
+}
+
+/* ========================================= */
+/* Attack Card Roll Mode Coloring            */
+/* ========================================= */
+
+/* Whisper mode - purple borders */
+.message.whisper .attack-card .card-header {
+    border-bottom-color: rgba(130, 100, 160, 0.5);
+}
+
+.message.whisper .attack-card .weapon-special,
+.message.whisper .attack-card .card-buttons {
+    border-top-color: rgba(130, 100, 160, 0.5);
+}
+
+/* Blind GM roll mode - darker red borders */
+.message.blind .attack-card .card-header {
+    border-bottom-color: rgba(150, 80, 80, 0.5);
+}
+
+.message.blind .attack-card .weapon-special,
+.message.blind .attack-card .card-buttons {
+    border-top-color: rgba(150, 80, 80, 0.5);
+}
+
+/* Self roll mode - blue borders */
+.message.self .attack-card .card-header {
+    border-bottom-color: rgba(90, 140, 160, 0.5);
+}
+
+.message.self .attack-card .weapon-special,
+.message.self .attack-card .card-buttons {
+    border-top-color: rgba(90, 140, 160, 0.5);
+}
+
+/* ========================================= */
+/* Damage Type Label (inline with roll)     */
+/* ========================================= */
+
+.damage-type-label {
+    font-size: 0.85em;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 4px;
+}
+
+/* ========================================= */
+/* Background Tab - Proficiencies Section    */
+/* ========================================= */
+
+/* Override the grid layout from player-sheet.css for Background tab - only when active */
+.charsheet main.background.page2.active {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    grid-template-areas: none !important;
+    width: 100% !important;
+    padding: 0 0 20px 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Feats Tab Styling */
+.charsheet main.feats.page-feats.active {
+    display: block !important;
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    grid-template-areas: none !important;
+    width: 100% !important;
+    padding: 0 0 20px 0 !important;
+    box-sizing: border-box !important;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 700px 700px !important;
+    background-position: center !important;
+    background-color: black !important;
+}
+
+.charsheet .proficiencies-section {
+    display: block !important;
+    flex-direction: column !important;
+    background: rgba(25, 25, 30, 0.9);
+    border: 2px solid #4a4a4f;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5),
+                inset 0 0 20px rgba(80, 80, 85, 0.1);
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+
+.charsheet .proficiencies-section h3 {
+    margin-top: 0;
+}
+
+.charsheet .proficiencies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.charsheet .prof-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.charsheet .prof-category {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.charsheet .prof-column .prof-category:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.charsheet .prof-category h4 {
+    color: #6a8a9f;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 8px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(90, 120, 140, 0.3);
+    text-shadow: 0 0 6px rgba(90, 120, 140, 0.5);
+}
+
+.charsheet .prof-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(max-content, 1fr));
+    gap: 8px;
+}
+
+/* Weapon and armor proficiencies use 3 columns with content-based sizing */
+.charsheet .prof-weapon .prof-list,
+.charsheet .prof-armor .prof-list {
+    grid-template-columns: repeat(3, minmax(max-content, 1fr));
+}
+
+.charsheet .prof-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    background: rgba(20, 20, 25, 0.4);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 32px;
+    box-sizing: border-box;
+    width: fit-content;
+    min-width: 100%;
+}
+
+.charsheet .prof-item:hover {
+    background: rgba(30, 30, 35, 0.6);
+    border-color: rgba(90, 120, 140, 0.3);
+}
+
+.charsheet .prof-item input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 0;
+    accent-color: #6a8a9f;
+    flex-shrink: 0;
+}
+
+.charsheet .prof-item span {
+    color: #c8c8c8;
+    font-size: 11px;
+    font-weight: 500;
+    user-select: none;
+    line-height: 1.3;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.charsheet .prof-item input[type="checkbox"]:checked + span {
+    color: #00ff6a;
+    text-shadow: 0 0 5px rgba(0, 255, 106, 0.3);
+}
+
+/* ========================================= */
+/* Background Tab - Abilities Sections       */
+/* ========================================= */
+
+.charsheet .abilities-section {
+    display: block !important;
+    flex-direction: column !important;
+    background: rgba(25, 25, 30, 0.9);
+    border: 2px solid #4a4a4f;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5),
+                inset 0 0 20px rgba(80, 80, 85, 0.1);
+    overflow-x: hidden;
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+
+/* Remove corner accents from abilities sections */
+.charsheet .abilities-section::before,
+.charsheet .abilities-section::after {
+    display: none !important;
+}
+
+.charsheet .abilities-section h3 {
+    color: #6a8a9f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(90, 120, 140, 0.3);
+    text-shadow: 0 0 6px rgba(90, 120, 140, 0.5);
+}
+
+/* Collapsible header styling */
+.charsheet .collapsible-header {
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.charsheet .collapsible-header::before {
+    content: "▼";
+    position: absolute;
+    right: 0;
+    transition: transform 0.2s ease;
+}
+
+.charsheet .collapsible-header.collapsed::before {
+    transform: rotate(-90deg);
+}
+
+/* Collapsible grid - hidden when collapsed */
+.charsheet .abilities-grid-collapsible.collapsed {
+    display: none;
+}
+
+.charsheet .abilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.charsheet .abilities-grid .empty-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    padding: 20px;
+}
+
+.charsheet .ability-card {
+    background: rgba(35, 35, 40, 0.6);
+    border: 1px solid #5a5a5f;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.charsheet .ability-card:hover {
+    background: rgba(45, 45, 50, 0.7);
+    border-color: rgba(90, 120, 140, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.charsheet .ability-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+    padding-right: 50px;
+}
+
+.charsheet .ability-card-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #5a5a5f;
+    flex-shrink: 0;
+}
+
+.charsheet .ability-card-header h4 {
+    flex: 1;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e0e0e0;
+    text-shadow: none;
+    border: none;
+    padding: 0;
+    line-height: 1.3;
+}
+
+.charsheet .ability-card-body {
+    margin-bottom: 8px;
+    font-size: 11px;
+    color: #c8c8c8;
+    line-height: 1.4;
+}
+
+.charsheet .ability-card-body p {
+    margin: 4px 0;
+}
+
+.charsheet .ability-level {
+    color: #6a8a9f;
+    font-size: 11px;
+}
+
+.charsheet .ability-class {
+    color: #6a8a9f;
+    font-size: 11px;
+}
+
+.charsheet .ability-bonus {
+    color: #d8d8d8;
+    font-size: 11px;
+}
+
+.charsheet .ability-card-footer {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.charsheet .ability-card-footer .item-control {
+    color: #888;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    padding: 2px;
+}
+
+.charsheet .ability-card-footer .item-control:hover {
+    color: #6a8a9f;
+}
+
+.charsheet .ability-card-footer .item-delete:hover {
+    color: #ff6b6b;
+}
+
+/* Limitations section */
+.charsheet .ability-limitations {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    padding: 1px 0;
+    margin: 0;
+}
+
+/* Tags container */
+.charsheet .ability-tags-container {
+    padding: 8px 0 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+/* Generic ability tag styling */
+.charsheet .ability-tag {
+    display: inline-block;
+    background: rgba(25, 35, 45, 0.8);
+    border: 1px solid rgba(90, 120, 140, 0.4);
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #9ab5c8;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Level bubble specific styling */
+.charsheet .ability-level-bubble {
+}
+
+/* Cast time bubble - Action (Orange) */
+.charsheet .ability-casttime-bubble.casttime-action {
+    background: rgba(45, 30, 20, 0.8);
+    border-color: rgba(200, 120, 60, 0.4);
+    color: #e8a060;
+}
+
+/* Cast time bubble - Bonus Action (Light Blue) */
+.charsheet .ability-casttime-bubble.casttime-bonus {
+    background: rgba(20, 35, 45, 0.8);
+    border-color: rgba(100, 180, 220, 0.4);
+    color: #88c8e8;
+}
+
+/* Cast time bubble - Reaction (Green) */
+.charsheet .ability-casttime-bubble.casttime-reaction {
+    background: rgba(20, 40, 25, 0.8);
+    border-color: rgba(80, 180, 100, 0.4);
+    color: #70d888;
+}
+
+/* Cast time bubble - Turn (Purple) */
+.charsheet .ability-casttime-bubble.casttime-turn {
+    background: rgba(35, 25, 45, 0.8);
+    border-color: rgba(140, 100, 180, 0.4);
+    color: #b890d8;
+}
+
+.charsheet .ability-limitations input[type="checkbox"].limitation-checkbox {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    cursor: pointer;
+    accent-color: #6a8a9f;
+}
+
+.charsheet .limitation-label {
+    font-size: 10px;
+    color: #9ab5c8;
+    font-weight: 500;
+    margin-left: 2px;
+}
+
+/* Fix textarea resize handle */
+.charsheet textarea {
+    resize: vertical;
+}
+
+.charsheet .abilities-section textarea {
+    resize: none;
+}
+
+.charsheet .background textarea {
+    resize: none;
+}
+
+/* ========================================= */
+/* Window Header Controls - Always On Top  */
+/* ========================================= */
+
+/* Ensure window header and controls (close, minimize, popout) are always clickable */
+.window-app .window-header,
+.window-app .window-header .window-controls,
+.window-app .window-header .window-controls a {
+    position: relative;
+    z-index: 9999 !important;
+}
+
+/* Ensure header itself doesn't interfere */
+.window-app .window-header {
+    isolation: isolate;
+}
+
+/* ========================================= */
+/* Global Foundry UI - Contrast Fixes Only  */
+/* ========================================= */
+
+/* General window content - light text for readability */
+/* Character sheets will override this with their own specific styling */
+.window-app .window-content {
+    color: #c8c8c8;
+}
+
+.window-app label {
+    color: #a8a8a8;
+}
+
+.window-app h1,
+.window-app h2,
+.window-app h3,
+.window-app h4,
+.window-app h5,
+.window-app h6 {
+    color: #d8d8d8;
+}
+
+.window-app p {
+    color: #c8c8c8;
+}
+
+/* Fix specific windows with dark backgrounds to have light text */
+#settings,
+#settings .window-content,
+#settings label,
+#settings p,
+#module-management,
+#module-management .window-content,
+.configure-sheet label,
+.configure-token label {
+    color: #e0e0e0 !important;
+}
+
+/* Input fields - ensure good contrast */
+.app input[type="text"],
+.app input[type="number"],
+.app input[type="password"],
+.app input[type="email"],
+.app select,
+.app textarea,
+.window-app input[type="text"],
+.window-app input[type="number"],
+.window-app select,
+.window-app textarea {
+    background: rgba(25, 25, 30, 0.9) !important;
+    border: 1px solid #4a4a4f !important;
+    color: #e0e0e0 !important;
+}
+
+.app input:focus,
+.app select:focus,
+.app textarea:focus {
+    border-color: #6a8a9f !important;
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.4) !important;
+}
+
+/* Select dropdowns - dark background */
+.app select,
+.window-app select {
+    background: rgba(25, 25, 30, 0.9) !important;
+}
+
+.app select option,
+.window-app select option {
+    background: #1a1a1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Override Foundry's button styling in menu - use default transparent style */
+#menu button,
+#menu .window-content button,
+body #menu button {
+    background: transparent !important;
+    background-image: none !important;
+    border: 2px solid rgba(0, 0, 0, 0.6) !important;
+}
+
+#menu button:hover,
+#menu .window-content button:hover,
+body #menu button:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    background-image: none !important;
+    box-shadow: 0 0 5px rgba(255, 50, 50, 0.5) !important;
+}
+
+/* Remove custom backgrounds from menu sections - use Foundry defaults */
+#menu section,
+#menu .window-content,
+#menu header,
+body #menu section {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Tabs - keep minimal styling */
+
+/* File picker button */
+.app button.file-picker,
+.window-app button.file-picker {
+    background: rgba(60, 80, 100, 0.8) !important;
+    border-color: #4a4a4f !important;
+}
+
+.app button.file-picker:hover {
+    background: rgba(90, 120, 140, 0.8) !important;
+    border-color: #6a8a9f !important;
+}
+
+/* Editor toolbar (TinyMCE) */
+.tox .tox-toolbar,
+.tox .tox-toolbar__group {
+    background: rgba(40, 40, 45, 0.95) !important;
+}
+
+.tox .tox-tbtn {
+    color: #c8c8c8 !important;
+}
+
+.tox .tox-tbtn:hover {
+    background: rgba(90, 120, 140, 0.3) !important;
+    color: #e0e0e0 !important;
+}
+
+/* Context menus */
+.context-menu,
+#context-menu {
+    background: rgba(30, 30, 35, 0.98) !important;
+    border: 1px solid #4a4a4f !important;
+}
+
+.context-menu li,
+#context-menu li {
+    color: #e0e0e0 !important;
+}
+
+.context-menu li:hover,
+#context-menu li:hover {
+    background: rgba(90, 120, 140, 0.3) !important;
+    color: #ffffff !important;
+}
+
+/* Notification messages */
+#notifications .notification {
+    background: rgba(30, 30, 35, 0.95) !important;
+    border: 1px solid #4a4a4f !important;
+    color: #e0e0e0 !important;
+}
+
+#notifications .notification.info {
+    border-left-color: #6a8a9f !important;
+}
+
+#notifications .notification.warning {
+    border-left-color: #d4a017 !important;
+}
+
+#notifications .notification.error {
+    border-left-color: #6a8a9f !important; /* Changed from red to blue */
+}
+
+/* Sidebar - fix selected tab to be blue instead of red */
+#sidebar .sidebar-tab.active {
+    border-color: #6a8a9f !important;
+    box-shadow: 0 0 10px rgba(90, 120, 140, 0.3) !important;
+}
+
+/* Fix Foundry UI dividers to use gray theme */
+#sidebar hr,
+#settings hr,
+#settings .window-content hr,
+.dialog hr,
+#module-management hr,
+#compendium hr,
+.directory hr {
+    border-color: #4a4a4f !important;
+}
+
+
+/* ----------------------------------------- */
+/*  Damage Resistances & Immunities
+/* ----------------------------------------- */
+
+.damage-resistances-config {
+    margin: 15px 0;
+}
+
+.damage-resistances-config h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.damage-resistances-config .config-help {
+    margin: 5px 0 10px 0;
+    font-size: 11px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.npc-actor.charsheet .configuration.tab.active,
+.npc-actor.charsheet main.configuration.active,
+.npc-actor.charsheet main.page3.active {
+    padding-top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+.npc-actor.charsheet .config-top-row {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr !important;
+    gap: 8px !important;
+}
+
+.npc-actor.charsheet .skill-attribute-config {
+    background: rgba(25, 25, 30, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.npc-actor.charsheet .skill-attribute-config p {
+    color: #a8a8a8 !important;
+    font-size: 12px !important;
+    margin-bottom: 15px !important;
+    line-height: 1.5 !important;
+}
+
+.npc-actor.charsheet .damage-resistance-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 10px !important;
+    padding: 15px !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 4px !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px 8px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    border: 2px solid #5a5a5f !important;
+    background: rgba(70, 70, 75, 0.9) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    height: 44px !important;
+    width: 100% !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn:hover {
+    background: rgba(80, 80, 85, 0.9) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) !important;
+    border-color: #6a6a6f !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn .damage-type-name {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #d0d0d0 !important;
+    user-select: none !important;
+    position: relative !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn::after {
+    content: "" !important;
+    position: absolute !important;
+    top: -28px !important;
+    right: -28px !important;
+    width: 100px !important;
+    height: 100px !important;
+    background-image: url('../assets/ui/Resistance.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    pointer-events: none !important;
+    padding-bottom: 4px !important;
+}
+
+/* Normal state - gray/neutral */
+.npc-actor.charsheet .damage-resistance-btn.normal {
+    border-color: #555 !important;
+    background: rgba(70, 70, 75, 0.9) !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.normal .damage-type-name {
+    color: #b0b0b0 !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.normal::after {
+    content: "" !important;
+    opacity: 0 !important;
+}
+
+/* Resistant state - light orange - HIGHLY VISIBLE */
+.npc-actor.charsheet .damage-resistance-btn.resistant {
+    border-color: #FFA858 !important;
+    border-width: 3px !important;
+    background: rgba(255, 168, 88, 0.5) !important;
+    box-shadow: 0 0 15px rgba(255, 168, 88, 0.6), inset 0 0 10px rgba(255, 168, 88, 0.3) !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.resistant .damage-type-name {
+    color: #FFC080 !important;
+    font-weight: 700 !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.resistant::after {
+    content: "R" !important;
+    color: #FFA858 !important;
+    opacity: 1 !important;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(255, 168, 88, 0.5) !important;
+}
+
+/* Immune state - turquoise with green - HIGHLY VISIBLE */
+.npc-actor.charsheet .damage-resistance-btn.immune {
+    border-color: #30D5C8 !important;
+    border-width: 3px !important;
+    background: rgba(48, 213, 200, 0.5) !important;
+    box-shadow: 0 0 15px rgba(48, 213, 200, 0.6), inset 0 0 10px rgba(48, 213, 200, 0.3) !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.immune .damage-type-name {
+    color: #70F0E8 !important;
+    font-weight: 700 !important;
+}
+
+.npc-actor.charsheet .damage-resistance-btn.immune::after {
+    content: "I" !important;
+    color: #30D5C8 !important;
+    opacity: 1 !important;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(48, 213, 200, 0.5) !important;
+}
+
+/* ----------------------------------------- */
+/*  NPC Sheet Specific Fixes
+/* ----------------------------------------- */
+
+/* Tabs should spread across full width */
+.npc-actor .sheet-navigation.tabs {
+    display: flex !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+}
+
+.npc-actor .sheet-navigation.tabs .item {
+    flex: 1 !important;
+    text-align: center !important;
+}
+
+/* NPC sheet: Competency page grid layout - skills left, saves + resistances right */
+.npc-actor.charsheet .competency-grid-area {
+    display: grid !important;
+    grid-template-columns: 2fr 3fr !important;
+    gap: 8px !important;
+    margin-top: 8px !important;
+}
+
+.npc-actor.charsheet .competency-grid-area section.skills {
+    display: block !important;
+    flex-direction: column !important;
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+
+.npc-actor.charsheet .right-column-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+.npc-actor.charsheet .saves-condition-row {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 8px !important;
+    width: 100% !important;
+}
+
+.npc-actor.charsheet .saves-condition-row section.saves {
+    display: block !important;
+    flex-direction: column !important;
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+    flex: 1 !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+
+.npc-actor.charsheet .saves-condition-row section.condition {
+    display: block !important;
+    flex-direction: column !important;
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+    flex: 1 !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+}
+
+/* Make condition radio buttons display vertically */
+.npc-actor.charsheet .saves-condition-row section.condition > div {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+.npc-actor.charsheet .saves-condition-row section.condition label {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    cursor: pointer !important;
+}
+
+.npc-actor.charsheet .competency-grid-area section.skills h3,
+.npc-actor.charsheet .saves-condition-row section.saves h3,
+.npc-actor.charsheet .saves-condition-row section.condition h3 {
+    margin-top: 0 !important;
+    color: #c0c0c0 !important;
+}
+
+/* NPC skills, saves, and condition styling with lighter metallic gray */
+.npc-actor.charsheet.npc-actor .competency-grid-area section.skills,
+.npc-actor.charsheet.npc-actor .saves-condition-row section.saves,
+.npc-actor.charsheet.npc-actor .saves-condition-row section.condition {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+}
+
+.npc-actor.charsheet .right-column-container .damage-resistances-config {
+    margin: 0 !important;
+}
+
+/* Remove text truncation and prevent span from shrinking so boxes size to fit text */
+.charsheet .prof-item span {
+    flex: 0 0 auto !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: nowrap !important;
+}
+
+/* Fix character statistics font sizes in configuration page */
+.npc-actor.charsheet .character-stats-config h3,
+.npc-actor.charsheet .damage-resistances-config h3,
+.npc-actor.charsheet .dice-config h3,
+.npc-actor.charsheet .skill-attribute-config h3 {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    color: #c0c0c0 !important;
+    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+}
+
+.npc-actor.charsheet .character-stats-config label,
+.npc-actor.charsheet .damage-resistances-config label,
+.npc-actor.charsheet .dice-config label {
+    font-size: 12px !important;
+    color: #a8a8a8 !important;
+}
+
+.npc-actor.charsheet .config-help {
+    font-size: 11px !important;
+    color: #808080 !important;
+    font-style: italic !important;
+}
+
+.npc-actor.charsheet .character-stats-config,
+.npc-actor.charsheet .damage-resistances-config,
+.npc-actor.charsheet .dice-config {
+    background: rgba(25, 25, 30, 0.9) !important;
+    border: 2px solid #4a4a4f !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.npc-actor.charsheet .damage-resistances-config {
+    margin-top: 0 !important;
+}
+
+.npc-actor.charsheet .character-stats-config {
+    margin-top: 0 !important;
+}
+
+.npc-actor.charsheet .dice-config {
+    margin-top: 0 !important;
+}
+
+.npc-actor.charsheet .character-stats-config input.stat,
+.npc-actor.charsheet .config-item input.stat {
+    font-size: 11px !important;
+}
+
+/* Resize handle - larger click target */
+.window-app.sgrpg .ui-resizable-handle {
+    width: 20px !important;
+    height: 20px !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    cursor: se-resize !important;
+    z-index: 99 !important;
+}
+
+/* ========================================= */
+/* Roll cards in chat (neutral graphite card) */
+/* ========================================= */
+
+.chat-message.sg-roll-msg {
+    background: #202024 !important;
+    color: #e6e6ec;
+    border: 1px solid #34343a !important;
+    border-top: 3px solid #6f8fa6 !important;
+    border-radius: 6px;
+    padding: 0 !important;
+    overflow: hidden;
+}
+.chat-message.sg-roll-msg.whisper { border-top-color: #8264a0 !important; }
+.chat-message.sg-roll-msg.blind { border-top-color: #a05a5a !important; }
+.chat-message.sg-roll-msg.self { border-top-color: #5a8ca0 !important; }
+
+.chat-message.sg-roll-msg .message-header {
+    padding: 4px 12px 0;
+    color: #8a8a96;
+    font-size: 11px;
+}
+.chat-message.sg-roll-msg .message-header .message-sender { color: #e6e6ec; font-weight: 600; font-size: 14px; }
+.chat-message.sg-roll-msg .message-header .flavor-text { display: none; }
+.chat-message.sg-roll-msg .message-header a { color: #8a8a96; }
+.chat-message.sg-roll-msg .message-content { padding: 0 12px 10px; background: transparent; }
+
+.chat-message.sg-roll-msg .dice-roll { margin: 0; }
+.chat-message.sg-roll-msg .dice-roll.sg-built > .dice-flavor,
+.chat-message.sg-roll-msg .dice-roll.sg-built .dice-result > .dice-formula,
+.chat-message.sg-roll-msg .dice-roll.sg-built .dice-result > .dice-total { display: none; }
+
+.sg-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2px 12px;
+    align-items: center;
+    padding-top: 4px;
+}
+.sg-kind {
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #939aa3;
+}
+.sg-title { font-size: 16px; font-weight: 600; color: #e6e6ec; line-height: 1.2; }
+.sg-title:empty { display: none; }
+.sg-stamp {
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    border: 2px solid #9ab6c9;
+    color: #c4dbe8;
+    border-radius: 4px;
+    padding: 0 10px;
+    text-align: center;
+    transform: rotate(-4deg);
+    min-width: 46px;
+}
+.sg-stamp b { display: block; font-size: 26px; font-weight: 600; line-height: 1.1; }
+.sg-stamp i { display: block; font-style: normal; font-size: 10px; letter-spacing: .12em; }
+.sg-meta { grid-column: 1; font-size: 12px; color: #9a9aa6; }
+
+.chat-message.sg-roll-msg .dice-tooltip { color: #c8c8d0; }
+.chat-message.sg-roll-msg .dice-tooltip .part-header,
+.chat-message.sg-roll-msg .dice-tooltip .dice-rolls { color: #c8c8d0; }
+
+/* natural 20 / natural 1 */
+.chat-message.sg-roll-msg.sg-nat20 { border-top-color: #c9a227 !important; }
+.sg-nat20 .sg-kind { color: #c9b56a; }
+.sg-nat20 .sg-stamp { border-color: #e0bf4a; color: #f0d77a; }
+.chat-message.sg-roll-msg.sg-nat1 { border-top-color: #a8605d !important; }
+.sg-nat1 .sg-kind { color: #c49a98; }
+.sg-nat1 .sg-stamp { border-color: #d08682; color: #ecb7b4; }
+
+/* attack card parts */
+.chat-message.sg-roll-msg .attack-card { background: transparent; }
+.chat-message.sg-roll-msg .attack-card .card-header {
+    border-top: none;
+    border-bottom: none;
+    padding: 8px 0 0;
+}
+.chat-message.sg-roll-msg .attack-card .card-header img {
+    border: 1px solid #4a4a52;
+    background: #2a2a30;
+    border-radius: 4px;
+}
+.chat-message.sg-roll-msg .attack-card .card-header h3 {
+    color: #e6e6ec;
+    font-size: 16px;
+    font-weight: 600;
+}
+.chat-message.sg-roll-msg .attack-card .card-header h3:hover { color: #c4dbe8; text-shadow: none; }
+.sg-weapon-meta { font-size: 12px; color: #9a9aa6; }
+.chat-message.sg-roll-msg .attack-card .attack-roll-result { padding: 4px 0 0; }
+.chat-message.sg-roll-msg .attack-card .weapon-special {
+    color: #9a9aa6;
+    border-top: 1px solid #34343a;
+    padding: 6px 0 0;
+    margin-top: 6px;
+}
+.chat-message.sg-roll-msg .card-buttons {
+    border-top: none;
+    padding: 8px 0 0;
+}
+.chat-message.sg-roll-msg .card-buttons button {
+    width: 100%;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #4a5a66;
+    color: #c4dbe8;
+    border-radius: 4px;
+}
+.chat-message.sg-roll-msg .card-buttons button:hover {
+    background: #2a2f35;
+    border-color: #6f8fa6;
+    box-shadow: none;
+    transform: none;
+}
+.chat-message.sg-roll-msg .card-buttons button i { color: #9ab6c9; }
+
+.chat-message.sg-roll-msg .dice-roll:not(.expanded) .dice-tooltip { display: none; }
+.chat-message.sg-roll-msg .dice-roll.sg-built { cursor: pointer; }
+
+/* item cards (send to chat) */
+.chat-message.sg-item-msg .item-card { background: transparent; color: #c8c8d0; }
+.chat-message.sg-item-msg .item-card .card-header {
+    border: none;
+    padding: 8px 0 0;
+    align-items: center;
+}
+.chat-message.sg-item-msg .item-card .card-header img {
+    border: 1px solid #4a4a52;
+    background: #2a2a30;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.chat-message.sg-item-msg .item-card .card-header h3.item-name {
+    color: #e6e6ec;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.chat-message.sg-item-msg .item-card .card-header h3.item-name:hover { color: #c4dbe8; text-shadow: none; }
+.chat-message.sg-item-msg .item-card .card-content {
+    margin: 8px 0 0;
+    padding-top: 6px;
+    border-top: 1px solid #34343a;
+    color: #c8c8d0;
+    font-size: 12px;
+    line-height: 1.45;
+}
+.chat-message.sg-item-msg .item-card .card-content p { margin: 0 0 6px; }
+.chat-message.sg-item-msg .item-card .card-content a,
+.chat-message.sg-item-msg .item-card .card-content strong { color: #e6e6ec; }
+.chat-message.sg-item-msg .item-card .card-footer {
+    border-top: none;
+    padding: 6px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.chat-message.sg-item-msg .item-card .card-footer span,
+.chat-message.sg-item-msg .item-card .card-footer span:last-child {
+    border: 1px solid #4a4a52;
+    border-radius: 10px;
+    padding: 1px 8px;
+    font-size: 10px;
+    color: #9a9aa6;
+}
+.chat-message.sg-item-msg .item-card .card-footer:empty,
+.chat-message.sg-item-msg .item-card .card-buttons:empty { display: none; }
+.sg-weapon { flex: 1; min-width: 0; }
+
+/* roll calculation (expanded section) */
+.sg-calc { margin-top: 6px; padding-top: 6px; border-top: 1px solid #34343a; }
+.sg-calc-row { display: flex; justify-content: space-between; font-size: 12px; color: #c8c8d0; padding: 1px 0; }
+.sg-calc-row b { font-weight: 600; color: #e6e6ec; }
+.sg-calc-total { margin-top: 3px; padding-top: 3px; border-top: 1px solid #34343a; }
+
+/* compact dice row: all dice side by side, no per-term header/number box */
+.chat-message.sg-roll-msg .dice-tooltip .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 6px;
+}
+.chat-message.sg-roll-msg .dice-tooltip .tooltip-part,
+.chat-message.sg-roll-msg .dice-tooltip .tooltip-part .dice {
+    display: contents;
+}
+.chat-message.sg-roll-msg .dice-tooltip .part-header { display: none; }
+.chat-message.sg-roll-msg .dice-tooltip .dice-rolls {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6px;
+    margin: 4px 0;
+    padding: 0;
+}
+
+/* divider under the sender name */
+.chat-message.sg-roll-msg .message-header {
+    position: relative;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+}
+.chat-message.sg-roll-msg .message-header::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+    height: 1px;
+    background: #3a3a42;
+}
+
+/* NPC: Vulnerable state (damage doubled) */
+.npc-actor.charsheet .damage-resistance-btn.vulnerable {
+    border-color: #e5645a !important;
+    border-width: 3px !important;
+    background: rgba(229, 100, 90, 0.45) !important;
+    box-shadow: 0 0 15px rgba(229, 100, 90, 0.55), inset 0 0 10px rgba(229, 100, 90, 0.3) !important;
+}
+.npc-actor.charsheet .damage-resistance-btn.vulnerable .damage-type-name {
+    color: #ff9a92 !important;
+    font-weight: 700 !important;
+}
+.npc-actor.charsheet .damage-resistance-btn.vulnerable::after {
+    content: "V" !important;
+    color: #e5645a !important;
+    opacity: 1 !important;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(229, 100, 90, 0.5) !important;
+}
+
+/* Attack/damage cards: hide the empty kind label */
+.sg-kind[hidden] { display: none !important; }
+
+/* Damage type under the weapon name, coloured per type */
+.sg-kind[data-dmg] { font-weight: 700; letter-spacing: .1em; }
+.sg-kind[data-dmg="acid"] { color: #9ccf5a; }
+.sg-kind[data-dmg="sonic"] { color: #c9a8e8; }
+.sg-kind[data-dmg="cold"] { color: #7fc8f0; }
+.sg-kind[data-dmg="lightning"], .sg-kind[data-dmg="electricity"] { color: #f2d94e; }
+.sg-kind[data-dmg="fire"] { color: #ff9a52; }
+.sg-kind[data-dmg="force"] { color: #b48cff; }
+.sg-kind[data-dmg="necrotic"] { color: #a08cb0; }
+.sg-kind[data-dmg="piercing"] { color: #c8ccd4; }
+.sg-kind[data-dmg="poison"] { color: #6fcf6f; }
+.sg-kind[data-dmg="psychic"] { color: #e07ac8; }
+.sg-kind[data-dmg="radiant"] { color: #ffe38a; }
+.sg-kind[data-dmg="slashing"] { color: #d68a7a; }
+.sg-kind[data-dmg="bludgeoning"] { color: #b8a48a; }
+
+/* Attack card: total sits top-right next to the weapon name instead of on its own row */
+.chat-message.sg-roll-msg .attack-card { position: relative; }
+.chat-message.sg-roll-msg .attack-card .card-header { min-height: 84px; padding-right: 130px; }
+.chat-message.sg-roll-msg .attack-card .sg-head { display: block; padding: 0; }
+.chat-message.sg-roll-msg .attack-card .attack-roll-result { padding: 0; }
+.chat-message.sg-roll-msg .attack-card .sg-stamp { position: absolute; top: 4px; right: 4px; }
+
+/* Damage applied automatically to targeted tokens */
+.sg-applied { margin-top: 6px; padding-top: 6px; border-top: 1px solid #34343a; font-size: 12px; color: #9a9aa6; }
+
+/* Bigger item picture on attack and item cards */
+.chat-message.sg-roll-msg .attack-card .card-header img,
+.chat-message.sg-item-msg .item-card .card-header img {
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.chat-message.sg-roll-msg .attack-card .card-header { min-height: 90px; }
+
+/* Initiative card: larger label */
+.sg-initiative .sg-kind { font-size: 15px; font-weight: 600; letter-spacing: .12em; color: #e6e6ec; }
+
+/* Actor portrait left of the sender name */
+.chat-message.sg-roll-msg .message-header { align-items: center; }
+.chat-message.sg-roll-msg .message-header .sg-portrait {
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #4a4a52;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Damage card: weapon name uses the same font as on the attack card */
+.chat-message.sg-roll-msg.sg-damage .sg-title {
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e6e6ec;
+}

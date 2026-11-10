@@ -1,0 +1,23 @@
+{
+  "_id": "usHSxFHi9fmyrF8T",
+  "name": "Unas",
+  "type": "Item",
+  "folder": null,
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1773766002629,
+    "modifiedTime": 1773766008569,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!usHSxFHi9fmyrF8T"
+}

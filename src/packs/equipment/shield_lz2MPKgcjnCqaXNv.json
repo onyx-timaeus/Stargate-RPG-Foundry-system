@@ -1,0 +1,26 @@
+{
+  "_id": "lz2MPKgcjnCqaXNv",
+  "name": "Shield",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Typical shields may vary from small bucklers, designed for fencers, to larger kite shields.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Heavy armor. AC +2; Strength —; Stealth —; Bulk -1; Special: —."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!lz2MPKgcjnCqaXNv"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "mmWjQxd2OkCFj6cU",
+  "name": "Student",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "background",
+    "description": "As with many youth, you were still deciding where life wanted to take you when the lure of the Stargate called. Now your eagerness to learn is directed into the unknown cosmos.",
+    "requirements": "",
+    "attributeBonus": "none",
+    "bonus": "Bonus Proficiency: Perception. Quick Study: Once per mission, you may make an Intelligence save instead of another save.",
+    "proficiencies": {
+      "skill": "Perception",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    }
+  },
+  "effects": [],
+  "folder": "unsp0lyZJ9hhSYGW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410108,
+    "modifiedTime": 1767232410108,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mmWjQxd2OkCFj6cU"
+}

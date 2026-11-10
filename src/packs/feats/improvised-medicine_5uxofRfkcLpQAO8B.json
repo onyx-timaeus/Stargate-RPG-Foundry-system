@@ -1,0 +1,39 @@
+{
+  "_id": "5uxofRfkcLpQAO8B",
+  "name": "Improvised Medicine",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "First Aid ability",
+    "category": "Procedure",
+    "bonus": "When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "0GvyBzjWMyFQE3pL",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311936,
+    "modifiedTime": 1767373311936,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5uxofRfkcLpQAO8B"
+}

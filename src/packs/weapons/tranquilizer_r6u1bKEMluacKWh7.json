@@ -1,0 +1,64 @@
+{
+  "_id": "r6u1bKEMluacKWh7",
+  "name": "Tranquilizer",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/tranquilizer.webp",
+  "system": {
+    "description": "",
+    "techLevel": 2,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": "<p>This sidearm has&nbsp;been modified to fire a dart filled with a powerful sedative. The weapon&rsquo;s long range is halved and it no longer deals HP damage. Instead, the target must succeed at a&nbsp;constitution save (DC 10 + Weapon tech level) or suffer 1d3 levels of exhaustion. A character who suffers exhaustion from this ailment is not dead when they reach 6 exhaustion, but instead unconscious (assuming they weren&rsquo;t already unconscious). Exhaustion from this effect heals at a rate of 1 level per hour.</p>"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "paralyze",
+      "sec_type": "",
+      "range": {
+        "normal": 50,
+        "max": 100
+      },
+      "special": "DC12 CON Save or 1d3 level of exhaustion. Level 6 exhaustion with this weapon will make the target unconscious."
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767883274521,
+    "modifiedTime": 1773766628440,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!r6u1bKEMluacKWh7"
+}

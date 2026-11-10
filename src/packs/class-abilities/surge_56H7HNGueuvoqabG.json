@@ -1,0 +1,38 @@
+{
+  "_id": "56H7HNGueuvoqabG",
+  "name": "Surge",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "2",
+    "bonus": "At 2nd level, you can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.",
+    "castTime": {
+      "value": "",
+      "type": "bonus"
+    },
+    "limitations": {
+      "value": "1",
+      "type": "shortlong"
+    }
+  },
+  "effects": [],
+  "folder": "Az9j3YjykvnLOCAw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410324,
+    "modifiedTime": 1767878796329,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!56H7HNGueuvoqabG"
+}

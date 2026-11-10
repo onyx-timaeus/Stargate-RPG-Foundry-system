@@ -1,0 +1,38 @@
+{
+  "_id": "slnrJFxyUbt4Kk9A",
+  "name": "Strong Personality",
+  "type": "classAbility",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "system": {
+    "class": "diplomat",
+    "level": "5",
+    "bonus": "At 5th level, your Inspire die increases from 1d6 to 1d8. Class Features As a Diplomat, you gain the following class features:",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "TkRiTsPUzCRj8D7Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410242,
+    "modifiedTime": 1767797808007,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!slnrJFxyUbt4Kk9A"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "yrqv2FiEn3U2YOXd",
+  "name": "Climbing Kit",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/climbing-kit.webp",
+  "system": {
+    "description": "This collection of 1000m of cord, carabiners, climbing hooks, pitons, pulleys, and a rope grab provide advantage on climbing checks.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Tool",
+      "restriction": "",
+      "description": "Comprehensive climbing equipment"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409904,
+    "modifiedTime": 1767880728825,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yrqv2FiEn3U2YOXd"
+}

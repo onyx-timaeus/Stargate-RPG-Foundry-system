@@ -1,0 +1,38 @@
+{
+  "_id": "2Wo0N502LbjmT9no",
+  "name": "Underworld",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "background",
+    "description": "Any culture with laws has people who break those laws. You operated in the shadows of your society, and those skills can be useful to Stargate teams looking to procure contraband or lay low in an alien society.",
+    "requirements": "",
+    "attributeBonus": "none",
+    "bonus": "Bonus Proficiency: Sleight of Hand. Black Market: You gain advantage on any ability check to make peaceful contact with members of the underworld.",
+    "proficiencies": {
+      "skill": "Sleight of Hand",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    }
+  },
+  "effects": [],
+  "folder": "unsp0lyZJ9hhSYGW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410114,
+    "modifiedTime": 1767232410114,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2Wo0N502LbjmT9no"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "unsp0lyZJ9hhSYGW",
+  "name": "Background",
+  "type": "Item",
+  "folder": null,
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410017,
+    "modifiedTime": 1767232410017,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!unsp0lyZJ9hhSYGW"
+}

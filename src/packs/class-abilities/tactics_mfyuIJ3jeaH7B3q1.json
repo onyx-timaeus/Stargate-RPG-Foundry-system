@@ -1,0 +1,38 @@
+{
+  "_id": "mfyuIJ3jeaH7B3q1",
+  "name": "Tactics",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "1",
+    "bonus": "You’ve trained extensively with a specific tactic, providing advantages to your team. Your team may benefit from one tactic at a time, and you may change your current tactic to another tactic you know with an action on your turn. Choose one tactic feat (see page 103) at 1st level and an additional tactic feat at 4th level.",
+    "castTime": {
+      "value": "",
+      "type": "action"
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "mXDoUK3lWucdFvBr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410322,
+    "modifiedTime": 1767878745756,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mfyuIJ3jeaH7B3q1"
+}

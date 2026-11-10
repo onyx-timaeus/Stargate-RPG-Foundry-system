@@ -1,0 +1,37 @@
+{
+  "_id": "jloXyI8hrJ75z8al",
+  "name": "Translator",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/translator.webp",
+  "system": {
+    "description": "This handheld device contains a library of every catalogued language available to the Phoenix Site. Proficient characters may make Charisma checks without sharing a language with anyone speaking a language on file.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Technology",
+      "restriction": "",
+      "description": "Universal translator"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409969,
+    "modifiedTime": 1767882621469,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!jloXyI8hrJ75z8al"
+}

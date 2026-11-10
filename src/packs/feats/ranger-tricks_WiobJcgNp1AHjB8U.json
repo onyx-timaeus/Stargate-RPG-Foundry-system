@@ -1,0 +1,39 @@
+{
+  "_id": "WiobJcgNp1AHjB8U",
+  "name": "Ranger Tricks",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Survivalist ability",
+    "category": "Field Hack",
+    "bonus": "During a Traversal encounter, if you succeed at a Terrain card's Navigation check, you navigate an additional 1d3 cards from the Journey deck instead of 1.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "dBdD6mz9ivaxCNqQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311952,
+    "modifiedTime": 1767373311952,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!WiobJcgNp1AHjB8U"
+}

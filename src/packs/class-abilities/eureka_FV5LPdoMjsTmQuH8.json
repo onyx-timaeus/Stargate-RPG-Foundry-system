@@ -1,0 +1,30 @@
+{
+  "_id": "FV5LPdoMjsTmQuH8",
+  "name": "Eureka",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "1",
+    "bonus": "Whenever you fail an Intelligence or Wisdom check during a mission, you gain one Eureka point. You may have a maximum number of Eureka points equal to your Intelligence or Wisdom modifier (whichever is higher). All unspent Eureka points are lost at the end of each mission. Whenever you make an Intelligence or Wisdom check, you may spend one Eureka point to gain advantage."
+  },
+  "effects": [],
+  "folder": "WDVeZLDKA3oKYeSW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410285,
+    "modifiedTime": 1767232410285,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FV5LPdoMjsTmQuH8"
+}

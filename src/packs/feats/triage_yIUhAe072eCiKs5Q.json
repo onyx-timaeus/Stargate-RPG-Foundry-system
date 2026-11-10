@@ -1,0 +1,39 @@
+{
+  "_id": "yIUhAe072eCiKs5Q",
+  "name": "Triage",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "First Aid ability",
+    "category": "General",
+    "bonus": "You can observe a character's current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character's current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.",
+    "castTime": {
+      "value": "1",
+      "type": "bonus"
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yIUhAe072eCiKs5Q"
+}

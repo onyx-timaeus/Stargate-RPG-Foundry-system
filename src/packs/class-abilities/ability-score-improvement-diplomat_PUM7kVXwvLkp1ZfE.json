@@ -1,0 +1,30 @@
+{
+  "_id": "PUM7kVXwvLkp1ZfE",
+  "name": "Ability Score Improvement (Diplomat)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "4",
+    "bonus": "At 4th level, you can increase your Wisdom or Charisma by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+  },
+  "effects": [],
+  "folder": "lGY8A531PP1EO9db",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410240,
+    "modifiedTime": 1767232410240,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!PUM7kVXwvLkp1ZfE"
+}

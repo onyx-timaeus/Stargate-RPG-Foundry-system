@@ -1,0 +1,39 @@
+{
+  "_id": "mljAMKJGzq6PMHbT",
+  "name": "Ambush",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Tactical Flexibility ability",
+    "category": "Tactic",
+    "bonus": "You and your team members gain advantage on your first melee attack after any short or long rest.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "oOZCNrDZC7mr1InM",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311952,
+    "modifiedTime": 1767879195916,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mljAMKJGzq6PMHbT"
+}

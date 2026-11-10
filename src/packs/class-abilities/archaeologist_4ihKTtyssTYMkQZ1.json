@@ -1,0 +1,30 @@
+{
+  "_id": "4ihKTtyssTYMkQZ1",
+  "name": "Archaeologist",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "Discovery",
+    "bonus": "As an action you can spend a Eureka point to automatically locate any secret chambers or otherwise hidden rooms within a structure no larger than 20m square per Proficiency bonus. This does not indicate how the secret area may be accessed, only that one must exist (or doesn't exist) within the area. In addition, you gain advantage on any Perception checks to find hidden elements of architecture such as secret levers, trap triggers, or hidden doors."
+  },
+  "effects": [],
+  "folder": "K7lGRqNkPRJ7ttJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410396,
+    "modifiedTime": 1767232410396,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4ihKTtyssTYMkQZ1"
+}

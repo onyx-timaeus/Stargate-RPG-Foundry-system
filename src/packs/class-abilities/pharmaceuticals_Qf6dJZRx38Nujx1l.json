@@ -1,0 +1,30 @@
+{
+  "_id": "Qf6dJZRx38Nujx1l",
+  "name": "Pharmaceuticals",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "You may use your Med Kit to heal a character of 1d4 Intelligence, Wisdom, or Charisma damage during a short rest. A character may not benefit from this ability again until they have taken a long rest."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410386,
+    "modifiedTime": 1767232410386,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Qf6dJZRx38Nujx1l"
+}

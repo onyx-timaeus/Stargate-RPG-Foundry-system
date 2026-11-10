@@ -1,0 +1,64 @@
+{
+  "_id": "YLaWCyT4giki0sQB",
+  "name": "Greathammer",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/greathammer.webp",
+  "system": {
+    "description": "A simple shaft with a heavy weight at the end, greathammers can knock a foe off their feet.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Melee Weapon",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "str",
+    "attackBonus": "",
+    "dmg": "1d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "bludgeoning",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": "Knockdown"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "V8wg6oPwvU79ioG8",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409851,
+    "modifiedTime": 1773766572326,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!YLaWCyT4giki0sQB"
+}

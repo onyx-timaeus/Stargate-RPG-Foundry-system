@@ -1,0 +1,39 @@
+{
+  "_id": "K8I8CxWDTihTXY90",
+  "name": "Gamer",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3",
+    "requirement": "None",
+    "category": "Downtime",
+    "bonus": "Whether it's boardgames, video games, or traditional gambling, you find games of chance and skill both relaxing and a way to keep your mind sharp. When you spend your downtime gaming you may choose to add the Facility bonus of the Mess Hall to your Charisma and Wisdom saves or the Facility bonus of the Rec Hall to your Intelligence and Wisdom saves (chosen each mission).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "iH4mEqkFzRNakx8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!K8I8CxWDTihTXY90"
+}

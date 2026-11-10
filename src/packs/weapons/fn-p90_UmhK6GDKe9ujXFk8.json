@@ -1,0 +1,64 @@
+{
+  "_id": "UmhK6GDKe9ujXFk8",
+  "name": "FN P90",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/fn-p90.webp",
+  "system": {
+    "description": "The standard issue longarm of the Phoenix Site is the FN P90, which is a Longarm with the automatic, burst, extended capacity, and reflex sight upgrades.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Firearm",
+      "restriction": "",
+      "description": "Standard issue assault rifle"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "2d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 30,
+      "max": 30,
+      "target": null,
+      "reload": "1 action"
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 200,
+        "max": 1800
+      },
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "longarms"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409804,
+    "modifiedTime": 1773766569156,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!UmhK6GDKe9ujXFk8"
+}

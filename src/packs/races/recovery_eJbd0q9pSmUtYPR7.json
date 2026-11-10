@@ -1,0 +1,46 @@
+{
+  "_id": "eJbd0q9pSmUtYPR7",
+  "name": "Recovery",
+  "type": "origin",
+  "img": "systems/sgrpg/assets/compendium/races/recovery.webp",
+  "system": {
+    "originType": "racial",
+    "description": "When you recover HP due to a short rest, you regain an additional +TD HP.",
+    "requirements": "Human",
+    "attributeBonus": "none",
+    "bonus": "Roll +TD HP when using short rest",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "OneGNxWCQTkqTbnR",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233181014,
+    "modifiedTime": 1767794209172,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!eJbd0q9pSmUtYPR7"
+}

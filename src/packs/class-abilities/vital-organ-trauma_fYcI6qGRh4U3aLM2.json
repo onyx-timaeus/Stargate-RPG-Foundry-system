@@ -1,0 +1,30 @@
+{
+  "_id": "fYcI6qGRh4U3aLM2",
+  "name": "Vital Organ Trauma",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "When you critically hit, add your Wisdom modifier to the damage dealt."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410392,
+    "modifiedTime": 1767232410392,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fYcI6qGRh4U3aLM2"
+}

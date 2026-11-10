@@ -1,0 +1,64 @@
+{
+  "_id": "aff77rBotgBiXIh9",
+  "name": "Sling",
+  "type": "weapon",
+  "img": "icons/weapons/slings/slingshot-wood.webp",
+  "system": {
+    "description": "A strap of leather, often with a pocket, used for hurling small stones at surprisingly high speed.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Ranged Weapon",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d4",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "bludgeoning",
+      "sec_type": "",
+      "range": {
+        "normal": 30,
+        "max": 150
+      },
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "V8wg6oPwvU79ioG8",
+  "sort": 103125,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409860,
+    "modifiedTime": 1773766619261,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!aff77rBotgBiXIh9"
+}

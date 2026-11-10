@@ -1,0 +1,30 @@
+{
+  "_id": "xFwfBcEiRotPxTdA",
+  "name": "Ability Score Improvement (Soldier)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "4",
+    "bonus": "At 4th level, you can increase your Strength or Constitution by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+  },
+  "effects": [],
+  "folder": "zHEFyVcSTv7cZ2La",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410332,
+    "modifiedTime": 1767232410332,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!xFwfBcEiRotPxTdA"
+}

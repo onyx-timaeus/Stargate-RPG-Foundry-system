@@ -1,0 +1,39 @@
+{
+  "_id": "I6nvyCNiokZHHnfV",
+  "name": "Deadly Shot",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "7",
+    "requirement": "Perception",
+    "category": "Combat - Ranged",
+    "bonus": "When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "bWv1rmeiFMt4mRQ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!I6nvyCNiokZHHnfV"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "OmxRC5ECmGRfdOg0",
+  "name": "Radio Station",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/radio-station.webp",
+  "system": {
+    "description": "The radio station is deployed at a base of operations to grant the local command structure enhanced communication range. This stationary radio has several broadcasting antenna as well as a central logistics computer, recording capability, and dedicated solar array. Its base range is 100km to broadcast, but personal tactical radios require a relay if they wish to reply from outside their limited range. The radio station also serves as a relay for other tactical radios.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Communications",
+      "restriction": "",
+      "description": "Base communications equipment"
+    },
+    "bulk": 40,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409963,
+    "modifiedTime": 1767815122390,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OmxRC5ECmGRfdOg0"
+}

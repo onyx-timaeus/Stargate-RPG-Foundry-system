@@ -1,0 +1,2104 @@
+
+
+ .charsheet input[type="range"].progress-bar,
+ .npc-actor input[type="range"].progress-bar {
+    width: 100px;
+}
+.charsheet input[type="range"].progress-bar::-moz-range-thumb,
+.npc-actor input[type="range"].progress-bar::-moz-range-thumb {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+.charsheet input[type="range"].progress-bar::-moz-range-progress,
+.npc-actor input[type="range"].progress-bar::-moz-range-progress {
+    background: green;
+    height: 10px;
+}
+.charsheet input[type="range"].progress-bar::-moz-range-track,
+.npc-actor input[type="range"].progress-bar::-moz-range-track {
+    background: linear-gradient(180deg, #6a8a9f 0%, #5a7a8f 100%);
+    height: 10px;
+}
+.charsheet input[type="number"].progress-bar,
+.npc-actor input[type="number"].progress-bar {
+    border: 2px solid black;
+}
+.charsheet a.hidden,
+.npc-actor a.hidden {
+    display: none;
+}
+.charsheet .bold,
+.npc-actor .bold {
+    font-weight: 800;
+    font-size: medium;
+}
+.charsheet label,
+.npc-actor label {
+    margin: 0px;
+    width: 70px;
+    text-transform: capitalize;
+    font-size: 0.8em;
+}
+.charsheet label.title,
+.npc-actor label.title {
+    width: 130px;
+    font-size: 1.3em;
+    text-align: center;
+}
+.charsheet h3,
+.npc-actor h3 {
+    text-align: center;
+}
+.charsheet .short,
+.npc-actor .short {
+    width: 50px;
+}
+.charsheet .txtcenter,
+.npc-actor .txtcenter {
+    text-align: center;
+}
+.charsheet .slash,
+.npc-actor .slash {
+    font-size: 2em;
+    font-weight: bold;
+}
+.charsheet input[type="text"],
+.npc-actor input[type="text"] {
+    background-color: transparent;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: black;
+    padding: 0px 4px;
+    margin: 0px 4px;
+    width: auto;
+}
+.charsheet input[type="text"]:placeholder-shown,
+.npc-actor input[type="text"]:placeholder-shown {
+    background-color: rgba(106, 138, 159, 0.12);
+}
+.charsheet input[type="text"]:focus,
+.npc-actor input[type="text"]:focus {
+    background-color: #ccc;
+}
+.charsheet input[type="number"],
+.npc-actor input[type="number"] {
+    background-color: transparent;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: black;
+    text-align: center;
+    width: 40px;
+}
+.charsheet input[type="number"]:placeholder-shown,
+.npc-actor input[type="number"]:placeholder-shown {
+    background-color: rgba(106, 138, 159, 0.12);
+}
+.charsheet input[type="number"]:focus,
+.npc-actor input[type="number"]:focus {
+    background-color: #ccc;
+}
+.charsheet .w30, .charsheet input[type="text"].w30, .charsheet input[type="number"].w30,
+.npc-actor .w30, .npc-actor input[type="text"].w30, .npc-actor input[type="number"].w30 {
+    width: 30px;
+}
+.charsheet .w40, .charsheet input[type="text"].w40, .charsheet input[type="number"].w40,
+.npc-actor .w40, .npc-actor input[type="text"].w40, .npc-actor input[type="number"].w40 {
+    width: 40px;
+}
+.charsheet .w50, .charsheet input[type="text"].w50, .charsheet input[type="number"].w50,
+.npc-actor .w50, .npc-actor input[type="text"].w50, .npc-actor input[type="number"].w50 {
+    width: 50px;
+}
+.charsheet .w70, .charsheet input[type="text"].w70, .charsheet input[type="number"].w70,
+.npc-actor .w70, .npc-actor input[type="text"].w70, .npc-actor input[type="number"].w70 {
+    width: 70px;
+}
+.charsheet .w110, .charsheet input[type="text"].w110, .charsheet input[type="number"].w110,
+.npc-actor .w110, .npc-actor input[type="text"].w110, .npc-actor input[type="number"].w110 {
+    width: 110px;
+}
+.charsheet input[type="checkbox"].checkbox,
+.npc-actor input[type="checkbox"].checkbox {
+    border-style: solid black;
+    border-radius: 0px;
+}
+.charsheet input[type="text"].stat, .charsheet input[type="number"].stat,
+.npc-actor input[type="text"].stat, .npc-actor input[type="number"].stat {
+    font-size: 2em;
+    font-weight: bold;
+}
+.charsheet textarea:placeholder-shown, .charsheet input[type="text"]:placeholder-shown, .charsheet input[type="number"]:placeholder-shown,
+.npc-actor textarea:placeholder-shown, .npc-actor input[type="text"]:placeholder-shown, .npc-actor input[type="number"]:placeholder-shown {
+    background-color: rgba(106, 138, 159, 0.12);
+}
+.charsheet textarea:focus, .charsheet input[type="text"]:focus, .charsheet input[type="number"]:focus,
+.npc-actor textarea:focus, .npc-actor input[type="text"]:focus, .npc-actor input[type="number"]:focus {
+    background-color: #ccc;
+}
+.charsheet input[type=number]::-webkit-inner-spin-a, .charsheet input[type=number]::-webkit-outer-spin-a, .charsheet input[type=number].txtfield::-webkit-inner-spin-a, .charsheet input[type=number].txtfield::-webkit-outer-spin-a,
+.npc-actor input[type=number]::-webkit-inner-spin-a, .npc-actor input[type=number]::-webkit-outer-spin-a, .npc-actor input[type=number].txtfield::-webkit-inner-spin-a, .npc-actor input[type=number].txtfield::-webkit-outer-spin-a {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.charsheet input[type=number], .charsheet input[type=number].txtfield,
+.npc-actor input[type=number], .npc-actor input[type=number].txtfield {
+    -moz-appearance: textfield;
+}
+.charsheet a[type^="roll"].txt-btn,
+.npc-actor a[type^="roll"].txt-btn {
+    height: 25px;
+    line-height: unset;
+    font-size: 12px;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 2px 5px 4px 5px;
+}
+.charsheet a[type^="roll"].txt-btn:before,
+.npc-actor a[type^="roll"].txt-btn:before {
+    content: ' ';
+}
+.charsheet a[type^="roll"].txt-btn:hover,
+.npc-actor a[type^="roll"].txt-btn:hover {
+    background-color: #87afc7;
+    background-position: 0 -28px;
+}
+.charsheet .version,
+.npc-actor .version {
+    float: left;
+    margin-top: -114px;
+    width: 240px;
+    margin-left: 550px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.charsheet .section:not(.name):not(.death), .charsheet section:not(.name):not(.death) {
+    display: flex;
+    padding: 5px;
+    border: 2px solid #5a5a5f;
+    background: rgba(40, 40, 45, 0.85);
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+
+.npc-actor .section:not(.skills):not(.saves):not(.name),
+.npc-actor section:not(.skills):not(.saves):not(.name) {
+    display: flex;
+    padding: 5px;
+    border: 2px solid #5a5a5f;
+    background: rgba(40, 40, 45, 0.85);
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+
+/* NPC skills and saves - lighter metallic gray matching other sections */
+.npc-actor section.skills,
+.npc-actor section.saves {
+    display: flex;
+    padding: 16px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+.charsheet .columnflex,
+.npc-actor .columnflex {
+    display: flex;
+    flex-direction: column;
+}
+.charsheet .rowflex,
+.npc-actor .rowflex {
+    display: flex;
+    flex-direction: row;
+}
+.charsheet .wrap,
+.npc-actor .wrap {
+    flex-wrap: wrap;
+}
+.charsheet .nowrap,
+.npc-actor .nowrap {
+    flex-wrap: nowrap;
+}
+.charsheet .center,
+.npc-actor .center {
+    align-items: center;
+}
+.charsheet .middle,
+.npc-actor .middle {
+    justify-content: center;
+}
+.charsheet .spaced,
+.npc-actor .spaced {
+    justify-content: space-evenly;
+}
+
+.charsheet main.page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "racial feats " "class equipment" "prof notes ";
+    width: 840px;
+    height: 990px;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.charsheet main.page2 label {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    width: 140px;
+}
+.charsheet main.page2 textarea {
+    width: 390px;
+    height: 280px;
+    margin-bottom: 0px;
+}
+.charsheet main.page3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "settings other " "ammo changelog";
+    width: 840px;
+    height: 990px;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.charsheet main.page3 label {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+
+.charsheet main.page-competency {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+}
+
+.charsheet main.feats {
+    min-height: 990px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+}
+
+.charsheet .sg-sheet-body > .tab,
+.npc-actor .sg-sheet-body > .tab {
+    display: none;
+}
+
+.charsheet .sg-sheet-body > .tab.active,
+.npc-actor .sg-sheet-body > .tab.active {
+    display: block;
+    width: 100%;
+}
+
+/* ===== FOUNDRY VTT OVERRIDE - HIGHEST PRIORITY ===== */
+/* These load LAST to override Foundry defaults */
+
+/* Remove padding from sgrpg sheet windows only */
+.app.window-app.sheet.actor.sgrpg .window-content,
+.window-app.sheet.actor.sgrpg .window-content,
+body .app.sheet.actor.sgrpg section.window-content,
+section.window-content.sgrpg {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Remove padding from window-app itself */
+.app.window-app.sheet.actor,
+.window-app.sheet.actor,
+body .app.sheet.actor {
+    padding: 0 !important;
+}
+
+/* Ensure form fills window width */
+form.charsheet {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Character tab layout - 100% WIDTH EVERYTHING */
+.charsheet main.character {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+}
+
+/* Name section container - now horizontal with profile pic on left */
+.charsheet main.character > section.name {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+    flex: 0 0 auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-self: stretch !important;
+    gap: 10px !important;
+    background: transparent !important;
+    border: none !important;
+    opacity: 1 !important;
+}
+
+/* Profile picture box - matches other section boxes */
+.charsheet main.character > section.name > .profile-img-box {
+    width: 120px;
+    height: auto;
+    align-self: stretch;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.charsheet main.character > section.name > .profile-img-box .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Name content — gold left accent, horizontal: level-col | name-info-col */
+/* Set full border then override left — same pattern as .stat-box */
+.charsheet main.character > section.name > .name-content {
+    display: flex !important;
+    flex: 1 !important;
+    flex-direction: row !important;
+    gap: 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 2px solid #5a5a5f !important;
+    border-left: 4px solid #c8a030 !important;
+}
+
+/* Level column — narrow, centered, subtle right divider */
+/* flex: 0 0 64px overrides the old `section.name > div > div { flex: 1 }` rule */
+.charsheet .name-content .level-col {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 64px !important;
+    width: 64px !important;
+    padding: 8px 12px !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+    gap: 2px !important;
+}
+.charsheet .name-content .level-col .level-num {
+    font-size: 1.8em !important;
+    font-weight: 700 !important;
+    color: #c8a030 !important;
+    text-align: center !important;
+    width: 40px !important;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    box-shadow: none !important;
+    height: auto !important;
+}
+.charsheet .name-content .level-col .level-label {
+    font-size: 0.58em !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.12em !important;
+    color: #907020 !important;
+    text-transform: uppercase !important;
+    user-select: none !important;
+}
+
+/* Right column — name on top, pills on bottom */
+.charsheet .name-content .name-info-col {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    padding: 8px 12px 8px 10px !important;
+    gap: 6px !important;
+    min-width: 0 !important;
+}
+
+/* Meta pills row */
+.charsheet .name-content .meta-pills {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin-top: 0 !important;
+}
+
+/* Individual pill — neutral gray, Stargate style */
+.charsheet .name-content .meta-pill {
+    display: flex !important;
+    align-items: center !important;
+    gap: 7px !important;
+    background: rgba(55, 55, 58, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.13) !important;
+    border-radius: 20px !important;
+    padding: 4px 13px !important;
+    height: 28px !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: border-color 0.15s ease, background 0.15s ease !important;
+}
+.charsheet .name-content .meta-pill:hover {
+    background: rgba(68, 68, 72, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Label pills (race, class) — shrink to content, don't stretch */
+.charsheet .name-content label.meta-pill {
+    cursor: text !important;
+    display: inline-flex !important;
+    width: auto !important;
+    flex-shrink: 0 !important;
+}
+
+/* Pill label (TENSION, HIT) */
+.charsheet .name-content .meta-pill .pill-label {
+    font-size: 0.65em !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em !important;
+    color: #8a8a90 !important;
+    text-transform: uppercase !important;
+    user-select: none !important;
+    flex-shrink: 0 !important;
+}
+
+/* Pill value — text inputs (Race) */
+.charsheet .name-content .meta-pill input[type="text"] {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    color: #d0d0d4 !important;
+    font-size: 0.85em !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 80px !important;
+    min-width: 0 !important;
+    box-shadow: none !important;
+}
+.charsheet .name-content .meta-pill input[type="text"]:focus {
+    color: #e8e8ec !important;
+}
+
+/* Pill value — select (Class) */
+.charsheet .name-content .meta-pill select {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    color: #d0d0d4 !important;
+    font-size: 0.85em !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 100% !important;
+    min-width: 90px !important;
+    box-shadow: none !important;
+}
+.charsheet .name-content .meta-pill select option {
+    background: #3a3a3c;
+    color: #d0d0d4;
+}
+
+/* TD/HIT pills ARE buttons — must override Foundry's width:100% on buttons */
+.charsheet .name-content button.meta-pill {
+    display: inline-flex !important;
+    width: auto !important;
+    min-width: 0 !important;
+    flex-shrink: 0 !important;
+    background: rgba(55, 55, 58, 0.9) !important;
+    border: 1px solid rgba(255, 255, 255, 0.13) !important;
+    border-radius: 20px !important;
+    padding: 4px 13px !important;
+    height: 28px !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    transition: border-color 0.15s ease, background 0.15s ease !important;
+}
+.charsheet .name-content button.meta-pill:hover {
+    background: rgba(72, 72, 76, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.28) !important;
+}
+.charsheet .name-content button.meta-pill:active {
+    background: rgba(50, 50, 54, 0.9) !important;
+}
+
+/* Dice value inside TD/HIT pills — light gray, cohesive with palette */
+.charsheet .name-content .meta-pill .pill-dice {
+    color: #e0e0e4 !important;
+    font-size: 0.88em !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase !important;
+}
+
+/* Eureka pill numbers */
+.charsheet .name-content .meta-pill .pill-num {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    color: #e0e0e4 !important;
+    font-size: 0.88em !important;
+    font-weight: 700 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 28px !important;
+    text-align: center !important;
+    box-shadow: none !important;
+}
+.charsheet .name-content .meta-pill .pill-slash {
+    color: #8a8a90 !important;
+    font-size: 0.75em !important;
+}
+
+/* Death save box - Third gray box (styling is on .section.death inside) */
+.charsheet main.character > section.name > .deathsave-box {
+    width: 165px !important;
+    flex-shrink: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Attributes (chevrons) */
+.charsheet main.character > .attr {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    justify-content: space-between !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+/* Main content area */
+.charsheet main.character > .main-content-area {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Weapons section */
+.charsheet main.character > section.weapons {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.charsheet div.tab-as {
+    display: flex;
+    gap: 10px;
+}
+
+.charsheet .attr .stat {
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/attr.png);
+    background-repeat: no-repeat;
+    background-size: 124px 113px;
+    flex: 1 1 auto;
+    height: 120px;
+    background-position: center;
+    min-width: 124px;
+}
+.charsheet .attr span:not(.mod) {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.charsheet .attr span.mod {
+    width: 25px;
+    margin-top: 4px;
+    border-style: none;
+    margin-bottom: 17px;
+    border-width: 2px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+}
+.charsheet .attr input[type="number"] {
+    width: 2em;
+    margin-bottom: 7px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.charsheet .attr a[type="roll"].large {
+    font-size: 16px;
+    margin-top: -5px;
+    border-radius: 15px;
+    width: 40.5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.charsheet section.other {
+    grid-area: other;
+}
+.charsheet section.other div {
+    padding: 10px;
+}
+.charsheet section.other span {
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+.charsheet section.other input[type="text"] {
+    width: 395px;
+}
+.charsheet section.other textarea.dmg {
+    height: 60px;
+    width: 245px;
+}
+.charsheet section.changelog {
+    grid-area: changelog;
+}
+.charsheet section.changelog img.phoenix {
+    width: 150px;
+    height: 150px;
+}
+.charsheet div.ammo.grid {
+    grid-area: ammo;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px 20px 5px 0px;
+}
+.charsheet div.ammo label {
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+.charsheet div.ammo div {
+    margin: 7px 1px 7px 1px;
+}
+
+.charsheet .tab[data-tab].active {
+    display: grid;
+}
+
+.charsheet section.condition label {
+    font-size: 0.9em;
+    font-weight: bold;
+    width: unset;
+}
+
+.charsheet main.background div.editor {
+    width: 100%;
+    height: 100%;
+}
+
+.charsheet .inventory-item {
+    line-height: 1.9em;
+    margin: 0px;
+    width: 100%;
+}
+
+.charsheet .inventory-item div {
+    flex: 0 0 auto;
+}
+
+.charsheet .sheet-header {
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+}
+
+.npc-actor .sheet-header {
+    display: flex;
+    flex-direction: row;
+    min-height: auto;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.npc-actor .sheet-header .image-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.npc-actor .sheet-header .header-fields {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.npc-actor .sheet-header .resources {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.charsheet .sg-sheet-body {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.npc-actor .sg-sheet-body {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 0 20px 0 !important;
+    margin: 0 !important;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.npc-actor .sg-sheet-body > .tab {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form.npc-actor {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-width: 600px;
+    box-sizing: border-box;
+}
+
+/* NPC Sheet - Attributes Tab Content */
+.npc-actor .tab.description {
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(20, 20, 25, 0.6);
+}
+
+/* NPC Sheet - Skills & Saves Tab Content */
+.npc-actor .tab.details {
+    display: flex !important;
+    flex-direction: row;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(20, 20, 25, 0.6);
+}
+
+.npc-actor .tab.details > .flexcol {
+    flex: 1;
+    padding: 15px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    border-radius: 8px;
+}
+
+/* NPC Sheet - Notes Tab Content */
+.npc-actor .tab.notes {
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(20, 20, 25, 0.6);
+}
+
+/* NPC Sheet - Margin for sections */
+.npc-actor .margin-top {
+    margin-top: 15px;
+}
+
+/* NPC Sheet - Attribute stat boxes */
+.npc-actor .flex-group-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* NPC Sheet - Attributes row */
+.npc-actor .tab.description > .flexrow:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.npc-actor .tab.description > .flexrow:first-child .flex-group-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.npc-actor .tab.description > .flexrow:first-child .flex-group-center label {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.npc-actor .tab.description > .flexrow:first-child .flex-group-center input {
+    width: 50px;
+    text-align: center;
+}
+
+.npc-actor .tab.description > .flexrow:first-child .flex-group-center .mod {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+
+/* NPC Sheet - Skills, Saves, Condition sections */
+.npc-actor .tab.description > .flex0 {
+    padding: 10px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    border-radius: 8px;
+}
+
+/* NPC Sheet - Weapons section */
+.npc-actor .tab.description > .attacks {
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* NPC Sheet - Grid layouts */
+.npc-actor .grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.npc-actor .grid-4col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* NPC Sheet - Resource fields in header */
+.npc-actor .resource {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.npc-actor .resource-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.npc-actor .resource-content input {
+    width: 40px;
+    text-align: center;
+}
+
+.npc-actor .compact-header-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.npc-actor h1.charname {
+    flex: 1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.npc-actor h1.charname input {
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* NPC Sheet - Notes tab styling */
+.npc-actor .tab.notes .editor-wrapper {
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.npc-actor .tab.notes h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+}
+
+.npc-actor .items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.npc-actor .items-list .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    background: rgba(30, 30, 35, 0.9);
+    border: 1px solid #4a4a4f;
+    border-radius: 4px;
+}
+
+.npc-actor .items-list .item-image {
+    flex-shrink: 0;
+}
+
+.npc-actor .items-list .item-name {
+    flex: 1;
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.npc-actor .items-list .item-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.npc-actor .items-list .item-control {
+    color: #b8b8b8;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.npc-actor .items-list .item-control:hover {
+    color: #ffffff;
+}
+
+.npc-actor .empty-message {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* NPC Sheet - Flex utilities */
+.npc-actor .flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.npc-actor .flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.npc-actor .nowrap {
+    flex-wrap: nowrap;
+}
+
+.npc-actor .flex-center {
+    align-items: center;
+}
+
+.npc-actor .flex-between {
+    justify-content: space-between;
+}
+
+/* NPC Sheet - h2 styling */
+.npc-actor h2 {
+    color: #b8b8b8;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;
+}
+
+/* New layout styles for adapted Roll20 character sheet */
+
+/* Name section styling */
+.charsheet section.name {
+    /* grid-column: span 9; */
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.charsheet section.name > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.charsheet section.name > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.charsheet section.name img.profile-img {
+    border: 2px solid black;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.charsheet section.name .config-button {
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.charsheet section.name .config-button:hover {
+    color: #87AFC7;
+}
+
+.charsheet section.name label {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 3px;
+    width: auto;
+}
+
+.charsheet section.name input[type=text] {
+    width: 100%;
+    text-align: center;
+}
+/* Override center-align for pill inputs */
+.charsheet .name-content .meta-pill input[type=text] {
+    text-align: left !important;
+    width: auto !important;
+}
+
+.charsheet section.name input[type=number] {
+    height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+/* Override generic number height for level and pill inputs */
+.charsheet .name-content .level-col .level-num,
+.charsheet .name-content .meta-pill input[type=number] {
+    height: auto !important;
+}
+
+/* Character name — large, clean */
+.charsheet .name-content .char-name-input {
+    font-size: 1.2em !important;
+    font-weight: 700 !important;
+    color: #e8e8ec !important;
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 0 !important;
+    padding: 0 0 3px !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    text-align: left !important;
+    transition: border-color 0.15s ease !important;
+}
+.charsheet .name-content .char-name-input:focus {
+    border-bottom-color: rgba(255,255,255,0.35) !important;
+    outline: none !important;
+}
+
+/* Death Save Box */
+.charsheet .deathsave-box {
+    /* grid-column: span 3; */
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0;
+}
+
+.charsheet .deathsave-box .section.death {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.charsheet .deathsave-box .section.death .txt-btn.large {
+    font-size: 1em;
+    padding: 5px 15px;
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+
+.charsheet .deathsave-box .death-save-checks {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.charsheet .deathsave-box .gap5.aligned {
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.charsheet .deathsave-box input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.charsheet .deathsave-box span {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* Ability scores - horizontal layout */
+.charsheet .attr {
+    /* grid-column: span 12; */
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    padding: 15px 10px;
+    margin: 0;
+    justify-content: space-between;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    min-width: 100% !important;
+}
+
+/* Ensure attr with rowflex expands to full width */
+.charsheet .attr.rowflex {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.charsheet .attr .txt-btn.large {
+    text-transform: uppercase;
+}
+
+/* Main content area - skills + right side */
+.charsheet .main-content-area {
+    /* grid-column: span 12; */
+    display: grid !important;
+    grid-template-columns: 4fr 8fr !important;
+    gap: 5px;
+    margin: 0;
+}
+
+/* Skills section */
+.charsheet .main-content-area .skills {
+    grid-area: unset;
+    margin: 0;
+    padding: 8px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    border-radius: 8px;
+}
+
+/* Override for NPC sheets - lighter metallic gray */
+.npc-actor.charsheet .competency-grid-area section.skills {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+}
+
+.npc-actor.charsheet .right-column-container section.saves {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+}
+
+/* Player sheet saves also use lighter metallic gray */
+.charsheet:not(.npc-actor) section.saves {
+    background: rgba(40, 40, 45, 0.85) !important;
+    border: 2px solid #5a5a5f !important;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05) !important;
+}
+
+.charsheet .main-content-area .skills h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.charsheet .main-content-area .skills .rowflex {
+    gap: 3px;
+    align-items: center;
+}
+
+.charsheet .main-content-area .skills a[type="roll"] {
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: visible;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.charsheet .main-content-area .skills input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.charsheet .main-content-area .skills input.w30,
+.charsheet section.saves input.w30,
+.npc-actor section.skills input.w30,
+.npc-actor section.saves input.w30 {
+    flex-shrink: 0;
+    width: 30px;
+    text-align: center;
+}
+
+.charsheet .main-content-area .skills .skill-ability-label {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: #666;
+    align-self: flex-end;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.charsheet .main-content-area .skills .mod {
+    margin: 0px 4px 0px 4px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.charsheet .main-content-area .skills .mod select {
+    height: 15px;
+    font-size: 10px;
+}
+
+.charsheet .main-content-area .skills .skill-mod-revert {
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+
+.charsheet .main-content-area .skills .skill-mod-revert:hover {
+    color: #000;
+}
+
+/* Right side container */
+.charsheet .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Stats container - 4 equal columns, 2 rows (7 boxes, auto-placed) */
+.charsheet .stats-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+/* Stat box: horizontal icon-left layout */
+.charsheet .stats-container .stat-box {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+    border: 2px solid #4a4a4f;
+    border-left: 3px solid #555; /* overridden per-box */
+    background: rgba(40, 40, 45, 0.85);
+    color: #ddd;
+    min-height: 70px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Icon column — left panel */
+.charsheet .stats-container .stat-box .stat-icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    flex-shrink: 0;
+    border-right: 1px solid #3a3a3f;
+    font-size: 18px;
+}
+
+/* Content column — label + value */
+.charsheet .stats-container .stat-box .stat-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 5px 6px;
+    gap: 3px;
+    min-width: 0;
+}
+
+/* Label text */
+.charsheet .stats-container .stat-box .stat-label {
+    font-size: 0.68em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #888896;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Per-box accent colors */
+.charsheet .stats-container .hp-box          { border-left-color: #c44; }
+.charsheet .stats-container .temp-hp-box     { border-left-color: #a86040; }
+.charsheet .stats-container .ac-box          { border-left-color: #4a7ab5; }
+.charsheet .stats-container .speed-box       { border-left-color: #3ea868; }
+.charsheet .stats-container .initiative-box  { border-left-color: #a88820; }
+.charsheet .stats-container .moxie-box       { border-left-color: #7040a8; }
+.charsheet .stats-container .bulk-box        { border-left-color: #506878; }
+.charsheet .stats-container .det-box         { border-left-color: #20a8a0; }
+.charsheet .stats-container .prof-box        { border-left-color: #a08820; }
+
+/* Icon accent colors + subtle bg tint */
+.charsheet .stats-container .hp-box         .stat-icon-wrap { color: #e05555; background: rgba(204,68,68,0.07); }
+.charsheet .stats-container .temp-hp-box    .stat-icon-wrap { color: #c07050; background: rgba(168,96,64,0.07); }
+.charsheet .stats-container .ac-box         .stat-icon-wrap { color: #5888cc; background: rgba(74,122,181,0.07); }
+.charsheet .stats-container .speed-box      .stat-icon-wrap { color: #48c078; background: rgba(62,168,104,0.07); }
+.charsheet .stats-container .initiative-box .stat-icon-wrap { color: #d4a030; background: rgba(168,136,32,0.07); }
+.charsheet .stats-container .moxie-box      .stat-icon-wrap { color: #9060cc; background: rgba(112,64,168,0.07); }
+.charsheet .stats-container .det-box        .stat-icon-wrap { color: #28c8c0; background: rgba(32,168,160,0.07); }
+.charsheet .stats-container .prof-box       .stat-icon-wrap { color: #c8a030; background: rgba(160,136,32,0.07); }
+
+/* Value inputs */
+.charsheet .stats-container .stat-box input[type=number],
+.charsheet .stats-container .stat-box input[type=text] {
+    height: 28px;
+    padding: 4px 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 44px;
+    text-align: center;
+    border-width: 1px !important;
+    border-bottom-width: 1px !important;
+    box-sizing: border-box;
+}
+
+/* HP / Temp HP dual inputs */
+.charsheet .stats-container .stat-box .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.charsheet .stats-container .stat-box .stat-row .slash {
+    font-size: 0.9em;
+    color: #666;
+    padding: 0 1px;
+}
+.charsheet .stats-container .stat-box .stat-row input {
+    width: 38px;
+    font-size: 1em;
+    height: 28px;
+    padding: 4px 1px;
+    border-width: 1px !important;
+    border-bottom-width: 1px !important;
+    box-sizing: border-box;
+}
+
+/* Roll buttons (Initiative, Moxie) — styled as label */
+.charsheet .stats-container .stat-box .txt-btn {
+    margin: 0;
+    padding: 0;
+    font-size: 0.68em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    height: auto;
+    line-height: 1;
+    color: #8aa8b8;
+    background: transparent;
+    border: none;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+.charsheet .stats-container .stat-box .txt-btn:hover {
+    color: #a8c8d8;
+    background: transparent;
+    border: none;
+    text-shadow: 0 0 6px rgba(140, 180, 210, 0.5);
+}
+
+/* Saves, condition, and inventory container */
+.charsheet .saves-inventory-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex: 1;
+    min-height: 200px;
+}
+
+.charsheet .saves-condition-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+/* Saves section in new layout */
+.charsheet .saves-inventory-container .saves {
+    margin: 0;
+    flex: 1;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    padding: 8px;
+}
+
+/* Condition section in new layout */
+.charsheet .saves-inventory-container .condition {
+    margin: 0;
+    padding: 8px;
+    flex: 0 0 auto;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+
+/* Inventory section in new layout */
+.charsheet .saves-inventory-container .inventory {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 8px;
+    overflow: hidden;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+
+.charsheet .saves-inventory-container .inventory h4 {
+    margin: 5px 0 10px 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.charsheet .saves-inventory-container .inventory .inventory-content {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.charsheet .saves-inventory-container .inventory .inventory-table-wrapper {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 380px;
+    flex: 1 1 auto;
+}
+
+.charsheet .saves-inventory-container .inventory .bulk-summary {
+    flex: 0 0 auto;
+    margin-top: 2px;
+}
+
+.charsheet .saves-inventory-container .inventory .equip-table {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Weapons section */
+.charsheet .weapons-box {
+    /* grid-column: span 12; */
+    margin: 5px;
+    background: #f5f5f5;
+    opacity: 0.9;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.charsheet section.weapons {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.charsheet section.weapons h2 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+/* Notes section */
+.charsheet .notes-section {
+    /* grid-column: span 12; */
+    margin: 0;
+    padding: 10px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+
+.charsheet .notes-section h4 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.charsheet .notes-section textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* Utility class */
+.charsheet .gap5 {
+    gap: 5px;
+}
+
+/* Configuration Page */
+.charsheet main.configuration {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+    gap: 5px;
+}
+
+/* Segmented Control for Initiative Mode */
+.charsheet .segmented-control {
+    display: flex;
+    gap: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid #4a4a4f;
+    background: rgba(20, 20, 25, 0.8);
+    width: 100%;
+    max-width: 480px;
+}
+
+.charsheet .segmented-control input[type="radio"] {
+    display: none;
+}
+
+.charsheet .segmented-control .segment-button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 6px 6px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(35, 35, 40, 0.6);
+    color: #a0a0a5;
+    font-size: 11px;
+    font-weight: 600;
+    border-right: 1px solid #4a4a4f;
+    transition: all 0.2s ease;
+    user-select: none;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.charsheet .segmented-control .segment-button:last-child {
+    border-right: none;
+}
+
+.charsheet .segmented-control .segment-button:hover {
+    background: rgba(50, 50, 55, 0.8);
+    color: #c0c0c5;
+}
+
+.charsheet .segmented-control input[type="radio"]:checked + .segment-button {
+    background: linear-gradient(135deg, #6a8a9f 0%, #5a7a8f 100%);
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.charsheet .segmented-control .segment-button i {
+    margin-right: 4px;
+}
+
+.charsheet .dice-config {
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    padding: 20px;
+}
+
+.charsheet .dice-config h3 {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.charsheet .dice-config .config-row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.charsheet .dice-config .config-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.charsheet .dice-config .config-item > label {
+    font-weight: 700;
+    font-size: 11px;
+    color: #c8c8c8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.charsheet .dice-config .config-item select {
+    padding: 12px 16px;
+    font-size: 14px;
+    background: rgba(25, 25, 30, 0.8);
+    border: 2px solid #4a4a4f;
+    border-radius: 6px;
+    color: #e0e0e0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.charsheet .dice-config .config-item select:hover {
+    border-color: #6a6a6f;
+    background: rgba(25, 25, 30, 1);
+}
+
+.charsheet .dice-config .config-item select:focus {
+    outline: none;
+    border-color: #6a8a9f;
+    box-shadow: 0 0 5px rgba(90, 120, 140, 0.3);
+}
+
+.charsheet .skill-config {
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3),
+                inset 0 0 15px rgba(80, 80, 85, 0.05);
+    padding: 20px;
+}
+
+.charsheet .skill-config h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.charsheet .skill-config p {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 0.9em;
+    color: #c8c8c8;
+}
+
+.charsheet .skill-config-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.charsheet .skill-config-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.charsheet .skill-config-row .skill-name {
+    flex: 1;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: auto;
+    color: #888;
+}
+
+.charsheet .skill-config-row .skillModSelect {
+    flex: 0 0 120px;
+    padding: 2px 5px;
+}
+
+.charsheet .skill-config-row .skill-mod-revert {
+    flex: 0 0 20px;
+    cursor: pointer;
+    color: #666;
+    text-align: center;
+}
+
+.charsheet .skill-config-row .skill-mod-revert:hover {
+    color: #000;
+}
+/* Status + Whisper Rolls on one row */
+.charsheet .config-pair {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+/* keep the configuration tab inside the window */
+.charsheet main.configuration,
+.charsheet main.configuration > section,
+.charsheet main.configuration .config-top-row {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.charsheet .config-pair > .config-item {
+    flex: 1 1 0;
+    min-width: 0;
+}
+.charsheet .config-pair .segmented-control { max-width: none; }
+.charsheet .config-pair .segment-button {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.charsheet .skill-config-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+}
+.charsheet .skill-config-row { min-width: 0; box-sizing: border-box; }
+.charsheet .skill-config-row .skill-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.charsheet .skill-config-row .skillModSelect {
+    flex: 0 0 150px !important;
+    width: 150px !important;
+    min-width: 0;
+}
+.charsheet .skill-config-row .skill-mod-revert { flex: 0 0 20px; }
+
+/* Player: damage resistances panel (character page) */
+.charsheet .saves-inventory-container .resistances {
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    padding: 8px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3), inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+.charsheet .resistances h4 {
+    margin: 5px 0 10px 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.charsheet .pc-resist-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.charsheet .pc-resist-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 6px;
+    border: 2px solid #555;
+    border-radius: 6px;
+    background: rgba(70, 70, 75, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    box-sizing: border-box;
+    min-width: 0;
+    transition: all 0.2s ease;
+}
+.charsheet .pc-resist-btn:last-child:nth-child(2n + 1) { grid-column: 1 / -1; }
+.charsheet .pc-resist-btn:hover { background: rgba(80, 80, 85, 0.9); border-color: #6a6a6f; transform: translateY(-1px); }
+.charsheet .pc-resist-btn .damage-type-name {
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    font-weight: 600;
+    color: #b0b0b0;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.charsheet .pc-resist-btn.resistant,
+.charsheet .pc-resist-btn.vulnerable,
+.charsheet .pc-resist-btn.immune { border-width: 3px; }
+
+.charsheet .pc-resist-btn.resistant { border-color: #FFA858; background: rgba(255, 168, 88, 0.5); box-shadow: 0 0 15px rgba(255, 168, 88, 0.6), inset 0 0 10px rgba(255, 168, 88, 0.3); }
+.charsheet .pc-resist-btn.resistant .damage-type-name { color: #FFC080; font-weight: 700; }
+
+.charsheet .pc-resist-btn.vulnerable { border-color: #e5645a; background: rgba(229, 100, 90, 0.45); box-shadow: 0 0 15px rgba(229, 100, 90, 0.55), inset 0 0 10px rgba(229, 100, 90, 0.3); }
+.charsheet .pc-resist-btn.vulnerable .damage-type-name { color: #ff9a92; font-weight: 700; }
+
+.charsheet .pc-resist-btn.immune { border-color: #30D5C8; background: rgba(48, 213, 200, 0.5); box-shadow: 0 0 15px rgba(48, 213, 200, 0.6), inset 0 0 10px rgba(48, 213, 200, 0.3); }
+.charsheet .pc-resist-btn.immune .damage-type-name { color: #70F0E8; font-weight: 700; }
+
+/* Player: inventory page */
+.charsheet main.inventory-page {
+    padding: 0 0 20px 0;
+    min-height: 990px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Stargate-RPG/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: center;
+    background-color: black;
+}
+.charsheet main.inventory-page > .inventory {
+    margin: 0;
+    padding: 8px;
+    background: rgba(40, 40, 45, 0.85);
+    border: 2px solid #5a5a5f;
+    box-shadow: 0 0 8px rgba(90, 90, 95, 0.3), inset 0 0 15px rgba(80, 80, 85, 0.05);
+}
+.charsheet main.inventory-page > .inventory h4 { margin: 5px 0 10px; text-align: center; font-size: 1em; font-weight: bold; }
+.charsheet main.inventory-page .inventory-table-wrapper { overflow: auto; max-height: none; }
+.charsheet main.inventory-page .equip-table { width: 100%; }
+
+/* Inventory page: use the full window width */
+.charsheet main.inventory-page > .inventory {
+    align-items: stretch !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+.charsheet main.inventory-page .inventory-content {
+    width: 100%;
+    max-width: none;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+.charsheet main.inventory-page .inventory-table-wrapper {
+    width: 100%;
+    max-width: none;
+}
+.charsheet main.inventory-page .equip-table {
+    width: 100% !important;
+    max-width: none !important;
+    table-layout: fixed;
+}
+.charsheet main.inventory-page .equip-table .equip-name-col { width: auto !important; text-align: left; }
+.charsheet main.inventory-page .equip-table th:nth-child(3),
+.charsheet main.inventory-page .equip-table th:nth-child(4),
+.charsheet main.inventory-page .equip-table td:nth-child(3),
+.charsheet main.inventory-page .equip-table td:nth-child(4) { width: 70px; text-align: center; }
+.charsheet main.inventory-page .equip-table .equip-name-col { width: 28% !important; }
+.charsheet main.inventory-page .equip-table .equip-desc-col { text-align: left; padding: 4px 10px; }
+.charsheet main.inventory-page .equip-desc {
+    font-size: 12px;
+    line-height: 1.35;
+    color: #b8b8c0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.charsheet main.inventory-page .equip-desc p { display: inline; margin: 0; }
+.charsheet main.inventory-page .equip-desc p + p::before { content: " "; }
+.npc-actor .equip-desc-col { display: none; }
+.charsheet main.inventory-page .equip-table .equip-actions-col {
+    width: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
+    text-align: right;
+}
+.charsheet main.inventory-page .equip-table .item-name-container {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+}
+.charsheet main.inventory-page .equip-table .item-name {
+    text-align: left !important;
+    font-size: 14px !important;
+}
+.charsheet main.inventory-page .bulk-summary { text-align: right; padding: 8px 4px 0; }
+
+/* Inventory page: fixed column widths (name / description / amount / bulk / actions) */
+.charsheet main.inventory-page .equip-table .equip-name-col { width: 26% !important; }
+.charsheet main.inventory-page .equip-table .equip-desc-col { width: auto !important; }
+.charsheet main.inventory-page .equip-table .equip-qty-col,
+.charsheet main.inventory-page .equip-table .equip-bulk-col {
+    width: 70px !important;
+    min-width: 70px !important;
+    max-width: 70px !important;
+    text-align: center !important;
+}
+.charsheet main.inventory-page .equip-table .equip-actions-col {
+    width: 110px !important;
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+.charsheet main.inventory-page .equip-table th.equip-desc-col { text-transform: uppercase; }
+.charsheet main.inventory-page .equip-table .equip-desc-col { text-align: left !important; }
+
+/* Shield icon to the LEFT of the damage type name (player + NPC) */
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.damage-resistance-btn,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.damage-resistance-btn { padding-left: 10px !important; }
+
+.charsheet .damage-resistance-btn.damage-resistance-btn::before,
+.charsheet .damage-resistance-btn.damage-resistance-btn::after { display: none; }
+
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.resistant::before,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.vulnerable::before,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.immune::before,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.resistant::before,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.vulnerable::before,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.immune::before {
+    content: "" !important;
+    display: block !important;
+    position: absolute !important;
+    left: 8px !important;
+    top: 50% !important;
+    width: 34px !important;
+    height: 24px !important;
+    transform: translateY(-50%) !important;
+    background: var(--shield, #fff) !important;
+    -webkit-mask: url('../assets/ui/Resistance_white.png') -29.3px -16.5px / 92.6px 61.7px no-repeat !important;
+    mask: url('../assets/ui/Resistance_white.png') -29.3px -16.5px / 92.6px 61.7px no-repeat !important;
+    top: 50% !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
+}
+/* letter inside the shield */
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.resistant::after,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.vulnerable::after,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.immune::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.resistant::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.vulnerable::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.immune::after {
+    display: flex !important;
+    position: absolute !important;
+    left: 8px !important;
+    top: 50% !important;
+    width: 34px !important;
+    height: 24px !important;
+    transform: translateY(-50%) !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: none !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    color: #15151a !important;
+    text-shadow: none !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    right: auto !important;
+    z-index: 2 !important;
+    pointer-events: none !important;
+}
+.charsheet .damage-resistance-btn.resistant { --shield: #FFA858; }
+.charsheet .damage-resistance-btn.vulnerable { --shield: #e5645a; }
+.charsheet .damage-resistance-btn.immune { --shield: #30D5C8; }
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.resistant::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.resistant::after { content: "R" !important; }
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.vulnerable::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.vulnerable::after { content: "V" !important; }
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.immune::after,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.immune::after { content: "I" !important; }
+
+/* keep the type name clear of the shield: reserve space on the left when a state is active */
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.resistant,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.vulnerable,
+.charsheet.charsheet .damage-resistance-grid .damage-resistance-btn.immune,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.resistant,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.vulnerable,
+.charsheet.charsheet .pc-resist-grid .damage-resistance-btn.immune {
+    padding-left: 50px !important;
+    padding-right: 10px !important;
+}
+.charsheet.charsheet .damage-resistance-btn.resistant .damage-type-name,
+.charsheet.charsheet .damage-resistance-btn.vulnerable .damage-type-name,
+.charsheet.charsheet .damage-resistance-btn.immune .damage-type-name {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+/* Configuration: portrait and token pickers */
+.charsheet .portrait-token-config .pt-row { display: flex; gap: 32px; align-items: flex-end; flex-wrap: wrap; padding: 6px 0; }
+.charsheet .portrait-token-config .pt-item { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.charsheet .portrait-token-config .pt-item label { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #9a9aa6; }
+.charsheet .portrait-token-config .pt-image {
+    display: block; object-fit: cover; cursor: pointer;
+    border: 2px solid #5a5a5f; background: rgba(40, 40, 45, 0.85);
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+.charsheet .portrait-token-config .pt-image:hover { border-color: #9ab6c9; box-shadow: 0 0 10px rgba(154, 182, 201, .45); }
+.charsheet .portrait-token-config .pt-portrait { width: 150px; height: 200px; border-radius: 6px; }
+.charsheet .portrait-token-config .pt-token { width: 140px; height: 140px; border-radius: 50%; }

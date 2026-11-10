@@ -1,0 +1,26 @@
+{
+  "_id": "z9CPVNPkNa1Hedcm",
+  "name": "Uniform, Dress",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Unlike the standard issue uniform, only Tau’ri military assets are issued a dress uniform (although they rarely take them into the field). Also called “dress blues” for their dark blue shade and white piping, this uniform provides advantage on all Charisma skill checks against most civilians and military personnel that the wearer outranks (characters without respect for authority may be unaffected at GM discretion).",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Clothing",
+      "restriction": "",
+      "description": "Dress uniform (\"dress blues\")"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!z9CPVNPkNa1Hedcm"
+}

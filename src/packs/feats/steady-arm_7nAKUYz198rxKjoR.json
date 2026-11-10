@@ -1,0 +1,39 @@
+{
+  "_id": "7nAKUYz198rxKjoR",
+  "name": "Steady Arm",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Strength 13+, Iron Grip",
+    "category": "Combat - Ranged",
+    "bonus": "When you use an automatic weapon, you don't suffer disadvantage if you add a number of +TD to damage equal to your Proficiency bonus or less.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "bWv1rmeiFMt4mRQ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!7nAKUYz198rxKjoR"
+}

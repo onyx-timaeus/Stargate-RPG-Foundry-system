@@ -1,0 +1,64 @@
+{
+  "_id": "lMeWwySxA5vTvFYF",
+  "name": "Shotgun",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/shotgun.webp",
+  "system": {
+    "description": "A common hunting shotgun on Earth, the Mossberg 500 is designed for reliability in a variety of environments. The Phoenix Site standard issue Mossberg 500 comes with an underbarrel flashlight and a reinforced stock that can be used as a bludgeon if necessary.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Firearm",
+      "restriction": "",
+      "description": "Reliable shotgun with underbarrel flashlight"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "1",
+    "dmg": "1d10",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 8,
+      "max": 8,
+      "target": null,
+      "reload": "2 actions"
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 10,
+        "max": 30
+      },
+      "special": "Scatter - fires pellets in 45° cone within short range"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "shotguns"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409806,
+    "modifiedTime": 1773766614291,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lMeWwySxA5vTvFYF"
+}

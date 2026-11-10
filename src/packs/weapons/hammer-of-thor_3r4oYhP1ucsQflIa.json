@@ -1,0 +1,64 @@
+{
+  "_id": "3r4oYhP1ucsQflIa",
+  "name": "Hammer of Thor",
+  "type": "weapon",
+  "img": "icons/commodities/tech/tube-chamber-lightning.webp",
+  "system": {
+    "description": "",
+    "techLevel": 2,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "str",
+    "attackBonus": "",
+    "dmg": "2d8",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "bludgeoning",
+      "sec_type": "",
+      "range": {
+        "normal": 2,
+        "max": 2
+      },
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "commonWeapons"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1773768024428,
+    "modifiedTime": 1773768108274,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3r4oYhP1ucsQflIa"
+}

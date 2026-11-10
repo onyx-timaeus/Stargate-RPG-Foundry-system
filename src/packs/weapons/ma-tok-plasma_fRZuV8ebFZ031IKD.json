@@ -1,0 +1,64 @@
+{
+  "_id": "fRZuV8ebFZ031IKD",
+  "name": "Ma'tok (Plasma)",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/ma-tok-plasma.webp",
+  "system": {
+    "description": "Staff weapon capable of firing a bolt of plasma. Can destroy solid walls and kill instantly. Heavy and cumbersome.",
+    "techLevel": 3,
+    "lore": {
+      "origin": "Goa'uld/Jaffa",
+      "type": "Energy Weapon",
+      "restriction": "Jaffa Weapon proficiency",
+      "description": "Standard Jaffa staff weapon"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "3d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "fire",
+      "sec_type": "",
+      "range": {
+        "normal": 5,
+        "max": 60
+      },
+      "special": "Recharge 1, Shockwave 1m"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "23PgsszTH8w31gBF",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409822,
+    "modifiedTime": 1773766595849,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fRZuV8ebFZ031IKD"
+}

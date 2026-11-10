@@ -1,0 +1,37 @@
+{
+  "_id": "BHWCH9tptJlWZB40",
+  "name": "Tactical Vest",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/tactical-vest.webp",
+  "system": {
+    "description": "A heavier version of the bullet-resistant vest, the tactical vest cannot be concealed but offers additional protection. It also has additional pockets, bandoleer straps, and quick release clips for carrying additional equipment.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Standard issue tactical vest"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409880,
+    "modifiedTime": 1767815005730,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!BHWCH9tptJlWZB40"
+}

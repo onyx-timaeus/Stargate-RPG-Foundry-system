@@ -1,0 +1,30 @@
+{
+  "_id": "nYdNsumTmKCnjwu6",
+  "name": "Tracking",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "You gain advantage on all Survival checks made to track."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410427,
+    "modifiedTime": 1767232410427,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!nYdNsumTmKCnjwu6"
+}

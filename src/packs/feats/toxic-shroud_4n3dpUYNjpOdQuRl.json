@@ -1,0 +1,39 @@
+{
+  "_id": "4n3dpUYNjpOdQuRl",
+  "name": "Toxic Shroud",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "",
+    "requirement": "",
+    "category": "",
+    "bonus": "by a 2-m-radius cloud of mist. A creature that starts its turn within the mist must succeed on a DC 12 Constitution saving throw or take 4 (1d8) poison damage and be poisoned until the start of its next turn. ",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "F4ceUs6QvOTjHWSy",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767713514751,
+    "modifiedTime": 1767713536456,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4n3dpUYNjpOdQuRl"
+}

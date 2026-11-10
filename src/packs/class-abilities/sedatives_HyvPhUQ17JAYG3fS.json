@@ -1,0 +1,30 @@
+{
+  "_id": "HyvPhUQ17JAYG3fS",
+  "name": "Sedatives",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "You may administer a sedative to a living target as a melee attack using your Med Kit. If successful, the target must succeed at a Constitution save (DC equal to 10 + Proficiency bonus + Wisdom modifier) or suffer 1d6 levels of fatigue. A target brought to 6 levels of fatigue with this ability is unconscious instead of dead."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410388,
+    "modifiedTime": 1767232410388,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HyvPhUQ17JAYG3fS"
+}

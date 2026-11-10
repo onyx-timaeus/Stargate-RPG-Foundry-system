@@ -1,0 +1,30 @@
+{
+  "_id": "GvfFq8qdSchg1QUb",
+  "name": "Biologist",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "Discovery",
+    "bonus": "As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent."
+  },
+  "effects": [],
+  "folder": "K7lGRqNkPRJ7ttJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410400,
+    "modifiedTime": 1767232410400,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!GvfFq8qdSchg1QUb"
+}

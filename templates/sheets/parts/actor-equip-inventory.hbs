@@ -1,0 +1,43 @@
+<div class="inventory-table-wrapper">
+    <table class="item-list inventory equip-table">
+        <thead>
+            <tr class="equip-table-header">
+                <th class="bold equip-name-col">Name</th>
+                <th class="bold equip-desc-col">Description</th>
+                <th class="bold equip-qty-col" title="Amount"><i class="fas fa-hashtag"></i></th>
+                <th class="bold equip-bulk-col" title="Bulk"><i class="fas fa-weight-hanging"></i></th>
+                <th class="bold equip-actions-col">
+                    <button type="button" class="add-equipment-btn" data-action="addInventory" title="Add to Inventory">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each items.equip as |item|}}
+                <tr class="inventory-item item {{#if item.isInactive}}item-inactive{{/if}}" data-item-id="{{item._id}}">
+                    <td class="equip-name-col">
+                        <div class="item-name-container" style="display: flex; align-items: center; gap: 8px;">
+                            <span class="item-image" style="background-image: url({{item.img}})"></span>
+                            <span class="item-name">{{item.name}}</span>
+                        </div>
+                    </td>
+                    <td class="equip-desc-col"><div class="equip-desc">{{{item.system.description}}}</div></td>
+                    <td class="equip-qty-col">{{item.system.quantity}}</td>
+                    <td class="equip-bulk-col">{{item.system.bulk}}</td>
+                    <td class="equip-actions-col">
+                        <a class="item-control item-consume" title="Consume"><i class="fas fa-cookie-bite"></i></a>
+                        <a class="item-control item-edit"><i class="fas fa-edit"></i></a>
+                        <a class="item-control item-delete"><i class="fas fa-trash"></i></a>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+<div class="bulk-summary {{#if isOverloaded}}bulk-overloaded{{/if}}">
+    {{#if isOverloaded}}
+        <i class="fas fa-exclamation-triangle"></i>
+    {{/if}}
+    Total Bulk: {{currentBulk}} / {{maxBulk}}
+</div>

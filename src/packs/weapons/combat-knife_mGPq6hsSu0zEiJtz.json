@@ -1,0 +1,64 @@
+{
+  "_id": "mGPq6hsSu0zEiJtz",
+  "name": "Combat Knife",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/combat-knife.webp",
+  "system": {
+    "description": "Most commonly presenting as a personal combat knife, shortblades are designed to be light survival tools and are often concealable.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Melee Weapon",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d4",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": "Finesse"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "MnZrraPR5MVQ724n",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409863,
+    "modifiedTime": 1773766485108,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!mGPq6hsSu0zEiJtz"
+}

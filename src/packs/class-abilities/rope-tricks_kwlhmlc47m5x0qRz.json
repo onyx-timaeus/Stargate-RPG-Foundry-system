@@ -1,0 +1,30 @@
+{
+  "_id": "kwlhmlc47m5x0qRz",
+  "name": "Rope Tricks",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "Your expert knots and efficient use of rope allow your entire team to benefit from your Climbing Kit."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410425,
+    "modifiedTime": 1767232410425,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!kwlhmlc47m5x0qRz"
+}

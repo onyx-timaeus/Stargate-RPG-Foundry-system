@@ -1,0 +1,39 @@
+{
+  "_id": "s67jKVqL3ssLX05n",
+  "name": "Exceptional Expertise",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "Proficiency with chosen skill",
+    "category": "General",
+    "bonus": "Choose a skill in which you are proficient. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. You may select this ability multiple times, applying its effect to a different skill each time.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!s67jKVqL3ssLX05n"
+}

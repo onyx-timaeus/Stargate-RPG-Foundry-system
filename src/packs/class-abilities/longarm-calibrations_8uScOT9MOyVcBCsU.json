@@ -1,0 +1,30 @@
+{
+  "_id": "8uScOT9MOyVcBCsU",
+  "name": "Longarm Calibrations",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "Modification",
+    "bonus": "During a long rest you may choose one character's Longarm. It gains a +1d4 to attack rolls against targets at long range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon."
+  },
+  "effects": [],
+  "folder": "c8PKt9qYlMbTGZUX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410365,
+    "modifiedTime": 1767232410365,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8uScOT9MOyVcBCsU"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "3VobDC7CKLwiEgxZ",
+  "name": "Tune-Up",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Engineering",
+    "category": "General",
+    "bonus": "You add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!3VobDC7CKLwiEgxZ"
+}

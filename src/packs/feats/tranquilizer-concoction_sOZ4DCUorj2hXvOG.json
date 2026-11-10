@@ -1,0 +1,39 @@
+{
+  "_id": "sOZ4DCUorj2hXvOG",
+  "name": "Tranquilizer Concoction",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "First Aid ability",
+    "category": "General",
+    "bonus": "You have brewed your own personal tranquilizer cocktail that is more effective than the typical sedative. Increase the Constitution save DC of your tranquilizer weapons or sedatives by your Proficiency bonus.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311856,
+    "modifiedTime": 1767373311856,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!sOZ4DCUorj2hXvOG"
+}

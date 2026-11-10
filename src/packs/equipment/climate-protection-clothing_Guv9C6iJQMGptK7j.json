@@ -1,0 +1,37 @@
+{
+  "_id": "Guv9C6iJQMGptK7j",
+  "name": "Climate Protection Clothing",
+  "type": "equip",
+  "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
+  "system": {
+    "description": "Heavy clothing that provides protection from the cold, high winds, and even radiation when combined with a filtration mask. This clothing can be worn with armor and provides advantage on saves against cold. When combined with a Filtration/Radiation mask it also provides advantages on saves against radiation effects.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Clothing",
+      "restriction": "",
+      "description": "All-weather protective gear"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409902,
+    "modifiedTime": 1767789979646,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Guv9C6iJQMGptK7j"
+}

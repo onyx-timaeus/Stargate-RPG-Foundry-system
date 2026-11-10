@@ -1,0 +1,39 @@
+{
+  "_id": "N702P7W5CvZU3mEI",
+  "name": "Astronomer",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Eureka ability, Science",
+    "category": "Discovery",
+    "bonus": "As a bonus action you may reduce the time it takes to activate an astronomical device (including a Stargate) by 1 round per Eureka point spent.",
+    "castTime": {
+      "value": "1",
+      "type": "bonus"
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "SdiG1dACO586J6TI",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311952,
+    "modifiedTime": 1767373311952,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!N702P7W5CvZU3mEI"
+}

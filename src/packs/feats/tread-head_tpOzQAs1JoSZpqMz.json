@@ -1,0 +1,39 @@
+{
+  "_id": "tpOzQAs1JoSZpqMz",
+  "name": "Tread Head",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "9",
+    "requirement": "Jury Rig ability",
+    "category": "Downtime",
+    "bonus": "You're no stranger to engine grease and can usually be found pouring over manuals in the motor pool. When you spend your downtime in the motor pool, you gain access to one Modification feat of your choice for the duration of the mission. This choice may be changed each mission.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "iH4mEqkFzRNakx8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311936,
+    "modifiedTime": 1767373311936,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!tpOzQAs1JoSZpqMz"
+}

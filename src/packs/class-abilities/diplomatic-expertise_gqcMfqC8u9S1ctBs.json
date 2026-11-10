@@ -1,0 +1,38 @@
+{
+  "_id": "gqcMfqC8u9S1ctBs",
+  "name": "Diplomatic Expertise",
+  "type": "classAbility",
+  "img": "systems/sgrpg/assets/compendium/class-abilities/diplomatic-expertise.webp",
+  "system": {
+    "class": "diplomat",
+    "level": "4",
+    "bonus": "At 4th level, choose Culture, Insight, or Persuasion. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lGY8A531PP1EO9db",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410238,
+    "modifiedTime": 1767795604371,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!gqcMfqC8u9S1ctBs"
+}

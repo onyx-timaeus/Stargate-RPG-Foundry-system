@@ -1,0 +1,37 @@
+{
+  "_id": "FuzxBSdJDaNQWVGn",
+  "name": "Med Kit, Personal",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/med-kit-personal.webp",
+  "system": {
+    "description": "This personal version of the Med Kit is smaller and contains fewer supplies. It may be used once as a Med Kit but it is then expended.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Medical",
+      "restriction": "",
+      "description": "Personal first aid kit"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409937,
+    "modifiedTime": 1767881827743,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FuzxBSdJDaNQWVGn"
+}

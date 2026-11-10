@@ -1,0 +1,30 @@
+{
+  "_id": "0RE2CYEmw5efYSGv",
+  "name": "Overwatchers",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "During a firefight, when you and your team members take the Overwatch action you cover a 90° field instead of a 45° cone. In addition, you may make two Overwatch attacks (against different targets)."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410444,
+    "modifiedTime": 1767232410444,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!0RE2CYEmw5efYSGv"
+}

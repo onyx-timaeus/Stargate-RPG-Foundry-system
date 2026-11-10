@@ -1,0 +1,30 @@
+{
+  "_id": "2SDI5Pa4WOAZgF7j",
+  "name": "Physicist",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "Discovery",
+    "bonus": "When you make an attack with a ranged weapon, you may spend a Eureka to increase the weapon's range by half (+50%)."
+  },
+  "effects": [],
+  "folder": "K7lGRqNkPRJ7ttJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410408,
+    "modifiedTime": 1767232410408,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2SDI5Pa4WOAZgF7j"
+}

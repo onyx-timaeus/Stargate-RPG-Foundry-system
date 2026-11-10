@@ -1,0 +1,37 @@
+{
+  "_id": "gMXZSThRCXsQc5Gw",
+  "name": "Combat Tent",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/combat-tent.webp",
+  "system": {
+    "description": "This triple-walled four-season tent sleeps 2 soldiers comfortably with room for storing their personal equipment. In addition, the tent has a thermoplastic covering that can render the tent air-tight.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Shelter",
+      "restriction": "",
+      "description": "Military-grade shelter"
+    },
+    "bulk": 2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409907,
+    "modifiedTime": 1767880768918,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!gMXZSThRCXsQc5Gw"
+}

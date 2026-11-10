@@ -1,0 +1,391 @@
+{
+    "Actor": {
+        "types": [ "player", "npc" ],
+        "templates": {
+            "common": {
+                "health": {
+                    "value": 20,
+                    "max": 20
+                },
+                "temp_health": {
+                    "value": 0,
+                    "max": 0
+                },
+
+                "determination": {
+                    "value": 2,
+                    "max": 2
+                },
+
+                "condition": "normal",
+                "prof": 2,
+                "initiative": 0,
+                "initiativeMode": "normal",
+                "moxie": 0,
+                "moxieMode": "normal",
+                "whisperRolls": false,
+                "bulk": 16,
+                "ac": 10,
+                "speed": 6,
+
+                "eureka": 0,
+                "eureka_max": 0,
+                "showEurekaPoints": true,
+
+                "deathSaves": {
+                    "sucesses": 0,
+                    "fails": 0
+                },
+
+                "death_success1": false,
+                "death_success2": false,
+                "death_success3": false,
+                "death_failure1": false,
+                "death_failure2": false,
+                "death_failure3": false,
+
+                "attributes": {
+                    "str": {
+                        "value": 10,
+                        "mod": "+0"
+                    },
+                    "dex": {
+                        "value": 10,
+                        "mod": "+0"
+                    },
+                    "con": {
+                        "value": 10,
+                        "mod": "+0"
+                    },
+                    "int": {
+                        "value": 10,
+                        "mod": "+0"
+                    },
+                    "wis": {
+                        "value": 10,
+                        "mod": "+0"
+                    },
+                    "cha": {
+                        "value": 10,
+                        "mod": "+0"
+                    }
+                },
+
+                "skills": {
+                    "acrobatics": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "dex"
+                    },
+                    "animalhandling": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "athletics": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "str"
+                    },
+                    "culture": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "deception": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "cha"
+                    },
+                    "engineering": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "history": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "insight": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "intimidation": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "cha"
+                    },
+                    "investigation": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "medicine": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "nature": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "perception": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "performance": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "cha"
+                    },
+                    "persuasion": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "cha"
+                    },
+                    "pilot": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "dex"
+                    },
+                    "science": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "sleight": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "dex"
+                    },
+                    "stealth": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "dex"
+                    },
+                    "survival": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    }
+                },
+
+                "saves": {
+                    "str": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "str"
+                    },
+                    "dex": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "dex"
+                    },
+                    "con": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "con"
+                    },
+                    "int": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "int"
+                    },
+                    "wis": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "wis"
+                    },
+                    "cha": {
+                        "value": "+0",
+                        "proficient": false,
+                        "mod": "cha"
+                    }
+                },
+
+                "damageResistances": {
+                    "piercing": "normal",
+                    "bludgeoning": "normal",
+                    "slashing": "normal",
+                    "fire": "normal",
+                    "lightning": "normal",
+                    "cold": "normal",
+                    "acid": "normal",
+                    "poison": "normal",
+                    "force": "normal",
+                    "radiant": "normal",
+                    "necrotic": "normal",
+                    "psychic": "normal",
+                    "sonic": "normal",
+                    "explosive": "normal"
+                }
+            },
+            "background": {
+                "playername": "",
+                "biography": "",
+                "campaign": "",
+                "race": "",
+                "origin": "",
+                "class": "",
+                "rank": 1,
+                "hd": "",
+                "mp": 0,
+                "prepRating": "1",
+
+                "proficiencies": {
+                    "armor": {
+                        "light": false,
+                        "heavy": false
+                    },
+                    "weapon": {
+                        "common": false,
+                        "sidearms": false,
+                        "longarms": false,
+                        "bows": false,
+                        "shotguns": false,
+                        "martialArts": false,
+                        "jaffa": false
+                    },
+                    "tool": {
+                        "camoKit": false,
+                        "engineeringKit": false,
+                        "explosives": false,
+                        "fabricationKit": false,
+                        "medKit": false,
+                        "outbreakKit": false,
+                        "panCulturalWardrobe": false,
+                        "researchKit": false,
+                        "translator": false
+                    }
+                }
+            }
+        },
+
+        "player": {
+            "templates": [ "common", "background" ]
+        },
+
+        "npc": {
+            "templates": ["common"],
+            "cr": 0,
+            "size": "normal",
+            "gm_notes": "",
+            "details": ""
+        }
+    },
+
+    "Item": {
+        "types": ["weapon", "equip", "origin", "classAbility", "feat"],
+        "templates": {
+            "itemDescription": {
+                "description": "",
+                "techLevel": 2,
+                "lore": {
+                    "origin": "",
+                    "type": "",
+                    "restriction": "",
+                    "description": ""
+                }
+            },
+            "physicalItem": {
+                "bulk": 1,
+                "quantity": 1
+            },
+            "attack": {
+                "attackAbility": "dex",
+                "attackBonus": "",
+                "dmg": "1d6",
+				"atkSnd" : null,
+				"dmgSnd" : null,
+                "ammo": {
+                    "bulk": null,
+                    "value": null,
+                    "max": null,
+                    "target": null,
+                    "reload": null
+                },
+                "details": {
+                    "type": "piercing",
+                    "sec_type": null,
+                    "range": {
+                        "normal": 50,
+                        "max": 100
+                    },
+                    "special": ""
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "type": ""
+                }
+            }
+        },
+
+        "weapon": {
+            "templates": ["itemDescription", "physicalItem", "attack"],
+            "profType": "none"
+        },
+
+        "equip": {
+            "templates": ["itemDescription", "physicalItem"]
+        },
+
+        "origin": {
+            "templates": [],
+            "originType": "racial",
+            "description": "",
+            "requirements": "",
+            "attributeBonus": "none",
+            "bonus": "",
+            "proficiencies": {
+                "skill": "none",
+                "weapon": "none",
+                "armor": "none",
+                "tool": "none"
+            },
+            "castTime": {
+                "value": "",
+                "type": ""
+            },
+            "limitations": {
+                "value": "",
+                "type": ""
+            }
+        },
+
+        "classAbility": {
+            "templates": [],
+            "class": "none",
+            "level": "",
+            "bonus": "",
+            "castTime": {
+                "value": "",
+                "type": ""
+            },
+            "limitations": {
+                "value": "",
+                "type": ""
+            }
+        },
+
+        "feat": {
+            "templates": [],
+            "mpCost": "",
+            "requirement": "",
+            "category": "",
+            "bonus": "",
+            "castTime": {
+                "value": "",
+                "type": ""
+            },
+            "limitations": {
+                "value": "",
+                "type": ""
+            }
+        }
+    }
+}

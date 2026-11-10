@@ -1,0 +1,39 @@
+{
+  "_id": "o0XZvyuhxbTjERNx",
+  "name": "Hardy",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "None",
+    "category": "General",
+    "bonus": "Your base HD improves by one step, from d8 to d10, or from d10 to d12. You may select this feat multiple times, each time increasing your HD an additional step, to a maximum of d12. If you already have a HD of d12 you may not purchase this feat.\n\nNote: This will immediately increase your HP, as the HP already gained from previous levels will increase by 1 per level when the hit die increases a step.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311856,
+    "modifiedTime": 1767373311856,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!o0XZvyuhxbTjERNx"
+}

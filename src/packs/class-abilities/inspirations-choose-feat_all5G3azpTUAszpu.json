@@ -1,0 +1,30 @@
+{
+  "_id": "all5G3azpTUAszpu",
+  "name": "Inspirations (Choose Feat)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "1",
+    "bonus": "You are adept at inspiring allies in specific ways, granting abilities to yourself and your team while they have temporary HP granted by your Inspire. Choose one Inspiration feat (see page 98) at 1st level, and then another at 3rd level and 5th level. An Inspired character gains all of the benefits of your Inspiration feats while they have temporary HP from your Inspire ability."
+  },
+  "effects": [],
+  "folder": "mUmJYqg5KkrWIOv9",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410230,
+    "modifiedTime": 1767232410230,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!all5G3azpTUAszpu"
+}

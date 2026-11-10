@@ -1,0 +1,38 @@
+{
+  "_id": "Lq56Mv3zmvUE9yHQ",
+  "name": "Unnoticed Field Medic",
+  "type": "classAbility",
+  "img": "systems/sgrpg/assets/compendium/feats/unnoticed-field-medic.webp",
+  "system": {
+    "class": "medic",
+    "level": "2",
+    "bonus": "At 2nd level, when you heal a team member using first aid, attacks against you suffer disadvantage until your next turn.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "5hwGSj15s8ducWtu",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410269,
+    "modifiedTime": 1767797445528,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Lq56Mv3zmvUE9yHQ"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "017It84vo8JPSFWi",
+  "name": "Rally",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "2",
+    "bonus": "At 2nd level, if you are wounded when initiative is rolled (at the start of an action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "1",
+      "type": "long"
+    }
+  },
+  "effects": [],
+  "folder": "Az9j3YjykvnLOCAw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410326,
+    "modifiedTime": 1767878763616,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!017It84vo8JPSFWi"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "qTgGkQ6Vz5gvxSFl",
+  "name": "Reinforce Cover",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Hold Together",
+    "category": "Combat - General",
+    "bonus": "As an action you may extend the benefit of your Hold Together ability to all friendly characters within 1m.",
+    "castTime": {
+      "value": "1",
+      "type": "action"
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1767373311896,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!qTgGkQ6Vz5gvxSFl"
+}

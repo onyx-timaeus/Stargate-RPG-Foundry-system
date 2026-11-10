@@ -1,0 +1,38 @@
+{
+  "_id": "yxGCvn5zRRQ7lMvc",
+  "name": "Man Down",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "3",
+    "bonus": "At 3rd level, while you are conscious and within 1m of a dying team member, they require one fewer death saves to stabilize.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "uo2437CFx5bYpAR6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410276,
+    "modifiedTime": 1767885775250,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yxGCvn5zRRQ7lMvc"
+}

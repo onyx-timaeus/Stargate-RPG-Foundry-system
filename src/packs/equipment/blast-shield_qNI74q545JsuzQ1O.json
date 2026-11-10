@@ -1,0 +1,37 @@
+{
+  "_id": "qNI74q545JsuzQ1O",
+  "name": "Blast Shield",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/blast-shield.webp",
+  "system": {
+    "description": "A reinforced shield with a viewing window designed for riot suppression or explosive disposal.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Riot/EOD shield"
+    },
+    "bulk": -2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409891,
+    "modifiedTime": 1767790445772,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!qNI74q545JsuzQ1O"
+}

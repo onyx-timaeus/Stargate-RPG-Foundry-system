@@ -1,0 +1,26 @@
+{
+  "_id": "4pMbXDuCL1mHoOsF",
+  "name": "C4 Detonator",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "This radio receiver is designed to be pressed into C4 clay so that it can be detonated at range using a tactical radio or other radio frequency broadcaster. Each contiguous application of C4 requires a detonator.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Explosive",
+      "restriction": "",
+      "description": "Radio detonator for C4"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4pMbXDuCL1mHoOsF"
+}

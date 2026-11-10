@@ -1,0 +1,64 @@
+{
+  "_id": "voZ2E11YNbTJcwam",
+  "name": "Hammer Toss",
+  "type": "weapon",
+  "img": "icons/skills/melee/hand-grip-hammer-spiked-blue.webp",
+  "system": {
+    "description": "",
+    "techLevel": 2,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d8",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "piercing",
+      "sec_type": "",
+      "range": {
+        "normal": 50,
+        "max": 100
+      },
+      "special": "DC 13 Strength saving throw or be pushed 3m away"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "commonWeapons"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1773767956783,
+    "modifiedTime": 1773768112490,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!voZ2E11YNbTJcwam"
+}

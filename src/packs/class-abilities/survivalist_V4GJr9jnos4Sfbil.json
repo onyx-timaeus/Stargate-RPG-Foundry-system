@@ -1,0 +1,38 @@
+{
+  "_id": "V4GJr9jnos4Sfbil",
+  "name": "Survivalist",
+  "type": "classAbility",
+  "img": "systems/sgrpg/assets/compendium/class-abilities/survivalist.webp",
+  "system": {
+    "class": "scout",
+    "level": "1",
+    "bonus": "You’ve trained to survive on any world and in any biome. You gain resistance to damage from your environment, including non-natural environmental dangers like traps.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "kgXBeuxmfiVfo3Df",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410304,
+    "modifiedTime": 1767796834676,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!V4GJr9jnos4Sfbil"
+}

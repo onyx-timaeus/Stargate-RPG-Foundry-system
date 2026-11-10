@@ -1,0 +1,37 @@
+{
+  "_id": "rSmQ4zjulVisC418",
+  "name": "Pan-Cultural Wardrobe",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/pan-cultural-wardrobe.webp",
+  "system": {
+    "description": "This collection of well made, but simple clothing items pack tightly into a backpack and is designed to go unnoticed in as many galactic cultures as possible with a small amount of alteration. A character proficient in its use can provide one character per Wisdom modifier with advantage on Deception checks to pass unnoticed through a society. This process takes a few minutes and can be done during a short rest.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Clothing",
+      "restriction": "",
+      "description": "Universal civilian clothing"
+    },
+    "bulk": 2,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409945,
+    "modifiedTime": 1767883155615,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!rSmQ4zjulVisC418"
+}

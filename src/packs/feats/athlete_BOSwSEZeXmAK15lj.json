@@ -1,0 +1,39 @@
+{
+  "_id": "BOSwSEZeXmAK15lj",
+  "name": "Athlete",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3",
+    "requirement": "Acrobatics or Athletics",
+    "category": "Downtime",
+    "bonus": "You're always in the gym, pushing yourself to ever greater limits. When you spend time in the gym, you also add its Facility bonus to your melee attack rolls.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "iH4mEqkFzRNakx8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!BOSwSEZeXmAK15lj"
+}

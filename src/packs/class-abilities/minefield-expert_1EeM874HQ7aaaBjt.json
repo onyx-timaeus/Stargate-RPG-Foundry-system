@@ -1,0 +1,30 @@
+{
+  "_id": "1EeM874HQ7aaaBjt",
+  "name": "Minefield Expert",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "Modification",
+    "bonus": "You can bury an explosive (such as C4 or a claymore mine) just below the dirt rigged to explode when a character enters the space. This process takes 2 minutes. The explosive affects all targets within a 2m radius. A character must succeed at a DC 20 Perception check to spot the mine before triggering it.\n\nAdditionally, you gain advantage on all Perception checks to spot buried mines."
+  },
+  "effects": [],
+  "folder": "c8PKt9qYlMbTGZUX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410367,
+    "modifiedTime": 1767232410367,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1EeM874HQ7aaaBjt"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "HzmC7U1SGXOtZhXK",
+  "name": "Skillful Explanations",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "Once per short rest, when an inspired character fails a skill check that you are proficient in, you may allow the character to re-roll the result."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410354,
+    "modifiedTime": 1767232410354,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HzmC7U1SGXOtZhXK"
+}

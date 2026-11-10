@@ -1,0 +1,37 @@
+{
+  "_id": "Hcu3SnFA6sInAjlm",
+  "name": "Phase Device",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/phase-device.webp",
+  "system": {
+    "description": "This wrist-worn device can be used to phase a touched target out of sync with the matter of the universe, allowing subjects to pass through solid objects for a short time. To phase a touched person and their gear, the user makes a DC 15 Science check. If successful, the target may move through solid material until the end of its next turn (or up to 6 seconds if not in combat rounds). For every 5 by which the DC is passed, the target may move through matter for an additional round or an additional touched target may be affected. Phased creatures must move at a deliberate pace, so a creature that takes the Dash action, becomes Unphased at the end of their turn (after resolving the Dash). If the target stops phasing while within solid matter it will likely die, suffering 20d6 damage each round. This prolongs the phase device effect an additional round, so if the character survives the damage they may attempt to move out of solid matter on their next turn.",
+    "techLevel": 4,
+    "lore": {
+      "origin": "Tollan",
+      "type": "Technology",
+      "restriction": "",
+      "description": "Phase-shifting device"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409983,
+    "modifiedTime": 1767786337143,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Hcu3SnFA6sInAjlm"
+}

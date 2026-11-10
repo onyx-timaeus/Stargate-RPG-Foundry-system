@@ -1,0 +1,64 @@
+{
+  "_id": "2WJCIzD5xteSPmLX",
+  "name": "Grenade Launcher",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/grenade-launcher.webp",
+  "system": {
+    "description": "A launching system for a grenade that greatly increases the grenade’s range. When a grenade launcher is fired it launches a specialized grenade that acts as one of the standard grenade types (but with the launcher’s increased range).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Launcher",
+      "restriction": "",
+      "description": "Grenade launching system"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "6d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 6,
+      "max": 6,
+      "target": null,
+      "reload": "2 actions"
+    },
+    "details": {
+      "type": "force",
+      "sec_type": "",
+      "range": {
+        "normal": 150,
+        "max": 300
+      },
+      "special": "Blast 3m"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "U8olPBOfb4y30Zk0",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409816,
+    "modifiedTime": 1773766651909,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!2WJCIzD5xteSPmLX"
+}

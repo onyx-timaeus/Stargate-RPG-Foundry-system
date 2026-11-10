@@ -1,0 +1,30 @@
+{
+  "_id": "5pcXjx3UFQDPI9sm",
+  "name": "Response Shot",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "Once per encounter, you may use your reaction to make a ranged attack against an enemy who makes an attack against a team member other than yourself."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410446,
+    "modifiedTime": 1767232410446,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5pcXjx3UFQDPI9sm"
+}

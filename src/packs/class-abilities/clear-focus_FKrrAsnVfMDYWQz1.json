@@ -1,0 +1,30 @@
+{
+  "_id": "FKrrAsnVfMDYWQz1",
+  "name": "Clear Focus",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "During a long rest, choose a skill in which you are proficient. Inspired characters gain advantage on the chosen skill until your next long rest."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410338,
+    "modifiedTime": 1767232410338,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FKrrAsnVfMDYWQz1"
+}

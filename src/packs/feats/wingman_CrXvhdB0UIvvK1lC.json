@@ -1,0 +1,39 @@
+{
+  "_id": "CrXvhdB0UIvvK1lC",
+  "name": "Wingman",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3",
+    "requirement": "Deception",
+    "category": "General",
+    "bonus": "When you take an Ingratiate action during a Diplomatic Function encounter you may choose another character to also gain a Determination point. In addition, that character gains advantage on their action if they have not yet attempted it this round.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!CrXvhdB0UIvvK1lC"
+}

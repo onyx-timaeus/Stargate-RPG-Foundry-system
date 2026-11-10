@@ -1,0 +1,38 @@
+{
+  "_id": "5R4mMKdqSfI5w1R6",
+  "name": "Tactical Flexibility",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "1",
+    "bonus": "You’ve learned to direct your team in a variety of tactics. As an action you may activate a Tactic feat that you don’t know (see page 103). This tactic lasts for a number of rounds equal to your Charisma modifier (minimum 1). When the duration has run out, you may choose a tactic you know (if any) to re-activate automatically. Once you use this ability, you cannot use it again until you’ve taken a long rest.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "1",
+      "type": "long"
+    }
+  },
+  "effects": [],
+  "folder": "mXDoUK3lWucdFvBr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410320,
+    "modifiedTime": 1767878669021,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!5R4mMKdqSfI5w1R6"
+}

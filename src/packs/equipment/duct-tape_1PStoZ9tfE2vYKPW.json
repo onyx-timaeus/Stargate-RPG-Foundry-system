@@ -1,0 +1,37 @@
+{
+  "_id": "1PStoZ9tfE2vYKPW",
+  "name": "Duct Tape",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/duct-tape.webp",
+  "system": {
+    "description": "Often joked about for its sheer utility among mechanics, engineers, and soldiers alike, this non-conductive military-grade adhesive tape can withstand extreme temperatures and weather. Its uses are frequently limited only by the technician’s imagination.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Tool",
+      "restriction": "",
+      "description": "Universal repair tape"
+    },
+    "bulk": 0.01,
+    "quantity": 100
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409915,
+    "modifiedTime": 1767886011914,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1PStoZ9tfE2vYKPW"
+}

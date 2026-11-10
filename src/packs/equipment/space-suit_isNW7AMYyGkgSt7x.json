@@ -1,0 +1,37 @@
+{
+  "_id": "isNW7AMYyGkgSt7x",
+  "name": "Space Suit",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/space-suit.webp",
+  "system": {
+    "description": "This self-contained environmental suit is used by astronauts to maneuver and survive outside of a planet’s atmosphere. A tech level 2 suit is capable of an hour of operation in the vacuum of space with a flight speed of 2m in environments without gravity. Every tech level beyond 2 doubles this time and speed (2 hours at TL 3, 4 at TL 4 and 8 at TL 5). No tech level 1 space suits have been discovered. When a character in a space suit suffers piercing or slashing damage, the suit may be compromised. The wearer must succeed at a Reflex save with a DC equal to the damage suffered (maximum DC 20). If successful, the suit is not damaged. Otherwise it is compromised. When a suit is compromised roll the TD to determine how many minutes of operation the suit loses each minute until it is repaired. Each time a suit is compromised, roll a new TD and add it to the total minutes of operation leaking per minute.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Protective Gear",
+      "restriction": "",
+      "description": "EVA suit"
+    },
+    "bulk": 5,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409967,
+    "modifiedTime": 1767882900541,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!isNW7AMYyGkgSt7x"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "TKcmXTYT0aP6p8LP",
+  "name": "Comms Tech",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Jury Rig ability",
+    "category": "Modification",
+    "bonus": "Your team's tactical radio equipment has a range of 20km (instead of 5km). In addition, when you launch a communications balloon, its duration increases to 15d6 hours.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "SwylkTMRKkJibIdI",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311936,
+    "modifiedTime": 1767373311936,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!TKcmXTYT0aP6p8LP"
+}

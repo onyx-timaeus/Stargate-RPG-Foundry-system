@@ -1,0 +1,46 @@
+{
+  "_id": "N1lcJAMEUQh0hkFG",
+  "name": "Rainforest",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "biome",
+    "description": "The forest canopy blocked out the skies of your world. Your youth was spent among the trees, their trunks and limbs providing for a staggering variety of wildlife and a tightly knit local community.",
+    "requirements": "",
+    "attributeBonus": "cha",
+    "bonus": "Attribute: Charisma +1. Tropics Adept: You do not suffer disadvantage on Ability Checks caused by rain or fog.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "uUK6KpnGHkN9W2yz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410036,
+    "modifiedTime": 1767884484504,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!N1lcJAMEUQh0hkFG"
+}

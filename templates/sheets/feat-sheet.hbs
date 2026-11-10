@@ -1,0 +1,82 @@
+<form class="{{cssClass}} sgrpg flexcol itemsheet feat-sheet" autocomplete="off">
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <div class="header-fields">
+            <h1 class="charname flexrow">
+                <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="70" width="70"/>
+                <input name="name" type="text" value="{{item.name}}" placeholder="Feat Name"/>
+            </h1>
+        </div>
+    </header>
+
+    <section class="sheet-body flexcol">
+        <div class="origin-config-wrapper">
+            {{!-- BASIC INFO --}}
+            <div class="origin-section">
+                <div class="section-title">BASIC INFO</div>
+                <div class="section-content">
+                    <div class="origin-stat-row">
+                        <div class="origin-stat">
+                            <label for="system.mpCost">MP Cost</label>
+                            <input name="system.mpCost" type="text" value="{{data.mpCost}}" placeholder="MP Cost"/>
+                        </div>
+                        <div class="origin-stat">
+                            <label for="system.category">Category</label>
+                            <input name="system.category" type="text" value="{{data.category}}" placeholder="Category"/>
+                        </div>
+                    </div>
+                    <div class="origin-stat-row">
+                        <div class="origin-stat origin-stat-full">
+                            <label for="system.requirement">Requirement</label>
+                            <input name="system.requirement" type="text" value="{{data.requirement}}" placeholder="Requirement"/>
+                        </div>
+                    </div>
+                    <div class="origin-stat-row">
+                        <div class="origin-stat">
+                            <label for="system.castTime.value">Cast Time</label>
+                            <div class="flexrow" style="gap: 5px;">
+                                <input name="system.castTime.value" type="text" value="{{data.castTime.value}}" placeholder="Value" style="flex: 1;"/>
+                                <select name="system.castTime.type" data-dtype="String" style="flex: 1;">
+                                    <option value="" {{#unless data.castTime.type}}selected{{/unless}}>-</option>
+                                    <option value="action" {{#if (eq data.castTime.type "action")}}selected{{/if}}>Action</option>
+                                    <option value="bonus" {{#if (eq data.castTime.type "bonus")}}selected{{/if}}>Bonus Action</option>
+                                    <option value="reaction" {{#if (eq data.castTime.type "reaction")}}selected{{/if}}>Reaction</option>
+                                    <option value="turn" {{#if (eq data.castTime.type "turn")}}selected{{/if}}>Turn</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="origin-stat">
+                            <label for="system.limitations.value">Limitations</label>
+                            <div class="flexrow" style="gap: 5px;">
+                                <input name="system.limitations.value" type="text" value="{{data.limitations.value}}" placeholder="Value" style="flex: 1;"/>
+                                <select name="system.limitations.type" data-dtype="String" style="flex: 1;">
+                                    <option value="" {{#unless data.limitations.type}}selected{{/unless}}>-</option>
+                                    <option value="short" {{#if (eq data.limitations.type "short")}}selected{{/if}}>Short Rest</option>
+                                    <option value="long" {{#if (eq data.limitations.type "long")}}selected{{/if}}>Long Rest</option>
+                                    <option value="shortlong" {{#if (eq data.limitations.type "shortlong")}}selected{{/if}}>Short/Long Rest</option>
+                                    <option value="mission" {{#if (eq data.limitations.type "mission")}}selected{{/if}}>Mission</option>
+                                    <option value="encounter" {{#if (eq data.limitations.type "encounter")}}selected{{/if}}>Encounter</option>
+                                    <option value="day" {{#if (eq data.limitations.type "day")}}selected{{/if}}>Day</option>
+                                    <option value="other" {{#if (eq data.limitations.type "other")}}selected{{/if}}>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{!-- BONUS --}}
+            <div class="origin-section">
+                <div class="section-title">BONUS</div>
+                <div class="section-content">
+                    <div class="origin-stat-row">
+                        <div class="origin-stat origin-stat-full">
+                            <label for="system.bonus">Bonus</label>
+                            <textarea name="system.bonus" rows="6" placeholder="Feat bonuses, features, or special abilities...">{{data.bonus}}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

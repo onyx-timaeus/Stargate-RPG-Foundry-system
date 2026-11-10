@@ -1,0 +1,30 @@
+{
+  "_id": "OMORdrOeH2vliymK",
+  "name": "Grenadier",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "Modification",
+    "bonus": "Grenades from your kit deal +1d6 damage when used by you. You may choose this modification multiple times; each time you do your kit's grenades deal an additional +1d6 damage when used by you."
+  },
+  "effects": [],
+  "folder": "c8PKt9qYlMbTGZUX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410363,
+    "modifiedTime": 1767232410363,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OMORdrOeH2vliymK"
+}

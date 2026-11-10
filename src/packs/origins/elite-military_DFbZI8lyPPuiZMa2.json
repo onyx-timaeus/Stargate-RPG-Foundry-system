@@ -1,0 +1,38 @@
+{
+  "_id": "DFbZI8lyPPuiZMa2",
+  "name": "Elite Military",
+  "type": "origin",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "originType": "racial",
+    "description": "",
+    "requirements": "Human",
+    "attributeBonus": "con",
+    "bonus": "You gain +1 to attack rolls for each level of exhaustion you have.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    }
+  },
+  "effects": [],
+  "folder": "RQWlhjuLnf38oNFV",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767234063605,
+    "modifiedTime": 1767234092869,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DFbZI8lyPPuiZMa2"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "fNW9Ga5oz2t3zbpo",
+  "name": "G.D.O.",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/g-d-o.webp",
+  "system": {
+    "description": "This remote transmitter, a hand held uplink referred to as a G.D.O. (or Garage Door Opener) by Tau’ri personnel. It sends a code input by the user through the gate, identifying the user to the Phoenix Site so that the defensive iris can be retracted. A team’s gate code is a closely guarded secret, and if compromised the computer system may reject the code, requiring command to determine whether or not the iris should be opened. Attempting to go through the gate while the iris is closed results in immediate death upon arrival at the destination.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Technology",
+      "restriction": "",
+      "description": "Iris control device"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409991,
+    "modifiedTime": 1767880826423,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!fNW9Ga5oz2t3zbpo"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "HQFrtBSYqbnOpL85",
+  "name": "Enduring Inspirations",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "At the beginning of combat (when Initiative is rolled) each inspired character gains a number of Inspire HP equal to a roll of the tension die. A character cannot have more Inspire HP than the maximum possible result of your Inspire die."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410344,
+    "modifiedTime": 1767232410344,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!HQFrtBSYqbnOpL85"
+}

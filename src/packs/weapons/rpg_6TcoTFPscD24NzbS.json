@@ -1,0 +1,64 @@
+{
+  "_id": "6TcoTFPscD24NzbS",
+  "name": "RPG",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/rpg.webp",
+  "system": {
+    "description": "A rocket-propelled grenade (typically the AT4) that explodes at a designated range. Advanced RPGs have a laser or radio guidance system which grants the RPG the guided special ability.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Heavy Weapon",
+      "restriction": "",
+      "description": "Anti-tank rocket launcher"
+    },
+    "bulk": 3,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "8d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 1,
+      "max": 1,
+      "target": null,
+      "reload": "3 actions"
+    },
+    "details": {
+      "type": "fire",
+      "sec_type": "force",
+      "range": {
+        "normal": 100,
+        "max": 300
+      },
+      "special": "Blast 5m"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "uOmz5i3QZWDovT1B",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409819,
+    "modifiedTime": 1773766616059,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6TcoTFPscD24NzbS"
+}

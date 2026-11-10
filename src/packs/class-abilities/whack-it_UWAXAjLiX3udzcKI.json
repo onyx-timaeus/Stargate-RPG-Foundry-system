@@ -1,0 +1,30 @@
+{
+  "_id": "UWAXAjLiX3udzcKI",
+  "name": "Whack-It",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "2",
+    "bonus": "At 2nd level, you’ve learned the time-honored technique of a well placed thump. As a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine’s HP to above half its normal HP, it begins to function immediately. You may only maintain these temporary HP on one machine at a time."
+  },
+  "effects": [],
+  "folder": "3Et0UADOq8hw2scN",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410249,
+    "modifiedTime": 1767232410249,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!UWAXAjLiX3udzcKI"
+}

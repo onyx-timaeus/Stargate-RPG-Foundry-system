@@ -1,0 +1,37 @@
+{
+  "_id": "1yef6bPXvpxNRcuS",
+  "name": "MRE",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/mre.webp",
+  "system": {
+    "description": "“Meals Ready To Eat” come in a variety of meal options with the tools to prepare a hot meal without fire. A single MRE is enough to provide a soldier with a day’s calories. Each MRE includes an entree and dessert with chemical heating bags, protein drink powder (banana, chocolate, or vanilla), plastic utensils, a hot beverage (cocoa, coffee, or tea) and a condiment package (ketchup, mustard, salt, sugar, pepper, and hot sauce). An MRE can be prepared during a short rest.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Food",
+      "restriction": "",
+      "description": "Field rations"
+    },
+    "bulk": 0.2,
+    "quantity": 5
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409939,
+    "modifiedTime": 1767782467490,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1yef6bPXvpxNRcuS"
+}

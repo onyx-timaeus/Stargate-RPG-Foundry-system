@@ -1,0 +1,64 @@
+{
+  "_id": "BoJ5f0wRtFYkrOrn",
+  "name": "Flamethrower",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/flamethrower.webp",
+  "system": {
+    "description": "Created for assaulting entrenched positions like bunkers, the flamethrower is not approved for use in combat (per the Geneva Convention) but has uses when clearing terrain. It fires in either a 15m line or 10m cone, chosen each time it is fired. There is no roll to hit with a flamethrower, but a DC 15 Dexterity save halves the Flamethrower’s damage.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Special Weapon",
+      "restriction": "Not approved for combat per Geneva Convention",
+      "description": "Area denial weapon"
+    },
+    "bulk": 2,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d10",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": 5,
+      "max": 5,
+      "target": null,
+      "reload": "1 minute"
+    },
+    "details": {
+      "type": "fire",
+      "sec_type": "",
+      "range": {
+        "normal": 15,
+        "max": 15
+      },
+      "special": "Fires 15m line or 10m cone, DC 15 Dex save for half"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "U8olPBOfb4y30Zk0",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409811,
+    "modifiedTime": 1773766650841,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!BoJ5f0wRtFYkrOrn"
+}

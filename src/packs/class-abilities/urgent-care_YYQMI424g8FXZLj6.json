@@ -1,0 +1,30 @@
+{
+  "_id": "YYQMI424g8FXZLj6",
+  "name": "Urgent Care",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "When you heal with a Med Kit, you may choose to replace all the healing dice rolled with the same number of Tension Dice."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410390,
+    "modifiedTime": 1767232410390,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!YYQMI424g8FXZLj6"
+}

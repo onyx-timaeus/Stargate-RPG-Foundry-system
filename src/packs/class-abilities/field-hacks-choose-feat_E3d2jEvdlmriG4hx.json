@@ -1,0 +1,30 @@
+{
+  "_id": "E3d2jEvdlmriG4hx",
+  "name": "Field Hacks (Choose Feat)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "1",
+    "bonus": "You’ve become especially adept at a trick that improves a team’s efficiency in the field. Choose one field hack feat (see page 102) at 1st level and an additional field hack feat at 4th."
+  },
+  "effects": [],
+  "folder": "kgXBeuxmfiVfo3Df",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410306,
+    "modifiedTime": 1767232410306,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!E3d2jEvdlmriG4hx"
+}

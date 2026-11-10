@@ -1,0 +1,30 @@
+{
+  "_id": "KaTIabaRY3RzGmei",
+  "name": "Coordinated Fire",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "After you hit a target with an attack, you may take a bonus action to grant an inspired character advantage to their next attack roll made before your next turn against the same target."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410340,
+    "modifiedTime": 1767232410340,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KaTIabaRY3RzGmei"
+}

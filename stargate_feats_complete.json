@@ -1,0 +1,2900 @@
+{
+  "feats": [
+    {
+      "name": "Ability Score Increase",
+      "category": "General",
+      "mpCost": "7 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "An ability score of your choice is increased by +1. No ability score can be raised above 20 in this way.",
+      "img": "icons/svg/upgrade.svg"
+    },
+    {
+      "name": "Advanced Training: Diplomat",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Charisma 13+, Persuasion",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Diplomat's Inspire ability (see page 45).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Advanced Training: Engineer",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Intelligence 13+, Engineering",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Engineer's Jury Rig ability (see page 47).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Advanced Training: Medic",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Wisdom 13+, Medicine",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Medic's First Aid ability (see page 49).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Advanced Training: Scientist",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Intelligence 13+, Science",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Scientist's Eureka ability (see page 51).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Advanced Training: Scout",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Constitution 13+, Survival",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Scout's Survivalist ability (see page 53).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Advanced Training: Soldier",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Constitution 13+, Intimidation",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain the Soldier's Tactical Flexibility ability (see page 55).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Airborne School",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain resistance to falling damage. In addition, you gain advantage on any check to open a parachute at altitudes below 1km.",
+      "img": "icons/svg/parachute.svg"
+    },
+    {
+      "name": "Apt Analogy",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Science",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "short"
+      },
+      "bonus": "You can employ an easy to understand analogy to help others work through complex or esoteric problems. Once per short rest you may grant a friendly character a +TD bonus on an Intelligence or Wisdom skill check.",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Battlefield Medicine",
+      "category": "General",
+      "mpCost": "6 MP",
+      "requirement": "Med Kit proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "When you use a Med Kit to heal a target during a rest, they also heal 1 point of Strength, Dexterity, or Constitution damage in addition to the HP damage healed. A character may not benefit from this ability again until after a long rest.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Casual Genius",
+      "category": "General",
+      "mpCost": "6 MP",
+      "requirement": "Eureka ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You begin each mission with a number of Eureka points equal to half your Proficiency Bonus (rounding down).",
+      "img": "icons/svg/brain.svg"
+    },
+    {
+      "name": "Chaplain School",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Insight",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a Convince encounter, you do not automatically fail on a roll of 1, and you do not increase the threshold.",
+      "img": "icons/svg/holy.svg"
+    },
+    {
+      "name": "Convincing",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You add your Charisma modifier to the temporary hit points granted by Inspire.",
+      "img": "icons/svg/speech.svg"
+    },
+    {
+      "name": "Cross-Discipline Study",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Intelligence 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You add half your Proficiency bonus, rounded down, to any Intelligence, Wisdom, or Charisma skill check that doesn't already include your Proficiency bonus.",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "De-escalate",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Persuasion",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "Once per long rest you may spend a DP to reduce the tension die by 1 step (d12 to d10, d10 to d8, etc). for the duration of a single encounter or scene (GM determines when a scene changes). After the encounter or scene the tension die returns to its previous value. Multiple characters can de-escalate the same encounter or scene, but the die may not be reduced below 1d4.",
+      "img": "icons/svg/calm.svg"
+    },
+    {
+      "name": "Determined",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Wisdom 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "When you roll a 5 or less on a d20 roll and before learning the result, you may choose to spend a Determination Point to re-roll the d20. You must use the new roll. You can only benefit from this once per long rest.",
+      "img": "icons/svg/willpower.svg"
+    },
+    {
+      "name": "Dive School",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can hold your breath for twice as long as normal (see page 130) and you gain a swim speed of 3m. This speed increases to 6m when you are equipped with swimming and diving equipment (such as a Scuba).",
+      "img": "icons/svg/swimming.svg"
+    },
+    {
+      "name": "Escalate",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Intimidation",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "Once per long rest you may spend a DP to increase the tension die by 1 step (d4 to d6, d6 to d8, etc). for the duration of a single encounter or scene (GM determines when a scene changes). After the encounter or scene the tension die returns to its previous value. Multiple characters can escalate the same encounter or scene, but the die may not be increased above d12.",
+      "img": "icons/svg/anger.svg"
+    },
+    {
+      "name": "Exceptional Expertise",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Proficiency with chosen skill",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose a skill in which you are proficient. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency. You may select this ability multiple times, applying its effect to a different skill each time.",
+      "img": "icons/svg/expert.svg"
+    },
+    {
+      "name": "Fighter Ace",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Pilot",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When aerial combat begins (see page 160), you add an additional d6 to your position pool. You may purchase this ability up to three times and its effects stack.",
+      "img": "icons/svg/jet.svg"
+    },
+    {
+      "name": "First Response",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may add your Wisdom modifier to the damage you heal with a Med Kit. In addition, you may use a Med Kit to heal a scuffed team member as an action (rather than during a short rest).",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "For Science!",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Science",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may spend a Eureka point to gain advantage on Charisma checks in addition to Intelligence and Wisdom checks.",
+      "img": "icons/svg/flask.svg"
+    },
+    {
+      "name": "Force of Will",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.",
+      "img": "icons/svg/willpower.svg"
+    },
+    {
+      "name": "Good Cop / Bad Cop",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Investigation",
+      "castTime": {
+        " value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "At the beginning of an Interrogation encounter you may choose to increase (good cop) or decrease (bad cop) the target's threshold by a roll of the TD. Two characters can use this ability on the same target, but one must increase the threshold and the other decrease the threshold. If they do so, the DC to resist breaking is increased to 20. More than two characters cannot good cop / bad cop the same target.",
+      "img": "icons/svg/interrogation.svg"
+    },
+    {
+      "name": "Great Mind",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Intelligence 13+, Wisdom 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.",
+      "img": "icons/svg/brain.svg"
+    },
+    {
+      "name": "Hardy",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your base HD improves by one step, from d8 to d10, or from d10 to d12. You may select this feat multiple times, each time increasing your HD an additional step, to a maximum of d12. If you already have a HD of d12 you may not purchase this feat.\n\nNote: This will immediately increase your HP, as the HP already gained from previous levels will increase by 1 per level when the hit die increases a step.",
+      "img": "icons/svg/heart.svg"
+    },
+    {
+      "name": "Heavy Armor Proficiency",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Light Armor Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Gain proficiency in heavy armor.",
+      "img": "icons/svg/armor.svg"
+    },
+    {
+      "name": "Improved Initiative",
+      "category": "General",
+      "mpCost": "6 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may add your Proficiency bonus to Initiative checks.",
+      "img": "icons/svg/speed.svg"
+    },
+    {
+      "name": "Improved Moxie",
+      "category": "General",
+      "mpCost": "6 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may add your Proficiency bonus to Moxie checks.",
+      "img": "icons/svg/confidence.svg"
+    },
+    {
+      "name": "JAG School",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Persuasion",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a Convince encounter, you score a critical success on a roll of 19 or 20.",
+      "img": "icons/svg/law.svg"
+    },
+    {
+      "name": "Jumpmaster",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Airborne School",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can spend a DP and one hour to extend the benefits of Airborne School to a number of additional characters equal to your Proficiency bonus until your next long rest.",
+      "img": "icons/svg/parachute.svg"
+    },
+    {
+      "name": "Light Armor Proficiency",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Gain proficiency in light armor.",
+      "img": "icons/svg/armor.svg"
+    },
+    {
+      "name": "Linguist",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Charisma 13+, Culture",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can decipher the basics of an unknown language with a DC 20 Culture check and one week with a friendly speaker of the language. A translator provides advantage on this check and reduces the time to one day.",
+      "img": "icons/svg/language.svg"
+    },
+    {
+      "name": "Man Down",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "While you are conscious and within 1m of a dying team member, they require one fewer death saves to stabilize.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Martial Arts Proficiency",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain proficiency in a martial art and may make Martial Arts attacks (see page 64), which deals 1d6 + Strength modifier damage (instead of unarmed damage).",
+      "img": "icons/svg/fist.svg"
+    },
+    {
+      "name": "Night Owl",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've learned to stay alert for long periods of time, seeing past your own exhaustion. When you go without rest you may make an Intelligence or Wisdom save in place of a Constitution save to resist exhaustion. In addition, you gain advantage on the first of these saves between long rests.",
+      "img": "icons/svg/moon.svg"
+    },
+    {
+      "name": "Pathfinder",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Survival",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When your team becomes lost during a Traversal encounter, your team returns one fewer cards to the Journey deck (minimum 1). Multiple characters can reduce the number of cards returned in this way (but the minimum remains 1).",
+      "img": "icons/svg/compass.svg"
+    },
+    {
+      "name": "Pep Talk",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Charisma 13+",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "mission"
+      },
+      "bonus": "You can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).",
+      "img": "icons/svg/speech.svg"
+    },
+    {
+      "name": "Physician Heal Thyself",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may use a Med Kit on yourself as a bonus action.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Pre-Planned Obsolescence",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Engineering",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may rig a machine to explode as an action. Choose a single mechanical device that could be conceivably rigged to explode (GM discretion). When anyone activates the machine, it explodes, forcing every character within 3m to suffer 6d6 damage (Dexterity save for half damage, DC 8 + Intelligence modifier + Proficiency bonus). A DC 20 Perception check is required to notice this trap.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Rapid Recuperation",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Constitution 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you take a long rest, you heal 1d4 levels of exhaustion instead of 1.",
+      "img": "icons/svg/rest.svg"
+    },
+    {
+      "name": "Resilient Mind",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Intelligence 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1).",
+      "img": "icons/svg/brain.svg"
+    },
+    {
+      "name": "Resonant Words",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Level 5, Word In An Ear ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you inspire a friendly character using Word In An Ear, you roll an additional Inspire die to determine how many Inspire HP the character gains. This feat may be purchased a second time at level 11 and a third time at level 17, adding an additional Inspire die each time.",
+      "img": "icons/svg/speech.svg"
+    },
+    {
+      "name": "Rumormonger",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Intimidation",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you take a Thwart action during a Diplomatic Function encounter you may choose two diplomatic actions to impede instead of one.",
+      "img": "icons/svg/gossip.svg"
+    },
+    {
+      "name": "Skill Proficiency",
+      "category": "General",
+      "mpCost": "3, 6, 9 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Gain proficiency in a skill of your choice. You may select this ability up to three times, and each time its MP cost increases by 3MP.",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Strong Personality",
+      "category": "General",
+      "mpCost": "6 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your Inspire die increases one die size (1d6 to 1d8, 1d8 to 1d10, 1d10 to 1d12). You may select this ability multiple times, to a maximum die size of 1d12. You may select this ability multiple times, its effects stack (up to 1d12).",
+      "img": "icons/svg/upgrade.svg"
+    },
+    {
+      "name": "Team Player",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Improved Initiative or Improved Moxie",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you roll Initiative or Moxie, you may exchange your result with a team member who has a lower value than you, if they wish.",
+      "img": "icons/svg/team.svg"
+    },
+    {
+      "name": "Tool Proficiency",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Gain proficiency in a tool of your choice. You may select this ability multiple times, choosing a different tool each time.",
+      "img": "icons/svg/wrench.svg"
+    },
+    {
+      "name": "Tranquilizer Concoction",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You have brewed your own personal tranquilizer cocktail that is more effective than the typical sedative. Increase the Constitution save DC of your tranquilizer weapons or sedatives by your Proficiency bonus.",
+      "img": "icons/svg/sleep.svg"
+    },
+    {
+      "name": "Trap Rigging",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can use excess equipment to booby trap a 1m area as an action. You can scavenge parts for a number of traps equal to your Proficiency bonus, refilling these parts during any long rest. When a character enters the designated 1m area it will trigger the trap, but characters may make a Perception check (DC 8 + your Proficiency bonus + your Wisdom modifier) to notice the trap before entering the area.\n\nYou may set one of three traps:\n\u2022Hidden Spikes: The target must succeed at a DC 20 Dexterity save or suffer 2d6 damage.\n\u2022Snare: The target must succeed at a DC 20 Dexterity save or become entangled. It requires an action and a successful DC 20 Strength, Dexterity, or Wisdom check to remove this condition.\n\u2022Grenade: You may attach your trap to a grenade in your possession, which is detonated when the trap is activated.",
+      "img": "icons/svg/trap.svg"
+    },
+    {
+      "name": "Triage",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can observe a character's current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character's current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.",
+      "img": "icons/svg/inspect.svg"
+    },
+    {
+      "name": "Tune-Up",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Engineering",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP.",
+      "img": "icons/svg/wrench.svg"
+    },
+    {
+      "name": "Unnoticed Field Medic",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "First Aid",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you heal a team member using first aid, attacks against you suffer disadvantage until your next turn.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Unusual Approach",
+      "category": "General",
+      "mpCost": "7 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You have an unusual approach to a skill. Choose Intelligence, Wisdom, or Charisma and an Intelligence, Wisdom, or Charisma skill in which you are proficient. You may use the chosen attribute when making skill checks with the chosen skill instead of the usual attribute.",
+      "img": "icons/svg/creative.svg"
+    },
+    {
+      "name": "Unwavering",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You increase your base Determination Points by +1. This feat may be purchased a number of times equal to your Proficiency bonus.",
+      "img": "icons/svg/willpower.svg"
+    },
+    {
+      "name": "Veil of Distractions",
+      "category": "General",
+      "mpCost": "5 MP",
+      "requirement": "Stealth",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "encounter"
+      },
+      "bonus": "You're an expert at making the few tracks you leave easily explainable. Once per Infiltration encounter, when the Alertness track increases, you may reduce the current tension level by one step.",
+      "img": "icons/svg/stealth.svg"
+    },
+    {
+      "name": "Weapon Proficiency",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose one type of weapon (Common, Sidearm, Gunnery, etc). and gain proficiency in that weapon. You may select this ability multiple times, choosing a different weapon type each time. This feat cannot be used to choose Martial Arts proficiency.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Whack-It",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Engineering",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've learned the time-honored technique of a well-placed thump. As a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine's HP to above half its normal HP it begins to function immediately. You may only maintain these temporary HP on one machine at a time.",
+      "img": "icons/svg/wrench.svg"
+    },
+    {
+      "name": "Wingman",
+      "category": "General",
+      "mpCost": "3 MP",
+      "requirement": "Deception",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you take an Ingratiate action during a Diplomatic Function encounter you may choose another character to also gain a Determination point. In addition, that character gains advantage on their action if they have not yet attempted it this round.",
+      "img": "icons/svg/team.svg"
+    },
+    {
+      "name": "Word In An Ear",
+      "category": "General",
+      "mpCost": "9 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "You can inspire a single team member within 1m as an action. Roll your Inspire HP die and grant the target Inspire HP as normal. Characters who currently have Inspire HP are immune to this ability.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Attack Specialist",
+      "category": "Combat - General",
+      "mpCost": "4 MP",
+      "requirement": "Level 5",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose one weapon proficiency with which you are proficient. When making attacks with that proficiency you roll twice as many weapon damage dice as normal. Bonus dice from other sources (such as Power Attack or Vanguard) and static modifiers (such as from Strength and Dexterity), are not doubled. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Attack Veteran",
+      "category": "Combat - General",
+      "mpCost": "4 MP",
+      "requirement": "Level 11, Attack Specialist with chosen Weapon Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose one weapon proficiency with which you have selected with the Attack Specialist feat. When making attacks with that proficiency you roll triple as many weapon damage dice for damage instead of double. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Attack Ace",
+      "category": "Combat - General",
+      "mpCost": "4 MP",
+      "requirement": "Level 17, Attack Veteran with chosen Weapon Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose one weapon proficiency with which you have selected with the Attack Veteran feat. When making attacks with that proficiency you roll quadruple as many weapon damage dice for damage instead of triple. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Co-ordinated Attack",
+      "category": "Combat - General",
+      "mpCost": "7 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make an attack against a target who is within 1m of one or more of your allies, you deal +TD damage.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Critical Focus",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Proficient with the chosen weapon",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose a weapon proficiency. When you score a critical hit with that type of weapon, add your Proficiency bonus to the damage dealt.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Critical Effect",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Critical Focus",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose Blinded, Deafened, or Stunned. When you deal additional damage with the Critical Focus feat you apply the chosen effect to the target for a number of rounds equal to your Proficiency bonus.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Die Hard",
+      "category": "Combat - General",
+      "mpCost": "3, 6, 9 MP",
+      "requirement": "Constitution 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You require 1 fewer successful saves to avoid dying (see page 122). If you reduce the number of required saves to 0 you automatically stabilize. You may take this feat up to 3 times, increasing its cost each time as noted above.",
+      "img": "icons/svg/heart.svg"
+    },
+    {
+      "name": "Dodge",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Dexterity 13",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You add +1 to your AC when wearing light or no armor.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Evasion",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Dexterity 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can nimbly dodge out of the way of certain area effects. When you are subjected to an effect that allows a Dexterity saving throw to take only half damage, you instead take no damage if you succeed and only half damage if you fail.",
+      "img": "icons/svg/dodge.svg"
+    },
+    {
+      "name": "Hold Together",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Engineering",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you benefit from cover, you gain resistance to the damage of attacks hindered by that cover.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Horse Lord",
+      "category": "Combat - General",
+      "mpCost": "3 MP",
+      "requirement": "Animal Handling",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may mount a living creature by spending 1m of movement rather than half your movement. In addition, you may treat an untrained mount as trained for an encounter by taking an action and succeeding at an Animal Handling check contested by a Wisdom save from the beast.",
+      "img": "icons/svg/horse.svg"
+    },
+    {
+      "name": "Improved Critical",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Proficiency with three weapon types other than common",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose a weapon type you are proficient with (such as Longarm, Sidearm, or Common). When using this weapon type you score a critical hit on a 19 or 20 on the die.",
+      "img": "icons/svg/critical.svg"
+    },
+    {
+      "name": "Kip Up",
+      "category": "Combat - General",
+      "mpCost": "3 MP",
+      "requirement": "Acrobatics or Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may stand from prone by spending 1m of movement instead of half your movement.",
+      "img": "icons/svg/agility.svg"
+    },
+    {
+      "name": "Look Alive",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Wisdom 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "If you succeed at a Surprise check (see page 148), you are not surprised and may choose one team member to not be surprised.",
+      "img": "icons/svg/alert.svg"
+    },
+    {
+      "name": "Organ Targeting",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Medicine",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You deal an additional 1d6 damage on attacks that have advantage or against a wounded target.",
+      "img": "icons/svg/anatomy.svg"
+    },
+    {
+      "name": "Quick Draw",
+      "category": "Combat - General",
+      "mpCost": "3 MP",
+      "requirement": "Dexterity or Wisdom 13+",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may draw or holster weapons as a bonus action or a reaction. In addition, when Initiative is rolled, you may draw a weapon.",
+      "img": "icons/svg/quick.svg"
+    },
+    {
+      "name": "Rally",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "If you are wounded when Initiative is rolled (at the start of an Action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest. You may purchase this feat multiple times, increasing the amount healed by +1 TD each time.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Reactive",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Dexterity or Wisdom 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may take a second reaction each turn.",
+      "img": "icons/svg/reaction.svg"
+    },
+    {
+      "name": "Reinforce Cover",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Hold Together",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As an action you may extend the benefit of your Hold Together ability to all friendly characters within 1m.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Saddle Warrior",
+      "category": "Combat - General",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When mounted on a personal transport (such as a horse or motorcycle) you gain advantage on melee attack rolls if you moved at least 3m before the attack.",
+      "img": "icons/svg/cavalry.svg"
+    },
+    {
+      "name": "Scout's Cunning",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Dexterity 13+, Athletics",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your quick thinking and agility allows you to act efficiently. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
+      "img": "icons/svg/agility.svg"
+    },
+    {
+      "name": "Spook",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Intimidate",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're able to keep a target's attention where you want it, even when they're on to you. You may spend a Determination point to take a Taunt action against a target who has resisted your taunt during the encounter.",
+      "img": "icons/svg/intimidate.svg"
+    },
+    {
+      "name": "Surge",
+      "category": "Combat - General",
+      "mpCost": "9 MP",
+      "requirement": "Constitution 13+",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "short"
+      },
+      "bonus": "You can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.",
+      "img": "icons/svg/surge.svg"
+    },
+    {
+      "name": "Swift",
+      "category": "Combat - General",
+      "mpCost": "3, 6, 9 MP",
+      "requirement": "Athletics or Acrobatics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You add +1m to your movement speed. You may take this feat up to 3 times, increasing its cost each time as noted above.",
+      "img": "icons/svg/speed.svg"
+    },
+    {
+      "name": "Tactical Superiority",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Two tactic feats",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may have two tactics in effect at the same time. If you use tactical flexibility, you must choose which of your currently active tactics is overridden by the new tactic for the duration of the effect.",
+      "img": "icons/svg/tactics.svg"
+    },
+    {
+      "name": "Takedown",
+      "category": "Combat - General",
+      "mpCost": "7 MP",
+      "requirement": "Dexterity 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you roll damage against an extra, you roll two tension dice and take the better result.",
+      "img": "icons/svg/attack.svg"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "category": "Combat - General",
+      "mpCost": "5 MP",
+      "requirement": "Dexterity 13+",
+      "castTime": {
+        "value": "",
+        "type": "reaction"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When an attacker that you can see hits you with an attack, you can use your reaction to gain resistance to the damage. This ability does not function against attacks that deal damage in an area or cone (but it does work against line effects).",
+      "img": "icons/svg/dodge.svg"
+    },
+    {
+      "name": "Unyielding",
+      "category": "Combat - General",
+      "mpCost": "3 MP",
+      "requirement": "Constitution 11+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Whenever you are suffering from levels of exhaustion, you treat your total exhaustion level as 1 lower.",
+      "img": "icons/svg/endurance.svg"
+    },
+    {
+      "name": "Weapons Akimbo",
+      "category": "Combat - General",
+      "mpCost": "9, 3 MP",
+      "requirement": "Proficient with chosen weapon",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose a weapon type that can be wielded in one hand (such as Sidearms or Blades). When you make an attack with two of the chosen weapon (one in each hand) you may re-roll 1s on the damage dice. You do not roll to attack twice or deal damage from both weapons (roll only once, but spend capacity from both weapons if necessary).\n\nYou may purchase this ability multiple times, choosing a different weapon type each time. After the first time you purchase this ability, its cost is reduced to 3MP.",
+      "img": "icons/svg/dual-wield.svg"
+    },
+    {
+      "name": "Weapon Specialization",
+      "category": "Combat - General",
+      "mpCost": "4 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Choose a type of weapon (such as Common, Sidearm, Longarm, etc).. You gain +1 to hit and damage with the chosen weapon type. You may select this feat multiple times, selecting a different weapon type each time. You may select this feat a second time for the same weapon type at 8th level, a third time at 11th level, a fourth time at 14th level, and a fifth time at 17th level.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Blind-Fighter",
+      "category": "Combat - Melee",
+      "mpCost": "3 MP",
+      "requirement": "Perception",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You do not suffer disadvantage when making melee attacks while unable to see.",
+      "img": "icons/svg/blind.svg"
+    },
+    {
+      "name": "Brawler",
+      "category": "Combat - Melee",
+      "mpCost": "7 MP",
+      "requirement": "Attack Specialist with Common weapons or Martial Arts",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you hit with a melee weapon or Martial Arts attack you may choose to not multiply the damage dice using Attack Specialist (or Veteran or Ace). If you do, you may make another Martial Arts attack if you don't move this turn (either before or after the attack). Each time you successfully hit a target, you may make another such attack.",
+      "img": "icons/svg/fist.svg"
+    },
+    {
+      "name": "Defensive Art Master",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Dodge, Martial Arts Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You have trained in one or more Martial Arts that focus on defending yourself such as certain forms of Boxing, Kung Fu, or Tai Chi. You gain resistance against damage from unarmed strikes (including Martial Arts attacks) as long as that attack is not a critical hit (in which case you take full damage normally).",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Lok'Nel Master",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Ma'tok proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make a melee attack with a Ma'tok staff, you increase the damage dealt by the weapon to 1d12.",
+      "img": "icons/svg/staff.svg"
+    },
+    {
+      "name": "Lunge",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make a melee attack you increase your melee range by +1m.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Maneuvering Arts Master",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Martial Arts Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You have trained in one or more Martial Arts that focus on grappling with an opponent or otherwise controlling their position such as certain forms of Aikido, Judo, or MMA. Choose either Disarm, Grapple or Trip/Shove. You gain a +2 bonus on contests during combat to perform or resist the noted action. You may choose this feat up to three times, selecting a different option each time.",
+      "img": "icons/svg/grapple.svg"
+    },
+    {
+      "name": "Martial Mastery",
+      "category": "Combat - Melee",
+      "mpCost": "7 MP",
+      "requirement": "Proficient in 3 weapon types, except Common weapons",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've become a master at striking where it will hurt most. When making melee attacks with melee weapons or Martial Arts, increase the damage die or dice one step (d4s becomes d6s, d6s becomes d8s, d8s becomes d10s, and d10s become d12s). This feat may be chosen multiple times, but may not increase an attack's die size above 1d12.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Martial Training",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Proficient in 3 weapon types, except Common weapons",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've trained to deal maximum damage with whatever melee weapon you wield, even improvised weapons. Your minimum damage die for melee weapons and Martial Arts is 1d8.",
+      "img": "icons/svg/fist.svg"
+    },
+    {
+      "name": "Mastaba Master",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Martial Arts Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you are wielding no weapons or only a staff weapon, your AC versus melee attacks is increased by +2.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Power Attack",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make a single melee attack during your turn with a weapon you are proficient with, you may take disadvantage on the attack roll to add +TD to the damage dealt.",
+      "img": "icons/svg/hammer.svg"
+    },
+    {
+      "name": "Precision Maneuvers",
+      "category": "Combat - Melee",
+      "mpCost": "5 MP",
+      "requirement": "Martial Arts Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you attempt to Disarm or Trip a target, you may use Dexterity instead of Strength when making the Athletics check.",
+      "img": "icons/svg/agility.svg"
+    },
+    {
+      "name": "Precision Strikes",
+      "category": "Combat - Melee",
+      "mpCost": "3 MP",
+      "requirement": "Martial Arts Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your Martial Arts attacks have the Finesse quality.",
+      "img": "icons/svg/dagger.svg"
+    },
+    {
+      "name": "Ballistics Expert",
+      "category": "Combat - Ranged",
+      "mpCost": "7 MP",
+      "requirement": "Science",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may use your Intelligence modifier in place of your Dexterity modifier when making attack rolls with ranged weapons. You still add your Dexterity modifier to the damage roll.",
+      "img": "icons/svg/calculator.svg"
+    },
+    {
+      "name": "Deadly Shot",
+      "category": "Combat - Ranged",
+      "mpCost": "7 MP",
+      "requirement": "Perception",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Hip Fire",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make ranged attacks while an enemy is within 1m, you do not suffer disadvantage on the attack.",
+      "img": "icons/svg/gun.svg"
+    },
+    {
+      "name": "Iron Grip",
+      "category": "Combat - Ranged",
+      "mpCost": "9 MP",
+      "requirement": "Strength 13+",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When using a weapon with the automatic upgrade you add +2 to your effective Strength modifier for determining how many +TD are added to damage.",
+      "img": "icons/svg/muscle.svg"
+    },
+    {
+      "name": "Precise Shot",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make ranged attacks, the target does not gain the benefits of cover granted by creatures (but terrain or equipment based cover is unaffected).",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Rapid Shot",
+      "category": "Combat - Ranged",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may treat Sidearms and Longarms you wield as if they had the burst quality. You may treat fireams with the burst quality as if they had the automatic quality.",
+      "img": "icons/svg/burst.svg"
+    },
+    {
+      "name": "Rapid Reload",
+      "category": "Combat - Ranged",
+      "mpCost": "4 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You reload weapons in half the normal actions (rounding up). You reload weapons with a 1 action reload as a bonus action.",
+      "img": "icons/svg/reload.svg"
+    },
+    {
+      "name": "Sniper Techniques",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "Attack Veteran with Longarms",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've learned a myriad of small skills, such as breathing techniques and motion control. Your longarm attacks deal +TD if you do not move on your turn (either before or after attacking).",
+      "img": "icons/svg/scope.svg"
+    },
+    {
+      "name": "Sniper Trickshots",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "Sniper Techniques",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're so skilled with a longarm that you can perform certain special maneuvers. You may make a trip or disarm attempt (see page 158) instead of dealing damage, using an attack roll with your longarm in place of your Athletics check during the contest.",
+      "img": "icons/svg/scope.svg"
+    },
+    {
+      "name": "Spraying Fire",
+      "category": "Combat - Ranged",
+      "mpCost": "9 MP",
+      "requirement": "Longarms Proficiency",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When using a weapon with the automatic upgrade, you may choose to not deal +TD damage and instead treat the weapon as having the Scatter quality if you fire at least 10 bullets.",
+      "img": "icons/svg/spray.svg"
+    },
+    {
+      "name": "Steady Arm",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "Strength 13+, Iron Grip",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you use an automatic weapon, you don't suffer disadvantage if you add a number of +TD to damage equal to your Proficiency bonus or less.",
+      "img": "icons/svg/steady.svg"
+    },
+    {
+      "name": "Uncanny Shot",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "Sniper Techniques",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you apply Sniper Techniques to an attack you also double the long range of the attack.",
+      "img": "icons/svg/scope.svg"
+    },
+    {
+      "name": "Vanguard",
+      "category": "Combat - Ranged",
+      "mpCost": "5 MP",
+      "requirement": "Stealth and Survival",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You deal +1d6 additional damage with ranged attacks against any target within 5m. You may purchase this ability a number of times equal to your Proficiency bonus, increasing the bonus damage +1d6 each time.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Armory Hound",
+      "category": "Downtime",
+      "mpCost": "7 MP",
+      "requirement": "Proficient in Explosives, Longarms, and Sidearms",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "If you're not found packing powder, you're probably in the racks doing spot ordinance checks. When you spend your downtime in the armory, you may apply the Armory bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
+      "img": "icons/svg/arsenal.svg"
+    },
+    {
+      "name": "Artist",
+      "category": "Downtime",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You've found that creating something aesthetically pleasing helps you cope with the rigors of duty. You can spend your downtime making art and improving the livability (and therefore effectiveness) of your surroundings. Choose one facility and improve its effective Facility bonus by +1 (to a maximum of +5) during this mission.",
+      "img": "icons/svg/painting.svg"
+    },
+    {
+      "name": "Athlete",
+      "category": "Downtime",
+      "mpCost": "3 MP",
+      "requirement": "Acrobatics or Athletics",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're always in the gym, pushing yourself to ever greater limits. When you spend time in the gym, you also add its Facility bonus to your melee attack rolls.",
+      "img": "icons/svg/muscle.svg"
+    },
+    {
+      "name": "Bookworm",
+      "category": "Downtime",
+      "mpCost": "7 MP",
+      "requirement": "Eureka ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're not just a frequent user of the technical library, you're in charge of a portion of the archive. When you spend your downtime in the ASH Archive, you begin each mission with additional Eureka points equal to half the Facility bonus (up to your max, minimum 1).",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Cinefile",
+      "category": "Downtime",
+      "mpCost": "3 MP",
+      "requirement": "Culture",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You relax by taking in mass media from a variety of worlds, including Earth, studying the art created by people from many societies. When you spend downtime in the Rec Hall you may choose a Wisdom skill instead of a Charisma skill to gain its Facility bonus.",
+      "img": "icons/svg/video.svg"
+    },
+    {
+      "name": "Cookie",
+      "category": "Downtime",
+      "mpCost": "7 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "It's not gourmet, but you love cooking, and your efforts are appreciated and ignored in equal measure. When you spend your downtime in the Mess Hall, you may apply the Mess Hall bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
+      "img": "icons/svg/chef.svg"
+    },
+    {
+      "name": "Gamer",
+      "category": "Downtime",
+      "mpCost": "3 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Whether it's boardgames, video games, or traditional gambling, you find games of chance and skill both relaxing and a way to keep your mind sharp. When you spend your downtime gaming you may choose to add the Facility bonus of the Mess Hall to your Charisma and Wisdom saves or the Facility bonus of the Rec Hall to your Intelligence and Wisdom saves (chosen each mission).",
+      "img": "icons/svg/dice.svg"
+    },
+    {
+      "name": "Party Animal",
+      "category": "Downtime",
+      "mpCost": "5 MP",
+      "requirement": "None",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "If there's drinking, dancing, and general merry-making to be had, you'll be there with bells on. You're the life of the party and can always be counted on to share a good time. If you spend your downtime partying (which does not require a facility) you may choose to begin a mission with 1 level of exhaustion. If you do, you do not suffer disadvantage on any checks caused by exhaustion during the mission.",
+      "img": "icons/svg/party.svg"
+    },
+    {
+      "name": "Sawbones",
+      "category": "Downtime",
+      "mpCost": "9 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're often called to the medical bay to assist with triage, emergency surgery, or just plain weird cases. When you spend your downtime in the medical bay, you gain access to one Procedure feat of your choice for the duration of the mission. This choice may be changed each mission.",
+      "img": "icons/svg/surgery.svg"
+    },
+    {
+      "name": "Sport Shooter",
+      "category": "Downtime",
+      "mpCost": "7 MP",
+      "requirement": "Proficient in Longarms, Shotguns, and Sidearms",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Everyone knows that they can usually find you at the firing range testing equipment. When you spend your downtime at the firing range, you may apply the Firing Range bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Tread Head",
+      "category": "Downtime",
+      "mpCost": "9 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You're no stranger to engine grease and can usually be found pouring over manuals in the motor pool. When you spend your downtime in the motor pool, you gain access to one Modification feat of your choice for the duration of the mission. This choice may be changed each mission.",
+      "img": "icons/svg/tank.svg"
+    },
+    {
+      "name": "Virtuoso",
+      "category": "Downtime",
+      "mpCost": "7 MP",
+      "requirement": "Proficient in at least two of Culture, Performance or Persuasion",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Whether it's hosting open mic night or just belting out a few tunes in the evening, your performances are well attended. When you spend your downtime in the Rec Hall, you may apply the Rec Hall bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
+      "img": "icons/svg/music.svg"
+    },
+    {
+      "name": "Calm and Collected",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest, choose either Intelligence, Wisdom, or Charisma. Inspired characters gain advantage on the chosen save until your next long rest.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Clear Focus",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest, choose a skill in which you are proficient. Inspired characters gain advantage on the chosen skill until your next long rest.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Coordinated Fire",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "After you hit a target with an attack, you may take a bonus action to grant an inspired character advantage to their next attack roll made before your next turn against the same target.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Defensive Motivation",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Inspired characters gains +1 AC.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Enduring Inspirations",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "At the beginning of combat (when Initiative is rolled) each inspired character gains a number of Inspire HP equal to a roll of the tension die. A character cannot have more Inspire HP than the maximum possible result of your Inspire die.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Grim Resolve",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When an inspired character loses their last Inspire HP, they gain resistance to bludgeoning, piercing, and slashing damage until their next turn.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Hard Day's Night",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Inspired characters reduce any exhaustion damage they suffer from environmental effects or exertion by 1 level (minimum 1 level). This does not affect attacks that deal exhaustion (such as tranquilizers).",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Quippy Comebacks",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "other"
+      },
+      "bonus": "Once per Diplomatic Function, inspired characters may halve the amount of DP lost (rounding down) as a result of a failed Diplomatic Action check.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Skillful Explanations",
+      "category": "Inspiration",
+      "mpCost": "5 MP",
+      "requirement": "Inspire ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "short"
+      },
+      "bonus": "Once per short rest, when an inspired character fails a skill check that you are proficient in, you may allow the character to re-roll the result.",
+      "img": "icons/svg/angel.svg"
+    },
+    {
+      "name": "Armorer",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest, you may choose one character's armor. It gains +1 AC until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional armor.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Chem Thrower",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest you may choose one weapon with the line or cone quality. It gains +5m to its range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Comms Tech",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your team's tactical radio equipment has a range of 20km (instead of 5km). In addition, when you launch a communications balloon, its duration increases to 15d6 hours.",
+      "img": "icons/svg/tower.svg"
+    },
+    {
+      "name": "Grenadier",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Grenades from your kit deal +1d6 damage when used by you. You may choose this modification multiple times; each time you do your kit's grenades deal an additional +1d6 damage when used by you.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Longarm Calibrations",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest you may choose one character's Longarm. It gains a +1d4 to attack rolls against targets at long range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Minefield Expert",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability, Explosives",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You can bury an explosive (such as C4 or a claymore mine) just below the dirt rigged to explode when a character enters the space. This process takes 2 minutes. The explosive affects all targets within a 2m radius. A character must succeed at a DC 20 Perception check to spot the mine before triggering it.\n\nAdditionally, you gain advantage on all Perception checks to spot buried mines.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Montage",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During an episode R&D encounter, reduce the number of successes required by half your Proficiency bonus, to a minimum of 1.",
+      "img": "icons/svg/clockwork.svg"
+    },
+    {
+      "name": "Percussive Maintenance",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When a vehicle you are embarked within has the damaged condition, you can take an action to ignore the damaged condition for a number of rounds equal to a roll of the tension die.",
+      "img": "icons/svg/upgrade.svg"
+    },
+    {
+      "name": "Sidearm Calibrations",
+      "category": "Modification",
+      "mpCost": "5 MP",
+      "requirement": "Jury Rig ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a long rest you may choose one character's sidearm. It provides a +1d4 to attack rolls against targets at short range until your next long rest. You may choose this modification multiple times, each time you do you may apply the bonus to an additional weapon.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Biohazard Disposal",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You and your team are considered proficient in Constitution saves against diseases, toxins, and viruses. If a character is already proficient in Constitution saves, they gain no benefit from this procedure.",
+      "img": "icons/svg/biohazard.svg"
+    },
+    {
+      "name": "Controlled Stimulants",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "As an action, you may use your Med Kit to heal 1d4 levels of exhaustion. A character may not benefit from this ability again until they have taken a long rest.",
+      "img": "icons/svg/pill.svg"
+    },
+    {
+      "name": "Crash Training",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "other"
+      },
+      "bonus": "You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round.",
+      "img": "icons/svg/heart.svg"
+    },
+    {
+      "name": "Embolism",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "Improvised Medicine",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you do not have a Med Kit, you may still heal friendly targets as if you had a Med Kit but were not proficient with it.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Pharmaceuticals",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "1",
+        "type": "long"
+      },
+      "bonus": "You may use your Med Kit to heal a character of 1d4 Intelligence, Wisdom, or Charisma damage during a short rest. A character may not benefit from this ability again until they have taken a long rest.",
+      "img": "icons/svg/pill.svg"
+    },
+    {
+      "name": "Sedatives",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may administer a sedative to a living target as a melee attack using your Med Kit. If successful, the target must succeed at a Constitution save (DC equal to 10 + Proficiency bonus + Wisdom modifier) or suffer 1d6 levels of fatigue. A target brought to 6 levels of fatigue with this ability is unconscious instead of dead.",
+      "img": "icons/svg/sleep.svg"
+    },
+    {
+      "name": "Urgent Care",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you heal with a Med Kit, you may choose to replace all the healing dice rolled with the same number of Tension Dice.",
+      "img": "icons/svg/heal.svg"
+    },
+    {
+      "name": "Vital Organ Trauma",
+      "category": "Procedure",
+      "mpCost": "5 MP",
+      "requirement": "First Aid ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you critically hit, add your Wisdom modifier to the damage dealt.",
+      "img": "icons/svg/sword.svg"
+    },
+    {
+      "name": "A Moment's Thought",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Whenever you take a short or long rest you may spend a Eureka point to re-roll an Intelligence or Wisdom skill check to learn information that you failed since your last rest.",
+      "img": "icons/svg/thinking.svg"
+    },
+    {
+      "name": "Archaeologist",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Culture",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As an action you can spend a Eureka point to automatically locate any secret chambers or otherwise hidden rooms within a structure no larger than 20m square per Proficiency bonus. This does not indicate how the secret area may be accessed, only that one must exist (or doesn't exist) within the area. In addition, you gain advantage on any Perception checks to find hidden elements of architecture such as secret levers, trap triggers, or hidden doors.",
+      "img": "icons/svg/ruins.svg"
+    },
+    {
+      "name": "Astronomer",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Science",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As a bonus action you may reduce the time it takes to activate an astronomical device (including a Stargate) by 1 round per Eureka point spent.",
+      "img": "icons/svg/sun.svg"
+    },
+    {
+      "name": "Biologist",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Medicine",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent.",
+      "img": "icons/svg/dna.svg"
+    },
+    {
+      "name": "Chemist",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Science",
+      "castTime": {
+        "value": "1",
+        "type": "action"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As an action you may use your Research Kit to make a ranged attack against a target within 5m. If the attack hits, you may spend any number of Eureka points to deal 1d6 acid damage per Eureka point spent. You are proficient with this attack and it uses your Intelligence modifier in place of your Dexterity. This damage increases to 1d8 per Eureka at level 5, 1d10 at level 11, and 1d12 at level 17.",
+      "img": "icons/svg/acid.svg"
+    },
+    {
+      "name": "Geologist",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Science",
+      "castTime": {
+        "value": "",
+        "type": "reaction"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When a friendly character within 5m makes an attack against a target in cover from a natural source (stones, trees, a hill), you may make a reaction and spend a Eureka point to negate the effects of that cover for the duration of the attack.",
+      "img": "icons/svg/mountain.svg"
+    },
+    {
+      "name": "Hyper-Focus",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You may spend one Eureka point to add the tension die to an Intelligence or Wisdom check. You may declare this use of Eureka after learning the results of the roll.",
+      "img": "icons/svg/eye.svg"
+    },
+    {
+      "name": "Physicist",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Science",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you make an attack with a ranged weapon, you may spend a Eureka to increase the weapon's range by half (+50%).",
+      "img": "icons/svg/atom.svg"
+    },
+    {
+      "name": "Social Sciences",
+      "category": "Discovery",
+      "mpCost": "5 MP",
+      "requirement": "Eureka ability, Culture",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Whenever you lose any number of wagered Determination Points, you gain one Eureka point.",
+      "img": "icons/svg/book.svg"
+    },
+    {
+      "name": "Camouflage",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Stealth",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Using elements of the natural environment, you grant your team advantage on Stealth checks after a short or long rest in an environment.",
+      "img": "icons/svg/leaf.svg"
+    },
+    {
+      "name": "Camp Security",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Perception",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your adept site preparation provides advantage on any Perception checks to notice approaching creatures while taking a short or long rest.",
+      "img": "icons/svg/camp.svg"
+    },
+    {
+      "name": "Foraging",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Stealth",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When in a natural environment you can feed a number of people up to your Proficiency bonus with a single hard (DC 20) Survival check and 1d4 hours of work.",
+      "img": "icons/svg/fruit.svg"
+    },
+    {
+      "name": "Hide Tracks",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Stealth",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You travel in back of your team, hiding your tracks. Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC.",
+      "img": "icons/svg/footprint.svg"
+    },
+    {
+      "name": "Ranger Tricks",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a Traversal encounter, if you succeed at a Terrain card's Navigation check, you navigate an additional 1d3 cards from the Journey deck instead of 1.",
+      "img": "icons/svg/compass.svg"
+    },
+    {
+      "name": "Ration Optimization",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "By managing your team's rations and preparing meals with clever use of ingredients, you can keep spirits high. Your team members heal 1 DP during a short rest.",
+      "img": "icons/svg/food.svg"
+    },
+    {
+      "name": "Rope Tricks",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Stealth",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Your expert knots and efficient use of rope allow your entire team to benefit from your Climbing Kit.",
+      "img": "icons/svg/rope.svg"
+    },
+    {
+      "name": "Tracking",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Survivalist ability, Perception",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You gain advantage on all Survival checks made to track.",
+      "img": "icons/svg/pawprint.svg"
+    },
+    {
+      "name": "Xenosurvival",
+      "category": "Field Hack",
+      "mpCost": "5 MP",
+      "requirement": "Constitution 13+, Survivalist ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Once you have taken a short or long rest in an environment, choose a number of additional characters up to your Proficiency bonus to benefit from your Survivalist ability while in the environment until your next rest.",
+      "img": "icons/svg/alien.svg"
+    },
+    {
+      "name": "Ambush",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "You and your team members gain advantage on your first melee attack after any short or long rest.",
+      "img": "icons/svg/trap.svg"
+    },
+    {
+      "name": "Assault Coordination",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Coordinated Response",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When rolling for initiative, your team members may choose (before the rolls are made) to use your initiative result instead of their own.",
+      "img": "icons/svg/clockwork.svg"
+    },
+    {
+      "name": "Defensive Posture",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "Add +2 AC to other team members within 2m of you.",
+      "img": "icons/svg/shield.svg"
+    },
+    {
+      "name": "Distracting Attacks",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "When you deal damage to a single target with an attack, you may choose one friendly character not within 2m of you. The target of your attack suffers disadvantage on all attacks against the chosen character until the start of your next turn.",
+      "img": "icons/svg/explosion.svg"
+    },
+    {
+      "name": "Hit & Run",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As a bonus action on your turn you may allow a team member to take a Disengage action.",
+      "img": "icons/svg/running.svg"
+    },
+    {
+      "name": "Overwatchers",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": ""
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "During a firefight, when you and your team members take the Overwatch action you cover a 90\u00b0 field instead of a 45\u00b0 cone. In addition, you may make two Overwatch attacks (against different targets).",
+      "img": "icons/svg/tower.svg"
+    },
+    {
+      "name": "Response Shot",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "",
+        "type": "reaction"
+      },
+      "limitations": {
+        "value": "1",
+        "type": "encounter"
+      },
+      "bonus": "Once per encounter, you may use your reaction to make a ranged attack against an enemy who makes an attack against a team member other than yourself.",
+      "img": "icons/svg/target.svg"
+    },
+    {
+      "name": "Rush",
+      "category": "Tactic",
+      "mpCost": "5 MP",
+      "requirement": "Tactical Flexibility ability",
+      "castTime": {
+        "value": "1",
+        "type": "bonus"
+      },
+      "limitations": {
+        "value": "",
+        "type": ""
+      },
+      "bonus": "As a bonus action on your turn you may allow a team member to take a Dash action.",
+      "img": "icons/svg/running.svg"
+    }
+  ]
+}

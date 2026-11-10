@@ -1,0 +1,30 @@
+{
+  "_id": "UPRbcQloh19pmLOz",
+  "name": "Jury Rig",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "1",
+    "bonus": "You are an expert at field repairs, even when you have to get creative. When you use an engineering kit to repair a machine you heal 2d8 points of damage instead of 2d6. In addition, you may repair an adjacent machine as an action rather than only during a short rest."
+  },
+  "effects": [],
+  "folder": "4qb5OhdH2hPpqm6Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410244,
+    "modifiedTime": 1767232410244,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!UPRbcQloh19pmLOz"
+}

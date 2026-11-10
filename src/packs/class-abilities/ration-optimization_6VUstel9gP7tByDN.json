@@ -1,0 +1,30 @@
+{
+  "_id": "6VUstel9gP7tByDN",
+  "name": "Ration Optimization",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "Field Hack",
+    "bonus": "By managing your team's rations and preparing meals with clever use of ingredients, you can keep spirits high. Your team members heal 1 DP during a short rest."
+  },
+  "effects": [],
+  "folder": "qgqMjODrvffjwUSa",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410423,
+    "modifiedTime": 1767232410423,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!6VUstel9gP7tByDN"
+}

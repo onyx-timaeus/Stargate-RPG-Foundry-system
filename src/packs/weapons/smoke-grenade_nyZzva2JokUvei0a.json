@@ -1,0 +1,64 @@
+{
+  "_id": "nyZzva2JokUvei0a",
+  "name": "Smoke Grenade",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/smoke-grenade.webp",
+  "system": {
+    "description": "This thrown weapon explodes with shrapnel, concussive force, gas, or bright chemical light, and sounds. There are three types of grenades used by Stargate Phoenix: Smoke grenades deal no damage but fill a 5m x 5m area with thermal smoke that obscures most forms of vision and many types of sensors. Characters proficient in common weapons or explosives are considered proficient with grenades. A grenade is thrown at a point (see page 157) rather than at a target and goes off at the start of the throwing character’s next turn (or 6 seconds after release).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 0.33,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "explosive",
+      "sec_type": "",
+      "range": {
+        "normal": 20,
+        "max": 20
+      },
+      "special": "Deals no damage but fill a 5m x 5m area with thermal smoke that obscures most forms of vision and many types of sensors."
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "grenades"
+  },
+  "effects": [],
+  "folder": "fVF54YnzKhDavZVH",
+  "sort": 150000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767783356332,
+    "modifiedTime": 1773766635248,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!nyZzva2JokUvei0a"
+}

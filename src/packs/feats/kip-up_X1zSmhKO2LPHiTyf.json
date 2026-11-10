@@ -1,0 +1,39 @@
+{
+  "_id": "X1zSmhKO2LPHiTyf",
+  "name": "Kip Up",
+  "type": "feat",
+  "img": "systems/sgrpg/assets/compendium/feats/kip-up.webp",
+  "system": {
+    "mpCost": "3",
+    "requirement": "Acrobatics or Athletics",
+    "category": "Combat - General",
+    "bonus": "You may stand from prone by spending 1m of movement instead of half your movement.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1773767624695,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!X1zSmhKO2LPHiTyf"
+}

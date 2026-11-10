@@ -1,0 +1,26 @@
+{
+  "_id": "gadDZFlRJmCGmUXi",
+  "name": "Chainmail",
+  "type": "equip",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Links of metal chain offer greater defense at the expense of weight and bulk.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Heavy armor. AC 16; Strength 13; Stealth Disadvantage; Bulk 4+Str; Special: —."
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!gadDZFlRJmCGmUXi"
+}

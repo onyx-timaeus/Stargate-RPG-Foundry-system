@@ -1,0 +1,37 @@
+{
+  "_id": "aFy6IeAdEOoGHm26",
+  "name": "Grapple Gun",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/grapple-gun.webp",
+  "system": {
+    "description": "Here’s a long-time fantasy of engineers that grew up on comics. The techs at the Phoenix Site have recently manufactured a grapple gun that addresses many of the device’s practical issues. The gun can fire a grappling hook and line up to 200m (which may require an attack roll) or an anchor with enough force to lodge into stone at up to 100m.",
+    "techLevel": 3,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Tool",
+      "restriction": "",
+      "description": "Tactical grappling device"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409933,
+    "modifiedTime": 1767880849678,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!aFy6IeAdEOoGHm26"
+}

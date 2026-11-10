@@ -1,0 +1,39 @@
+{
+  "_id": "f8m5JuLkPtw09YWM",
+  "name": "Resonant Words",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Level 5, Word In An Ear ability",
+    "category": "General",
+    "bonus": "When you inspire a friendly character using Word In An Ear, you roll an additional Inspire die to determine how many Inspire HP the character gains. This feat may be purchased a second time at level 11 and a third time at level 17, adding an additional Inspire die each time.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311856,
+    "modifiedTime": 1767373311856,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!f8m5JuLkPtw09YWM"
+}

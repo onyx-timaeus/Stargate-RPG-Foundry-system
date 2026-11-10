@@ -1,0 +1,37 @@
+{
+  "_id": "zWQKUK1iB0794sO3",
+  "name": "Utility Ties",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/utility-ties.webp",
+  "system": {
+    "description": "These plastic “zip” ties are designed to close a loop securely and are popular among engineers for their utility, second only to military grade duct tape. Utility ties can be used as restraints (see page 73).",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Zip ties"
+    },
+    "bulk": 0.01,
+    "quantity": 100
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409975,
+    "modifiedTime": 1767785246650,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!zWQKUK1iB0794sO3"
+}

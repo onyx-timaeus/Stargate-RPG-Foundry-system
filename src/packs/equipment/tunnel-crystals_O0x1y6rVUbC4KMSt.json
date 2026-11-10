@@ -1,0 +1,37 @@
+{
+  "_id": "O0x1y6rVUbC4KMSt",
+  "name": "Tunnel Crystals",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/tunnel-crystals.webp",
+  "system": {
+    "description": "These crystals are employed by the Tok’ra to hide from the Goa’uld and to rapidly build their subterranean tunnel networks. These crystals produce breathable air as a by-product, but due to their enclosed nature life support systems are required for long term habitation.",
+    "techLevel": 4,
+    "lore": {
+      "origin": "Tok'ra",
+      "type": "Life Support",
+      "restriction": "",
+      "description": "Tok'ra environmental system"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409985,
+    "modifiedTime": 1767880655469,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!O0x1y6rVUbC4KMSt"
+}

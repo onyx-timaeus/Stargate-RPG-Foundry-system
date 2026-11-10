@@ -1,0 +1,30 @@
+{
+  "_id": "efDIbWvYK9xOPa3f",
+  "name": "Broad Spectrum Scanners",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "4",
+    "bonus": "At 4th level, you can use Intelligence instead of Wisdom when making Perception Checks."
+  },
+  "effects": [],
+  "folder": "yamDJ7OtAMP33h3A",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410253,
+    "modifiedTime": 1767232410253,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!efDIbWvYK9xOPa3f"
+}

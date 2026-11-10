@@ -1,0 +1,23 @@
+{
+  "_id": "MnZrraPR5MVQ724n",
+  "name": "Common Weapon",
+  "type": "Item",
+  "folder": null,
+  "description": "",
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": null,
+    "modifiedTime": 1773766526312,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!MnZrraPR5MVQ724n"
+}

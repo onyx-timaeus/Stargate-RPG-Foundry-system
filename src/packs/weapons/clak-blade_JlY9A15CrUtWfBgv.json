@@ -1,0 +1,64 @@
+{
+  "_id": "JlY9A15CrUtWfBgv",
+  "name": "Clak Blade",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/clak-blade.webp",
+  "system": {
+    "description": "Unique to the Unas serving at the Phoenix Site, the Clak blade is inspired by the Tau’ri switchblade and designed by Phoenix Site engineers on site for Unas team members. This TL 3 shortblade is worn on a wrist bracer and can be “Clak’d” into a variety of positions with specific forearm flexes uniquely deployable by Unas musculature. This makes it a superb close quarters and grappling weapon that complements their natural claws. Unas proficient in Martial Arts are proficient with Clak Blades and deal 1d8 + Strength modifier damage to their target when they successfully grapple (this damage cannot score a critical hit). In addition, their claws deal 1d8 damage.",
+    "techLevel": 3,
+    "lore": {
+      "origin": "Unas",
+      "type": "Melee Weapon",
+      "restriction": "Unas only",
+      "description": "Unas wrist-mounted blade"
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d8",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "slashing",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": "Finesse, Unas deal 1d8+STR damage on successful grapple"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "martialArts"
+  },
+  "effects": [],
+  "folder": "23PgsszTH8w31gBF",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409834,
+    "modifiedTime": 1773766467093,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!JlY9A15CrUtWfBgv"
+}

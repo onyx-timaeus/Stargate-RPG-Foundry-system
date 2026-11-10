@@ -1,0 +1,39 @@
+{
+  "_id": "yUyBJwWTw6ZtQQ2i",
+  "name": "Armory Hound",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "7",
+    "requirement": "Proficient in Explosives, Longarms, and Sidearms",
+    "category": "Downtime",
+    "bonus": "If you're not found packing powder, you're probably in the racks doing spot ordinance checks. When you spend your downtime in the armory, you may apply the Armory bonus to a team member in addition to yourself. You may purchase this feat multiple times, providing the bonus to an additional team member each time.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "iH4mEqkFzRNakx8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!yUyBJwWTw6ZtQQ2i"
+}

@@ -1,0 +1,570 @@
+<form class="{{cssClass}} sgrpg charsheet npc-actor" autocomplete="off">
+
+<div class="sheet-header">
+  <nav class="sheet-navigation tabs" data-group="primary">
+    <a class="item active" data-tab="character">Character</a>
+    <a class="item" data-tab="competency">Competency</a>
+    <a class="item" data-tab="configuration">Configuration</a>
+  </nav>
+</div>
+
+<div class="sg-sheet-body">
+
+<!-- CHARACTER TAB -->
+<main class="character tab-content page1 tab" data-tab="character">
+
+  <!-- NAME SECTION -->
+  <section class="name columnflex nowrap">
+    <!-- Profile Picture - First box -->
+    <div class="section profile-img-box">
+      <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+    </div>
+
+    <!-- Character Info - Second box -->
+    <div class="section name-content">
+      <!-- LEFT: CR column -->
+      <div class="level-col">
+        <input class="level-num" name="system.rank" type="number" placeholder="1" value="{{system.rank}}">
+        <span class="level-label">CR</span>
+      </div>
+
+      <!-- RIGHT: Name + pills stacked -->
+      <div class="name-info-col">
+        <input class="char-name-input" name="name" type="text" value="{{actor.name}}" placeholder="NPC Name">
+        <div class="meta-pills">
+          <label class="meta-pill type-pill">
+            <input name="system.race" list="type" placeholder="Type" type="text" value="{{system.race}}">
+          </label>
+          <label class="meta-pill det-pill">
+            <span class="pill-label">DET</span>
+            <input class="pill-num" name="system.determination.value" type="number" value="{{system.determination.value}}" title="Determination">
+            <span class="pill-slash">/</span>
+            <input class="pill-num" name="system.determination.max" type="number" value="{{system.determination.max}}" title="Max Determination">
+          </label>
+          <button type="button" class="meta-pill td-pill" data-action="rollTD" title="Roll Tension Die">
+            <span class="pill-label">TENSION</span>
+            <span class="pill-dice">{{system.tensionDie}}</span>
+          </button>
+          <button type="button" class="meta-pill hd-pill" data-action="rollHD" title="Roll Hit Dice">
+            <span class="pill-label">HIT</span>
+            <span class="pill-dice">{{system.hd}}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABILITY SCORES (HORIZONTAL BADGES) -->
+  <div class="attr rowflex nowrap center">
+    {{#each system.attributes as |attr a|}}
+      <div class="stat columnflex nowrap center middle" data-attr="{{a}}">
+        <a type="roll" class="txt-btn large" data-bonus="system.attributes.{{a}}.mod">{{a}}</a>
+        <input data_type="ability_value" name="system.attributes.{{a}}.value" type="number" value="{{attr.value}}">
+        <span class="mod">{{attr.modDisplay}}</span>
+      </div>
+    {{/each}}
+  </div>
+
+  <!-- STATS ROW: HP, TEMP HP, AC, SPEED, INITIATIVE, MOXIE -->
+  <div class="stats-container npc-stats-container">
+    <div class="stat-box hp-box">
+      <div class="stat-icon-wrap"><i class="fas fa-heart"></i></div>
+      <div class="stat-content">
+        <span class="stat-label">HP</span>
+        <div class="stat-row">
+          <input class="stat" name="system.health.value" type="number" value="{{system.health.value}}" placeholder="20">
+          <span class="slash">/</span>
+          <input class="stat" name="system.health.max" type="number" value="{{system.health.max}}" placeholder="20">
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-box temp-hp-box">
+      <div class="stat-icon-wrap"><i class="fas fa-heart-pulse"></i></div>
+      <div class="stat-content">
+        <span class="stat-label">Temp HP</span>
+        <div class="stat-row">
+          <input class="stat" name="system.temp_health.value" type="number" value="{{system.temp_health.value}}">
+          <span class="slash">/</span>
+          <input class="stat" name="system.temp_health.max" type="number" value="{{system.temp_health.max}}">
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-box ac-box">
+      <div class="stat-icon-wrap"><i class="fas fa-shield-halved"></i></div>
+      <div class="stat-content">
+        <span class="stat-label">Armor Class</span>
+        <input class="stat" name="system.ac" type="number" value="{{system.ac}}">
+      </div>
+    </div>
+
+    <div class="stat-box speed-box">
+      <div class="stat-icon-wrap"><i class="fas fa-person-running"></i></div>
+      <div class="stat-content">
+        <span class="stat-label">Speed</span>
+        <input class="stat" name="system.speed" type="text" value="{{system.speed}}">
+      </div>
+    </div>
+
+    <div class="stat-box initiative-box">
+      <div class="stat-icon-wrap"><i class="fas fa-bolt"></i></div>
+      <div class="stat-content">
+        <a type="roll_init" class="txt-btn">Initiative</a>
+        <input class="stat" name="system.initiative" type="number" value="{{system.initiative}}">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ABILITIES SECTION (ALL TYPES) -->
+  <section class="abilities-section">
+    <h3>Abilities & Feats</h3>
+    <div class="abilities-grid">
+      {{#each items.origin as |item|}}
+        <div class="ability-card" data-item-id="{{item._id}}">
+          <div class="ability-card-header">
+            <img src="{{item.img}}" alt="{{item.name}}" />
+            <h4>{{item.name}}</h4>
+          </div>
+          {{#if item.system.castTime.type}}
+            <div class="ability-tags-container">
+              <span class="ability-tag ability-casttime-bubble casttime-{{item.system.castTime.type}}">
+                {{#if item.system.castTime.value}}{{item.system.castTime.value}} {{/if}}{{#if (eq item.system.castTime.type "action")}}Action{{else if (eq item.system.castTime.type "bonus")}}Bonus Action{{else if (eq item.system.castTime.type "reaction")}}Reaction{{else if (eq item.system.castTime.type "turn")}}Turn{{/if}}
+              </span>
+            </div>
+          {{/if}}
+          <div class="ability-card-body">
+            {{#if item.system.bonus}}
+              <p class="ability-bonus">{{{item.system.bonus}}}</p>
+            {{/if}}
+          </div>
+          {{#if item.system.limitations.value}}
+            <div class="ability-limitations">
+              {{#each (range item.system.limitations.value) as |index|}}
+                <input type="checkbox" class="limitation-checkbox" data-item-id="{{../item._id}}" data-index="{{index}}" />
+              {{/each}}
+              <span class="limitation-label">
+                /{{#if (eq item.system.limitations.type "short")}}Short Rest{{else if (eq item.system.limitations.type "long")}}Long Rest{{else if (eq item.system.limitations.type "shortlong")}}Short/Long Rest{{else if (eq item.system.limitations.type "mission")}}Mission{{else if (eq item.system.limitations.type "encounter")}}Encounter{{else if (eq item.system.limitations.type "day")}}Day{{else if (eq item.system.limitations.type "other")}}Other{{/if}}
+              </span>
+            </div>
+          {{/if}}
+          <div class="ability-card-footer">
+            <a class="item-control item-edit" title="Edit"><i class="fas fa-edit"></i></a>
+            <a class="item-control item-delete" title="Delete"><i class="fas fa-trash"></i></a>
+          </div>
+        </div>
+      {{/each}}
+      {{#each items.classAbility as |item|}}
+        <div class="ability-card" data-item-id="{{item._id}}">
+          <div class="ability-card-header">
+            <img src="{{item.img}}" alt="{{item.name}}" />
+            <h4>{{item.name}}</h4>
+          </div>
+          {{#if (or item.system.level item.system.castTime.type)}}
+            <div class="ability-tags-container">
+              {{#if item.system.level}}
+                <span class="ability-tag ability-level-bubble">
+                  {{#if (isNumeric item.system.level)}}LVL: {{/if}}{{item.system.level}}
+                </span>
+              {{/if}}
+              {{#if item.system.castTime.type}}
+                <span class="ability-tag ability-casttime-bubble casttime-{{item.system.castTime.type}}">
+                  {{#if item.system.castTime.value}}{{item.system.castTime.value}} {{/if}}{{#if (eq item.system.castTime.type "action")}}Action{{else if (eq item.system.castTime.type "bonus")}}Bonus Action{{else if (eq item.system.castTime.type "reaction")}}Reaction{{else if (eq item.system.castTime.type "turn")}}Turn{{/if}}
+                </span>
+              {{/if}}
+            </div>
+          {{/if}}
+          <div class="ability-card-body">
+            {{#if item.system.bonus}}
+              <p class="ability-bonus">{{{item.system.bonus}}}</p>
+            {{/if}}
+          </div>
+          {{#if item.system.limitations.value}}
+            <div class="ability-limitations">
+              {{#each (range item.system.limitations.value) as |index|}}
+                <input type="checkbox" class="limitation-checkbox" data-item-id="{{../item._id}}" data-index="{{index}}" />
+              {{/each}}
+              <span class="limitation-label">
+                /{{#if (eq item.system.limitations.type "short")}}Short Rest{{else if (eq item.system.limitations.type "long")}}Long Rest{{else if (eq item.system.limitations.type "shortlong")}}Short/Long Rest{{else if (eq item.system.limitations.type "mission")}}Mission{{else if (eq item.system.limitations.type "encounter")}}Encounter{{else if (eq item.system.limitations.type "day")}}Day{{else if (eq item.system.limitations.type "other")}}Other{{/if}}
+              </span>
+            </div>
+          {{/if}}
+          <div class="ability-card-footer">
+            <a class="item-control item-edit" title="Edit"><i class="fas fa-edit"></i></a>
+            <a class="item-control item-delete" title="Delete"><i class="fas fa-trash"></i></a>
+          </div>
+        </div>
+      {{/each}}
+      {{#each items.feat as |item|}}
+        <div class="ability-card" data-item-id="{{item._id}}">
+          <div class="ability-card-header">
+            <img src="{{item.img}}" alt="{{item.name}}" />
+            <h4>{{item.name}}</h4>
+          </div>
+          {{#if (or item.system.category item.system.castTime.type)}}
+            <div class="ability-tags-container">
+              {{#if item.system.category}}
+                <span class="ability-tag ability-level-bubble">
+                  {{item.system.category}}
+                </span>
+              {{/if}}
+              {{#if item.system.castTime.type}}
+                <span class="ability-tag ability-casttime-bubble casttime-{{item.system.castTime.type}}">
+                  {{#if item.system.castTime.value}}{{item.system.castTime.value}} {{/if}}{{#if (eq item.system.castTime.type "action")}}Action{{else if (eq item.system.castTime.type "bonus")}}Bonus Action{{else if (eq item.system.castTime.type "reaction")}}Reaction{{else if (eq item.system.castTime.type "turn")}}Turn{{/if}}
+                </span>
+              {{/if}}
+            </div>
+          {{/if}}
+          <div class="ability-card-body">
+            {{#if item.system.bonus}}
+              <p class="ability-bonus">{{{item.system.bonus}}}</p>
+            {{/if}}
+          </div>
+          {{#if item.system.limitations.value}}
+            <div class="ability-limitations">
+              {{#each (range item.system.limitations.value) as |index|}}
+                <input type="checkbox" class="limitation-checkbox" data-item-id="{{../item._id}}" data-index="{{index}}" />
+              {{/each}}
+              <span class="limitation-label">
+                /{{#if (eq item.system.limitations.type "short")}}Short Rest{{else if (eq item.system.limitations.type "long")}}Long Rest{{else if (eq item.system.limitations.type "shortlong")}}Short/Long Rest{{else if (eq item.system.limitations.type "mission")}}Mission{{else if (eq item.system.limitations.type "encounter")}}Encounter{{else if (eq item.system.limitations.type "day")}}Day{{else if (eq item.system.limitations.type "other")}}Other{{/if}}
+              </span>
+            </div>
+          {{/if}}
+          <div class="ability-card-footer">
+            <a class="item-control item-edit" title="Edit"><i class="fas fa-edit"></i></a>
+            <a class="item-control item-delete" title="Delete"><i class="fas fa-trash"></i></a>
+          </div>
+        </div>
+      {{else}}
+        {{#unless (or items.origin items.classAbility)}}
+          <p class="empty-message">No abilities or feats. Drag items here or create new ones.</p>
+        {{/unless}}
+      {{/each}}
+    </div>
+  </section>
+
+  <!-- WEAPONS SECTION -->
+  <section class="weapons columnflex nowrap">
+    <h4>Weapons</h4>
+    {{> "systems/sgrpg/templates/sheets/parts/actor-weapon-inventory.hbs"}}
+  </section>
+
+  <!-- NOTES SECTION -->
+  <section class="npc-notes columnflex nowrap">
+    <h3>Notes</h3>
+    <textarea name="system.gm_notes" placeholder="GM notes and other information about this NPC...">{{system.gm_notes}}</textarea>
+  </section>
+
+  <!-- INVENTORY SECTION -->
+  <section class="inventory columnflex nowrap">
+    <h4>Inventory</h4>
+    {{> "systems/sgrpg/templates/sheets/parts/actor-equip-inventory.hbs"}}
+  </section>
+
+</main>
+
+<!-- COMPETENCY TAB -->
+<main class="competency tab-content page-competency tab" data-tab="competency">
+
+  <!-- PROFICIENCIES SECTION -->
+  <section class="proficiencies-section">
+    <div class="proficiencies-container">
+
+      <!-- LEFT COLUMN: WEAPON AND ARMOR PROFICIENCIES -->
+      <div class="prof-column">
+        <!-- WEAPON PROFICIENCIES -->
+        <div class="prof-category prof-weapon">
+          <h4>Weapon Proficiencies</h4>
+          <div class="prof-list">
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.common" {{checked system.proficiencies.weapon.common}}>
+              <span>Common</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.sidearms" {{checked system.proficiencies.weapon.sidearms}}>
+              <span>Sidearms</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.longarms" {{checked system.proficiencies.weapon.longarms}}>
+              <span>Longarms</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.bows" {{checked system.proficiencies.weapon.bows}}>
+              <span>Bows</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.shotguns" {{checked system.proficiencies.weapon.shotguns}}>
+              <span>Shotguns</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.martialArts" {{checked system.proficiencies.weapon.martialArts}}>
+              <span>Martial Arts</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.weapon.jaffa" {{checked system.proficiencies.weapon.jaffa}}>
+              <span>Jaffa Weapons</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- ARMOR PROFICIENCIES -->
+        <div class="prof-category prof-armor">
+          <h4>Armor Proficiencies</h4>
+          <div class="prof-list">
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.armor.light" {{checked system.proficiencies.armor.light}}>
+              <span>Light Armor</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.armor.heavy" {{checked system.proficiencies.armor.heavy}}>
+              <span>Heavy Armor</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: TOOL PROFICIENCIES -->
+      <div class="prof-column">
+        <div class="prof-category prof-tool">
+          <h4>Tool Proficiencies</h4>
+          <div class="prof-list">
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.camoKit" {{checked system.proficiencies.tool.camoKit}}>
+              <span>Camo Kit</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.engineeringKit" {{checked system.proficiencies.tool.engineeringKit}}>
+              <span>Engineering</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.explosives" {{checked system.proficiencies.tool.explosives}}>
+              <span>Explosives</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.fabricationKit" {{checked system.proficiencies.tool.fabricationKit}}>
+              <span>Fabrication</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.medKit" {{checked system.proficiencies.tool.medKit}}>
+              <span>Med Kit</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.outbreakKit" {{checked system.proficiencies.tool.outbreakKit}}>
+              <span>Outbreak Kit</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.panCulturalWardrobe" {{checked system.proficiencies.tool.panCulturalWardrobe}}>
+              <span>Wardrobe</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.researchKit" {{checked system.proficiencies.tool.researchKit}}>
+              <span>Research Kit</span>
+            </label>
+            <label class="prof-item">
+              <input type="checkbox" name="system.proficiencies.tool.translator" {{checked system.proficiencies.tool.translator}}>
+              <span>Translator</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="competency-grid-area">
+
+    <!-- SKILLS SECTION (LEFT, SPANS 2 ROWS) -->
+    <section class="skills columnflex nowrap spaced">
+      <h3>Skills</h3>
+      {{#each system.skills as |skill s|}}
+        <div class="rowflex nowrap" data-skill="{{s}}">
+          <input data_type="skill_prof" name="system.skills.{{s}}.proficient" type="checkbox" {{checked skill.proficient}} title="Proficiency">
+          <input class="w30" data_type="skill_value" name="system.skills.{{s}}.value" type="text" value="{{skill.value}}">
+          <a type="roll" class="txt-btn" data-bonus="system.skills.{{s}}.value">{{lookup @root.config.skills s}}</a>
+          <span class="skill-ability-label">({{skill.mod}})</span>
+        </div>
+      {{/each}}
+    </section>
+
+    <!-- RIGHT COLUMN CONTAINER -->
+    <div class="right-column-container">
+      <!-- SAVES AND CONDITION ROW -->
+      <div class="saves-condition-row">
+        <!-- SAVES SECTION -->
+        <section class="saves columnflex nowrap">
+          <h3>Saves</h3>
+          {{#each system.saves as |save s|}}
+            <div class="rowflex nowrap" data-save="{{s}}">
+              <input data_type="skill_prof" name="system.saves.{{s}}.proficient" type="checkbox" {{checked save.proficient}}>
+              <input class="w30" name="system.saves.{{s}}.value" type="text" value="{{save.value}}">
+              <a type="roll" class="txt-btn" data-bonus="system.saves.{{s}}.value">{{lookup ../config.saves s}}</a>
+            </div>
+          {{/each}}
+        </section>
+
+        <!-- CONDITION SECTION -->
+        <section class="condition columnflex nowrap spaced">
+          <h3>Condition</h3>
+          {{radioBoxes "system.condition" config.conditions checked=system.condition localize=false}}
+        </section>
+      </div>
+
+      <!-- DAMAGE RESISTANCES SECTION (BOTTOM) -->
+      <section class="damage-resistances-config columnflex nowrap">
+        <h3>Damage Resistances & Immunities</h3>
+        <div class="damage-resistance-grid">
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.piercing}}" data-damage-type="piercing">
+            <span class="damage-type-name">Piercing</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.bludgeoning}}" data-damage-type="bludgeoning">
+            <span class="damage-type-name">Bludgeoning</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.slashing}}" data-damage-type="slashing">
+            <span class="damage-type-name">Slashing</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.fire}}" data-damage-type="fire">
+            <span class="damage-type-name">Fire</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.lightning}}" data-damage-type="lightning">
+            <span class="damage-type-name">Electricity</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.cold}}" data-damage-type="cold">
+            <span class="damage-type-name">Cold</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.acid}}" data-damage-type="acid">
+            <span class="damage-type-name">Acid</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.poison}}" data-damage-type="poison">
+            <span class="damage-type-name">Poison</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.force}}" data-damage-type="force">
+            <span class="damage-type-name">Force</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.radiant}}" data-damage-type="radiant">
+            <span class="damage-type-name">Radiant</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.necrotic}}" data-damage-type="necrotic">
+            <span class="damage-type-name">Necrotic</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.psychic}}" data-damage-type="psychic">
+            <span class="damage-type-name">Psychic</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.sonic}}" data-damage-type="sonic">
+            <span class="damage-type-name">Sonic</span>
+          </button>
+          <button type="button" class="damage-resistance-btn {{system.damageResistances.explosive}}" data-damage-type="explosive">
+            <span class="damage-type-name">Explosive</span>
+          </button>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- CONFIGURATION TAB -->
+<main class="configuration tab-content page3 tab" data-tab="configuration">
+
+  <div class="config-top-row">
+    <!-- DICE CONFIGURATION -->
+    <section class="dice-config columnflex nowrap">
+    <h3>Dice Configuration</h3>
+    <div class="config-row">
+      <div class="config-item">
+        <label><i class="fas fa-user-secret"></i> Whisper Rolls</label>
+        <div class="segmented-control">
+          <input type="radio" id="whisper-off" name="system.whisperRolls" value="false" data-dtype="Boolean" {{#unless system.whisperRolls}}checked{{/unless}}>
+          <label for="whisper-off" class="segment-button">Off</label>
+
+          <input type="radio" id="whisper-on" name="system.whisperRolls" value="true" data-dtype="Boolean" {{#if system.whisperRolls}}checked{{/if}}>
+          <label for="whisper-on" class="segment-button" data-tooltip="Rolls are only visible to the GM and the owner">On</label>
+        </div>
+      </div>
+      <div class="config-item">
+        <label>Hit Dice</label>
+        <div class="segmented-control">
+          <input type="radio" id="hd-d4" name="system.hd" value="d4" {{#if (eq system.hd "d4")}}checked{{/if}}>
+          <label for="hd-d4" class="segment-button"><i class="fas fa-dice-d4"></i> d4</label>
+
+          <input type="radio" id="hd-d6" name="system.hd" value="d6" {{#if (eq system.hd "d6")}}checked{{/if}}>
+          <label for="hd-d6" class="segment-button"><i class="fas fa-dice-d6"></i> d6</label>
+
+          <input type="radio" id="hd-d8" name="system.hd" value="d8" {{#if (eq system.hd "d8")}}checked{{/if}}>
+          <label for="hd-d8" class="segment-button"><i class="fas fa-dice-d8"></i> d8</label>
+
+          <input type="radio" id="hd-d10" name="system.hd" value="d10" {{#if (eq system.hd "d10")}}checked{{/if}}>
+          <label for="hd-d10" class="segment-button"><i class="fas fa-dice-d10"></i> d10</label>
+
+          <input type="radio" id="hd-d12" name="system.hd" value="d12" {{#if (eq system.hd "d12")}}checked{{/if}}>
+          <label for="hd-d12" class="segment-button"><i class="fas fa-dice-d12"></i> d12</label>
+        </div>
+      </div>
+      <div class="config-item">
+        <label>Initiative Roll Mode</label>
+        <div class="segmented-control">
+          <input type="radio" id="init-disadvantage" name="system.initiativeMode" value="disadvantage" {{#if (eq system.initiativeMode "disadvantage")}}checked{{/if}}>
+          <label for="init-disadvantage" class="segment-button">Disadvantage</label>
+
+          <input type="radio" id="init-normal" name="system.initiativeMode" value="normal" {{#if (or (eq system.initiativeMode "normal") (not system.initiativeMode))}}checked{{/if}}>
+          <label for="init-normal" class="segment-button">Normal</label>
+
+          <input type="radio" id="init-advantage" name="system.initiativeMode" value="advantage" {{#if (eq system.initiativeMode "advantage")}}checked{{/if}}>
+          <label for="init-advantage" class="segment-button">Advantage</label>
+        </div>
+      </div>
+      <div class="config-item">
+        <label>Moxie Roll Mode</label>
+        <div class="segmented-control">
+          <input type="radio" id="moxie-disadvantage" name="system.moxieMode" value="disadvantage" {{#if (eq system.moxieMode "disadvantage")}}checked{{/if}}>
+          <label for="moxie-disadvantage" class="segment-button">Disadvantage</label>
+
+          <input type="radio" id="moxie-normal" name="system.moxieMode" value="normal" {{#if (or (eq system.moxieMode "normal") (not system.moxieMode))}}checked{{/if}}>
+          <label for="moxie-normal" class="segment-button">Normal</label>
+
+          <input type="radio" id="moxie-advantage" name="system.moxieMode" value="advantage" {{#if (eq system.moxieMode "advantage")}}checked{{/if}}>
+          <label for="moxie-advantage" class="segment-button">Advantage</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- CHARACTER STATS -->
+    <section class="character-stats-config columnflex nowrap">
+      <h3>Character Statistics</h3>
+      <div class="config-row">
+        <div class="config-item">
+          <label title="Bulk">Bulk Capacity</label>
+          <input class="stat w70" name="system.bulk" type="number" value="{{system.bulk}}">
+        </div>
+        <div class="config-item">
+          <label title="Proficiency Bonus">Proficiency Bonus</label>
+          <input class="stat w70" name="system.prof" type="number" value="{{system.prof}}">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SKILL ATTRIBUTE CONFIGURATION -->
+  <section class="skill-attribute-config columnflex nowrap">
+    <h3>Skill Attribute Configuration</h3>
+    <p>Configure which attribute modifier each skill uses. Defaults are set automatically, but you can override them here.</p>
+
+    <div class="skill-config-grid">
+      {{#each system.skills as |skill s|}}
+        <div class="skill-config-row rowflex nowrap" data-skill="{{s}}">
+          <label class="skill-name">{{s}}</label>
+          <select data_type="skill_mod" name="system.skills.{{s}}.mod" class="skillModSelect">
+            {{selectOptions ../config.abilities selected=skill.mod localize=false}}
+          </select>
+          <a class="skill-mod-revert" title="Revert to default attribute mod"><i class="fa fa-undo"></i></a>
+        </div>
+      {{/each}}
+    </div>
+  </section>
+
+</main>
+
+</div>
+</form>

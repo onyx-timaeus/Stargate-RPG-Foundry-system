@@ -1,0 +1,30 @@
+{
+  "_id": "SaU5t2HqhhcXtzbc",
+  "name": "Resilient Mind",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "4",
+    "bonus": "At 4th level, when you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1)."
+  },
+  "effects": [],
+  "folder": "HWDwDrXYLdkJC9B5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410295,
+    "modifiedTime": 1767232410295,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!SaU5t2HqhhcXtzbc"
+}

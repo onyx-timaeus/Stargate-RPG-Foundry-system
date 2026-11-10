@@ -1,0 +1,57 @@
+<div class="weapon-selector-content">
+  <!-- Search bar -->
+  <div class="search-bar">
+    <input type="text" id="weapon-search" placeholder="Search weapons..." />
+  </div>
+
+  <!-- Weapons grid -->
+  <div class="weapons-grid">
+    {{#each weapons as |weapon|}}
+    <div class="weapon-card" data-weapon-id="{{weapon.id}}">
+      <div class="card-header">
+        <div class="weapon-image">
+          <img src="{{weapon.img}}" alt="{{weapon.name}}" />
+        </div>
+        <div class="weapon-title">
+          <div class="weapon-name">{{weapon.name}}</div>
+          {{#if weapon.system.profType}}
+          <div class="weapon-prof-type">{{lookup ../config.weaponProficienciesSingular weapon.system.profType}}</div>
+          {{/if}}
+        </div>
+      </div>
+      <div class="weapon-stats-grid">
+        <div class="weapon-stat">
+          <span class="stat-label">DMG:</span>
+          <span class="stat-value">{{weapon.system.dmg}}</span>
+        </div>
+        <div class="weapon-stat">
+          <span class="stat-label">TYPE:</span>
+          <span class="stat-value">{{weapon.system.details.type}}{{#if weapon.system.details.sec_type}}/{{weapon.system.details.sec_type}}{{/if}}</span>
+        </div>
+        <div class="weapon-stat">
+          <span class="stat-label">TARGET:</span>
+          <span class="stat-value">{{#if weapon.system.target.value}}{{weapon.system.target.value}} {{/if}}{{weapon.system.target.type}}</span>
+        </div>
+        <div class="weapon-stat">
+          <span class="stat-label">RANGE:</span>
+          <span class="stat-value">{{weapon.system.details.range.normal}}/{{weapon.system.details.range.max}}</span>
+        </div>
+        <div class="weapon-stat">
+          <span class="stat-label">MAG:</span>
+          <span class="stat-value">{{#if weapon.system.ammo.max}}{{weapon.system.ammo.max}}{{else}}-{{/if}}</span>
+        </div>
+        <div class="weapon-stat">
+          <span class="stat-label">RELOAD:</span>
+          <span class="stat-value">{{#if weapon.system.ammo.reload}}{{weapon.system.ammo.reload}}{{else}}-{{/if}}</span>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+  {{#unless weapons.length}}
+  <div class="no-weapons">
+    <p>No weapons found. Create weapon items in the Items directory first.</p>
+  </div>
+  {{/unless}}
+</div>

@@ -1,0 +1,23 @@
+{
+  "_id": "Az9j3YjykvnLOCAw",
+  "name": "Level 2",
+  "type": "Item",
+  "folder": "zkMGCqFRefNFfSEH",
+  "description": "",
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": null,
+    "modifiedTime": 1767364721874,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!Az9j3YjykvnLOCAw"
+}

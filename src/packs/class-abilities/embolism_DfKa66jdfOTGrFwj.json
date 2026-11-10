@@ -1,0 +1,30 @@
+{
+  "_id": "DfKa66jdfOTGrFwj",
+  "name": "Embolism",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "Procedure",
+    "bonus": "You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage."
+  },
+  "effects": [],
+  "folder": "ZqlChUJLCCEMkUhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410382,
+    "modifiedTime": 1767232410382,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DfKa66jdfOTGrFwj"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "9biIjBFRdffEcYZP",
+  "name": "Attack Ace",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "4",
+    "requirement": "Level 17, Attack Veteran with chosen Weapon Proficiency",
+    "category": "Combat - General",
+    "bonus": "Choose one weapon proficiency with which you have selected with the Attack Veteran feat. When making attacks with that proficiency you roll quadruple as many weapon damage dice for damage instead of triple. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311875,
+    "modifiedTime": 1767373311875,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!9biIjBFRdffEcYZP"
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "klNl3A32eHCiYYwe",
+  "name": "Rush",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "soldier",
+    "level": "Tactic",
+    "bonus": "As a bonus action on your turn you may allow a team member to take a Dash action."
+  },
+  "effects": [],
+  "folder": "MELo3UoS4m90z3Ib",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410449,
+    "modifiedTime": 1767232410449,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!klNl3A32eHCiYYwe"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "Kp5JxXg5aVXXZFRi",
+  "name": "Flash-Bang",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/flash-bang.webp",
+  "system": {
+    "description": "This thrown weapon explodes with shrapnel, concussive force, gas, or bright chemical light, and sounds. There are three types of grenades used by Stargate Phoenix: Flash-Bang grenades deal no damage but force every character within the blast to succeed at a Constitution save (DC 11+ attacker’s Proficiency bonus) or become blind and deaf for 1d6 rounds. Characters proficient in common weapons or explosives are considered proficient with grenades. A grenade is thrown at a point (see page 157) rather than at a target and goes off at the start of the throwing character’s next turn (or 6 seconds after release).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Explosives",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 3
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767783239025,
+    "modifiedTime": 1767783281777,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!Kp5JxXg5aVXXZFRi"
+}

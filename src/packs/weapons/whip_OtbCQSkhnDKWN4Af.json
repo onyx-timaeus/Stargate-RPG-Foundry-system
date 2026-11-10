@@ -1,0 +1,64 @@
+{
+  "_id": "OtbCQSkhnDKWN4Af",
+  "name": "Whip",
+  "type": "weapon",
+  "img": "systems/sgrpg/assets/compendium/weapons/whip.webp",
+  "system": {
+    "description": "Braided whips, lengths of chains, or any number of flexible weapons fall into this category.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Common",
+      "type": "Melee Weapon",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "dex",
+    "attackBonus": "",
+    "dmg": "1d4",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "slashing",
+      "sec_type": "",
+      "range": {
+        "normal": 2,
+        "max": 2
+      },
+      "special": "Finesse, Flexible"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "none"
+  },
+  "effects": [],
+  "folder": "V8wg6oPwvU79ioG8",
+  "sort": 100782,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409867,
+    "modifiedTime": 1773766631151,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!OtbCQSkhnDKWN4Af"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "84MLu6VKiBX8O9GE",
+  "name": "Level 5",
+  "type": "Item",
+  "folder": "zkMGCqFRefNFfSEH",
+  "description": "",
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": null,
+    "modifiedTime": 1767364721874,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!84MLu6VKiBX8O9GE"
+}

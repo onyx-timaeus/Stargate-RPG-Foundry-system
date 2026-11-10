@@ -1,0 +1,51 @@
+<div class="equip-config-wrapper">
+    <!-- BASIC INFO -->
+    <div class="equip-section">
+        <div class="section-title">BASIC INFO</div>
+        <div class="section-content">
+            <div class="equip-stat-row">
+                <div class="equip-stat">
+                    <label for="system.bulk">Bulk</label>
+                    <input type="text" name="system.bulk" value="{{data.bulk}}" data-dtype="Number"/>
+                </div>
+                <div class="equip-stat">
+                    <label for="system.quantity">Quantity</label>
+                    <input type="text" name="system.quantity" value="{{data.quantity}}" data-dtype="Number"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ORIGIN, TYPE, AND RESTRICTION -->
+    <div class="equip-section">
+        <div class="section-title">LORE INFO</div>
+        <div class="section-content">
+            <div class="equip-stat-row">
+                <div class="equip-stat equip-stat-full">
+                    <label for="system.lore.origin">Origin</label>
+                    <input type="text" name="system.lore.origin" value="{{data.lore.origin}}" data-dtype="String" placeholder="e.g., Ancient, Goa'uld, Tau'ri, Asgard..."/>
+                </div>
+            </div>
+            <div class="equip-stat-row">
+                <div class="equip-stat equip-stat-full">
+                    <label for="system.lore.type">Type</label>
+                    <input type="text" name="system.lore.type" value="{{data.lore.type}}" data-dtype="String" placeholder="e.g., Medical Device, Communication Device, Tool..."/>
+                </div>
+            </div>
+            <div class="equip-stat-row">
+                <div class="equip-stat equip-stat-full">
+                    <label for="system.lore.restriction">Operation Restriction</label>
+                    <input type="text" name="system.lore.restriction" value="{{data.lore.restriction}}" data-dtype="String" placeholder="e.g., ATA Gene Required, Specialized Training..."/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESCRIPTION -->
+    <div class="equip-section equip-description-section">
+        <div class="section-title">DESCRIPTION</div>
+        <div class="section-content">
+            {{editor data.description target="system.description" button=true owner=owner editable=editable}}
+        </div>
+    </div>
+</div>

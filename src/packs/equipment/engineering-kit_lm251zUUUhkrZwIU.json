@@ -1,0 +1,37 @@
+{
+  "_id": "lm251zUUUhkrZwIU",
+  "name": "Engineering Kit",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/engineering-kit.webp",
+  "system": {
+    "description": "This small hardened case contains a series of repair and maintenance tools carefully stored for ease of access. It contains a long list of tools and parts, including (but not limited to); an electric drill/driver with dozens of attachments and screws, portable welding torch, steel sheets, and powerful adhesives. A character can use this kit to repair 1d6 damage to a mechanical device (such as a drone). A proficient character repairs 2d6 damage.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Tool",
+      "restriction": "",
+      "description": "Comprehensive repair toolkit"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409919,
+    "modifiedTime": 1767785433733,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!lm251zUUUhkrZwIU"
+}

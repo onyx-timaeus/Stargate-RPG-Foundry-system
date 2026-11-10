@@ -1,0 +1,37 @@
+{
+  "_id": "VD7HYeDYvaseG0Vz",
+  "name": "Signal Beacon",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/signal-beacon.webp",
+  "system": {
+    "description": "This palm-sized transmitter emits a constant frequency for up to 50 hours per tech level. A receiver of the same tech-level is usually required to receive the transmission and locate the beacon. A tech level 2 beacon can be detected within 1000km, TL 3 on the same planet, TL 4 within the same solar system, and TL 5 anywhere within the Milky Way galaxy.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Communications",
+      "restriction": "",
+      "description": "Emergency locator beacon"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409994,
+    "modifiedTime": 1767815048286,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!VD7HYeDYvaseG0Vz"
+}

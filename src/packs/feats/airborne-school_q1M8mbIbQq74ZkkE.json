@@ -1,0 +1,39 @@
+{
+  "_id": "q1M8mbIbQq74ZkkE",
+  "name": "Airborne School",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "3",
+    "requirement": "Athletics",
+    "category": "General",
+    "bonus": "You gain resistance to falling damage. In addition, you gain advantage on any check to open a parachute at altitudes below 1km.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1bsyEv1wSDQ9PFRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311827,
+    "modifiedTime": 1767373311827,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!q1M8mbIbQq74ZkkE"
+}

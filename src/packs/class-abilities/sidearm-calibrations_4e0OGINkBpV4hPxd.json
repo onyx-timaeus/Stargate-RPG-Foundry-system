@@ -1,0 +1,30 @@
+{
+  "_id": "4e0OGINkBpV4hPxd",
+  "name": "Sidearm Calibrations",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "Modification",
+    "bonus": "During a long rest you may choose one character's sidearm. It provides a +1d4 to attack rolls against targets at short range until your next long rest. You may choose this modification multiple times, each time you do you may apply the bonus to an additional weapon."
+  },
+  "effects": [],
+  "folder": "c8PKt9qYlMbTGZUX",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410373,
+    "modifiedTime": 1767232410373,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!4e0OGINkBpV4hPxd"
+}

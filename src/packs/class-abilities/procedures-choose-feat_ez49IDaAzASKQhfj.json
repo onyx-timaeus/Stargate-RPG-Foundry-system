@@ -1,0 +1,30 @@
+{
+  "_id": "ez49IDaAzASKQhfj",
+  "name": "Procedures (Choose Feat)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "medic",
+    "level": "1",
+    "bonus": "You’velearnedafewadvancedmedicalandscientific procedures you can employ in the field. Choose one procedure feat (see page 100) at 1st level and an additional procedure feat at 3rd level and 5th level."
+  },
+  "effects": [],
+  "folder": "m2WftcawB7KznrSe",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410262,
+    "modifiedTime": 1767232410262,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ez49IDaAzASKQhfj"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "QRNTEMugxsh59oEM",
+  "name": "Spook",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Intimidate",
+    "category": "Combat - General",
+    "bonus": "You're able to keep a target's attention where you want it, even when they're on to you. You may spend a Determination point to take a Taunt action against a target who has resisted your taunt during the encounter.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "lg8wviYC5MtJayV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1767373311896,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!QRNTEMugxsh59oEM"
+}

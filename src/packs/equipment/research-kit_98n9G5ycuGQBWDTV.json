@@ -1,0 +1,37 @@
+{
+  "_id": "98n9G5ycuGQBWDTV",
+  "name": "Research Kit",
+  "type": "equip",
+  "img": "icons/tools/laboratory/vials-blue-pink.webp",
+  "system": {
+    "description": "Field research tools (vials, beakers, burner, microscope). Grants advantage on Science checks in chosen field.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Tool",
+      "restriction": "Must specify scientific field",
+      "description": "Scientific research equipment"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409951,
+    "modifiedTime": 1767789909144,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!98n9G5ycuGQBWDTV"
+}

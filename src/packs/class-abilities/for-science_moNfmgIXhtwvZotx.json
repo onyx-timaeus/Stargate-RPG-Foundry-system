@@ -1,0 +1,30 @@
+{
+  "_id": "moNfmgIXhtwvZotx",
+  "name": "For Science!",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scientist",
+    "level": "5",
+    "bonus": "At 5th level, you may spend a Eureka point to gain advantage on Charisma checks in addition to Intelligence and Wisdom checks."
+  },
+  "effects": [],
+  "folder": "blPcXI31In7MgEK5",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410301,
+    "modifiedTime": 1767232410301,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!moNfmgIXhtwvZotx"
+}

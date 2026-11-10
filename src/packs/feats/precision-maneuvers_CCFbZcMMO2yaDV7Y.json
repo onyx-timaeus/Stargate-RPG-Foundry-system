@@ -1,0 +1,39 @@
+{
+  "_id": "CCFbZcMMO2yaDV7Y",
+  "name": "Precision Maneuvers",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Martial Arts Proficiency",
+    "category": "Combat - Melee",
+    "bonus": "When you attempt to Disarm or Trip a target, you may use Dexterity instead of Strength when making the Athletics check.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1FaSsqrJRvSEV8ai",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!CCFbZcMMO2yaDV7Y"
+}

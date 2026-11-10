@@ -1,0 +1,46 @@
+{
+  "_id": "ZInBP61WnsPbB0mz",
+  "name": "Grasslands",
+  "type": "origin",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "originType": "biome",
+    "description": "The rolling savannahs or tilled fields of your home were a bounty for the people in times of peace and a prize to be won in times of war. Clean air, abundant resources, and wide open spaces see many grassland youths grow healthy and tall.",
+    "requirements": "",
+    "attributeBonus": "con",
+    "bonus": "Attribute: Constitution +1. Natural Sprinter: Your movement speed increases by 1m.",
+    "proficiencies": {
+      "skill": "none",
+      "weapon": "none",
+      "armor": "none",
+      "tool": "none"
+    },
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "uUK6KpnGHkN9W2yz",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410028,
+    "modifiedTime": 1767886563758,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ZInBP61WnsPbB0mz"
+}

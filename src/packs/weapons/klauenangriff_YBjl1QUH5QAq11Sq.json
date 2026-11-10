@@ -1,0 +1,64 @@
+{
+  "_id": "YBjl1QUH5QAq11Sq",
+  "name": "Klauenangriff",
+  "type": "weapon",
+  "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+  "system": {
+    "description": "",
+    "techLevel": 1,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 1,
+    "quantity": 1,
+    "attackAbility": "str",
+    "attackBonus": "",
+    "dmg": "2d6",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "slashing",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": "creature"
+    },
+    "profType": "martialArts"
+  },
+  "effects": [],
+  "folder": "xbr6d7P5Pu4dfEZD",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1773766686618,
+    "modifiedTime": 1773766748987,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!YBjl1QUH5QAq11Sq"
+}

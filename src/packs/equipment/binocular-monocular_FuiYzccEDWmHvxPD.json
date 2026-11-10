@@ -1,0 +1,37 @@
+{
+  "_id": "FuiYzccEDWmHvxPD",
+  "name": "Binocular/Monocular",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/binocular-monocular.webp",
+  "system": {
+    "description": "A staple of forward forces, this device magnifies vision, negating any disadvantage gained from distance that a character might suffer on Investigation or Perception checks when surveying a target.",
+    "techLevel": 1,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Visual magnification device"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409989,
+    "modifiedTime": 1767785305852,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!FuiYzccEDWmHvxPD"
+}

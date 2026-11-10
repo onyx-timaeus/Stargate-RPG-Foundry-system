@@ -1,0 +1,39 @@
+{
+  "_id": "k9kxzfJrqizOnwvZ",
+  "name": "Party Animal",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "None",
+    "category": "Downtime",
+    "bonus": "If there's drinking, dancing, and general merry-making to be had, you'll be there with bells on. You're the life of the party and can always be counted on to share a good time. If you spend your downtime partying (which does not require a facility) you may choose to begin a mission with 1 level of exhaustion. If you do, you do not suffer disadvantage on any checks caused by exhaustion during the mission.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "iH4mEqkFzRNakx8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311915,
+    "modifiedTime": 1767373311915,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!k9kxzfJrqizOnwvZ"
+}

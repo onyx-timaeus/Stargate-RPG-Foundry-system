@@ -1,0 +1,39 @@
+{
+  "_id": "diEizmbNC1yi7Xpr",
+  "name": "Overwatchers",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "5",
+    "requirement": "Tactical Flexibility ability",
+    "category": "Tactic",
+    "bonus": "During a firefight, when you and your team members take the Overwatch action you cover a 90° field instead of a 45° cone. In addition, you may make two Overwatch attacks (against different targets).",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "oOZCNrDZC7mr1InM",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311966,
+    "modifiedTime": 1767373311966,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!diEizmbNC1yi7Xpr"
+}

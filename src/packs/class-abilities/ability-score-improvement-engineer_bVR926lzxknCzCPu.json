@@ -1,0 +1,30 @@
+{
+  "_id": "bVR926lzxknCzCPu",
+  "name": "Ability Score Improvement (Engineer)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "engineer",
+    "level": "4",
+    "bonus": "At 4th level, you can increase your Dexterity or Intelligence by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+  },
+  "effects": [],
+  "folder": "yamDJ7OtAMP33h3A",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410255,
+    "modifiedTime": 1767232410255,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!bVR926lzxknCzCPu"
+}

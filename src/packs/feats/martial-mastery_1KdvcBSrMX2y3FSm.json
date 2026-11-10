@@ -1,0 +1,39 @@
+{
+  "_id": "1KdvcBSrMX2y3FSm",
+  "name": "Martial Mastery",
+  "type": "feat",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "mpCost": "7",
+    "requirement": "Proficient in 3 weapon types, except Common weapons",
+    "category": "Combat - Melee",
+    "bonus": "You've become a master at striking where it will hurt most. When making melee attacks with melee weapons or Martial Arts, increase the damage die or dice one step (d4s becomes d6s, d6s becomes d8s, d8s becomes d10s, and d10s become d12s). This feat may be chosen multiple times, but may not increase an attack's die size above 1d12.",
+    "castTime": {
+      "value": "",
+      "type": ""
+    },
+    "limitations": {
+      "value": "",
+      "type": ""
+    }
+  },
+  "effects": [],
+  "folder": "1FaSsqrJRvSEV8ai",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767373311896,
+    "modifiedTime": 1767373311896,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!1KdvcBSrMX2y3FSm"
+}

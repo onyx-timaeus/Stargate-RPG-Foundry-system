@@ -1,0 +1,37 @@
+{
+  "_id": "XdqD4vYfyU5OVNxk",
+  "name": "Flashlight",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/flashlight.webp",
+  "system": {
+    "description": "This clippable light source uses batteries with 36 hours of run time. It also has a collapsible hand crank, which can recharge the light for 10 minutes of run time with 1 minute of turning. The chassis is constructed with both clips and magnetic attachments, allowing it to be worn on the shoulder or helmet, attached to a firearm, or carried in hand. The flashlight shines in a cone up to 10m per tech level (20m for standard issue Tau’ri flashlights).",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Equipment",
+      "restriction": "",
+      "description": "Tactical flashlight"
+    },
+    "bulk": 1,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409925,
+    "modifiedTime": 1767814565822,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!XdqD4vYfyU5OVNxk"
+}

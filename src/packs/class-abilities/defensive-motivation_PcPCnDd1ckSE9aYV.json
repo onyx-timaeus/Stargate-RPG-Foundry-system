@@ -1,0 +1,30 @@
+{
+  "_id": "PcPCnDd1ckSE9aYV",
+  "name": "Defensive Motivation",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "diplomat",
+    "level": "Inspiration",
+    "bonus": "Inspired characters gains +1 AC."
+  },
+  "effects": [],
+  "folder": "sKGnZId420zD8gjY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410342,
+    "modifiedTime": 1767232410342,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!PcPCnDd1ckSE9aYV"
+}

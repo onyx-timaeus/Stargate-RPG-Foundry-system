@@ -1,0 +1,37 @@
+{
+  "_id": "KxLXgYWNagAfFpTS",
+  "name": "Bullet Resistant Vest",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/bullet-resistant-vest.webp",
+  "system": {
+    "description": "A vest designed to disperse the impact of projectiles. This armor can be concealed and requires a DC 20 Perception check to spot when worn beneath clothing.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Concealable body armor"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409885,
+    "modifiedTime": 1767785322913,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!KxLXgYWNagAfFpTS"
+}

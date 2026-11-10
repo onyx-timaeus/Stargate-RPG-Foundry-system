@@ -1,0 +1,64 @@
+{
+  "_id": "8jot7q8n7oS7Gyc4",
+  "name": "Anesthesia Injection",
+  "type": "weapon",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "techLevel": 2,
+    "lore": {
+      "origin": "",
+      "type": "",
+      "restriction": "",
+      "description": ""
+    },
+    "bulk": 0,
+    "quantity": 1,
+    "attackAbility": "str",
+    "attackBonus": "",
+    "dmg": "1d3",
+    "atkSnd": "",
+    "dmgSnd": "",
+    "ammo": {
+      "bulk": null,
+      "value": null,
+      "max": null,
+      "target": null,
+      "reload": ""
+    },
+    "details": {
+      "type": "paralyze",
+      "sec_type": "",
+      "range": {
+        "normal": 1,
+        "max": 1
+      },
+      "special": "Causes Constitution damage"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "type": ""
+    },
+    "profType": "commonWeapons"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767969212534,
+    "modifiedTime": 1767969667614,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!8jot7q8n7oS7Gyc4"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "QWBYd00AqNu5eBBk",
+  "name": "Tactical Helmet",
+  "type": "equip",
+  "img": "systems/sgrpg/assets/compendium/equipment/tactical-helmet.webp",
+  "system": {
+    "description": "A combat helmet issued to most soldiers with night vision modification as well as attachment points for additional lighting or other tools.",
+    "techLevel": 2,
+    "lore": {
+      "origin": "Tau'ri",
+      "type": "Armor",
+      "restriction": "",
+      "description": "Combat helmet with night vision"
+    },
+    "bulk": 0,
+    "quantity": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232409887,
+    "modifiedTime": 1767882792842,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!QWBYd00AqNu5eBBk"
+}

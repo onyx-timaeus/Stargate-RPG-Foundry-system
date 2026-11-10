@@ -1,0 +1,30 @@
+{
+  "_id": "SIEaeTl45sQPWIWq",
+  "name": "Ability Score Improvement (Scout)",
+  "type": "classAbility",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "scout",
+    "level": "4",
+    "bonus": "At 4th level, you can increase your Dexterity or Wisdom by +2, or you can increase two ability scores of your choice by +1. As normal, you can’t increase an ability score above 20 using this feature."
+  },
+  "effects": [],
+  "folder": "LAYxHRQArcuDKICh",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767232410316,
+    "modifiedTime": 1767232410316,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!SIEaeTl45sQPWIWq"
+}
