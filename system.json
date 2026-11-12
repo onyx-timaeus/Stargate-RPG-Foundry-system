@@ -2,7 +2,7 @@
   "id": "sgrpg",
   "title": "Stargate RPG",
   "description": "System for Stargate RPG created by Wyvern Gaming, https://stargatetherpg.com/",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "authors": [
     {
       "name": "onyx-timaeus",
@@ -132,8 +132,8 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
   "url": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system",
-  "manifest": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/releases/latest/download/system.json",
-  "download": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/releases/download/1.0.0/system.zip",
+  "manifest": "https://raw.githubusercontent.com/onyx-timaeus/Stargate-RPG-Foundry-system/master/system.json",
+  "download": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/releases/download/2.1.0/system.zip",
   "packFolders": [
     {
       "name": "Stargate RPG",
