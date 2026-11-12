@@ -1,0 +1,948 @@
+{
+  "_id": "3422e6d123a9b0da",
+  "name": "CR18: Assassin",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 129,
+      "max": 129
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 6,
+    "ac": 21,
+    "speed": 6,
+    "initiative": 5,
+    "moxie": 1,
+    "cr": 18,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Longarm, Tactical Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p>",
+    "details": "<p>Medium Humanoid (Scout 19)</p><p>CR 18</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "dex": {
+        "value": 20,
+        "mod": "+5"
+      },
+      "con": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "int": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "wis": {
+        "value": 18,
+        "mod": "+4"
+      },
+      "cha": {
+        "value": 11,
+        "mod": "+0"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+10",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+11",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+10",
+        "proficient": true,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+11",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": true,
+        "shotguns": false,
+        "martialArts": true,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": true,
+        "engineeringKit": false,
+        "explosives": true,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "37988b8b3f6f12c7",
+      "name": "Survivalist",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/survivalist.webp",
+      "system": {
+        "class": "scout",
+        "level": "1",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You gain resistance to damage from your environment, including non-natural environmental dangers like traps.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.37988b8b3f6f12c7"
+    },
+    {
+      "_id": "d8617a2b82848613",
+      "name": "Vanguard (1d6)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/vanguard.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Stealth and Survival",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You deal +1d6 additional damage with ranged attacks against any target within 5m. You may purchase this ability a number of times equal to your Proficiency bonus, increasing the bonus damage +1d6 each time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.d8617a2b82848613"
+    },
+    {
+      "_id": "56e272986e125419",
+      "name": "Trap Rigging",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/trap-rigging.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Survivalist ability",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You can use excess equipment to booby trap a 1m area as an action. You can scavenge parts for a number of traps equal to your Proficiency bonus, refilling these parts during any long rest. When a character enters the designated 1m area it will trigger the trap, but characters may make a Perception check (DC 8 + your Proficiency bonus + your Wisdom modifier) to notice the trap before entering the area.</p><p>You may set one of three traps:</p><ul><li>Hidden Spikes: The target must succeed at a DC 20 Dexterity save or suffer 2d6 damage.</li><li>Snare: The target must succeed at a DC 20 Dexterity save or become entangled. It requires an action and a successful DC 20 Strength, Dexterity, or Wisdom check to remove this condition.</li><li>Grenade: You may attach your trap to a grenade in your possession, which is detonated when the trap is activated.</li></ul>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.56e272986e125419"
+    },
+    {
+      "_id": "deeffca9cf17bcab",
+      "name": "Uncanny Dodge",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/uncanny-dodge.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Dexterity 13+",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": "reaction"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When an attacker that you can see hits you with an attack, you can use your reaction to gain resistance to the damage. This ability does not function against attacks that deal damage in an area or cone (but it does work against line effects).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.deeffca9cf17bcab"
+    },
+    {
+      "_id": "62ce83b6057fa49d",
+      "name": "Scout's Cunning",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/scout-s-cunning.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Dexterity 13+, Athletics",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.62ce83b6057fa49d"
+    },
+    {
+      "_id": "333018d96262749c",
+      "name": "Evasion",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/evasion.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Dexterity 13+",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You can nimbly dodge out of the way of certain area effects. When you are subjected to an effect that allows a Dexterity saving throw to take only half damage, you instead take no damage if you succeed and only half damage if you fail.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.333018d96262749c"
+    },
+    {
+      "_id": "7269e390f37dda6b",
+      "name": "Precise Shot",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/precise-shot.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "None",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you make ranged attacks, the target does not gain the benefits of cover granted by creatures (but terrain or equipment based cover is unaffected).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.7269e390f37dda6b"
+    },
+    {
+      "_id": "5ab5577fc0167b92",
+      "name": "Skill Proficiency",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/skill-proficiency.webp",
+      "system": {
+        "mpCost": "3, 6, 9",
+        "requirement": "None",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Gain proficiency in a skill of your choice. You may select this ability up to three times, and each time its MP cost increases by 3MP.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.5ab5577fc0167b92"
+    },
+    {
+      "_id": "22585f516b6dc6a5",
+      "name": "Sniper Techniques",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/sniper-techniques.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Attack Veteran with Longarms",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Your longarm attacks deal +TD if you do not move on your turn (either before or after attacking).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.22585f516b6dc6a5"
+    },
+    {
+      "_id": "f5f2ac687b0e096e",
+      "name": "Sniper Trick Shots",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/sniper-trickshots.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Sniper Techniques",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may make a trip or disarm attempt (see page 158) instead of dealing damage, using an attack roll with your longarm in place of your Athletics check during the contest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.f5f2ac687b0e096e"
+    },
+    {
+      "_id": "234fd49b54aeaa7f",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/weapon-proficiency.webp",
+      "system": {
+        "mpCost": "3",
+        "requirement": "None",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose one type of weapon (Common, Sidearm, Gunnery, etc.) and gain proficiency in that weapon. You may select this ability multiple times, choosing a different weapon type each time. This feat cannot be used to choose Martial Arts proficiency.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.234fd49b54aeaa7f"
+    },
+    {
+      "_id": "3f4376bf2d003e1f",
+      "name": "Camp Security",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/camp-security.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Survivalist ability, Perception",
+        "category": "Field Hack",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Your adept site preparation provides advantage on any Perception checks to notice approaching creatures while taking a short or long rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.3f4376bf2d003e1f"
+    },
+    {
+      "_id": "7629c738d6cbda4f",
+      "name": "Hide Tracks",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/hide-tracks.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Survivalist ability, Stealth",
+        "category": "Field Hack",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Raise the DC to track your party by your Proficiency bonus or to DC 20 (hard difficulty), whichever result yields a higher DC.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 120,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.7629c738d6cbda4f"
+    },
+    {
+      "_id": "03572855b93f5ae0",
+      "name": "Tactical Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/tactical-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavier version of the bullet-resistant vest, the tactical vest cannot be concealed but offers additional protection. It also has additional pockets, bandoleer straps, and quick release clips for carrying additional equipment.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Standard issue tactical vest"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 130,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.03572855b93f5ae0"
+    },
+    {
+      "name": "Longarm",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/longarm.webp",
+      "system": {
+        "description": {
+          "value": "<p>Longarm +11 to hit, range 200m/1800m, one target, Hit: 33 (8d6+5) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "longarms",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "8d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 200,
+            "max": 1800
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "4734f89b3f0d40a1",
+      "sort": 140,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.4734f89b3f0d40a1"
+    },
+    {
+      "name": "Martial Arts",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/martial-arts.webp",
+      "system": {
+        "description": {
+          "value": "<p>Martial Arts +9 to hit, range 1m, one target, Hit: 17 (4d6+3) bludgeoning damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "martialArts",
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "4d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "735089519f637a70",
+      "sort": 150,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3422e6d123a9b0da.735089519f637a70"
+    }
+  ],
+  "effects": [],
+  "folder": "058c5566bf6db55a",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR18: Assassin",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-scout",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!3422e6d123a9b0da"
+}

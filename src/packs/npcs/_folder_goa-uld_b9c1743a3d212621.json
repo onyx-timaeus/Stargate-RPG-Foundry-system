@@ -1,0 +1,23 @@
+{
+  "_id": "b9c1743a3d212621",
+  "name": "Goa'uld",
+  "type": "Actor",
+  "folder": "8ebe07cb97bac998",
+  "description": "",
+  "sorting": "m",
+  "sort": 100,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!b9c1743a3d212621"
+}

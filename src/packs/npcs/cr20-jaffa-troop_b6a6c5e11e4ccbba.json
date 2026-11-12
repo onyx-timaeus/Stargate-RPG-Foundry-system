@@ -1,0 +1,366 @@
+{
+  "_id": "b6a6c5e11e4ccbba",
+  "name": "CR20: Jaffa Troop",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 125,
+      "max": 125
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 6,
+    "ac": 22,
+    "speed": 6,
+    "initiative": 3,
+    "moxie": 2,
+    "cr": 20,
+    "size": "medium",
+    "gm_notes": "<p>Rank and file Jaffa (Core Rulebook p.303). Choose 5 skill proficiencies and 40 MP of feats. Attributes may be rearranged (pilots swap Strength and Dexterity). Light armor until about CR 13.</p>",
+    "details": "<p>Medium Humanoid (Jaffa)</p><p>CR 20</p><p>Speed 6m</p><p>20 Hit Dice</p>",
+    "attributes": {
+      "str": {
+        "value": 20,
+        "mod": "+5"
+      },
+      "dex": {
+        "value": 17,
+        "mod": "+3"
+      },
+      "con": {
+        "value": 20,
+        "mod": "+5"
+      },
+      "int": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 14,
+        "mod": "+2"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": true
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": true
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Symbiote",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/symbiote.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Racial",
+        "description": {
+          "value": "<p>Jaffa may gain advantage on any physical (Strength, Dexterity, Constitution) save. A Jaffa may use this ability once per Strength modifier (minimum 1) per long rest.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "1360d0abfc314a1a",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!b6a6c5e11e4ccbba.1360d0abfc314a1a"
+    },
+    {
+      "_id": "94a7b5cd3276c33b",
+      "name": "Ma'tok (Melee)",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/ma-tok-melee.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Ma'tok staff can also be used as a melee weapon in close combat.</p>"
+        },
+        "techLevel": 1,
+        "lore": {
+          "origin": "Goa'uld/Jaffa",
+          "type": "Melee Weapon",
+          "restriction": "Jaffa Weapon proficiency",
+          "description": "Staff weapon used in melee"
+        },
+        "bulk": 2,
+        "quantity": 1,
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "1d10",
+        "atkSnd": "",
+        "dmgSnd": "",
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": ""
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": "",
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        },
+        "profType": "none"
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!b6a6c5e11e4ccbba.94a7b5cd3276c33b"
+    }
+  ],
+  "effects": [],
+  "folder": "77ac173d11524e0d",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR20: Jaffa Troop",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "jaffa",
+      "source": "Core Rulebook p.303"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!b6a6c5e11e4ccbba"
+}

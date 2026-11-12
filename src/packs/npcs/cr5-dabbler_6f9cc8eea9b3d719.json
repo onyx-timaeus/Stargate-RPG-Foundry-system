@@ -1,0 +1,786 @@
+{
+  "_id": "6f9cc8eea9b3d719",
+  "name": "CR5: Dabbler",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 38,
+      "max": 38
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 3,
+    "ac": 19,
+    "speed": 6,
+    "initiative": 2,
+    "moxie": 4,
+    "cr": 5,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Sidearm, Tactical Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p><p>Printed skill values above proficiency (expertise from feats/abilities): Perception +7 (expertise). The sheet recalculates skills as modifier + proficiency, so re-add the extra bonus if you edit the skills.</p>",
+    "details": "<p>Medium Humanoid (Engineer 6)</p><p>CR 5</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 18,
+        "mod": "+4"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 9,
+        "mod": "-1"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": true,
+        "explosives": true,
+        "fabricationKit": true,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "784d2f4d48d14371",
+      "name": "Jury Rig",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/jury-rig.webp",
+      "system": {
+        "class": "engineer",
+        "level": "1",
+        "description": {
+          "value": "<p>When you use an engineering kit to repair a machine you heal 2d8 points of damage instead of 2d6. In addition, you may repair an adjacent machine as an action rather than only during a short rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.784d2f4d48d14371"
+    },
+    {
+      "_id": "d5e42b2ed97c5207",
+      "name": "Hold Together",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/hold-together.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Engineering",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you benefit from cover, you gain resistance to the damage of attacks hindered by that cover.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.d5e42b2ed97c5207"
+    },
+    {
+      "_id": "9df7c76faacf2996",
+      "name": "Whack It",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/whack-it.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>As a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine's HP to above half its normal HP it begins to function immediately. You may only maintain these temporary HP on one machine at a time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.9df7c76faacf2996"
+    },
+    {
+      "_id": "44f0478d2d20f033",
+      "name": "Tune-Up",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/tune-up.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.44f0478d2d20f033"
+    },
+    {
+      "_id": "dcf6022280d50c4c",
+      "name": "Board-Spectrum Scanners",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/broad-spectrum-scanners.webp",
+      "system": {
+        "class": "engineer",
+        "level": "4",
+        "description": {
+          "value": "<p>At 4th level, you can use Intelligence instead of Wisdom when making Perception Checks.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.dcf6022280d50c4c"
+    },
+    {
+      "_id": "9b679539d4b2b453",
+      "name": "Pre-Planned Obsolescence",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/pre-planned-obsolescence.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may rig a machine to explode as an action. Choose a single mechanical device that could be conceivably rigged to explode (GM discretion). When anyone activates the machine, it explodes, forcing every character within 3m to suffer 6d6 damage (Dexterity save for half damage, DC 8 + Intelligence modifier + Proficiency bonus). A DC 20 Perception check is required to notice this trap.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.9b679539d4b2b453"
+    },
+    {
+      "_id": "e283c83f676b92bf",
+      "name": "Deadly Shot",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/deadly-shot.webp",
+      "system": {
+        "mpCost": "7",
+        "requirement": "Perception",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.e283c83f676b92bf"
+    },
+    {
+      "_id": "803a4e63d4f69336",
+      "name": "Fighter Ace",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/fighter-ace.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Pilot",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When aerial combat begins (see page 160), you add an additional d6 to your position pool. You may purchase this ability up to three times and its effects stack.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.803a4e63d4f69336"
+    },
+    {
+      "_id": "a1d0bd67b6bab509",
+      "name": "Armorer",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/armorer.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest, you may choose one character's armor. It gains +1 AC until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional armor.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.a1d0bd67b6bab509"
+    },
+    {
+      "_id": "ca1df12576d7f6c8",
+      "name": "Comms Tech",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/comms-tech.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Your team's tactical radio equipment has a range of 20km (instead of 5km). In addition, when you launch a communications balloon, its duration increases to 15d6 hours.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.ca1df12576d7f6c8"
+    },
+    {
+      "_id": "cd6f94d6ad26bc15",
+      "name": "Sidearm Calibrations",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/sidearm-calibrations.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest you may choose one character's sidearm. It provides a +1d4 to attack rolls against targets at short range until your next long rest. You may choose this modification multiple times, each time you do you may apply the bonus to an additional weapon.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.cd6f94d6ad26bc15"
+    },
+    {
+      "_id": "e8d75c61087ebad6",
+      "name": "Tactical Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/tactical-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavier version of the bullet-resistant vest, the tactical vest cannot be concealed but offers additional protection. It also has additional pockets, bandoleer straps, and quick release clips for carrying additional equipment.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Standard issue tactical vest"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.e8d75c61087ebad6"
+    },
+    {
+      "name": "Sidearm",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/sidearm.webp",
+      "system": {
+        "description": {
+          "value": "<p>Sidearm +5 to hit, range 50m/100m, one target, Hit: 13 (2d8+2+1d4) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "sidearms",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "2d8+1d4",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 50,
+            "max": 100
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "ee8b04648b059124",
+      "sort": 120,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f9cc8eea9b3d719.ee8b04648b059124"
+    }
+  ],
+  "effects": [],
+  "folder": "24d3ee9c33d494bc",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR5: Dabbler",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-engineer",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!6f9cc8eea9b3d719"
+}

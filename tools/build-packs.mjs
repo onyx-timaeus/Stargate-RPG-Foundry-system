@@ -27,6 +27,7 @@ export const slug = (s) =>
 const csvCell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
 const rows = [["pack", "folder", "name", "current image", "image file to add"]];
 let overrides = 0;
+const seenGroups = new Set();
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
@@ -47,6 +48,27 @@ for (const pack of fs.readdirSync(SRC).filter((d) => fs.statSync(path.join(SRC, 
   await compilePack(path.join(SRC, pack), path.join(OUT, pack), {
     log: false, recursive: true,
     transformEntry: (entry) => {
+      if (entry._key?.startsWith("!actors!")) {
+        // NPC actors: own picture (assets/compendium/npcs/<slug>.ext) or the group picture (_<group>.ext)
+        const sl = slug(entry.name);
+        const group = entry.flags?.["sgrpg-npcs"]?.group;
+        const has = (n) => EXT.find((e) => fs.existsSync(path.join(IMG, pack, `${n}.${e}`)));
+        let base = sl, ext = has(sl);
+        if (!ext && group) { base = `_${group}`; ext = has(base); }
+        // framed token variants (_<group>-token.ext) are used for the token; the portrait falls back to the token until one exists
+        const ownTok = has(`${sl}-token`);
+        const tokBase = ownTok ? `${sl}-token` : (group ? `_${group}-token` : null);
+        const tokExt = ownTok || (tokBase && has(tokBase));
+        if (ext || tokExt) {
+          entry.img = ext ? `${URL_BASE}/${pack}/${base}.${ext}` : `${URL_BASE}/${pack}/${tokBase}.${tokExt}`; overrides++;
+          const tokenSrc = tokExt ? `${URL_BASE}/${pack}/${tokBase}.${tokExt}` : entry.img;
+          entry.prototypeToken = { ...(entry.prototypeToken || {}), texture: { src: tokenSrc } };
+        } else if (group && !seenGroups.has(group)) {
+          seenGroups.add(group);
+          rows.push([pack, folderPath(entry.folder), `(group) ${group}`, entry.img, `assets/compendium/${pack}/_${group}.webp`]);
+        }
+        return;
+      }
       if (!entry._key?.startsWith("!items!")) return;
       const sl = slug(entry.name);
       if (seen.has(sl)) console.warn(`  note: "${entry.name}" shares its image name "${sl}" with another entry in ${pack}`);

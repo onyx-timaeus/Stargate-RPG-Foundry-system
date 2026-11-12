@@ -1,0 +1,23 @@
+{
+  "_id": "ed9931f90436dfa9",
+  "name": "Jaffa",
+  "type": "Actor",
+  "folder": null,
+  "description": "",
+  "sorting": "m",
+  "sort": 100,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ed9931f90436dfa9"
+}

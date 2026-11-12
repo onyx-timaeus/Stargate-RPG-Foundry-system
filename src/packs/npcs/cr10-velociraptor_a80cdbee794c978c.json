@@ -1,0 +1,551 @@
+{
+  "_id": "a80cdbee794c978c",
+  "name": "CR10: Velociraptor",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 74,
+      "max": 74
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 16,
+    "speed": 9,
+    "initiative": 1,
+    "moxie": -3,
+    "cr": 10,
+    "size": "medium",
+    "gm_notes": "<p>These wily hunting lizards move in small packs and use their keen instincts to outmaneuver victims, lay traps, and track food. This beast was built by selecting a CR 10 Biped (2 claw attacks) and giving it a bite and multi- attack. It was also given improved wisdom for tracking, and fast to make it too swift to flee.</p><p>Example beast, Core Rulebook pp.314-317.</p>",
+    "details": "<p>Medium Beast (Biped)</p><p>CR 10</p><p>Speed 9m</p><p>Abilities: Fast, Multi-attack, Natural Weapon (Bite), Improved Attribute (Wisdom) x2</p>",
+    "attributes": {
+      "str": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "dex": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "con": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "int": {
+        "value": 5,
+        "mod": "-3"
+      },
+      "wis": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 2,
+        "mod": "-4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Fast",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/fast.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast improves one movement speed of your choice by +3m.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "d551c7a1d084e167",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.d551c7a1d084e167"
+    },
+    {
+      "name": "Multi-attack",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/multiattack.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast can make an attack with each of its natural weapons when it attacks. A beast must have multiple natural attacks to take this ability.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "932592a3bb7f3ba9",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.932592a3bb7f3ba9"
+    },
+    {
+      "name": "Natural Weapon (Bite)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/natural-weapon.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast gains an additional natural attack of your choice. This ability may be taken multiple times.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "3951bc3c73434bba",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.3951bc3c73434bba"
+    },
+    {
+      "name": "Improved Attribute (Wisdom) x2",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/improved-attribute.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Choose one attribute to gain a +2 bonus. This ability may be chosen multiple times, and its effects stack.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "2df4a8500e0ca462",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.2df4a8500e0ca462"
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/bite.webp",
+      "system": {
+        "description": {
+          "value": "<p>Bite +6 to hit, reach 1m, one target, Hit: 11 (2d8+2) piercing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+4",
+        "dmg": "2d8",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "0d7eaf2e5f65322f",
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.0d7eaf2e5f65322f"
+    },
+    {
+      "name": "Claw (x2)",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/claw.webp",
+      "system": {
+        "description": {
+          "value": "<p>2 Claws +6 to hit, reach 1m, one target, Hit: 11 (2d8+2) slashing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+4",
+        "dmg": "2d8",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "slashing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "1e10c72982f5e5b1",
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a80cdbee794c978c.1e10c72982f5e5b1"
+    }
+  ],
+  "effects": [],
+  "folder": "df16196b1fbac186",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR10: Velociraptor",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "beast-biped",
+      "source": "Core Rulebook pp.314-317"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!a80cdbee794c978c"
+}

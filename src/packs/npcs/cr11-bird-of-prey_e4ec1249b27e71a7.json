@@ -1,0 +1,526 @@
+{
+  "_id": "e4ec1249b27e71a7",
+  "name": "CR11: Bird Of Prey",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 52,
+      "max": 52
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 13,
+    "speed": 1,
+    "initiative": 2,
+    "moxie": -3,
+    "cr": 11,
+    "size": "small",
+    "gm_notes": "<p>Long extinct on Earth, these hunting lizards often move in small packs and use their survival instincts to lay traps or track food. Those that evolve on other planets tend to have bright plumage that stands out from the environs. This beast was built by selecting a CR 7 Avian (2 claw attacks), fast three times and improved wisdom twice. It was then given keen sense, proficient, and tough twice to make it a CR 11.</p><p>Example beast, Core Rulebook pp.314-317.</p>",
+    "details": "<p>Small Beast (Avian)</p><p>CR 11</p><p>Speed 1m, Fly 15m</p><p>Abilities: Fast x3, Proficient, Improved Attribute (Wisdom) x2, Keen Sense (Sight), Tough x2</p>",
+    "attributes": {
+      "str": {
+        "value": 9,
+        "mod": "-1"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "int": {
+        "value": 5,
+        "mod": "-3"
+      },
+      "wis": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 2,
+        "mod": "-4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Fast x3",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/fast.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast improves one movement speed of your choice by +3m.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "47b2123b6dd444e7",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.47b2123b6dd444e7"
+    },
+    {
+      "name": "Proficient",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/proficient.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Increase the creature's Proficiency bonus by +1. This ability may be taken multiple times, but it may not improve the beast's Proficiency bonus above the listed bonus of the creature's final CR.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "2f9d3046a1bb7a39",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.2f9d3046a1bb7a39"
+    },
+    {
+      "name": "Improved Attribute (Wisdom) x2",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/improved-attribute.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Choose one attribute to gain a +2 bonus. This ability may be chosen multiple times, and its effects stack.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "2beebe585bf7945b",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.2beebe585bf7945b"
+    },
+    {
+      "name": "Keen Sense (Sight)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/keen-sense.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Choose one sense. The beast gains advantage on Perception checks that rely on the chosen sense. This ability may be chosen multiple times, selecting a different sense each time.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "3c5d4f7ca7c93038",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.3c5d4f7ca7c93038"
+    },
+    {
+      "name": "Tough x2",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/tough.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast gains additional HP equal to its final CR. The beast may take this ability multiple times.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "700284e94186dda5",
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.700284e94186dda5"
+    },
+    {
+      "name": "Claw (x2)",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/claw.webp",
+      "system": {
+        "description": {
+          "value": "<p>2 Claws +6 to hit, reach 1m, one target, Hit: 12 (3d6+2) slashing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "dex",
+        "attackBonus": "+4",
+        "dmg": "3d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "slashing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "a62e3891338e1378",
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e4ec1249b27e71a7.a62e3891338e1378"
+    }
+  ],
+  "effects": [],
+  "folder": "5ab9c553fcc3d0f8",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR11: Bird Of Prey",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "beast-avian",
+      "source": "Core Rulebook pp.314-317"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!e4ec1249b27e71a7"
+}

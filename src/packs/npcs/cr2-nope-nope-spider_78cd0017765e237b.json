@@ -1,0 +1,446 @@
+{
+  "_id": "78cd0017765e237b",
+  "name": "CR2: Nope-Nope Spider",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 10,
+      "max": 10
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 1,
+    "ac": 12,
+    "speed": 6,
+    "initiative": 3,
+    "moxie": -4,
+    "cr": 2,
+    "size": "tiny",
+    "gm_notes": "<p>This massive arachnid is about the size of a human hand and capable of leaping from the ground, wall, or ceiling onto a victim. They are incredibly aggressive hunters that tend to ambush anyone that comes near. This beast was built by selecting a CR 1 Insect (bite attack), the venomous and spider climb abilities to create an arachnid. Then the standing leap ability was chosen to make sudden attacks and to make the creature CR 2.</p><p>Example beast, Core Rulebook pp.314-317.</p>",
+    "details": "<p>Tiny Beast (Insect)</p><p>CR 2</p><p>Speed 6m, Climb 6m</p><p>Abilities: Venomous (DC 10), Spider Climb, Standing Leap</p>",
+    "attributes": {
+      "str": {
+        "value": 5,
+        "mod": "-3"
+      },
+      "dex": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "con": {
+        "value": 6,
+        "mod": "-2"
+      },
+      "int": {
+        "value": 1,
+        "mod": "-5"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 2,
+        "mod": "-4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "-3",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+1",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Venomous (DC 10)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/venomous.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Choose one of the beast's bite, claw, or sting attacks to also apply the poison condition to the target. At the beginning of each of the poisoned character's turns, they must pass a Constitution save (DC 10 + the creature's CR) to remove the condition. If they fail, they suffer TD poison damage. This damage is increased to 2 TD damage at CR 6, 3 TD damage at CR 11, and 4 TD damage at CR 17.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "3109bb2208ddcdda",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!78cd0017765e237b.3109bb2208ddcdda"
+    },
+    {
+      "name": "Spider Climb",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/spider-climb.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "dec6418e41bab92c",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!78cd0017765e237b.dec6418e41bab92c"
+    },
+    {
+      "name": "Standing Leap",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/standing-leap.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast is always treated as having moved 2m when making a leap.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "3f4851922244da15",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!78cd0017765e237b.3f4851922244da15"
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/bite.webp",
+      "system": {
+        "description": {
+          "value": "<p>Bite -2 to hit, reach 1m, one target, Hit: 1 (1d4-3) piercing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+1",
+        "dmg": "1d4",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "4c69018b4b4be7ab",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!78cd0017765e237b.4c69018b4b4be7ab"
+    }
+  ],
+  "effects": [],
+  "folder": "432c05ec01b37bd3",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR2: Nope-Nope Spider",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "beast-insect",
+      "source": "Core Rulebook pp.314-317"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!78cd0017765e237b"
+}

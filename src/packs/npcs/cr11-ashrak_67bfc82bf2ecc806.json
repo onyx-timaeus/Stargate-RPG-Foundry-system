@@ -1,0 +1,551 @@
+{
+  "_id": "67bfc82bf2ecc806",
+  "name": "CR11: Ashrak",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 110,
+      "max": 110
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 21,
+    "speed": 6,
+    "initiative": 3,
+    "moxie": 4,
+    "cr": 11,
+    "size": "medium",
+    "gm_notes": "<p>Adult Goa'uld assassin, Core Rulebook p.309. Equipment: A'tar blade (TL 4, advantage against heavy armor), Hara'kesh, personal cloaking device, Ashrak armor (AC 18 + Dex). Hara'kesh requires Naquadah in the user's veins.</p>",
+    "details": "<p>Medium Humanoid (Goa'uld)</p><p>CR 11</p><p>Speed 6m</p><p>AC 21 in Ashrak armor</p><p>Proficient in all skills and saves</p>",
+    "attributes": {
+      "str": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "dex": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "con": {
+        "value": 24,
+        "mod": "+7"
+      },
+      "int": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "wis": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 18,
+        "mod": "+4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+11",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": true
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": true
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Ambush",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/ambush.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>The Ashrak gains advantage on all Initiative checks when its presence is unknown (either invisible or masquerading).</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "cb456d91f7efe565",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.cb456d91f7efe565"
+    },
+    {
+      "name": "Assassin",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/assassin.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>Against targets that have not yet acted during a combat encounter, the Ashrak's attacks deal +4TD damage.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "85018300460a4a02",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.85018300460a4a02"
+    },
+    {
+      "name": "Mature Symbiote",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/mature-symbiote.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Racial",
+        "description": {
+          "value": "<p>The Goa'uld has advantage on all Strength, Dexterity, and Constitution saves.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "4b6284060828e079",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.4b6284060828e079"
+    },
+    {
+      "name": "Regeneration",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/regeneration.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Racial",
+        "description": {
+          "value": "<p>The Goa'uld causes its host to heal 1TD of HP at the beginning of its turn.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "0e6d9811c30ce647",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.0e6d9811c30ce647"
+    },
+    {
+      "name": "Blade",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/blade.webp",
+      "system": {
+        "description": {
+          "value": "<p>Blade +7 to hit, reach 1m, one target, Hit: 22 (3d12+3) slashing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "commonWeapons",
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "3d12",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "slashing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "a5a0b5b1b22f53b2",
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.a5a0b5b1b22f53b2"
+    },
+    {
+      "name": "Hara'kesh Beam",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/hara-kesh-beam.webp",
+      "system": {
+        "description": {
+          "value": "<p>Hara'kesh Beam +7 to hit, range 5m/-, one target, Hit: 45 (12d6+3) psychic damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "dex",
+        "attackBonus": "+4",
+        "dmg": "12d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "psychic",
+          "sec_type": null,
+          "range": {
+            "normal": 5,
+            "max": 5
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "76e613d594844e48",
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!67bfc82bf2ecc806.76e613d594844e48"
+    }
+  ],
+  "effects": [],
+  "folder": "b8c0dc0a33cc4e44",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR11: Ashrak",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "ashrak",
+      "source": "Core Rulebook p.309"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!67bfc82bf2ecc806"
+}

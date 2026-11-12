@@ -1,0 +1,631 @@
+{
+  "_id": "d351784679833f72",
+  "name": "CR15: Ace Pilot",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 100,
+      "max": 100
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 5,
+    "ac": 16,
+    "speed": 6,
+    "initiative": 4,
+    "moxie": 2,
+    "cr": 15,
+    "size": "medium",
+    "gm_notes": "<p>Example Jaffa troop, Core Rulebook pp.306-308. Feats and abilities (29 MP): Attack Specialist &amp; Veteran (Staff Cannon), Critical Focus (Staff Cannon), Improved Critical (Staff Cannon), Fighter Ace x3, Symbiote.</p><p>Note This NPC selected Staff Cannon for its Attack Specialist &amp; Veteran feats.</p>",
+    "details": "<p>Medium Humanoid (Jaffa)</p><p>CR 15</p><p>Speed 6m</p><p>AC 16 (Light Armor)</p>",
+    "attributes": {
+      "str": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "dex": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "con": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "int": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 14,
+        "mod": "+2"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": true
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": true
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "eb4b46bc4d7fdf62",
+      "name": "Attack Specialist (Staff Cannon)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/attack-specialist.webp",
+      "system": {
+        "mpCost": "4",
+        "requirement": "Level 5",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose one weapon proficiency with which you are proficient. When making attacks with that proficiency you roll twice as many weapon damage dice as normal. Bonus dice from other sources (such as Power Attack or Vanguard) and static modifiers (such as from Strength and Dexterity), are not doubled. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.eb4b46bc4d7fdf62"
+    },
+    {
+      "_id": "c373bfce9372a526",
+      "name": "Attack Veteran (Staff Cannon)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/attack-veteran.webp",
+      "system": {
+        "mpCost": "4",
+        "requirement": "Level 11, Attack Specialist with chosen Weapon Proficiency",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose one weapon proficiency with which you have selected with the Attack Specialist feat. When making attacks with that proficiency you roll triple as many weapon damage dice for damage instead of double. You may purchase this feat multiple times, applying it to a different weapon proficiency each time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.c373bfce9372a526"
+    },
+    {
+      "_id": "736c714ce4a0718e",
+      "name": "Critical Focus (Staff Cannon)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/critical-focus.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Proficient with the chosen weapon",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose a weapon proficiency. When you score a critical hit with that type of weapon, add your Proficiency bonus to the damage dealt.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.736c714ce4a0718e"
+    },
+    {
+      "_id": "f22144e7a4d31bb9",
+      "name": "Improved Critical (Staff Cannon)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/improved-critical.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Proficiency with three weapon types other than common",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose a weapon type you are proficient with (such as Longarm, Sidearm, or Common). When using this weapon type you score a critical hit on a 19 or 20 on the die.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.f22144e7a4d31bb9"
+    },
+    {
+      "_id": "a20621e3f0529125",
+      "name": "Fighter Ace x3",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/fighter-ace.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Pilot",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When aerial combat begins (see page 160), you add an additional d6 to your position pool. You may purchase this ability up to three times and its effects stack.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.a20621e3f0529125"
+    },
+    {
+      "name": "Symbiote",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/symbiote.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Racial",
+        "description": {
+          "value": "<p>Jaffa may gain advantage on any physical (Strength, Dexterity, Constitution) save. A Jaffa may use this ability once per Strength modifier (minimum 1) per long rest.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "3f7d490ff9459819",
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.3f7d490ff9459819"
+    },
+    {
+      "name": "Ma’tok Melee",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/matok-melee.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ma’tok Melee +8 to hit, reach 1m, one target, Hit: 7 (1d8+3) bludgeoning damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "jaffaWeapons",
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "1d8",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "08e0fd17b35b817d",
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.08e0fd17b35b817d"
+    },
+    {
+      "name": "Ma’tok Plasma Blast",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/matok-plasma-blast.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ma’tok Plasma Blast +9 to hit, range 5m/60m, one target, Hit: 10 (3d6) fire damage, Recharge 1, Shockwave 1m</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "jaffaWeapons",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "3d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "fire",
+          "sec_type": null,
+          "range": {
+            "normal": 5,
+            "max": 60
+          },
+          "special": "Recharge 1, Shockwave 1m"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "4f5eed1f334a8939",
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!d351784679833f72.4f5eed1f334a8939"
+    }
+  ],
+  "effects": [],
+  "folder": "ef0769cb16a44d24",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR15: Ace Pilot",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "jaffa",
+      "source": "Core Rulebook pp.306-308"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!d351784679833f72"
+}

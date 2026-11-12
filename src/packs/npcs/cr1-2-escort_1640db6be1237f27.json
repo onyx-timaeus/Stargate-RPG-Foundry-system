@@ -1,0 +1,508 @@
+{
+  "_id": "1640db6be1237f27",
+  "name": "CR1/2: Escort",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 21,
+      "max": 21
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 2,
+    "ac": 13,
+    "speed": 6,
+    "initiative": 2,
+    "moxie": 0,
+    "cr": 0.5,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Bow, Furs</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p>",
+    "details": "<p>Medium Humanoid (Scout 1)</p><p>CR 1/2</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "int": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "wis": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "cha": {
+        "value": 10,
+        "mod": "+0"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+3",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+3",
+        "proficient": true,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+3",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": true,
+        "shotguns": false,
+        "martialArts": true,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": true,
+        "engineeringKit": false,
+        "explosives": true,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "1a4f0b10ebe368b8",
+      "name": "Survivalist",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/survivalist.webp",
+      "system": {
+        "class": "scout",
+        "level": "1",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You gain resistance to damage from your environment, including non-natural environmental dangers like traps.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1640db6be1237f27.1a4f0b10ebe368b8"
+    },
+    {
+      "_id": "f0d70ed29095448f",
+      "name": "Ranger Tricks",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/ranger-tricks.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Survivalist ability",
+        "category": "Field Hack",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a Traversal encounter, if you succeed at a Terrain card's Navigation check, you navigate an additional 1d3 cards from the Journey deck instead of 1.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1640db6be1237f27.f0d70ed29095448f"
+    },
+    {
+      "_id": "cab1db035ee6a7d7",
+      "name": "Furs",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/furs.webp",
+      "system": {
+        "description": {
+          "value": "<p>This collection of hides offer warmth and a moderate degree of protection.</p>"
+        },
+        "techLevel": 1,
+        "lore": {
+          "origin": "Common",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Light armor. AC 11+Dex; Strength —; Stealth —; Bulk 6+Str; Special: —."
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1640db6be1237f27.cab1db035ee6a7d7"
+    },
+    {
+      "name": "Bow",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/bow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Bow +4 to hit, range 50m/200m, one target, Hit: 5 (1d6+2) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "dex",
+        "attackBonus": "+2",
+        "dmg": "1d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 50,
+            "max": 200
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "de715f4e2da8ad1f",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1640db6be1237f27.de715f4e2da8ad1f"
+    },
+    {
+      "name": "Martial Arts",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/martial-arts.webp",
+      "system": {
+        "description": {
+          "value": "<p>Martial Arts +4 to hit, range 1m, one target, Hit: 5 (1d6+2) bludgeoning damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "martialArts",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "1d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "0fcc86d542ab9e3f",
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!1640db6be1237f27.0fcc86d542ab9e3f"
+    }
+  ],
+  "effects": [],
+  "folder": "058c5566bf6db55a",
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR1/2: Escort",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-scout",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!1640db6be1237f27"
+}

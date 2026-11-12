@@ -1,0 +1,755 @@
+{
+  "_id": "3aa76c49feae615c",
+  "name": "CR8: Geneticist",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 50,
+      "max": 50
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 17,
+    "speed": 6,
+    "initiative": 1,
+    "moxie": 4,
+    "cr": 8,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Shortblade, Tactical Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p><p>Printed skill values above proficiency (expertise from feats/abilities): Investigation +9 (expertise). The sheet recalculates skills as modifier + proficiency, so re-add the extra bonus if you edit the skills.</p>",
+    "details": "<p>Medium Humanoid (Scientist 9)</p><p>CR 8</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "dex": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "con": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "wis": {
+        "value": 15,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 14,
+        "mod": "+2"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": true,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": true,
+        "translator": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "3e9315ace23716e1",
+      "name": "Eureka",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/eureka.webp",
+      "system": {
+        "class": "scientist",
+        "level": "1",
+        "description": {
+          "value": "<p>Whenever you fail an Intelligence or Wisdom check during a mission, you gain one Eureka point. You may have a maximum number of Eureka points equal to your Intelligence or Wisdom modifier (whichever is higher). All unspent Eureka points are lost at the end of each mission. Whenever you make an Intelligence or Wisdom check, you may spend one Eureka point to gain advantage.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.3e9315ace23716e1"
+    },
+    {
+      "_id": "05a94c1073db91f9",
+      "name": "Apt Analogy",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/apt-analogy.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Science",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "1",
+          "type": "short"
+        },
+        "description": {
+          "value": "<p>You can employ an easy to understand analogy to help others work through complex or esoteric problems. Once per short rest you may grant a friendly character a +TD bonus on an Intelligence or Wisdom skill check.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.05a94c1073db91f9"
+    },
+    {
+      "_id": "24eebd95c15f914d",
+      "name": "Great Mind",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/great-mind.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Intelligence 13+, Wisdom 13+",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You are immune to the Charmed condition, and you gain advantage on any Insight checks to discern lies.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.24eebd95c15f914d"
+    },
+    {
+      "_id": "0bf721c2229e2e93",
+      "name": "Cross-Discipline Study",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/cross-discipline-study.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Intelligence 13+",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You add half your Proficiency bonus, rounded down, to any Intelligence, Wisdom, or Charisma skill check that doesn't already include your Proficiency bonus.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.0bf721c2229e2e93"
+    },
+    {
+      "_id": "5ecdf35400cb2cd7",
+      "name": "Resilient Mind",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/resilient-mind.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Intelligence 13+",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you suffer Intelligence, Wisdom, or Charisma damage, reduce the amount of damage suffered by 1 point (minimum 1).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.5ecdf35400cb2cd7"
+    },
+    {
+      "_id": "42eb41d7143c3c24",
+      "name": "Casual Genius",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/casual-genius.webp",
+      "system": {
+        "mpCost": "6",
+        "requirement": "Eureka ability",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You begin each mission with a number of Eureka points equal to half your Proficiency Bonus (rounding down).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.42eb41d7143c3c24"
+    },
+    {
+      "_id": "06269a9bd472d13b",
+      "name": "For Science!",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/for-science.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability, Science",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may spend a Eureka point to gain advantage on Charisma checks in addition to Intelligence and Wisdom checks.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.06269a9bd472d13b"
+    },
+    {
+      "_id": "aa4c72b4486b00e5",
+      "name": "A Moment's Thought",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/a-moment-s-thought.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability",
+        "category": "Discovery",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Whenever you take a short or long rest you may spend a Eureka point to re-roll an Intelligence or Wisdom skill check to learn information that you failed since your last rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.aa4c72b4486b00e5"
+    },
+    {
+      "_id": "619e13e4f8462411",
+      "name": "Biologist",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/biologist.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability, Medicine",
+        "category": "Discovery",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.619e13e4f8462411"
+    },
+    {
+      "_id": "297327d19b107484",
+      "name": "Social Sciences",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/social-sciences.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability, Culture",
+        "category": "Discovery",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Whenever you lose any number of wagered Determination Points, you gain one Eureka point.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.297327d19b107484"
+    },
+    {
+      "_id": "bdb159debe04c62f",
+      "name": "Tactical Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/tactical-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavier version of the bullet-resistant vest, the tactical vest cannot be concealed but offers additional protection. It also has additional pockets, bandoleer straps, and quick release clips for carrying additional equipment.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Standard issue tactical vest"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.bdb159debe04c62f"
+    },
+    {
+      "name": "Shortblade",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/shortblade.webp",
+      "system": {
+        "description": {
+          "value": "<p>Shortblade +4 to hit, range 1m, one target, Hit: 5 (2d4) slashing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "commonWeapons",
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "2d4",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "slashing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "378b68a77edb8e59",
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!3aa76c49feae615c.378b68a77edb8e59"
+    }
+  ],
+  "effects": [],
+  "folder": "b34abb9623e72a4c",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR8: Geneticist",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-scientist",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!3aa76c49feae615c"
+}

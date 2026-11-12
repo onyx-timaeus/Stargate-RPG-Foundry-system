@@ -1,0 +1,922 @@
+{
+  "_id": "ba7e0cbdcdcb1006",
+  "name": "CR9: Military Attache",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 54,
+      "max": 54
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 15,
+    "speed": 6,
+    "initiative": 1,
+    "moxie": 4,
+    "cr": 9,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Longarm, Bullet Resistant Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p><p>Printed skill values above proficiency (expertise from feats/abilities): Culture +10 (expertise). The sheet recalculates skills as modifier + proficiency, so re-add the extra bonus if you edit the skills.</p>",
+    "details": "<p>Medium Humanoid (Diplomat 10)</p><p>CR 9</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "dex": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "con": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "wis": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 18,
+        "mod": "+4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+10",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": true,
+        "outbreakKit": false,
+        "panCulturalWardrobe": true,
+        "researchKit": false,
+        "translator": true
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "b43a05b89815e657",
+      "name": "Inspire",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/inspire.webp",
+      "system": {
+        "class": "diplomat",
+        "level": "1",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest, you may grant all team members 1d6 temporary HP with an action (the die rolled is called the Inspire die). These temporary HP last until the next long rest or until removed by damage. While a team member has these temporary hit points (called “Inspired” characters), they gain the benefits of your Inspiration feats (see page 98). A character may only be Inspired by one source at a time. If a character is targeted by a second Inspire ability, the target character chooses which to benefit from.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.b43a05b89815e657"
+    },
+    {
+      "_id": "409ee75314e29fdb",
+      "name": "Pep Talk",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/pep-talk.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Charisma 13+",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "1",
+          "type": "mission"
+        },
+        "description": {
+          "value": "<p>You can give a stirring speech to your team. As an action once per mission, you can restore 1d4 Determination points to each member of your team (including yourself).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.409ee75314e29fdb"
+    },
+    {
+      "_id": "c2bd395a95ecb520",
+      "name": "A Word in an Ear",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/word-in-an-ear.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Inspire ability",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "1",
+          "type": "long"
+        },
+        "description": {
+          "value": "<p>You can inspire a single team member within 1m as an action. Roll your Inspire HP die and grant the target Inspire HP as normal. Characters who currently have Inspire HP are immune to this ability. A character may only be targeted by your Word In An Ear once per long rest (although other characters may still inspire them).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.c2bd395a95ecb520"
+    },
+    {
+      "_id": "0a0c1141ef8dd9f2",
+      "name": "Force of Will",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/force-of-will.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Inspire ability",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.0a0c1141ef8dd9f2"
+    },
+    {
+      "_id": "00fd16a7d18cce08",
+      "name": "Diplomatic Expertise (Culture)",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/diplomatic-expertise.webp",
+      "system": {
+        "class": "diplomat",
+        "level": "4",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>At 4th level, choose Culture, Insight, or Persuasion. Your Proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.00fd16a7d18cce08"
+    },
+    {
+      "_id": "fc11d99ed53122bb",
+      "name": "Strong Personality (1d8)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/strong-personality.webp",
+      "system": {
+        "mpCost": "6",
+        "requirement": "Inspire ability",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Your Inspire die increases one die size (1d6 to 1d8, 1d8 to 1d10, 1d10 to 1d12). You may select this ability multiple times; its effects stack, to a maximum die size of 1d12.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.fc11d99ed53122bb"
+    },
+    {
+      "_id": "c17c957ff8ff7a9c",
+      "name": "Force of Will",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/force-of-will.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Inspire ability",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may use Inspire when you take a short or long rest. Characters already benefiting from your Inspire are immune to a second application.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.c17c957ff8ff7a9c"
+    },
+    {
+      "_id": "9df3199219e5267e",
+      "name": "Improved Initiative",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/improved-initiative.webp",
+      "system": {
+        "mpCost": "6",
+        "requirement": "None",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may add your Proficiency bonus to Initiative checks.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.9df3199219e5267e"
+    },
+    {
+      "_id": "dd0d32a0e69ae0da",
+      "name": "Proficiency (Longarm)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/weapon-proficiency.webp",
+      "system": {
+        "mpCost": "3",
+        "requirement": "None",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose one type of weapon (Common, Sidearm, Gunnery, etc.) and gain proficiency in that weapon. You may select this ability multiple times, choosing a different weapon type each time. This feat cannot be used to choose Martial Arts proficiency.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.dd0d32a0e69ae0da"
+    },
+    {
+      "_id": "df168c7b8f83d2d8",
+      "name": "Rapid Reload",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/rapid-reload.webp",
+      "system": {
+        "mpCost": "4",
+        "requirement": "None",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You reload weapons in half the normal actions (rounding up). You reload weapons with a 1 action reload as a bonus action.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.df168c7b8f83d2d8"
+    },
+    {
+      "_id": "f065ced9409333d1",
+      "name": "Improved Critical (Longarm)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/improved-critical.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Proficiency with three weapon types other than common",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose a weapon type you are proficient with (such as Longarm, Sidearm, or Common). When using this weapon type you score a critical hit on a 19 or 20 on the die.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.f065ced9409333d1"
+    },
+    {
+      "_id": "c91d92572227831c",
+      "name": "Defensive Motivation",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/defensive-motivation.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Inspire ability",
+        "category": "Inspiration",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Inspired characters gains +1 AC.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.c91d92572227831c"
+    },
+    {
+      "_id": "25dfbc793af052ba",
+      "name": "Clear Focus",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/clear-focus.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Inspire ability",
+        "category": "Inspiration",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest, choose a skill in which you are proficient. Inspired characters gain advantage on the chosen skill until your next long rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 120,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.25dfbc793af052ba"
+    },
+    {
+      "_id": "198baf180e527e44",
+      "name": "Skillful Explanations",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/skillful-explanations.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Inspire ability",
+        "category": "Inspiration",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "1",
+          "type": "short"
+        },
+        "description": {
+          "value": "<p>Once per short rest, when an inspired character fails a skill check that you are proficient in, you may allow the character to re-roll the result.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 130,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.198baf180e527e44"
+    },
+    {
+      "_id": "f8a0fa4e24e31755",
+      "name": "Bullet Resistant Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/bullet-resistant-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A vest designed to disperse the impact of projectiles. This armor can be concealed and requires a DC 20 Perception check to spot when worn beneath clothing.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Concealable body armor"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 140,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.f8a0fa4e24e31755"
+    },
+    {
+      "name": "Longarm",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/longarm.webp",
+      "system": {
+        "description": {
+          "value": "<p>Longarm +5 to hit, range 200m/1800m, one target, Hit: 15 (4d6+1) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "longarms",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "4d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 200,
+            "max": 1800
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "44efe7a07f31c161",
+      "sort": 150,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!ba7e0cbdcdcb1006.44efe7a07f31c161"
+    }
+  ],
+  "effects": [],
+  "folder": "29f64dcef10e137d",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR9: Military Attache",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-diplomat",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!ba7e0cbdcdcb1006"
+}

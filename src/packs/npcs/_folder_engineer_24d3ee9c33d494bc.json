@@ -1,0 +1,23 @@
+{
+  "_id": "24d3ee9c33d494bc",
+  "name": "Engineer",
+  "type": "Actor",
+  "folder": "374e1f840883b8e6",
+  "description": "",
+  "sorting": "m",
+  "sort": 100,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!24d3ee9c33d494bc"
+}

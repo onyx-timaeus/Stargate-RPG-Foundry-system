@@ -1,0 +1,706 @@
+{
+  "_id": "e49f4999d32b3a28",
+  "name": "CR4: Tinkerer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 34,
+      "max": 34
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 3,
+    "ac": 16,
+    "speed": 6,
+    "initiative": 2,
+    "moxie": 4,
+    "cr": 4,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Longarm, Bullet Resistant Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p><p>Printed skill values above proficiency (expertise from feats/abilities): Perception +7 (expertise). The sheet recalculates skills as modifier + proficiency, so re-add the extra bonus if you edit the skills.</p>",
+    "details": "<p>Medium Humanoid (Engineer 5)</p><p>CR 4</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 18,
+        "mod": "+4"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 9,
+        "mod": "-1"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": true,
+        "explosives": true,
+        "fabricationKit": true,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "063108dd8d851df9",
+      "name": "Jury Rig",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/jury-rig.webp",
+      "system": {
+        "class": "engineer",
+        "level": "1",
+        "description": {
+          "value": "<p>When you use an engineering kit to repair a machine you heal 2d8 points of damage instead of 2d6. In addition, you may repair an adjacent machine as an action rather than only during a short rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.063108dd8d851df9"
+    },
+    {
+      "_id": "7eb9d127f3a8c647",
+      "name": "Hold Together",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/hold-together.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Engineering",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you benefit from cover, you gain resistance to the damage of attacks hindered by that cover.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.7eb9d127f3a8c647"
+    },
+    {
+      "_id": "76bbae2ae205527f",
+      "name": "Whack It",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/whack-it.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>As a bonus action you can give one adjacent machine +1d6 temporary hit points. If this brings the machine's HP to above half its normal HP it begins to function immediately. You may only maintain these temporary HP on one machine at a time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.76bbae2ae205527f"
+    },
+    {
+      "_id": "92a1d06c82d2efa0",
+      "name": "Tune-Up",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/tune-up.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You add your Intelligence modifier to the amount repaired whenever you repair a machine or grant a machine temporary HP.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.92a1d06c82d2efa0"
+    },
+    {
+      "_id": "f7e5136f9f5d8d7f",
+      "name": "Board-Spectrum Scanners",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/broad-spectrum-scanners.webp",
+      "system": {
+        "class": "engineer",
+        "level": "4",
+        "description": {
+          "value": "<p>At 4th level, you can use Intelligence instead of Wisdom when making Perception Checks.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.f7e5136f9f5d8d7f"
+    },
+    {
+      "_id": "5722e038787fbad7",
+      "name": "Pre-Planned Obsolescence",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/pre-planned-obsolescence.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Engineering",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may rig a machine to explode as an action. Choose a single mechanical device that could be conceivably rigged to explode (GM discretion). When anyone activates the machine, it explodes, forcing every character within 3m to suffer 6d6 damage (Dexterity save for half damage, DC 8 + Intelligence modifier + Proficiency bonus). A DC 20 Perception check is required to notice this trap.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.5722e038787fbad7"
+    },
+    {
+      "_id": "06440678d6fe8f05",
+      "name": "Armorer",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/armorer.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest, you may choose one character's armor. It gains +1 AC until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional armor.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.06440678d6fe8f05"
+    },
+    {
+      "_id": "d652e5a3e891281b",
+      "name": "Longarm Calibrations",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/longarm-calibrations.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest you may choose one character's Longarm. It gains a +1d4 to attack rolls against targets at long range until your next long rest. You may choose this modification multiple times; each time you do you may apply the bonus to an additional weapon.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.d652e5a3e891281b"
+    },
+    {
+      "_id": "9a90adc37febd5c3",
+      "name": "Sidearm Calibrations",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/sidearm-calibrations.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Jury Rig ability",
+        "category": "Modification",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a long rest you may choose one character's sidearm. It provides a +1d4 to attack rolls against targets at short range until your next long rest. You may choose this modification multiple times, each time you do you may apply the bonus to an additional weapon.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.9a90adc37febd5c3"
+    },
+    {
+      "_id": "f815d77b81066805",
+      "name": "Bullet Resistant Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/bullet-resistant-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A vest designed to disperse the impact of projectiles. This armor can be concealed and requires a DC 20 Perception check to spot when worn beneath clothing.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Concealable body armor"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.f815d77b81066805"
+    },
+    {
+      "name": "Longarm",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/longarm.webp",
+      "system": {
+        "description": {
+          "value": "<p>Longarm +5 to hit, range 200m/1800m, one target, Hit: 18 (4d6+2+1d4) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "longarms",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "4d6+1d4",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 200,
+            "max": 1800
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "e444753e7c0291c4",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e49f4999d32b3a28.e444753e7c0291c4"
+    }
+  ],
+  "effects": [],
+  "folder": "24d3ee9c33d494bc",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR4: Tinkerer",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-engineer",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!e49f4999d32b3a28"
+}

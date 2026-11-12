@@ -1,0 +1,948 @@
+{
+  "_id": "e178ff7baf70c73b",
+  "name": "CR15: Officer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 120,
+      "max": 120
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 5,
+    "ac": 18,
+    "speed": 6,
+    "initiative": 4,
+    "moxie": 1,
+    "cr": 15,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Longarm, Tactical Armor</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p>",
+    "details": "<p>Medium Humanoid (Soldier 15)</p><p>CR 15</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 18,
+        "mod": "+4"
+      },
+      "dex": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "con": {
+        "value": 15,
+        "mod": "+2"
+      },
+      "int": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "wis": {
+        "value": 12,
+        "mod": "+1"
+      },
+      "cha": {
+        "value": 12,
+        "mod": "+1"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": true
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": true,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": true,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": true,
+        "engineeringKit": false,
+        "explosives": true,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "6f984c724e72f421",
+      "name": "Tactical Flexibility",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/tactical-flexibility.webp",
+      "system": {
+        "class": "soldier",
+        "level": "1",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "1",
+          "type": "long"
+        },
+        "description": {
+          "value": "<p>As an action you may activate a Tactic feat that you don’t know (see page 103). This tactic lasts for a number of rounds equal to your Charisma modifier (minimum 1). When the duration has run out, you may choose a tactic you know (if any) to re-activate automatically. Once you use this ability, you cannot use it again until you’ve taken a long rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.6f984c724e72f421"
+    },
+    {
+      "_id": "0e583081278c8030",
+      "name": "Surge",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/surge.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Constitution 13+",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "1",
+          "type": "short"
+        },
+        "description": {
+          "value": "<p>You can take an additional action on your turn (even an attack) as a bonus action. You must complete a short or long rest before you can use this ability again.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.0e583081278c8030"
+    },
+    {
+      "_id": "a5febcb81832e08e",
+      "name": "Rally",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/rally.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Athletics",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "1",
+          "type": "long"
+        },
+        "description": {
+          "value": "<p>If you are wounded when Initiative is rolled (at the start of an Action encounter), you may immediately heal TD Hit Points. Once used, you may not activate this ability again until you take a long rest. You may purchase this feat multiple times, increasing the amount healed by +1 TD each time.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.a5febcb81832e08e"
+    },
+    {
+      "_id": "8b0d8604e60d164d",
+      "name": "Martial Training",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/martial-training.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Proficient in 3 weapon types, except Common weapons",
+        "category": "Combat - Melee",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Your minimum damage die for melee weapons (including improvised weapons) and Martial Arts is 1d8.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.8b0d8604e60d164d"
+    },
+    {
+      "_id": "d9a348025aab7d40",
+      "name": "Improved Critical",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/improved-critical.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Proficiency with three weapon types other than common",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Choose a weapon type you are proficient with (such as Longarm, Sidearm, or Common). When using this weapon type you score a critical hit on a 19 or 20 on the die.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.d9a348025aab7d40"
+    },
+    {
+      "_id": "c197da9ed780ffc5",
+      "name": "Tactical Superiority",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/tactical-superiority.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Two tactic feats",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may have two tactics in effect at the same time. If you use tactical flexibility, you must choose which of your currently active tactics is overridden by the new tactic for the duration of the effect.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.c197da9ed780ffc5"
+    },
+    {
+      "_id": "27204bc062f50115",
+      "name": "Takedown",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/takedown.webp",
+      "system": {
+        "mpCost": "7",
+        "requirement": "Dexterity 13+",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you roll damage against an extra, you roll two tension dice and take the better result.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.27204bc062f50115"
+    },
+    {
+      "_id": "d487ecb48288375a",
+      "name": "Assault Coordination",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/assault-coordination.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you hit a target with a ranged attack, the next successful ranged attack by one of your team members deals +1d6 damage.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.d487ecb48288375a"
+    },
+    {
+      "_id": "e3446f87f10dca1d",
+      "name": "Coordinated Response",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/coordinated-response.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When rolling for initiative, your team members may choose (before the rolls are made) to use your initiative result instead of their own.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.e3446f87f10dca1d"
+    },
+    {
+      "_id": "a25beab57b693f78",
+      "name": "Defensive Posture",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/defensive-posture.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Add +2 AC to other team members within 2m of you.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.a25beab57b693f78"
+    },
+    {
+      "_id": "d6c3c5423ab284e6",
+      "name": "Distracting Attacks",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/distracting-attacks.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you deal damage to a single target with an attack, you may choose one friendly character not within 2m of you. The target of your attack suffers disadvantage on all attacks against the chosen character until the start of your next turn.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.d6c3c5423ab284e6"
+    },
+    {
+      "_id": "4533377e3fdbde3e",
+      "name": "Overwatchers",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/overwatchers.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>During a firefight, when you and your team members take the Overwatch action you cover a 90° field instead of a 45° cone. In addition, you may make two Overwatch attacks (against different targets).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.4533377e3fdbde3e"
+    },
+    {
+      "_id": "5d2d9088f51d858c",
+      "name": "Response Shot",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/response-shot.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Tactical Flexibility ability",
+        "category": "Tactic",
+        "castTime": {
+          "value": "",
+          "type": "reaction"
+        },
+        "limitations": {
+          "value": "1",
+          "type": "encounter"
+        },
+        "description": {
+          "value": "<p>Once per encounter, you may use your reaction to make a ranged attack against an enemy who makes an attack against a team member other than yourself.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 120,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.5d2d9088f51d858c"
+    },
+    {
+      "_id": "f667ec6e7f1b0230",
+      "name": "Tactical Armor",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/tactical-armor.webp",
+      "system": {
+        "description": {
+          "value": "<p>Combining Kevlar and ceramic plates, this armor is designed for heavy frontline warfare.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Heavy armor. AC 20; Strength 13; Stealth Disadvantage; Bulk 6+Str; Special: Kevlar."
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 130,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.f667ec6e7f1b0230"
+    },
+    {
+      "name": "Longarm",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/longarm.webp",
+      "system": {
+        "description": {
+          "value": "<p>Longarm +9 to hit, range 200m/1800m, one target, Hit: 25 (6d6+4) piercing damage, critical (19-20)</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "longarms",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "6d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 200,
+            "max": 1800
+          },
+          "special": "critical (19-20)"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "1c98443cb68cdd3a",
+      "sort": 140,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.1c98443cb68cdd3a"
+    },
+    {
+      "name": "Martial Arts",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/martial-arts.webp",
+      "system": {
+        "description": {
+          "value": "<p>Martial Arts +9 to hit, range 1m, one target, Hit: 17 (3d8+4) bludgeoning damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "martialArts",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "3d8",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "52a967e9e0edb2e8",
+      "sort": 150,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!e178ff7baf70c73b.52a967e9e0edb2e8"
+    }
+  ],
+  "effects": [],
+  "folder": "7d4a486a63475f41",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR15: Officer",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-soldier",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!e178ff7baf70c73b"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "b0cd5e492338f428",
+  "name": "Aquatic",
+  "type": "Actor",
+  "folder": "581b9da2f18ee741",
+  "description": "",
+  "sorting": "m",
+  "sort": 100,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!b0cd5e492338f428"
+}

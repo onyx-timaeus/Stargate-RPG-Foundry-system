@@ -1,0 +1,954 @@
+{
+  "_id": "a2e87c60ab97eab4",
+  "name": "CR11: Zoologist",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 62,
+      "max": 62
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 4,
+    "ac": 17,
+    "speed": 6,
+    "initiative": 1,
+    "moxie": 2,
+    "cr": 11,
+    "size": "medium",
+    "gm_notes": "<p>Gear: Shotgun, Tactical Vest</p><p>Core Rulebook, NPCs by Class (pp. 323-346). Race abilities are added on top without changing attributes; up to two extra proficiencies are optional.</p>",
+    "details": "<p>Medium Humanoid (Medic 12)</p><p>CR 11</p><p>Speed 6m</p>",
+    "attributes": {
+      "str": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "dex": {
+        "value": 13,
+        "mod": "+1"
+      },
+      "con": {
+        "value": 11,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "wis": {
+        "value": 18,
+        "mod": "+4"
+      },
+      "cha": {
+        "value": 13,
+        "mod": "+1"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+6",
+        "proficient": true,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+4",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+8",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+1",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": false
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": true,
+        "longarms": false,
+        "bows": false,
+        "shotguns": true,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": true,
+        "outbreakKit": true,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "3fd1a33a0f5bf885",
+      "name": "First Aid",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/first-aid.webp",
+      "system": {
+        "class": "medic",
+        "level": "1",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you use a med kit to heal, you add your Proficiency bonus to the healed amount. In addition, you may use a med kit to heal a wounded team member as an action (rather than during a short rest). Med kits cannot heal the target again until after a short rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.3fd1a33a0f5bf885"
+    },
+    {
+      "_id": "6ec0c3e74aaf197f",
+      "name": "Triage",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/triage.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "First Aid ability",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You can observe a character's current physical condition as a bonus action with a DC 20 Medicine check. If successful, you learn the character's current and total HP as well as their total hit dice. You suffer disadvantage against a target if you are unfamiliar with its biology.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.6ec0c3e74aaf197f"
+    },
+    {
+      "_id": "d9e9cb7fe1869fe7",
+      "name": "Organ Targeting",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/organ-targeting.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Medicine",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You deal an additional 1d6 damage on attacks that have advantage or against a wounded target.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.d9e9cb7fe1869fe7"
+    },
+    {
+      "_id": "01bab4b0616ff335",
+      "name": "Man Down",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/man-down.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "First Aid ability",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>While you are conscious and within 1m of a dying team member, they require one fewer death saves to stabilize.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.01bab4b0616ff335"
+    },
+    {
+      "_id": "b45988615cfa9c53",
+      "name": "Physician Heal Thyself",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/physician-heal-thyself.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "First Aid ability",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "bonus"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may use a Med Kit on yourself as a bonus action.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.b45988615cfa9c53"
+    },
+    {
+      "_id": "aa8881cba008114e",
+      "name": "First Response",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/first-response.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "First Aid ability",
+        "category": "General",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may add your Wisdom modifier to the damage you heal with a Med Kit. In addition, you may use a Med Kit to heal a scuffed team member as an action (rather than during a short rest).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.aa8881cba008114e"
+    },
+    {
+      "_id": "9012513ad3bf7766",
+      "name": "Advanced Training: Scientist",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/advanced-training-scientist.webp",
+      "system": {
+        "mpCost": "9",
+        "requirement": "Intelligence 13+, Science",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You gain the Scientist's Eureka ability (see page 51).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.9012513ad3bf7766"
+    },
+    {
+      "_id": "2397e985aac05f02",
+      "name": "Bookworm",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/bookworm.webp",
+      "system": {
+        "mpCost": "7",
+        "requirement": "Eureka ability",
+        "category": "Downtime",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you spend your downtime in the ASH Archive, you begin each mission with additional Eureka points equal to half the Facility bonus (up to your max, minimum 1).</p>"
+        }
+      },
+      "effects": [],
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.2397e985aac05f02"
+    },
+    {
+      "_id": "dcf7cd44661126d7",
+      "name": "Eureka",
+      "type": "classAbility",
+      "img": "systems/sgrpg/assets/compendium/class-abilities/eureka.webp",
+      "system": {
+        "class": "scientist",
+        "level": "1",
+        "description": {
+          "value": "<p>Whenever you fail an Intelligence or Wisdom check during a mission, you gain one Eureka point. You may have a maximum number of Eureka points equal to your Intelligence or Wisdom modifier (whichever is higher). All unspent Eureka points are lost at the end of each mission. Whenever you make an Intelligence or Wisdom check, you may spend one Eureka point to gain advantage.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 80,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.dcf7cd44661126d7"
+    },
+    {
+      "_id": "c55d710643c8f1de",
+      "name": "Skill Proficiency",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/skill-proficiency.webp",
+      "system": {
+        "mpCost": "3, 6, 9",
+        "requirement": "None",
+        "category": "General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Gain proficiency in a skill of your choice. You may select this ability up to three times, and each time its MP cost increases by 3MP.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 90,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.c55d710643c8f1de"
+    },
+    {
+      "_id": "0710a687c504e0d7",
+      "name": "Crash Training",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/crash-training.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "First Aid ability",
+        "category": "Procedure",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "1",
+          "type": "other"
+        },
+        "description": {
+          "value": "<p>You may use a Med Kit to revive a character who has been dead for a number of rounds up to your Proficiency bonus with a successful DC 25 Medicine check. You may attempt this check once per round.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.0710a687c504e0d7"
+    },
+    {
+      "_id": "644b4c4d2cf5bc27",
+      "name": "Embolism",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/embolism.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "First Aid ability",
+        "category": "Procedure",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You may use your Med Kit to make a melee attack that deals 1d3 Constitution damage.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 110,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.644b4c4d2cf5bc27"
+    },
+    {
+      "_id": "7c877ccfb96981e9",
+      "name": "Vital Organ Trauma",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/vital-organ-trauma.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "First Aid ability",
+        "category": "Procedure",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you critically hit, add your Wisdom modifier to the damage dealt.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 120,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.7c877ccfb96981e9"
+    },
+    {
+      "_id": "5b7ea405227a8c77",
+      "name": "A Moment's Thought",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/a-moment-s-thought.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability",
+        "category": "Discovery",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>Whenever you take a short or long rest you may spend a Eureka point to re-roll an Intelligence or Wisdom skill check to learn information that you failed since your last rest.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 130,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.5b7ea405227a8c77"
+    },
+    {
+      "_id": "e9650287e5b72533",
+      "name": "Biologist",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/biologist.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Eureka ability, Medicine",
+        "category": "Discovery",
+        "castTime": {
+          "value": "1",
+          "type": "action"
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>As an action you may spend any number of Eureka points to heal yourself or a character within 1m for 1d6 damage per Eureka point spent.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 140,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.e9650287e5b72533"
+    },
+    {
+      "_id": "011dc24af3116955",
+      "name": "Tactical Vest",
+      "type": "equip",
+      "img": "systems/sgrpg/assets/compendium/equipment/tactical-vest.webp",
+      "system": {
+        "description": {
+          "value": "<p>A heavier version of the bullet-resistant vest, the tactical vest cannot be concealed but offers additional protection. It also has additional pockets, bandoleer straps, and quick release clips for carrying additional equipment.</p>"
+        },
+        "techLevel": 2,
+        "lore": {
+          "origin": "Tau'ri",
+          "type": "Armor",
+          "restriction": "",
+          "description": "Standard issue tactical vest"
+        },
+        "bulk": 0,
+        "quantity": 1
+      },
+      "effects": [],
+      "sort": 150,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.011dc24af3116955"
+    },
+    {
+      "name": "Shotgun",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/weapons/shotgun.webp",
+      "system": {
+        "description": {
+          "value": "<p>Shotgun +5 to hit, range 10m, all targets in 45° cone, Hit: 17 (3d10+1) piercing damage</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "shotguns",
+        "attackAbility": "dex",
+        "attackBonus": "",
+        "dmg": "3d10",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 10,
+            "max": 10
+          },
+          "special": "all targets in 45° cone"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "110ea61bc863690b",
+      "sort": 160,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!a2e87c60ab97eab4.110ea61bc863690b"
+    }
+  ],
+  "effects": [],
+  "folder": "46e52c4838a0203a",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR11: Zoologist",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "class-medic",
+      "source": "Core Rulebook, NPCs by Class"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!a2e87c60ab97eab4"
+}

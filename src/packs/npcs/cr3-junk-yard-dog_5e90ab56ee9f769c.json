@@ -1,0 +1,366 @@
+{
+  "_id": "5e90ab56ee9f769c",
+  "name": "CR3: Junk Yard Dog",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 25,
+      "max": 25
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 2,
+    "ac": 13,
+    "speed": 6,
+    "initiative": 2,
+    "moxie": -4,
+    "cr": 3,
+    "size": "small",
+    "gm_notes": "<p>Canines or similar creatures have been domesticated on many worlds. They serve in many capacities including companionship, aiding the blind, guard duty, labor, hunting, and even aiding local law enforcement. This beast was built by selecting a CR 3 Quadruped (bite attack) and giving it the scent ability to track quarry and sense intruders.</p><p>Example beast, Core Rulebook pp.314-317.</p>",
+    "details": "<p>Small Beast (Quadruped)</p><p>CR 3</p><p>Speed 6m</p><p>Abilities: Keen Sense (Smell)</p>",
+    "attributes": {
+      "str": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "int": {
+        "value": 1,
+        "mod": "-5"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 2,
+        "mod": "-4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+1",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+2",
+        "proficient": true,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+1",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Keen Sense (Smell)",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/keen-sense.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>Choose one sense. The beast gains advantage on Perception checks that rely on the chosen sense. This ability may be chosen multiple times, selecting a different sense each time.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "0a71ccf8a1d34b09",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5e90ab56ee9f769c.0a71ccf8a1d34b09"
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/bite.webp",
+      "system": {
+        "description": {
+          "value": "<p>Bite +1 to hit, reach 1m, one target, Hit: 2 (1d6-1) piercing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+2",
+        "dmg": "1d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "eee4459881e856d7",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!5e90ab56ee9f769c.eee4459881e856d7"
+    }
+  ],
+  "effects": [],
+  "folder": "f392eae4e5ca3655",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR3: Junk Yard Dog",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "beast-quadruped",
+      "source": "Core Rulebook pp.314-317"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!5e90ab56ee9f769c"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "b34abb9623e72a4c",
+  "name": "Scientist",
+  "type": "Actor",
+  "folder": "374e1f840883b8e6",
+  "description": "",
+  "sorting": "m",
+  "sort": 300,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!b34abb9623e72a4c"
+}

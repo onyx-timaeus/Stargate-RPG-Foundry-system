@@ -1,0 +1,631 @@
+{
+  "_id": "8553bfe04ee103d8",
+  "name": "CR16: Exalted",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 105,
+      "max": 105
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 5,
+    "ac": 22,
+    "speed": 8,
+    "initiative": 3,
+    "moxie": 2,
+    "cr": 16,
+    "size": "medium",
+    "gm_notes": "<p>Example Jaffa troop, Core Rulebook pp.306-308. Feats and abilities (31 MP): Brawler, Deadly Shot, Hip Fire, Mastaba Master, Swift x2, Symbiote.</p>",
+    "details": "<p>Medium Humanoid (Jaffa)</p><p>CR 16</p><p>Speed 8m</p><p>AC 22 (24 vs melee)</p>",
+    "attributes": {
+      "str": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "dex": {
+        "value": 16,
+        "mod": "+3"
+      },
+      "con": {
+        "value": 19,
+        "mod": "+4"
+      },
+      "int": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 14,
+        "mod": "+2"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+5",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+3",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": true,
+        "heavy": true
+      },
+      "weapon": {
+        "common": true,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": true
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "152bc3e365b1d562",
+      "name": "Brawler",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/brawler.webp",
+      "system": {
+        "mpCost": "7",
+        "requirement": "Attack Specialist with Common weapons or Martial Arts",
+        "category": "Combat - Melee",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you hit with a melee weapon or Martial Arts attack you may choose to not multiply the damage dice using Attack Specialist (or Veteran or Ace). If you do, you may make another Martial Arts attack if you don't move this turn (either before or after the attack). Each time you successfully hit a target, you may make another such attack.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.152bc3e365b1d562"
+    },
+    {
+      "_id": "8e5317e202aa58b1",
+      "name": "Deadly Shot",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/deadly-shot.webp",
+      "system": {
+        "mpCost": "7",
+        "requirement": "Perception",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you make an attack with a single ranged weapon (not Akimbo) during your turn, you may take disadvantage on the attack roll to add +TD to the damage dealt.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.8e5317e202aa58b1"
+    },
+    {
+      "_id": "0347914546054cc6",
+      "name": "Hip Fire",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/hip-fire.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "None",
+        "category": "Combat - Ranged",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you make ranged attacks while an enemy is within 1m, you do not suffer disadvantage on the attack.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.0347914546054cc6"
+    },
+    {
+      "_id": "08e7247714e70501",
+      "name": "Mastaba Master",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/mastaba-master.webp",
+      "system": {
+        "mpCost": "5",
+        "requirement": "Martial Arts Proficiency",
+        "category": "Combat - Melee",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>When you are wielding no weapons or only a staff weapon, your AC versus melee attacks is increased by +2.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.08e7247714e70501"
+    },
+    {
+      "_id": "d198b21265ae9db0",
+      "name": "Swift x2",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/feats/swift.webp",
+      "system": {
+        "mpCost": "3, 6, 9",
+        "requirement": "Athletics or Acrobatics",
+        "category": "Combat - General",
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        },
+        "description": {
+          "value": "<p>You add +1m to your movement speed. You may take this feat up to 3 times, increasing its cost each time as noted above.</p>"
+        }
+      },
+      "effects": [],
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.d198b21265ae9db0"
+    },
+    {
+      "name": "Symbiote",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/symbiote.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Racial",
+        "description": {
+          "value": "<p>Jaffa may gain advantage on any physical (Strength, Dexterity, Constitution) save. A Jaffa may use this ability once per Strength modifier (minimum 1) per long rest.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "be248d935eecd673",
+      "sort": 50,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.be248d935eecd673"
+    },
+    {
+      "name": "Ma’tok Melee",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/matok-melee.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ma’tok Melee +9 to hit, reach 1m, one target, Hit: 17 (3d8+4) bludgeoning damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "jaffaWeapons",
+        "attackAbility": "str",
+        "attackBonus": "",
+        "dmg": "3d8",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "bludgeoning",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "663c9e1740b6ea4e",
+      "sort": 60,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.663c9e1740b6ea4e"
+    },
+    {
+      "name": "Ma’tok Plasma Blast",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/matok-plasma-blast.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ma’tok Plasma Blast +8 to hit, range 5m/60m, one target, Hit: 30 (9d6) fire damage, Recharge 1, Shockwave 1m</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "jaffaWeapons",
+        "attackAbility": "str",
+        "attackBonus": "-1",
+        "dmg": "9d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "fire",
+          "sec_type": null,
+          "range": {
+            "normal": 5,
+            "max": 60
+          },
+          "special": "Recharge 1, Shockwave 1m"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "a5d4df031222116b",
+      "sort": 70,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!8553bfe04ee103d8.a5d4df031222116b"
+    }
+  ],
+  "effects": [],
+  "folder": "ef0769cb16a44d24",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR16: Exalted",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "jaffa",
+      "source": "Core Rulebook pp.306-308"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!8553bfe04ee103d8"
+}

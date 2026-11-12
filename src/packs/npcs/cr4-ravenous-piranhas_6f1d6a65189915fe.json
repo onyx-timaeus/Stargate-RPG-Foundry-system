@@ -1,0 +1,406 @@
+{
+  "_id": "6f1d6a65189915fe",
+  "name": "CR4: Ravenous Piranhas",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 30,
+      "max": 30
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 2,
+    "ac": 13,
+    "speed": 0,
+    "initiative": 2,
+    "moxie": -4,
+    "cr": 4,
+    "size": "medium",
+    "gm_notes": "<p>Found in rivers and shallow waters, carnivorous fish aren't typically a threat on their own, but when several dozen, or more, congregate they can quickly strip the flesh from bone in a matter of minutes. This beast was built by selecting a CR 4 Aquatic (bite attack) and giving it the blood frenzy and swarm abilities to create a murderous school of ravenous fish.</p><p>Example beast, Core Rulebook pp.314-317.</p>",
+    "details": "<p>Medium Beast (Aquatic)</p><p>CR 4</p><p>Speed 0m, Swim 6m</p><p>Abilities: Blood Frenzy, Swarm</p>",
+    "attributes": {
+      "str": {
+        "value": 9,
+        "mod": "-1"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 8,
+        "mod": "-1"
+      },
+      "int": {
+        "value": 1,
+        "mod": "-5"
+      },
+      "wis": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "cha": {
+        "value": 2,
+        "mod": "-4"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+1",
+        "proficient": true,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+2",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "-1",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+4",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+1",
+        "proficient": true,
+        "mod": "con"
+      },
+      "int": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-4",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "normal",
+      "lightning": "normal",
+      "cold": "normal",
+      "acid": "normal",
+      "poison": "normal",
+      "force": "normal",
+      "radiant": "normal",
+      "necrotic": "normal",
+      "psychic": "normal",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Blood Frenzy",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/blood-frenzy.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The beast has advantage on melee attack rolls against any target that is injured (half or fewer HP).</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "b1ef7833f7c93647",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f1d6a65189915fe.b1ef7833f7c93647"
+    },
+    {
+      "name": "Swarm",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/swarm.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Beast Ability",
+        "description": {
+          "value": "<p>The creature represents a group of smaller creatures, such as a swarm of spiders or a school of fish. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a single member of its swarm. The swarm can't regain hit points or gain temporary hit points. The creature's size is increased one step (do not adjust its attributes).</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "c825d1e7cc90e17d",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f1d6a65189915fe.c825d1e7cc90e17d"
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/bite.webp",
+      "system": {
+        "description": {
+          "value": "<p>Bite +1 to hit, reach 1m, one target, Hit: 3 (1d6-1) piercing damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+2",
+        "dmg": "1d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "piercing",
+          "sec_type": null,
+          "range": {
+            "normal": 1,
+            "max": 1
+          },
+          "special": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "403663e0035a0990",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6f1d6a65189915fe.403663e0035a0990"
+    }
+  ],
+  "effects": [],
+  "folder": "b0cd5e492338f428",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR4: Ravenous Piranhas",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "beast-aquatic",
+      "source": "Core Rulebook pp.314-317"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!6f1d6a65189915fe"
+}

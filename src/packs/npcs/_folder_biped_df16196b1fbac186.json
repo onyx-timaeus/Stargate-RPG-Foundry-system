@@ -1,0 +1,23 @@
+{
+  "_id": "df16196b1fbac186",
+  "name": "Biped",
+  "type": "Actor",
+  "folder": "581b9da2f18ee741",
+  "description": "",
+  "sorting": "m",
+  "sort": 300,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!df16196b1fbac186"
+}

@@ -2,7 +2,7 @@
   "id": "sgrpg",
   "title": "Stargate RPG",
   "description": "System for Stargate RPG created by Wyvern Gaming, https://stargatetherpg.com/",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "onyx-timaeus",
@@ -104,6 +104,19 @@
       },
       "flags": {},
       "banner": "systems/sgrpg/assets/banners/equipment.webp"
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "type": "Actor",
+      "path": "packs/npcs",
+      "system": "sgrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "banner": "systems/sgrpg/assets/banners/npcs.webp"
     }
   ],
   "relationships": {
@@ -119,8 +132,8 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": null,
   "url": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system",
-  "manifest": "https://raw.githubusercontent.com/onyx-timaeus/Stargate-RPG-Foundry-system/master/system.json",
-  "download": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/archive/refs/heads/master.zip",
+  "manifest": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/releases/latest/download/system.json",
+  "download": "https://github.com/onyx-timaeus/Stargate-RPG-Foundry-system/releases/download/1.0.0/system.zip",
   "packFolders": [
     {
       "name": "Stargate RPG",
@@ -132,7 +145,8 @@
         "origins",
         "races",
         "weapons",
-        "equipment"
+        "equipment",
+        "npcs"
       ]
     }
   ]

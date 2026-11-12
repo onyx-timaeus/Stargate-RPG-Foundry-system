@@ -1,0 +1,23 @@
+{
+  "_id": "041fbe4dde5e1aaa",
+  "name": "Reetou",
+  "type": "Actor",
+  "folder": null,
+  "description": "",
+  "sorting": "m",
+  "sort": 500,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!041fbe4dde5e1aaa"
+}

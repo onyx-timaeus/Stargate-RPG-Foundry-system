@@ -1,0 +1,23 @@
+{
+  "_id": "5ab9c553fcc3d0f8",
+  "name": "Avian",
+  "type": "Actor",
+  "folder": "581b9da2f18ee741",
+  "description": "",
+  "sorting": "m",
+  "sort": 200,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!5ab9c553fcc3d0f8"
+}

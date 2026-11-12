@@ -1,0 +1,486 @@
+{
+  "_id": "44e957440eba8a95",
+  "name": "CR13: Giant Beetle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "health": {
+      "value": 200,
+      "max": 200
+    },
+    "temp_health": {
+      "value": 0,
+      "max": 0
+    },
+    "prof": 5,
+    "ac": 23,
+    "speed": 6,
+    "initiative": 2,
+    "moxie": 2,
+    "cr": 13,
+    "size": "large",
+    "gm_notes": "<p>Core Rulebook pp.318-320.</p>",
+    "details": "<p>Large Mechanical (Replicator)</p><p>CR 13</p><p>Speed 6m, Climb 3m</p>",
+    "attributes": {
+      "str": {
+        "value": 20,
+        "mod": "+5"
+      },
+      "dex": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "con": {
+        "value": 10,
+        "mod": "+0"
+      },
+      "int": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "wis": {
+        "value": 14,
+        "mod": "+2"
+      },
+      "cha": {
+        "value": 1,
+        "mod": "-5"
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "animalhandling": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "athletics": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "str"
+      },
+      "culture": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "deception": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "engineering": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "history": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "insight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "intimidation": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "investigation": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "medicine": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "nature": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "perception": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      },
+      "performance": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "persuasion": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "cha"
+      },
+      "pilot": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "science": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "sleight": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "stealth": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "dex"
+      },
+      "survival": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "wis"
+      }
+    },
+    "saves": {
+      "str": {
+        "value": "+5",
+        "proficient": false,
+        "mod": "str"
+      },
+      "dex": {
+        "value": "+9",
+        "proficient": true,
+        "mod": "dex"
+      },
+      "con": {
+        "value": "+0",
+        "proficient": false,
+        "mod": "con"
+      },
+      "int": {
+        "value": "+2",
+        "proficient": false,
+        "mod": "int"
+      },
+      "wis": {
+        "value": "+7",
+        "proficient": true,
+        "mod": "wis"
+      },
+      "cha": {
+        "value": "-5",
+        "proficient": false,
+        "mod": "cha"
+      }
+    },
+    "damageResistances": {
+      "piercing": "normal",
+      "bludgeoning": "normal",
+      "slashing": "normal",
+      "fire": "immune",
+      "lightning": "immune",
+      "cold": "immune",
+      "acid": "normal",
+      "poison": "immune",
+      "force": "normal",
+      "radiant": "immune",
+      "necrotic": "immune",
+      "psychic": "immune",
+      "sonic": "normal",
+      "explosive": "normal"
+    },
+    "proficiencies": {
+      "armor": {
+        "light": false,
+        "heavy": false
+      },
+      "weapon": {
+        "common": false,
+        "sidearms": false,
+        "longarms": false,
+        "bows": false,
+        "shotguns": false,
+        "martialArts": false,
+        "jaffa": false
+      },
+      "tool": {
+        "camoKit": false,
+        "engineeringKit": false,
+        "explosives": false,
+        "fabricationKit": false,
+        "medKit": false,
+        "outbreakKit": false,
+        "panCulturalWardrobe": false,
+        "researchKit": false,
+        "translator": false
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Adaptive",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/adaptive.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>Replicators always apply their Proficiency bonus to any skill check.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "dfa820a63f5c802f",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!44e957440eba8a95.dfa820a63f5c802f"
+    },
+    {
+      "name": "Machine Immunities",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/machine-immunities.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>Replicators are immune to the following types of damage: Cold, Fire, Electricity, Necrotic, Poison, Psychic, &amp; Radiant.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "670053becb8074e2",
+      "sort": 10,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!44e957440eba8a95.670053becb8074e2"
+    },
+    {
+      "name": "Programmed",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/programmed.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>This non-sentient Replicator cannot be manipulated with Charisma based skills like Deception, Intimidate, or Persuasion.</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "928328ee0a789a78",
+      "sort": 20,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!44e957440eba8a95.928328ee0a789a78"
+    },
+    {
+      "name": "Swarm Carrier",
+      "type": "feat",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/swarm-carrier.webp",
+      "system": {
+        "mpCost": "",
+        "requirement": "",
+        "category": "Special Ability",
+        "description": {
+          "value": "<p>As an action, this creature can disgorge a Replicator swarm by spending up to half its HP (the new swarm has HP equal to the spent amount).</p>"
+        },
+        "castTime": {
+          "value": "",
+          "type": ""
+        },
+        "limitations": {
+          "value": "",
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "ae98d4cfcad6e6b4",
+      "sort": 30,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!44e957440eba8a95.ae98d4cfcad6e6b4"
+    },
+    {
+      "name": "Acid Spray",
+      "type": "weapon",
+      "img": "systems/sgrpg/assets/compendium/npcs/items/acid-spray.webp",
+      "system": {
+        "description": {
+          "value": "<p>Acid Spray +7 to hit, reach 2m/5m, all targets in a 45° cone, Hit: 35 (10d6) acid damage.</p>"
+        },
+        "techLevel": 0,
+        "lore": {
+          "origin": "",
+          "type": "",
+          "restriction": "",
+          "description": ""
+        },
+        "bulk": 0,
+        "quantity": 1,
+        "profType": "none",
+        "attackAbility": "str",
+        "attackBonus": "+2",
+        "dmg": "10d6",
+        "atkSnd": null,
+        "dmgSnd": null,
+        "ammo": {
+          "bulk": null,
+          "value": null,
+          "max": null,
+          "target": null,
+          "reload": null
+        },
+        "details": {
+          "type": "acid",
+          "sec_type": null,
+          "range": {
+            "normal": 2,
+            "max": 5
+          },
+          "special": "all targets in a 45° cone"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "type": ""
+        }
+      },
+      "effects": [],
+      "_id": "1adbf9a606e787c4",
+      "sort": 40,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "sgrpg",
+        "systemVersion": "2.0.0",
+        "createdTime": 1767233909747,
+        "modifiedTime": 1767233909747,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!44e957440eba8a95.1adbf9a606e787c4"
+    }
+  ],
+  "effects": [],
+  "folder": "a806499523bd2784",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "CR13: Giant Beetle",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    }
+  },
+  "flags": {
+    "sgrpg-npcs": {
+      "group": "replicator-giant-beetle",
+      "source": "Core Rulebook pp.318-320"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sgrpg",
+    "systemVersion": "2.0.0",
+    "createdTime": 1767233909747,
+    "modifiedTime": 1767233909747,
+    "lastModifiedBy": null
+  },
+  "_key": "!actors!44e957440eba8a95"
+}
